@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1766493000446,
+  "updatedAt": 1766514124356,
   "startDate": "2025-10-24",
   "endDate": "2025-12-23",
   "hiddenRoles": [],
@@ -10,11 +10,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 39,
+      "total_points": 35,
       "activity_breakdown": {
         "PR opened": {
-          "count": 10,
-          "points": 20
+          "count": 8,
+          "points": 16
         },
         "PR merged": {
           "count": 3,
@@ -63,16 +63,6 @@
         },
         {
           "date": "2025-11-30",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-11-28",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-11-26",
           "count": 1,
           "points": 2
         },
@@ -304,11 +294,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4",
       "role": "Contributor",
-      "total_points": 20,
+      "total_points": 18,
       "activity_breakdown": {
         "PR opened": {
-          "count": 5,
-          "points": 10
+          "count": 4,
+          "points": 8
         },
         "PR merged": {
           "count": 2,
@@ -333,11 +323,6 @@
         },
         {
           "date": "2025-12-04",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-11-26",
           "count": 1,
           "points": 2
         },
@@ -1110,6 +1095,35 @@
       ]
     },
     {
+      "username": "nishant530",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-23",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-22",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Varshad-Potle",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/205039168?v=4",
@@ -1222,6 +1236,46 @@
           "date": "2025-12-03",
           "count": 1,
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Prachi194agrawal",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/147470645?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-23",
+          "count": 1,
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "blazethunderstorm",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/149250431?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-23",
+          "count": 1,
+          "points": 2
         }
       ]
     },
@@ -1641,9 +1695,9 @@
       ]
     },
     {
-      "username": "nishant530",
+      "username": "DhananjayDogne",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111991487?v=4",
       "role": "Contributor",
       "total_points": 1,
       "activity_breakdown": {
@@ -1654,7 +1708,7 @@
       },
       "daily_activity": [
         {
-          "date": "2025-12-22",
+          "date": "2025-12-23",
           "count": 1,
           "points": 1
         }
@@ -1742,6 +1796,39 @@
     }
   ],
   "activities": [
+    {
+      "slug": "pr-opened-3758059334",
+      "type": "PR opened",
+      "title": "successfully fix the grammetical mistakes in chapter 1",
+      "occured_at": "2025-12-23T17:29:05Z",
+      "points": 2,
+      "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/470",
+      "contributor": "nishant530",
+      "contributor_name": "nishant530",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4"
+    },
+    {
+      "slug": "pr-opened-3757789216",
+      "type": "PR opened",
+      "title": "fix: Add search bar validation and input handling",
+      "occured_at": "2025-12-23T15:51:39Z",
+      "points": 2,
+      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/698",
+      "contributor": "Prachi194agrawal",
+      "contributor_name": "Prachi194agrawal",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/147470645?v=4"
+    },
+    {
+      "slug": "pr-opened-3757414134",
+      "type": "PR opened",
+      "title": "Migrate from Sprockets to Propshaft + Vite",
+      "occured_at": "2025-12-23T13:40:02Z",
+      "points": 2,
+      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6499",
+      "contributor": "blazethunderstorm",
+      "contributor_name": "blazethunderstorm",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/149250431?v=4"
+    },
     {
       "slug": "pr-opened-3751202233",
       "type": "PR opened",
@@ -2678,39 +2765,6 @@
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/163162210?v=4"
     },
     {
-      "slug": "pr-opened-3675681008",
-      "type": "PR opened",
-      "title": "Fix N+1 query issues flagged by Bullet",
-      "occured_at": "2025-11-28T18:53:06Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6367",
-      "contributor": "naman79820",
-      "contributor_name": "naman79820",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
-    },
-    {
-      "slug": "pr-opened-3667770896",
-      "type": "PR opened",
-      "title": "Fix: Prevent duplicate assignment projects (RecordNotUnique)",
-      "occured_at": "2025-11-26T14:34:27Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6365",
-      "contributor": "h30s",
-      "contributor_name": "h30s",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/183348352?v=4"
-    },
-    {
-      "slug": "pr-opened-3667344595",
-      "type": "PR opened",
-      "title": "Fix N+1 on user dashboard: preload circuit_preview_attachment",
-      "occured_at": "2025-11-26T12:38:35Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6364",
-      "contributor": "naman79820",
-      "contributor_name": "naman79820",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
-    },
-    {
       "slug": "pr-merged-3751202233",
       "type": "PR Merged",
       "title": "Fix typos errors across code and docs",
@@ -2973,6 +3027,17 @@
       "contributor": "Stitipragyanbarik",
       "contributor_name": "Stitipragyanbarik",
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123853301?v=4"
+    },
+    {
+      "slug": "issue-opened-3758107539",
+      "type": "Issue opened",
+      "title": "🐞 Bug",
+      "occured_at": "2025-12-23T17:52:59Z",
+      "points": 1,
+      "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6500",
+      "contributor": "DhananjayDogne",
+      "contributor_name": "DhananjayDogne",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/111991487?v=4"
     },
     {
       "slug": "issue-opened-3754466781",
