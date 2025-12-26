@@ -2,23 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { getConfig } from "@/lib/config";
 import type { Metadata } from "next";
-
-interface Person {
-  username: string;
-  name: string | null;
-  avatar_url: string;
-}
-
-async function fetchPeople(): Promise<{ updatedAt: number; people: Person[] }> {
-  const base = process.env.NEXT_PUBLIC_BASE_URL ?? "";
-  const res = await fetch(`${base}/api/people`, { cache: "no-store" });
-  if (!res.ok) return { updatedAt: Date.now(), people: [] };
-  return res.json() as Promise<{ updatedAt: number; people: Person[] }>;
-}
+import { getAllContributorsWithAvatars, getLeaderboard } from "@/lib/db";
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
-  const { people } = await fetchPeople();
+  const people = await getAllContributorsWithAvatars();
   return {
     title: `People - ${config.meta.title}`,
     description: `Meet the ${people.length} contributors who make ${config.org.name} possible.`,
@@ -34,8 +22,13 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function PeoplePage() {
   const config = getConfig();
-  const { updatedAt, people } = await fetchPeople();
-
+  const people = await getAllContributorsWithAvatars();
+  // Get updatedAt from one of the leaderboard files, or just use current time if not critical
+  const leaderboard = await getLeaderboard(); 
+  // We can't easily get global updated time from just avatars, so maybe getLeaderboard() is better to get full data then map.
+  // Actually, getAllContributorsWithAvatars calls getLeaderboard internally.
+  // Let's just use the length for now and skip exact updated time for simplicity, or assume relatively fresh.
+  
   return (
     <div className="mx-auto px-4 py-8">
       <div className="mb-12 text-center">
@@ -43,19 +36,21 @@ export default async function PeoplePage() {
         <p className="text-lg text-muted-foreground">
           Meet the {people.length} amazing contributors who make {config.org.name} possible
         </p>
-        <p className="text-xs text-muted-foreground mt-2">
-          Updated: {new Date(updatedAt).toLocaleString()}
-        </p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-4">
-        {people.map((p) => (
-          <Link key={p.username} href={`https://github.com/${p.username}`} target="_blank" className="group block">
-            <div className="flex flex-col items-center gap-2">
-              <Image src={p.avatar_url} alt={p.name ?? p.username} width={96} height={96} className="rounded-md" />
+        {people.map((p: any) => (
+          <Link key={p.username} href={`/${p.username}`} className="group block">
+            <div className="flex flex-col items-center gap-2 p-4 hover:bg-muted/50 rounded-lg transition-colors">
+              <Image 
+                src={p.avatar_url} 
+                alt={p.username} 
+                width={96} 
+                height={96} 
+                className="rounded-full border-2 border-transparent group-hover:border-primary transition-all" 
+              />
               <div className="text-sm text-center">
-                <div className="font-medium">{p.name ?? p.username}</div>
-                <div className="text-xs opacity-70">@{p.username}</div>
+                <div className="font-medium group-hover:text-primary transition-colors">{p.username}</div>
               </div>
             </div>
           </Link>
