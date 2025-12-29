@@ -4,6 +4,7 @@ import { getConfig } from "@/lib/config";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import type { GlobalActivity } from "@/types/contributor";
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
@@ -29,12 +30,12 @@ export default async function IssuesPage() {
       </div>
 
       <div className="space-y-4">
-        {activities.map((act: any, idx: number) => (
-          <div key={`${act.slug}-${idx}`} className="bg-card border rounded-md p-4 flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-primary/50 transition-colors">
+        {activities.map((act: GlobalActivity, idx: number) => (
+          <div key={`${act.slug || act.username}-${idx}`} className="bg-card border rounded-md p-4 flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-primary/50 transition-colors">
             <div className="flex items-start gap-4">
                  <Link href={`/${act.username}`}>
                     <Image
-                        src={act.avatar_url}
+                        src={act.avatar_url || '/default-avatar.png'}
                         alt={act.username}
                         width={40}
                         height={40}
@@ -43,7 +44,7 @@ export default async function IssuesPage() {
                  </Link>
                  <div>
                     <div className="font-semibold text-lg line-clamp-1">
-                        <a href={act.link} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
+                        <a href={act.link || '#'} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline">
                          {act.title || "Untitled Issue"}
                         </a>
                     </div>

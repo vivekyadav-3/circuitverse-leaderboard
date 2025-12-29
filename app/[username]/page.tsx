@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { getContributorProfile, getAllContributorUsernames } from "@/lib/db";
 import { getConfig } from "@/lib/config";
 import type { Metadata } from "next";
+import type { ActivityItem } from "@/types/contributor";
 
 type Props = {
   params: Promise<{ username: string }>;
@@ -55,7 +56,7 @@ export default async function UserProfilePage({ params }: Props) {
       <div className="bg-card border rounded-lg p-8 mb-8 shadow-sm">
         <div className="flex flex-col md:flex-row items-center gap-6">
           <Image
-            src={contributor.avatar_url}
+            src={contributor.avatar_url || '/default-avatar.png'}
             alt={username}
             width={128}
             height={128}
@@ -93,10 +94,10 @@ export default async function UserProfilePage({ params }: Props) {
       <h2 className="text-2xl font-bold mb-6">Recent Activity</h2>
       
       <div className="space-y-4">
-        {activities.map((act: any) => (
+        {activities.map((act: ActivityItem) => (
           <div key={act.slug} className="bg-card border rounded-md p-4 flex items-start justify-between hover:border-primary/50 transition-colors">
             <div>
-              <div className="font-semibold text-lg">{act.title || act.activity_name || "Untitled Activity"}</div>
+              <div className="font-semibold text-lg">{act.title || "Untitled Activity"}</div>
               <div className="text-sm text-muted-foreground">
                 <span className="capitalize">{act.slug.split('-')[1]?.replace('_', ' ')}</span> • {new Date(act.occured_at).toLocaleDateString()}
               </div>

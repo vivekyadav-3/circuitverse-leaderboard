@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { getConfig } from "@/lib/config";
 import type { Metadata } from "next";
-import { getAllContributorsWithAvatars, getLeaderboard } from "@/lib/db";
+import { getAllContributorsWithAvatars } from "@/lib/db";
+import type { ContributorWithAvatar } from "@/types/contributor";
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
@@ -23,11 +24,6 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function PeoplePage() {
   const config = getConfig();
   const people = await getAllContributorsWithAvatars();
-  // Get updatedAt from one of the leaderboard files, or just use current time if not critical
-  const leaderboard = await getLeaderboard(); 
-  // We can't easily get global updated time from just avatars, so maybe getLeaderboard() is better to get full data then map.
-  // Actually, getAllContributorsWithAvatars calls getLeaderboard internally.
-  // Let's just use the length for now and skip exact updated time for simplicity, or assume relatively fresh.
   
   return (
     <div className="mx-auto px-4 py-8">
@@ -39,11 +35,11 @@ export default async function PeoplePage() {
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 gap-4">
-        {people.map((p: any) => (
+        {people.map((p: ContributorWithAvatar) => (
           <Link key={p.username} href={`/${p.username}`} className="group block">
             <div className="flex flex-col items-center gap-2 p-4 hover:bg-muted/50 rounded-lg transition-colors">
               <Image 
-                src={p.avatar_url} 
+                src={p.avatar_url || '/default-avatar.png'} 
                 alt={p.username} 
                 width={96} 
                 height={96} 

@@ -2,6 +2,7 @@
 
 import fs from "fs";
 import path from "path";
+import type { Contributor, ContributorWithAvatar } from "@/types/contributor";
 
 type ActivityItem = {
   slug: string;
@@ -156,22 +157,22 @@ export async function getTopContributorsByActivity() {
   return data.topByActivity || {};
 }
 
-export async function getAllContributorsWithAvatars() {
+export async function getAllContributorsWithAvatars(): Promise<ContributorWithAvatar[]> {
    const entries = await getLeaderboard();
-   return entries.map((e: any) => ({
+   return entries.map((e: Contributor) => ({
       username: e.username,
       avatar_url: e.avatar_url
    }));
 }
 
-export async function getAllContributorUsernames() {
+export async function getAllContributorUsernames(): Promise<string[]> {
   const entries = await getLeaderboard();
-  return entries.map((e: any) => e.username);
+  return entries.map((e: Contributor) => e.username);
 }
 
-export async function getContributor(username: string) {
+export async function getContributor(username: string): Promise<Contributor | null> {
   const entries = await getLeaderboard();
-  return entries.find((e: any) => e.username.toLowerCase() === username.toLowerCase()) || null;
+  return entries.find((e: Contributor) => e.username.toLowerCase() === username.toLowerCase()) || null;
 }
 
 export async function getContributorProfile(username: string) {
@@ -179,17 +180,17 @@ export async function getContributorProfile(username: string) {
   if (!contributor) return null;
 
   // Transform raw_activities to ActivityItem[]
-  const activities: ActivityItem[] = (contributor.raw_activities || []).map((act: any) => ({
+  const activities: ActivityItem[] = (contributor.raw_activities || []).map((act) => ({
     slug: `${username}-${act.type}-${act.occured_at}`,
     contributor: username,
     contributor_name: contributor.name,
     contributor_avatar_url: contributor.avatar_url,
-    contributor_role: contributor.role,
+    contributor_role: contributor.role ?? null,
     occured_at: act.occured_at,
     closed_at: act.occured_at,
-    title: act.title,
-    link: act.link,
-    points: act.points
+    title: act.title ?? null,
+    link: act.link ?? null,
+    points: act.points ?? 0
   }));
 
   // Sort activities by date desc
@@ -244,7 +245,15 @@ export async function getRepositories() {
 
 export async function getGlobalRecentActivities(typeFilter?: string) {
   const entries = await getLeaderboard();
-  let allActivities: any[] = [];
+  const allActivities: Array<{
+    type: string;
+    title?: string | null;
+    link?: string | null;
+    occured_at: string;
+    points?: number;
+    username: string;
+    avatar_url: string | null;
+  }> = [];
 
   for (const entry of entries) {
     if (!entry.activities) continue;
