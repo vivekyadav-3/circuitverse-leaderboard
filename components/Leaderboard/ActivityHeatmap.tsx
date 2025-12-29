@@ -167,25 +167,16 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
 
   return (
     <div className="w-full">
-      <div className="mb-4">
-        <h3 className="text-lg font-semibold mb-1">
-          {totalContributions} contributions in {currentYear}
-        </h3>
-        <p className="text-sm text-muted-foreground">
-          Activity heatmap showing daily contributions over the past year
-        </p>
-      </div>
-
-      <div className="relative bg-card border rounded-lg p-6 overflow-x-auto">
+      <div className="relative overflow-x-auto pb-2 custom-scrollbar">
         {/* Month labels */}
-        <div className="flex mb-2 ml-8">
+        <div className="flex mb-3 ml-10">
           {monthLabels.map((label, index) => (
             <div
               key={index}
-              className="text-xs text-muted-foreground"
+              className="text-[10px] text-muted-foreground uppercase tracking-tighter"
               style={{
                 position: "absolute",
-                left: `${label.offset * 14 + 32}px`,
+                left: `${label.offset * 14 + 40}px`,
               }}
             >
               {label.month}
@@ -194,12 +185,12 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
         </div>
 
         {/* Heatmap grid */}
-        <div className="flex gap-1">
+        <div className="flex gap-2">
           {/* Day labels */}
-          <div className="flex flex-col gap-1 text-xs text-muted-foreground justify-around pr-2">
-            <div>Mon</div>
-            <div>Wed</div>
-            <div>Fri</div>
+          <div className="flex flex-col gap-1 text-[10px] text-muted-foreground justify-around pr-2 uppercase font-medium">
+            <div className="h-3 flex items-center">Mon</div>
+            <div className="h-3 flex items-center">Wed</div>
+            <div className="h-3 flex items-center">Fri</div>
           </div>
 
           {/* Weeks */}

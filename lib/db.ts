@@ -201,7 +201,8 @@ export async function getContributorProfile(username: string) {
   
   (contributor.raw_activities || []).forEach((act) => {
     if (!act.occured_at) return;
-    const dateKey = act.occured_at!.split("T")[0]; // Get YYYY-MM-DD
+    const dateKey = act.occured_at.split("T")[0]; // Get YYYY-MM-DD
+    if (!dateKey) return;
     const existing = dailyActivityMap.get(dateKey) || { count: 0, points: 0 };
     dailyActivityMap.set(dateKey, {
       count: existing.count + 1,
@@ -216,13 +217,75 @@ export async function getContributorProfile(username: string) {
       points: data.points,
     }))
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-  
+
+  // Calculate Streaks
+  let currentStreak = 0;
+  let longestStreak = 0;
+  let tempStreak = 0;
+
+  const today = new Date().toISOString().split("T")[0];
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split("T")[0];
+
+  // Longest Streak calculation
+  dailyActivity.forEach((day) => {
+    if (day.count > 0) {
+      tempStreak++;
+      if (tempStreak > longestStreak) longestStreak = tempStreak;
+    } else {
+      tempStreak = 0;
+    }
+  });
+
+  // Current Streak calculation
+  if (dailyActivity.length > 0) {
+    let lastActiveIndex = -1;
+    for (let i = dailyActivity.length - 1; i >= 0; i--) {
+      const day = dailyActivity[i];
+      if (day && day.count > 0) {
+        if (day.date === today || day.date === yesterday) {
+          lastActiveIndex = i;
+          break;
+        }
+      }
+    }
+
+    if (lastActiveIndex !== -1) {
+      currentStreak = 1;
+      for (let i = lastActiveIndex; i > 0; i--) {
+        const day1 = dailyActivity[i];
+        const day2 = dailyActivity[i - 1];
+        if (!day1 || !day2) break;
+
+        const d1 = new Date(day1.date);
+        const d2 = new Date(day2.date);
+        const diffDays = Math.round((d1.getTime() - d2.getTime()) / (1000 * 3600 * 24));
+
+        if (diffDays === 1 && day2.count > 0) {
+          currentStreak++;
+        } else {
+          break;
+        }
+      }
+    }
+  }
+
+  // Calculate Distribution
+  const distribution = {
+    prs: (contributor.raw_activities || []).filter(a => a.type.toLowerCase().includes('pr')).length,
+    issues: (contributor.raw_activities || []).filter(a => a.type.toLowerCase().includes('issue')).length,
+    others: (contributor.raw_activities || []).filter(a => !a.type.toLowerCase().includes('pr') && !a.type.toLowerCase().includes('issue')).length,
+  };
+
   return {
     contributor,
     activities,
     dailyActivity,
     totalPoints: contributor.total_points,
-    // Add other aggregates if needed
+    stats: {
+      currentStreak,
+      longestStreak,
+      distribution
+    },
   };
 }
 
