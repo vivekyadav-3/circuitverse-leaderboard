@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getContributorProfile, getAllContributorUsernames } from "@/lib/db";
 import { getConfig } from "@/lib/config";
+import ActivityHeatmap from "@/components/Leaderboard/ActivityHeatmap";
 import type { Metadata } from "next";
 import type { ActivityItem } from "@/types/contributor";
 
@@ -43,7 +44,7 @@ export default async function UserProfilePage({ params }: Props) {
     notFound();
   }
 
-  const { contributor, activities, totalPoints } = profile;
+  const { contributor, activities, dailyActivity, totalPoints } = profile;
 
   return (
     <div className="max-w-4xl mx-auto py-8">
@@ -89,6 +90,11 @@ export default async function UserProfilePage({ params }: Props) {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Activity Heatmap */}
+      <div className="mb-8">
+        <ActivityHeatmap dailyActivity={dailyActivity || []} username={username} />
       </div>
 
       <h2 className="text-2xl font-bold mb-6">Recent Activity</h2>

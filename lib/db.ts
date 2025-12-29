@@ -196,12 +196,31 @@ export async function getContributorProfile(username: string) {
   // Sort activities by date desc
   activities.sort((a, b) => new Date(b.occured_at).getTime() - new Date(a.occured_at).getTime());
 
-  // Group by date for "activityByDate" if needed, or just return as is.
-  // The UI likely expects a specific format. Let's return a structure helpful for the profile page.
+  // Generate daily activity data for heatmap
+  const dailyActivityMap = new Map<string, { count: number; points: number }>();
+  
+  (contributor.raw_activities || []).forEach((act) => {
+    if (!act.occured_at) return;
+    const dateKey = act.occured_at!.split("T")[0]; // Get YYYY-MM-DD
+    const existing = dailyActivityMap.get(dateKey) || { count: 0, points: 0 };
+    dailyActivityMap.set(dateKey, {
+      count: existing.count + 1,
+      points: existing.points + (act.points || 0),
+    });
+  });
+
+  const dailyActivity = Array.from(dailyActivityMap.entries())
+    .map(([date, data]) => ({
+      date,
+      count: data.count,
+      points: data.points,
+    }))
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
   
   return {
     contributor,
     activities,
+    dailyActivity,
     totalPoints: contributor.total_points,
     // Add other aggregates if needed
   };
