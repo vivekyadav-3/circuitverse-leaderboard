@@ -143,8 +143,8 @@ export default async function UserProfilePage({ params }: Props) {
           <div className="space-y-6">
             <h3 className="font-bold text-xl px-2">Recent Timeline</h3>
             <div className="space-y-4">
-              {activities.map((act: ActivityItem) => (
-                <TimelineItem key={act.slug} activity={act} />
+              {activities.map((act: ActivityItem, i: number) => (
+                <TimelineItem key={`${act.slug}-${i}`} activity={act} />
               ))}
             </div>
           </div>
