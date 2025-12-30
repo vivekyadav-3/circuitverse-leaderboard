@@ -134,6 +134,27 @@ Actively engaging with the CircuitVerse community to ensure features align with 
 
 ---
 
+## 📝 Active Issues & PRs
+
+### **Issue #49: Contribution Streaks** 🔥
+
+- **Status:** 📋 Created (Dec 30, 2025)
+- **Link:** https://github.com/CircuitVerse/community-dashboard/issues/49
+- **Description:** Add GitHub-style streak tracking to user profiles
+- **Next Step:** Awaiting assignment, then submit PR
+
+### **Issue #50: Activity Distribution** 📊
+
+- **Status:** ⏳ Planned
+- **Description:** PR vs Issue breakdown with progress bars
+
+### **Issue #51: Profile Dashboard V2** 🎨
+
+- **Status:** ⏳ Planned
+- **Description:** 2-column layout and enhanced heatmap
+
+---
+
 ## 🛠️ Technical Improvements
 
 ### Code Quality
