@@ -7,8 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import type { Metadata } from "next";
 import { getConfig } from "@/lib/config";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-
+import { Footer } from "@/components/footer";
 
 const figtree = Figtree({
   variable: "--font-figtree",
@@ -52,6 +51,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${figtree.variable} ${geistMono.variable} antialiased`}
+        suppressHydrationWarning
       >
         <ThemeProvider
           attribute="class"
@@ -59,12 +59,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="min-h-screen flex flex-col">
+          <div className="min-h-screen flex flex-col bg-zinc-50 dark:bg-black transition-colors">
             <Navbar config={config} />
-            <main className="flex-1"> <div className="container mx-auto px-4">
-                {children}
-              </div></main>
-            <Footer />
+            <main className="flex-1">{children}</main>
+            <Footer config={config} />
           </div>
         </ThemeProvider>
       </body>

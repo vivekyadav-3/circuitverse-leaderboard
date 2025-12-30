@@ -1,127 +1,263 @@
 import Link from "next/link";
-import { getConfig } from "@/lib/config";
 import Image from "next/image";
 
-// Simple icon components
-const GithubIcon = ({ className }: { className?: string }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={className}
-  >
-    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-    <path d="M9 18c-4.51 2-5-2-7-2" />
-  </svg>
-);
+import {
+  ArrowUpRight,
+  ArrowRight,
+  HomeIcon,
+  Trophy,
+  Users,
+} from "lucide-react";
 
-const MailIcon = ({ className }: { className?: string }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className={className}
-  >
-    <rect width="20" height="16" x="2" y="4" rx="2" />
-    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-  </svg>
-);
+import Hint from "./hint";
 
-export default function Footer() {
-  const config = getConfig();
-  
+import { Config } from "@/types/config";
+
+import { getUpdatedTime } from "@/lib/db";
+import { formatTimeAgo } from "@/lib/utils";
+
+interface FooterProps {
+  config: Config;
+}
+
+export const Footer = async ({ config }: FooterProps) => {
+  const currentYear = new Date().getFullYear();
+  const updatedAt = await getUpdatedTime();
+
   return (
-    <footer className="border-t border-zinc-200 dark:border-white/10 bg-zinc-50/50 dark:bg-zinc-900/50 py-12 mt-20">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="md:col-span-2 space-y-4">
-            <Link href="/" className="flex items-center gap-2 font-bold text-xl">
-              <Image 
-                src={config.org.logo_url} 
-                alt={config.org.name} 
-                width={32} 
-                height={32} 
-                className="rounded-md"
-              />
-              {config.org.name}
-            </Link>
-            <p className="text-muted-foreground max-w-sm text-sm leading-relaxed">
-              {config.org.description}
+    <footer className="border-t border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-black transition-colors mt-5">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 lg:py-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12 mb-12">
+          <div className="lg:col-span-5 space-y-6">
+            <div className="space-y-2">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-900 dark:text-zinc-100">
+                About Us
+              </h3>
+              <div className="flex items-center gap-2">
+                <Image
+                  src={config.org.logo_url}
+                  alt={config.org.name}
+                  width={26}
+                  height={26}
+                  className="rounded-md"
+                />
+                <span className="text-lg font-bold tracking-tight text-zinc-900 dark:text-white">
+                  {config.org.name}
+                </span>
+              </div>
+            </div>
+
+            <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-sm">
+              CircuitVerse is an open-source, educational
+              digital circuit simulator that lets users
+              design and simulate circuits through an
+              intuitive graphical interface
             </p>
-          </div>
-          
-          <div>
-            <h3 className="font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>
-                <Link href="/leaderboard" className="hover:text-primary transition-colors">
-                  Leaderboard
-                </Link>
-              </li>
-              <li>
-                <Link href="/people" className="hover:text-primary transition-colors">
-                  People
-                </Link>
-              </li>
-              <li>
-                <a 
-                    href="https://circuitverse.org/about" 
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="hover:text-primary transition-colors"
+
+            <div className="flex items-center gap-4 pt-2">
+              <Hint label="Facebook" side="bottom">
+                <Link
+                  href="https://www.facebook.com/CircuitVerse"
+                  target="_blank"
+                  className="text-zinc-400 hover:bg-zinc-100 group/yt dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="Facebook"
                 >
-                    About CircuitVerse
-                </a>
+                  <Image
+                    src="/facebook.svg"
+                    alt="Facebook"
+                    width={20}
+                    height={20}
+                  />
+                </Link>
+              </Hint>
+
+              <Hint label="YouTube">
+                <Link
+                  href="https://www.youtube.com/@circuitverse4457"
+                  target="_blank"
+                  className="text-zinc-400 hover:bg-zinc-100 group/yt dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="YouTube"
+                >
+                  <Image
+                    src="/youtube.svg"
+                    alt="YouTube"
+                    width={20}
+                    height={20}
+                  />
+                </Link>
+              </Hint>
+
+              <Hint label="Twitter">
+                <Link
+                  href="https://x.com/CircuitVerse"
+                  target="_blank"
+                  className="text-zinc-400 hover:bg-zinc-100 group/yt dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="Twitter"
+                >
+                  <Image
+                    src="/twitter.svg"
+                    alt="Twitter"
+                    width={20}
+                    height={20}
+                    className="dark:invert"
+                  />
+                </Link>
+              </Hint>
+
+              <Hint label="LinkedIn">
+                <Link
+                  href="https://www.linkedin.com/company/circuitverse"
+                  target="_blank"
+                  className="text-zinc-400 group/li hover:bg-zinc-100 dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="LinkedIn"
+                >
+                  <Image
+                    src="/linkedIn.svg"
+                    alt="LinkedIn"
+                    width={20}
+                    height={20}
+                  />
+                </Link>
+              </Hint>
+
+              <Hint label="GitHub">
+                <Link
+                  href="https://github.com/CircuitVerse"
+                  target="_blank"
+                  className="text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="GitHub"
+                >
+                  <Image
+                    src="/github.svg"
+                    alt="GitHub"
+                    width={20}
+                    height={20}
+                    className="dark:invert"
+                  />
+                </Link>
+              </Hint>
+
+              <Hint label="Email">
+                <Link
+                  href="mailto:support@circuitverse.org"
+                  className="text-zinc-400 group/em hover:bg-zinc-100 dark:hover:bg-zinc-800 p-2 rounded-full transition-all duration-200"
+                  aria-label="Email"
+                >
+                  <Image
+                    src="/gmail.svg"
+                    alt="Email"
+                    width={20}
+                    height={20}
+                  />
+                </Link>
+              </Hint>
+            </div>
+          </div>
+
+          <div className="lg:col-span-3 lg:col-start-7">
+            <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
+              Pages
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href="/"
+                  className="group flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-[#50B78B] transition-colors"
+                >
+                  <span className="text-zinc-400 group-hover:text-[#50B78B] transition-colors">
+                    <HomeIcon className="h-4 w-4" />
+                  </span>
+                  Home
+                  <ArrowUpRight className="h-3 w-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-200" />
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/leaderboard"
+                  className="group flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-[#50B78B] transition-colors"
+                >
+                  <span className="text-zinc-400 group-hover:text-[#50B78B] transition-colors">
+                    <Trophy className="h-4 w-4" />
+                  </span>
+                  Leaderboard
+                  <ArrowUpRight className="h-3 w-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-200" />
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/people"
+                  className="group flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400 hover:text-[#50B78B] transition-colors"
+                >
+                  <span className="text-zinc-400 group-hover:text-[#50B78B] transition-colors">
+                    <Users className="h-4 w-4" />
+                  </span>
+                  People
+                  <ArrowUpRight className="h-3 w-3 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all duration-200" />
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">Connect</h3>
-            <div className="flex gap-4">
-              {config.org.socials?.github && (
-                <a
-                  href={config.org.socials.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-muted-foreground hover:text-[#50B78B] transition-colors"
-                  aria-label="GitHub"
-                >
-                  <GithubIcon className="h-5 w-5" />
-                </a>
-              )}
-               {config.org.socials?.email && (
-                <a
-                  href={`mailto:${config.org.socials.email}`}
-                  className="text-muted-foreground hover:text-[#50B78B] transition-colors"
-                  aria-label="Email"
-                >
-                  <MailIcon className="h-5 w-5" />
-                </a>
-              )}
+          <div className="lg:col-span-3">
+            <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100 mb-4">
+              System Status
+            </h3>
+            <div className="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 p-4 space-y-3">
+              <div className="flex items-start gap-3">
+                <span className="relative flex h-2 w-2 mt-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#50B78B] opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#50B78B]"></span>
+                </span>
+                <div className="space-y-1">
+                  <p className="text-xs font-medium text-zinc-900 dark:text-zinc-200">
+                    Leaderboard Active
+                  </p>
+                  <p className="text-xs text-zinc-500 dark:text-zinc-400">
+                    Scrapes data frequently
+                  </p>
+                </div>
+              </div>
+
+              <div className="border-t border-zinc-100 dark:border-zinc-800 pt-3">
+                <p className="text-xs text-zinc-400 dark:text-zinc-500">
+                  Data last updated{" "}
+                  <span className="text-zinc-600 dark:text-zinc-300 font-medium">
+                    {updatedAt && formatTimeAgo(updatedAt)}
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <Link
+                href="/leaderboard"
+                className="text-xs font-medium text-[#50B78B] flex items-center gap-1 hover:underline"
+              >
+                View full stats{" "}
+                <ArrowRight className="h-3 w-3" />
+              </Link>
             </div>
           </div>
         </div>
-        
-        <div className="border-t border-zinc-200 dark:border-white/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} {config.org.name}. All rights reserved.</p>
-          <p>
-            Powered by <a href="https://github.com/CircuitVerse/CircuitVerse-Leaderboard-GSOC" className="hover:text-primary underline decoration-dotted">Leaderboard</a>
+
+        <div className="border-t border-zinc-200 dark:border-zinc-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-zinc-500 dark:text-zinc-400">
+            © {currentYear} {config.org.name}. All rights
+            reserved.
           </p>
+
+          <div className="flex items-center gap-6 text-sm text-zinc-500 dark:text-zinc-400">
+            <Link href="https://circuitverse.org/privacy">
+              Privacy Policy
+            </Link>
+            <Link href="https://circuitverse.org/tos">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
   );
-}
+};

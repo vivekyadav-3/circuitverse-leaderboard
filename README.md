@@ -90,8 +90,8 @@ scripts/
 
 | Activity     | Points |
 | ------------ | ------ |
+| PR Merged    | 5      |
 | PR opened    | 2      |
-| PR merged    | 5      |
 | Issue opened | 1      |
 
 > PR reviews and label triaging are intentionally excluded for now and will be added via separate issues.
@@ -176,14 +176,6 @@ npx tsx scripts/generateLeaderboard.ts
 
 ---
 
-## 🛣 Roadmap
-
-- PR review scoring
-- Issue triaging
-- Maintainer weighting
-
----
-
 ## 🤝 Contributing
 
 1. Fork the repo
@@ -194,4 +186,4 @@ npx tsx scripts/generateLeaderboard.ts
 
 ## Demo Site
 
-https://circuitverse-leaderboard.vercel.app/
+[https://cv-community-dashboard.netlify.app/](https://cv-community-dashboard.netlify.app/)
