@@ -31,6 +31,8 @@ interface ContributorEntry {
   total_points: number;
   activity_breakdown: Record<string, { count: number; points: number }>;
   daily_activity: Array<{ date: string; count: number; points: number }>;
+  current_streak?: number;
+  longest_streak?: number;
   activities?: Array<{
     type: string;
     title: string;
@@ -69,40 +71,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
     ? Math.round((contributor.total_points || 0) / totalDaysActive) 
     : 0;
 
-  // Calculate streak
-  const sortedDates = recentActivity
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  
-  let currentStreak = 0;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  
-  // Remove duplicate dates to avoid counting same day multiple times
-  const uniqueDates = Array.from(new Set(sortedDates.map(d => d.date)));
-  
-  let expectedDaysDiff = 0; // Start expecting today (0 days ago)
-  const foundToday = false;
-  
-  for (const dateStr of uniqueDates) {
-    const activityDate = new Date(dateStr);
-    activityDate.setHours(0, 0, 0, 0);
-    const daysDiff = Math.floor((today.getTime() - activityDate.getTime()) / (1000 * 60 * 60 * 24));
-    
-    // Accept first activity if it's today (0) or yesterday (1)
-    if (currentStreak === 0 && (daysDiff === 0 || daysDiff === 1)) {
-      currentStreak++;
-      expectedDaysDiff = daysDiff + 1; // Next expected is one day earlier
-      continue;
-    }
-    
-    // For subsequent activities, require exact consecutive days
-    if (daysDiff === expectedDaysDiff) {
-      currentStreak++;
-      expectedDaysDiff++; // Expect next day to be one day earlier
-    } else {
-      break; // Streak broken
-    }
-  }
+  // Using server-side streaks provided by the API
+  const currentStreak = contributor.current_streak || 0;
+  const longestStreak = contributor.longest_streak || 0;
 
   const recentContributions = contributor.activities?.slice(0, 15) || [];
 
@@ -170,9 +141,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   </div>
                   
                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-green-50 via-green-50 to-green-100 dark:from-green-400 dark:to-green-300 border border-green-200 dark:border-green-800">
-                    <TrendingUp className="w-6 h-6 text-green-600 mb-2" />
-                    <span className="font-bold text-xl text-green-700">{currentStreak}</span>
-                    <span className="text-xs text-green-600 text-center font-medium">Day Streak</span>
+                    <TrendingUp className={`w-6 h-6 text-green-600 mb-2 ${currentStreak > 0 ? 'animate-pulse-slow' : ''}`} />
+                    <span className="font-bold text-xl text-green-700">{currentStreak} / {longestStreak}</span>
+                    <span className="text-xs text-green-600 text-center font-medium">🔥 / 🏆 Streak</span>
                   </div>
                   
                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-purple-50 via-purple-50 to-purple-100 dark:from-purple-400 dark:to-purple-300 border border-purple-200 dark:border-purple-800">
