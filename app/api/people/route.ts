@@ -19,6 +19,22 @@ interface ContributorEntry {
   daily_activity: DailyActivity[];
   current_streak?: number;
   longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
+}
+
+/**
+ * Categorizes activity names into Pull Requests, Issues, or Others
+ */
+function getActivityCategory(activityName: string): 'prs' | 'issues' | 'others' {
+  const name = activityName.toLowerCase();
+  if (name.includes('pr') || name.includes('pull request')) return 'prs';
+  if (name.includes('issue')) return 'issues';
+  return 'others';
 }
 
 /**
@@ -123,15 +139,26 @@ export async function GET() {
 
           // Calculate streaks server-side
           const streaks = calculateStreaks(entry.daily_activity);
-          const entryWithStreaks = {
+          
+          // Calculate activity distribution
+          const distribution = { prs: 0, issues: 0, others: 0, total: 0 };
+          Object.entries(entry.activity_breakdown || {}).forEach(([name, data]) => {
+            const category = getActivityCategory(name);
+            const count = (data as { count: number; points: number }).count;
+            distribution[category] += count;
+            distribution.total += count;
+          });
+
+          const entryWithStats = {
             ...entry,
             current_streak: streaks.current,
-            longest_streak: streaks.longest
+            longest_streak: streaks.longest,
+            distribution
           };
 
           const existing = allContributors.get(entry.username);
           if (!existing || entry.total_points > existing.total_points) {
-            allContributors.set(entry.username, entryWithStreaks);
+            allContributors.set(entry.username, entryWithStats);
           }
         }
       } catch (error) {

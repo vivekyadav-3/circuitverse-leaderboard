@@ -33,6 +33,12 @@ interface ContributorEntry {
   daily_activity: Array<{ date: string; count: number; points: number }>;
   current_streak?: number;
   longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
   activities?: Array<{
     type: string;
     title: string;
@@ -221,6 +227,45 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
               </CardTitle>
             </CardHeader>
             <CardContent>
+              {contributor.distribution && contributor.distribution.total > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-muted/20 border border-muted-foreground/10">
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-4 flex items-center gap-2 uppercase tracking-wider">
+                    <Target className="w-4 h-4" />
+                    Contribution Mix
+                  </h3>
+                  <div className="flex h-4 w-full rounded-full overflow-hidden bg-muted mb-4 shadow-inner">
+                    <div 
+                      className="bg-green-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.prs / contributor.distribution.total) * 100}%` }}
+                      title={`PRs: ${contributor.distribution.prs}`}
+                    />
+                    <div 
+                      className="bg-blue-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.issues / contributor.distribution.total) * 100}%` }}
+                      title={`Issues: ${contributor.distribution.issues}`}
+                    />
+                    <div 
+                      className="bg-gray-400 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.others / contributor.distribution.total) * 100}%` }}
+                      title={`Others: ${contributor.distribution.others}`}
+                    />
+                  </div>
+                  <div className="grid grid-cols-3 gap-4">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-green-500" />
+                      <span className="text-xs font-medium">PRs: {Math.round((contributor.distribution.prs / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-blue-500" />
+                      <span className="text-xs font-medium">Issues: {Math.round((contributor.distribution.issues / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-gray-400" />
+                      <span className="text-xs font-medium">Others: {Math.round((contributor.distribution.others / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                  </div>
+                </div>
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {sortedActivities.map(([activity, data]) => {
                   return (
