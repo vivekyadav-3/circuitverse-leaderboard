@@ -25,6 +25,17 @@ interface ContributorEntry {
     others: number;
     total: number;
   };
+  top_repos?: string[];
+  raw_activities?: Array<{ type: string; occured_at: string; title: string; link: string; points: number }>;
+}
+
+/**
+ * Extracts repository name from a GitHub link
+ */
+function getRepoName(link: string): string | undefined {
+  if (!link) return undefined;
+  const match = link.match(/github\.com\/CircuitVerse\/([^/]+)/);
+  return match ? match[1] : undefined;
 }
 
 /**
@@ -149,11 +160,26 @@ export async function GET() {
             distribution.total += count;
           });
 
+          // Calculate top repositories
+          const repoCounts = new Map<string, number>();
+          (entry.raw_activities || []).forEach((activity) => {
+            const repo = getRepoName(activity.link);
+            if (repo) {
+              repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+            }
+          });
+
+          const topRepos = Array.from(repoCounts.entries())
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 3)
+            .map(([name]) => name);
+
           const entryWithStats = {
             ...entry,
             current_streak: streaks.current,
             longest_streak: streaks.longest,
-            distribution
+            distribution,
+            top_repos: topRepos
           };
 
           const existing = allContributors.get(entry.username);

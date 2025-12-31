@@ -39,6 +39,7 @@ interface ContributorEntry {
     others: number;
     total: number;
   };
+  top_repos?: string[];
   activities?: Array<{
     type: string;
     title: string;
@@ -125,12 +126,34 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   )}
                 </div>
                 
-                <div className="text-center w-full">
-                  <h2 className="text-2xl font-bold mb-2">{contributor.name || contributor.username}</h2>
-                  <p className="text-muted-foreground mb-3 text-lg">@{contributor.username}</p>
-                  <Badge variant="secondary" className="mb-6 bg-primary/10 text-primary font-semibold px-4 py-2">
+                <div className="text-center w-full space-y-3">
+                  <h2 className="text-2xl font-bold">{contributor.name || contributor.username}</h2>
+                  <p className="text-muted-foreground text-lg">@{contributor.username}</p>
+                  <Badge variant="secondary" className="bg-primary/10 text-primary font-semibold px-4 py-2">
                     {contributor.role}
                   </Badge>
+
+                  {contributor.top_repos && contributor.top_repos.length > 0 && (
+                    <div className="pt-4 space-y-2">
+                      <p className="text-[10px] uppercase font-bold text-muted-foreground tracking-widest text-left px-1">Project Focus</p>
+                      <div className="flex flex-wrap gap-2 justify-center">
+                        {contributor.top_repos.map(repo => (
+                          <Badge 
+                            key={repo} 
+                            variant="outline" 
+                            className={`text-[10px] font-bold uppercase tracking-tight py-0.5 px-2 bg-opacity-10 border-opacity-50 ${
+                              repo === 'cv-frontend-vue' ? 'bg-purple-500 text-purple-600 border-purple-600 dark:text-purple-400' :
+                              repo === 'CircuitVerse' ? 'bg-blue-500 text-blue-600 border-blue-600 dark:text-blue-400' :
+                              repo === 'Blog' ? 'bg-green-500 text-green-600 border-green-600 dark:text-green-400' :
+                              'bg-orange-500 text-orange-600 border-orange-600 dark:text-orange-400'
+                            }`}
+                          >
+                            {repo}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <div className="w-full grid grid-cols-2 gap-3">
