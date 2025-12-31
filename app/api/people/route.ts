@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
-import { coreTeamMembers, alumniMembers, type TeamMember } from "@/lib/team-data";
+import { coreTeamMembers, alumniMembers } from "@/lib/team-data";
 
 interface DailyActivity { 
   date: string; 
@@ -87,7 +87,7 @@ function calculateStreaks(dailyActivity: DailyActivity[]) {
 interface LeaderboardData {
   period: string;
   updatedAt: number;
-  entries: any[];
+  entries: ContributorEntry[];
 }
 
 export async function GET() {

@@ -141,15 +141,31 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   </div>
                   
                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-green-50 via-green-50 to-green-100 dark:from-green-400 dark:to-green-300 border border-green-200 dark:border-green-800">
-                    <TrendingUp className={`w-6 h-6 text-green-600 mb-2 ${currentStreak > 0 ? 'animate-pulse-slow' : ''}`} />
-                    <span className="font-bold text-xl text-green-700">{currentStreak} / {longestStreak}</span>
-                    <span className="text-xs text-green-600 text-center font-medium">🔥 / 🏆 Streak</span>
+                    <div className="flex items-center gap-2 mb-2">
+                      <TrendingUp className={`w-6 h-6 text-green-600 ${currentStreak > 0 ? "animate-pulse-slow" : ""}`} />
+                      <span className="font-bold text-xl text-green-700">{currentStreak}</span>
+                    </div>
+                    <span className="text-xs text-green-600 text-center font-medium">Current Streak 🔥</span>
+                  </div>
+
+                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-orange-50 via-orange-50 to-orange-100 dark:from-orange-400 dark:to-orange-300 border border-orange-200 dark:border-orange-800">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Trophy className="w-6 h-6 text-orange-600" />
+                      <span className="font-bold text-xl text-orange-700">{longestStreak}</span>
+                    </div>
+                    <span className="text-xs text-orange-600 text-center font-medium">Longest Streak 🏆</span>
                   </div>
                   
-                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-purple-50 via-purple-50 to-purple-100 dark:from-purple-400 dark:to-purple-300 border border-purple-200 dark:border-purple-800">
+                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-purple-50 via-purple-50 to-purple-100 dark:from-purple-400 dark:to-purple-300 border border-purple-200 dark:border-purple-800">
                     <Target className="w-6 h-6 text-purple-600 mb-2" />
                     <span className="font-bold text-xl text-purple-700">{averagePointsPerDay}</span>
                     <span className="text-xs text-purple-600 text-center font-medium">Avg/Day</span>
+                  </div>
+
+                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-pink-50 via-pink-50 to-pink-100 dark:from-pink-400 dark:to-pink-300 border border-pink-200 dark:border-pink-800">
+                    <Activity className="w-6 h-6 text-pink-600 mb-2" />
+                    <span className="font-bold text-xl text-pink-700">{sortedActivities.length}</span>
+                    <span className="text-xs text-pink-600 text-center font-medium">Activity Types</span>
                   </div>
                 </div>
 
