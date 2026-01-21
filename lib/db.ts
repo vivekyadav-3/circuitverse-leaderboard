@@ -2,7 +2,10 @@
 
 import fs from "fs";
 import path from "path";
+import { differenceInDays } from "date-fns";
+import { calculateStreaks, DailyActivity } from "./streak-utils";
 import type { Contributor, ContributorWithAvatar } from "@/types/contributor";
+import { UserEntry } from "@/scripts/generateLeaderboard";
 
 type ActivityItem = {
   slug: string;
@@ -11,7 +14,6 @@ type ActivityItem = {
   contributor_avatar_url: string | null;
   contributor_role: string | null;
   occured_at: string;
-  closed_at: string;
   title?: string | null;
   text?: string | null;
   link?: string | null;
@@ -25,58 +27,15 @@ export type ActivityGroup = {
   activities: ActivityItem[];
 };
 
-
-
-// Used by app/page.tsx
-// export async function getRecentActivitiesGroupedByType(valid: "week" | "month" | "year"): Promise<ActivityGroup[]> {
-//   const filePath = path.join(
-//     process.cwd(),
-//     "public",
-//     "leaderboard",
-//     `${valid}.json`
-//   );
-
-//   let activityGroups: ActivityGroup[] = [];
-
-//   if (fs.existsSync(filePath)) {
-//     const file = fs.readFileSync(filePath, "utf-8");
-//     const data: RecentActivitiesJSON = JSON.parse(file);
-    
-//     const groupsFromEntries: ActivityGroup[] =
-//       Object.entries(
-//         data.entries.reduce((acc, user) => {
-//           for (const [type, meta] of Object.entries(
-//             user.activity_breakdown
-//           )) {
-//             if (!acc[type]) {
-//               acc[type] = {
-//                 activity_definition: type,
-//                 activity_name: type,
-//                 activities: [],
-//               };
-//             }
-
-//             acc[type].activities.push({
-//               slug: `${user.username}-${type}`,
-//               contributor: user.username,
-//               contributor_name: user.name,
-//               contributor_avatar_url: user.avatar_url,
-//               occured_at: data.updatedAt,
-//               points: meta.points,
-//             });
-//           }
-//           return acc;
-//         }, {} as Record<string, ActivityGroup>)
-//       ).map(([, group]) => group);
-
-//     activityGroups = groupsFromEntries;
-//   }
-  
-//   return activityGroups;
-// }
+export type MonthBuckets = {
+  w1: number;
+  w2: number;
+  w3: number;
+  w4: number;
+};
 
 export async function getRecentActivitiesGroupedByType(
-  valid: "week" | "2week" | "3week" | "month" | "2month" | "year"
+  valid: "week" | "month" | "2month" | "year"
 ): Promise<ActivityGroup[]> {
   const filePath = path.join(
     process.cwd(),
@@ -116,16 +75,13 @@ export async function getRecentActivitiesGroupedByType(
       contributor_avatar_url: user.avatar_url,
       contributor_role: user.role ?? null,
       occured_at: act.occured_at,
-      closed_at: act.occured_at,
-      title: act.title ?? null,     // ✅ REAL title
-      link: act.link ?? null,       // ✅ REAL GitHub link
+      title: act.title ?? null,
+      link: act.link ?? null,
       points: act.points ?? 0,
     });
   }
 }
 
-
-  // newest first
   for (const group of groups.values()) {
     group.activities.sort(
       (a, b) =>
@@ -137,31 +93,24 @@ export async function getRecentActivitiesGroupedByType(
   return [...groups.values()];
 }
 
-
-
-// (Optional) stubs for other imports; add as you see “module not found” errors:
-
 export async function getUpdatedTime() {
-  // get last updated time from any of the JSON files
-  const filePath = path.join(
-    process.cwd(),
-    "public",
-    "leaderboard",
-    `week.json`
-  );
+  const filePath = path.join(process.cwd(), "public", "leaderboard", "week.json");
   if (!fs.existsSync(filePath)) return null;
-
   const file = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(file);
   return data.updatedAt ? new Date(data.updatedAt) : null;
 }
 
-export async function getLeaderboard() {
+export async function getLeaderboard(): Promise<UserEntry[]> {
   const filePath = path.join(process.cwd(), "public", "leaderboard", "year.json");
   if (!fs.existsSync(filePath)) return [];
+
   const file = fs.readFileSync(filePath, "utf-8");
   const data = JSON.parse(file);
-  return data.entries || [];
+  
+  if (!data?.entries) return [];
+
+  return data.entries.sort((a: any, b: any) => b.total_points - a.total_points);
 }
 
 export async function getTopContributorsByActivity() {
@@ -174,133 +123,94 @@ export async function getTopContributorsByActivity() {
 
 export async function getAllContributorsWithAvatars(): Promise<ContributorWithAvatar[]> {
    const entries = await getLeaderboard();
-   return entries.map((e: Contributor) => ({
+   return entries.map((e: UserEntry) => ({
       username: e.username,
-      avatar_url: e.avatar_url
+      avatar_url: e.avatar_url,
+      name: e.name
    }));
 }
 
 export async function getAllContributorUsernames(): Promise<string[]> {
   const entries = await getLeaderboard();
-  return entries.map((e: Contributor) => e.username);
+  return entries.map((e: UserEntry) => e.username);
 }
 
-export async function getContributor(username: string): Promise<Contributor | null> {
+export async function getContributor(username: string): Promise<UserEntry | null> {
   const entries = await getLeaderboard();
-  return entries.find((e: Contributor) => e.username.toLowerCase() === username.toLowerCase()) || null;
+  return entries.find((e: UserEntry) => e.username.toLowerCase() === username.toLowerCase()) || null;
 }
 
+/**
+ * Calculates contributor profile and stats
+ */
 export async function getContributorProfile(username: string) {
   const contributor = await getContributor(username);
   if (!contributor) return null;
 
-  // Transform raw_activities to ActivityItem[]
-  const activities: ActivityItem[] = (contributor.raw_activities || []).map((act) => ({
-    slug: `${username}-${act.type}-${act.occured_at}`,
-    contributor: username,
-    contributor_name: contributor.name,
-    contributor_avatar_url: contributor.avatar_url,
-    contributor_role: contributor.role ?? null,
-    occured_at: act.occured_at,
-    closed_at: act.occured_at,
-    title: act.title ?? null,
-    link: act.link ?? null,
-    points: act.points ?? 0
+  const activities = (contributor.activities || contributor.raw_activities || []).map((a: any) => ({
+    ...a,
+    occured_at: new Date(a.occured_at),
   }));
 
-  // Sort activities by date desc
-  activities.sort((a, b) => new Date(b.occured_at).getTime() - new Date(a.occured_at).getTime());
-
-  // Generate daily activity data for heatmap
-  const dailyActivityMap = new Map<string, { count: number; points: number }>();
-  
-  (contributor.raw_activities || []).forEach((act) => {
-    if (!act.occured_at) return;
-    const dateKey = act.occured_at.split("T")[0]; // Get YYYY-MM-DD
-    if (!dateKey) return;
-    const existing = dailyActivityMap.get(dateKey) || { count: 0, points: 0 };
-    dailyActivityMap.set(dateKey, {
-      count: existing.count + 1,
-      points: existing.points + (act.points || 0),
-    });
+  const dailyActivityMap = new Map();
+  activities.forEach((activity: any) => {
+    const date = new Date(activity.occured_at).toISOString().split("T")[0];
+    if (!dailyActivityMap.has(date)) {
+      dailyActivityMap.set(date, { count: 0, points: 0 });
+    }
+    const dayData = dailyActivityMap.get(date);
+    dayData.count += 1;
+    dayData.points += (activity.points || 0);
   });
 
-  const dailyActivity = Array.from(dailyActivityMap.entries())
-    .map(([date, data]) => ({
-      date,
-      count: data.count,
-      points: data.points,
-    }))
-    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  const dailyActivity: DailyActivity[] = Array.from(dailyActivityMap.entries()).map(([date, stats]: [string, any]) => ({
+    date,
+    ...stats
+  })).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 
-  // Calculate Streaks
-  let currentStreak = 0;
-  let longestStreak = 0;
-  let tempStreak = 0;
-
-  const today = new Date().toISOString().split("T")[0];
-  const yesterday = new Date(Date.now() - 86400000).toISOString().split("T")[0];
-
-  // Longest Streak calculation
-  dailyActivity.forEach((day) => {
-    if (day.count > 0) {
-      tempStreak++;
-      if (tempStreak > longestStreak) longestStreak = tempStreak;
-    } else {
-      tempStreak = 0;
-    }
-  });
-
-  // Current Streak calculation
-  if (dailyActivity.length > 0) {
-    let lastActiveIndex = -1;
-    for (let i = dailyActivity.length - 1; i >= 0; i--) {
-      const day = dailyActivity[i];
-      if (day && day.count > 0) {
-        if (day.date === today || day.date === yesterday) {
-          lastActiveIndex = i;
-          break;
-        }
-      }
-    }
-
-    if (lastActiveIndex !== -1) {
-      currentStreak = 1;
-      for (let i = lastActiveIndex; i > 0; i--) {
-        const day1 = dailyActivity[i];
-        const day2 = dailyActivity[i - 1];
-        if (!day1 || !day2) break;
-
-        const d1 = new Date(day1.date);
-        const d2 = new Date(day2.date);
-        const diffDays = Math.round((d1.getTime() - d2.getTime()) / (1000 * 3600 * 24));
-
-        if (diffDays === 1 && day2.count > 0) {
-          currentStreak++;
-        } else {
-          break;
-        }
-      }
-    }
-  }
+  const streaks = calculateStreaks(dailyActivity);
 
   // Calculate Distribution
   const distribution = {
-    prs: (contributor.raw_activities || []).filter(a => a.type.toLowerCase().includes('pr')).length,
-    issues: (contributor.raw_activities || []).filter(a => a.type.toLowerCase().includes('issue')).length,
-    others: (contributor.raw_activities || []).filter(a => !a.type.toLowerCase().includes('pr') && !a.type.toLowerCase().includes('issue')).length,
+    prs: activities.filter(a => a.type.toLowerCase().includes('pr')).length,
+    issues: activities.filter(a => a.type.toLowerCase().includes('issue')).length,
+    others: activities.filter(a => !a.type.toLowerCase().includes('pr') && !a.type.toLowerCase().includes('issue')).length,
+    total: activities.length
   };
+
+  // Calculate PR Turn-around Time
+  const prOpenedMap = new Map<string, Date>();
+  const turnAroundTimes: number[] = [];
+  const sortedActivities = [...activities].sort((a, b) => a.occured_at.getTime() - b.occured_at.getTime());
+
+  sortedActivities.forEach(activity => {
+    if (activity.type === "PR opened") {
+      prOpenedMap.set(activity.link, activity.occured_at);
+    } else if (activity.type === "PR merged") {
+      const openedAt = prOpenedMap.get(activity.link);
+      if (openedAt) {
+        const diff = activity.occured_at.getTime() - openedAt.getTime();
+        turnAroundTimes.push(diff);
+      }
+    }
+  });
+
+  const avgTurnAroundMs = turnAroundTimes.length > 0 
+    ? turnAroundTimes.reduce((a, b) => a + b, 0) / turnAroundTimes.length 
+    : 0;
 
   return {
     contributor,
-    activities,
-    dailyActivity,
+    activities: sortedActivities.reverse(), // newest first
     totalPoints: contributor.total_points,
+    activityByDate: dailyActivityMap,
+    dailyActivity,
     stats: {
-      currentStreak,
-      longestStreak,
+      currentStreak: streaks.current,
+      longestStreak: streaks.longest,
+      avgTurnAroundMs,
       distribution
-    },
+    }
   };
 }
 
@@ -309,15 +219,12 @@ export async function getRepositories() {
   const repoStats = new Map<string, { name: string; prs: number; issues: number; contributors: Set<string> }>();
 
   for (const entry of entries) {
-    if (!entry.activities) continue;
-    for (const act of entry.activities) {
+    const rawActivities = entry.activities || entry.raw_activities || [];
+    for (const act of rawActivities) {
       if (!act.link) continue;
-      
-      // Extract repo name from GitHub URL
-      // Expected format: https://github.com/Org/Repo/...
       const match = act.link.match(/github\.com\/([^/]+)\/([^/]+)/);
       if (match) {
-        const repoName = match[2]; // just the repo name, or match[1]+"/"+match[2] for full slug
+        const repoName = match[2];
         const fullRepo = `${match[1]}/${repoName}`;
 
         if (!repoStats.has(fullRepo)) {
@@ -326,7 +233,6 @@ export async function getRepositories() {
 
         const stats = repoStats.get(fullRepo)!;
         stats.contributors.add(entry.username);
-
         if (act.type.includes("PR")) stats.prs++;
         if (act.type.includes("Issue")) stats.issues++;
       }
@@ -336,27 +242,18 @@ export async function getRepositories() {
   return Array.from(repoStats.values()).map(r => ({
     ...r,
     contributorCount: r.contributors.size,
-    contributors: undefined // remove Set from final output
+    contributors: undefined
   })).sort((a, b) => (b.prs + b.issues) - (a.prs + a.issues));
 }
 
 export async function getGlobalRecentActivities(typeFilter?: string) {
   const entries = await getLeaderboard();
-  const allActivities: Array<{
-    type: string;
-    title?: string | null;
-    link?: string | null;
-    occured_at: string;
-    points?: number;
-    username: string;
-    avatar_url: string | null;
-  }> = [];
+  const allActivities: any[] = [];
 
   for (const entry of entries) {
-    if (!entry.activities) continue;
-    for (const act of entry.activities) {
-        if (typeFilter && !act.type.includes(typeFilter)) continue;
-        
+    const rawActivities = entry.activities || entry.raw_activities || [];
+    for (const act of rawActivities) {
+        if (typeFilter && !act.type.toLowerCase().includes(typeFilter.toLowerCase())) continue;
         allActivities.push({
             ...act,
             username: entry.username,
@@ -366,4 +263,49 @@ export async function getGlobalRecentActivities(typeFilter?: string) {
   }
 
   return allActivities.sort((a, b) => new Date(b.occured_at).getTime() - new Date(a.occured_at).getTime());
+}
+
+export async function getMonthlyActivityBuckets(): Promise<MonthBuckets> {
+  const month = await getRecentActivitiesGroupedByType("month");
+  const activities = month.flatMap(g => g.activities);
+  const now = new Date();
+  
+  const buckets: MonthBuckets = { w1: 0, w2: 0, w3: 0, w4: 0 };
+  
+  for (const activity of activities) {
+    const activityDate = new Date(activity.occured_at);
+    const daysAgo = differenceInDays(now, activityDate);
+    
+    if (daysAgo < 7) buckets.w1++;
+    else if (daysAgo < 14) buckets.w2++;
+    else if (daysAgo < 21) buckets.w3++;
+    else if (daysAgo < 28) buckets.w4++;
+  }
+  
+  return buckets;
+}
+
+export async function getPreviousMonthActivityCount(): Promise<number> {
+  const filePath = path.join(process.cwd(), "public", "leaderboard", "month.json");
+  if (!fs.existsSync(filePath)) return 0;
+
+  const file = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(file);
+  
+  if (!data?.entries?.length) return 0;
+  
+  const activities = data.entries.flatMap((entry: any) => entry.activities || entry.raw_activities || []);
+  const now = new Date();
+
+  let count = 0;
+  for (const activity of activities) {
+    const activityDate = new Date(activity.occured_at);
+    const daysAgo = differenceInDays(now, activityDate);
+
+    if (daysAgo >= 30 && daysAgo < 60) {
+      count++;
+    }
+  }
+
+  return count;
 }

@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import path from "path";
 import fs from "fs";
-import { coreTeamMembers, alumniMembers, type TeamMember } from "@/lib/team-data";
+import { coreTeamMembers, alumniMembers } from "@/lib/team-data";
+import { calculateStreaks, DailyActivity } from "@/lib/streak-utils";
 
 interface ContributorEntry {
   username: string;
@@ -10,7 +11,37 @@ interface ContributorEntry {
   role: string;
   total_points: number;
   activity_breakdown: Record<string, { count: number; points: number }>;
-  daily_activity: Array<{ date: string; count: number; points: number }>;
+  daily_activity: DailyActivity[];
+  current_streak?: number;
+  longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
+  top_repos?: string[];
+  activities?: any[];
+  raw_activities?: Array<{ type: string; occured_at: string; title: string; link: string; points: number }>;
+}
+
+/**
+ * Extracts repository name from a GitHub link
+ */
+function getRepoName(link: string): string | undefined {
+  if (!link) return undefined;
+  const match = link.match(/github\.com\/CircuitVerse\/([^/]+)/);
+  return match ? match[1] : undefined;
+}
+
+/**
+ * Categorizes activity names into Pull Requests, Issues, or Others
+ */
+function getActivityCategory(activityName: string): 'prs' | 'issues' | 'others' {
+  const name = activityName.toLowerCase();
+  if (name.includes('pr') || name.includes('pull request')) return 'prs';
+  if (name.includes('issue')) return 'issues';
+  return 'others';
 }
 
 interface LeaderboardData {
@@ -38,7 +69,6 @@ export async function GET() {
         }
 
         for (const entry of data.entries || []) {
-          // More precise bot filtering to avoid filtering legitimate users
           const username = entry.username.toLowerCase();
           const isBot = username.endsWith('[bot]') || 
                        username.endsWith('-bot') || 
@@ -49,13 +79,47 @@ export async function GET() {
                        username.startsWith('renovate[') ||
                        username.startsWith('dependabot[');
           
-          if (isBot) {
-            continue;
-          }
+          if (isBot) continue;
+
+          // Calculate streaks server-side
+          const streaks = calculateStreaks(entry.daily_activity);
+          
+          // Calculate activity distribution
+          const distribution = { prs: 0, issues: 0, others: 0, total: 0 };
+          Object.entries(entry.activity_breakdown || {}).forEach(([name, data]) => {
+            const category = getActivityCategory(name);
+            const count = (data as { count: number; points: number }).count;
+            distribution[category] += count;
+            distribution.total += count;
+          });
+
+          // Calculate top repositories
+          const repoCounts = new Map<string, number>();
+          const rawActivities = entry.activities || entry.raw_activities || [];
+          rawActivities.forEach((activity) => {
+            const repo = getRepoName(activity.link);
+            if (repo) {
+              repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+            }
+          });
+
+          const topRepos = Array.from(repoCounts.entries())
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 3)
+            .map(([name]) => name);
+
+          const entryWithStats = {
+            ...entry,
+            activities: rawActivities,
+            current_streak: streaks.current,
+            longest_streak: streaks.longest,
+            distribution,
+            top_repos: topRepos
+          };
 
           const existing = allContributors.get(entry.username);
           if (!existing || entry.total_points > existing.total_points) {
-            allContributors.set(entry.username, entry);
+            allContributors.set(entry.username, entryWithStats);
           }
         }
       } catch (error) {

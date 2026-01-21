@@ -6,12 +6,12 @@ import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { GitHubHeatmap } from "@/components/people/GitHubHeatmap";
 import { useState } from "react";
-import { 
-  Activity, 
-  Calendar, 
-  GitCommit, 
-  Star, 
-  Trophy, 
+import {
+  Activity,
+  Calendar,
+  GitCommit,
+  Star,
+  Trophy,
   TrendingUp,
   BarChart3,
   Clock,
@@ -20,8 +20,31 @@ import {
   ArrowLeft,
   Target,
   Github,
-  ExternalLink
+  ExternalLink,
+  GitMerge,
+  AlertCircle
 } from "lucide-react";
+import { AchievementBadges } from "@/components/people/AchievementBadges";
+import { ActivityChart } from "@/components/people/ActivityChart";
+import { getContributorBadges } from "@/lib/badges";
+
+type ActivityUIConfig = {
+  icon: React.ReactNode;
+  gradient: string;
+  borderColor: string;
+  bgColor: string;
+  iconBg: string;
+  textColor: string;
+  accentColor: string;
+};
+
+
+type ActivityKey =
+  | "PR merged"
+  | "PR opened"
+  | "Issue opened"
+  | "commit"
+  | "star";
 
 interface ContributorEntry {
   username: string;
@@ -31,6 +54,15 @@ interface ContributorEntry {
   total_points: number;
   activity_breakdown: Record<string, { count: number; points: number }>;
   daily_activity: Array<{ date: string; count: number; points: number }>;
+  current_streak?: number;
+  longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
+  top_repos?: string[];
   activities?: Array<{
     type: string;
     title: string;
@@ -45,76 +77,134 @@ interface ContributorDetailProps {
   onBack: () => void;
 }
 
+// Activity type configuration with unique visual identity
+const activityConfig: Record<ActivityKey, ActivityUIConfig> = {
+  "PR merged": {
+    icon: <GitMerge className="w-4 h-4" />,
+    gradient: "from-purple-500/10 via-purple-500/5 to-transparent",
+    borderColor: "border-purple-500/30 hover:border-purple-500/50",
+    bgColor: "bg-purple-500/5",
+    iconBg: "bg-purple-500/15 group-hover:bg-purple-500/25",
+    textColor: "text-purple-600 dark:text-purple-400",
+    accentColor: "bg-purple-500",
+  },
+  "PR opened": {
+    icon: <GitPullRequest className="w-4 h-4" />,
+    gradient: "from-blue-500/10 via-blue-500/5 to-transparent",
+    borderColor: "border-blue-500/30 hover:border-blue-500/50",
+    bgColor: "bg-blue-500/5",
+    iconBg: "bg-blue-500/15 group-hover:bg-blue-500/25",
+    textColor: "text-blue-600 dark:text-blue-400",
+    accentColor: "bg-blue-500",
+  },
+  "Issue opened": {
+    icon: <AlertCircle className="w-4 h-4" />,
+    gradient: "from-orange-500/10 via-orange-500/5 to-transparent",
+    borderColor: "border-orange-500/30 hover:border-orange-500/50",
+    bgColor: "bg-orange-500/5",
+    iconBg: "bg-orange-500/15 group-hover:bg-orange-500/25",
+    textColor: "text-orange-600 dark:text-orange-400",
+    accentColor: "bg-orange-500",
+  },
+  commit: {
+    icon: <GitCommit className="w-4 h-4" />,
+    gradient: "from-green-500/10 via-green-500/5 to-transparent",
+    borderColor: "border-green-500/30 hover:border-green-500/50",
+    bgColor: "bg-green-500/5",
+    iconBg: "bg-green-500/15 group-hover:bg-green-500/25",
+    textColor: "text-green-600 dark:text-green-400",
+    accentColor: "bg-green-500",
+  },
+  star: {
+    icon: <Star className="w-4 h-4" />,
+    gradient: "from-yellow-500/10 via-yellow-500/5 to-transparent",
+    borderColor: "border-yellow-500/30 hover:border-yellow-500/50",
+    bgColor: "bg-yellow-500/5",
+    iconBg: "bg-yellow-500/15 group-hover:bg-yellow-500/25",
+    textColor: "text-yellow-600 dark:text-yellow-400",
+    accentColor: "bg-yellow-500",
+  },
+};
+
+
+
+const defaultConfig: ActivityUIConfig = {
+  icon: <Activity className="w-4 h-4" />,
+  gradient: "from-gray-500/10 via-gray-500/5 to-transparent",
+  borderColor: "border-gray-500/30 hover:border-gray-500/50",
+  bgColor: "bg-gray-500/5",
+  iconBg: "bg-gray-500/15 group-hover:bg-gray-500/25",
+  textColor: "text-gray-600 dark:text-gray-400",
+  accentColor: "bg-gray-500",
+};
+
+
 export function ContributorDetail({ contributor, onBack }: ContributorDetailProps) {
-  // Initialize current time directly for simple use case
   const [currentTime] = useState(() => Date.now());
 
-  const getActivityIcon = (activityType: string) => {
+  const getActivityConfig = (activityType: string): ActivityUIConfig => {
     const type = activityType.toLowerCase();
-    if (type.includes('commit')) return <GitCommit className="w-4 h-4" />;
-    if (type.includes('pr merged') || type.includes('merged')) return <GitPullRequest className="w-4 h-4 text-green-600" />;
-    if (type.includes('pr opened') || type.includes('opened')) return <GitPullRequest className="w-4 h-4 text-blue-600" />;
-    if (type.includes('pr') || type.includes('pull')) return <GitPullRequest className="w-4 h-4" />;
-    if (type.includes('issue')) return <Bug className="w-4 h-4" />;
-    if (type.includes('star')) return <Star className="w-4 h-4" />;
-    return <Activity className="w-4 h-4" />;
+
+    if (activityType in activityConfig) {
+      return activityConfig[activityType as ActivityKey];
+    }
+
+    if (type.includes("pr merged") || type.includes("merged")) {
+      return activityConfig["PR merged"];
+    }
+    if (type.includes("pr opened") || type.includes("opened pr")) {
+      return activityConfig["PR opened"];
+    }
+    if (type.includes("issue")) {
+      return activityConfig["Issue opened"];
+    }
+    if (type.includes("commit")) {
+      return activityConfig["commit"];
+    }
+    if (type.includes("star")) {
+      return activityConfig["star"];
+    }
+
+    return defaultConfig;
+  };
+
+
+
+
+  const getActivityIcon = (activityType: string) => {
+    return getActivityConfig(activityType).icon;
   };
 
   const sortedActivities = Object.entries(contributor.activity_breakdown || {})
     .sort(([, a], [, b]) => b.points - a.points);
+  const maxPoints = Math.max(...sortedActivities.map(([_, d]) => d.points)) || 0;
 
   const recentActivity = contributor.daily_activity || [];
   const totalDaysActive = recentActivity.length;
-  const averagePointsPerDay = totalDaysActive > 0 
-    ? Math.round((contributor.total_points || 0) / totalDaysActive) 
+  const averagePointsPerDay = totalDaysActive > 0
+    ? Math.round((contributor.total_points || 0) / totalDaysActive)
     : 0;
 
-  // Calculate streak
-  const sortedDates = recentActivity
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-  
-  let currentStreak = 0;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  
-  // Remove duplicate dates to avoid counting same day multiple times
-  const uniqueDates = Array.from(new Set(sortedDates.map(d => d.date)));
-  
-  let expectedDaysDiff = 0; // Start expecting today (0 days ago)
-  const foundToday = false;
-  
-  for (const dateStr of uniqueDates) {
-    const activityDate = new Date(dateStr);
-    activityDate.setHours(0, 0, 0, 0);
-    const daysDiff = Math.floor((today.getTime() - activityDate.getTime()) / (1000 * 60 * 60 * 24));
-    
-    // Accept first activity if it's today (0) or yesterday (1)
-    if (currentStreak === 0 && (daysDiff === 0 || daysDiff === 1)) {
-      currentStreak++;
-      expectedDaysDiff = daysDiff + 1; // Next expected is one day earlier
-      continue;
-    }
-    
-    // For subsequent activities, require exact consecutive days
-    if (daysDiff === expectedDaysDiff) {
-      currentStreak++;
-      expectedDaysDiff++; // Expect next day to be one day earlier
-    } else {
-      break; // Streak broken
-    }
-  }
+  // Using server-side streaks provided by the API
+  const currentStreak = contributor.current_streak || 0;
+  const longestStreak = contributor.longest_streak || 0;
 
   const recentContributions = contributor.activities?.slice(0, 15) || [];
 
   const thisMonth = new Date();
   const monthlyActivity = recentActivity.filter(day => {
     const dayDate = new Date(day.date);
-    return dayDate.getMonth() === thisMonth.getMonth() && 
-           dayDate.getFullYear() === thisMonth.getFullYear();
+    return dayDate.getMonth() === thisMonth.getMonth() &&
+      dayDate.getFullYear() === thisMonth.getFullYear();
   });
 
   const monthlyPoints = monthlyActivity.reduce((sum, day) => sum + day.points, 0);
   const monthlyDays = monthlyActivity.length;
+
+  const earnedBadges = getContributorBadges(contributor);
+
+  const displayName = contributor.name || contributor.username;
+  const displayUsername = `@${contributor.username}`;
 
   return (
     <div className="mx-auto px-4 py-8 max-w-7xl">
@@ -122,7 +212,7 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
         <ArrowLeft className="w-4 h-4 mr-2" />
         Back to People
       </Button>
-      
+
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
         <div className="lg:col-span-1">
           <Card className="sticky top-4 bg-gradient-to-br from-background via-background to-muted/20 shadow-lg border-0 ring-1 ring-border">
@@ -131,9 +221,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                 <div className="relative">
                   <Avatar className="w-36 h-36 ring-4 ring-primary/20 shadow-xl">
                     <AvatarImage
-                      src={contributor.avatar_url}
-                      alt={contributor.name || contributor.username}
-                      className="object-cover"
+                       src={contributor.avatar_url}
+                       alt={contributor.name || contributor.username}
+                       className="object-cover"
                     />
                     <AvatarFallback className="text-2xl bg-gradient-to-br from-primary/30 to-primary/10 text-primary font-bold">
                       {(contributor.name || contributor.username)
@@ -147,13 +237,35 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                     </div>
                   )}
                 </div>
-                
-                <div className="text-center w-full">
-                  <h2 className="text-2xl font-bold mb-2">{contributor.name || contributor.username}</h2>
-                  <p className="text-muted-foreground mb-3 text-lg">@{contributor.username}</p>
-                  <Badge variant="secondary" className="mb-6 bg-primary/10 text-primary font-semibold px-4 py-2">
+
+                <div className="text-center w-full space-y-3">
+                  <h2 className="text-2xl font-bold">{contributor.name || contributor.username}</h2>
+                  <p className="text-muted-foreground text-lg">@{contributor.username}</p>
+                  <Badge variant="secondary" className="bg-primary/10 text-primary font-semibold px-4 py-2">
                     {contributor.role}
                   </Badge>
+
+                  {contributor.top_repos && contributor.top_repos.length > 0 && (
+                    <div className="pt-4 space-y-2">
+                      <p className="text-[10px] uppercase font-bold text-muted-foreground tracking-widest text-left px-1">Project Focus</p>
+                      <div className="flex flex-wrap gap-2 justify-center">
+                        {contributor.top_repos.map(repo => (
+                          <Badge 
+                            key={repo} 
+                            variant="outline" 
+                            className={`text-[10px] font-bold uppercase tracking-tight py-0.5 px-2 bg-opacity-10 border-opacity-50 ${
+                              repo === 'cv-frontend-vue' ? 'bg-purple-500 text-purple-600 border-purple-600 dark:text-purple-400' :
+                              repo === 'CircuitVerse' ? 'bg-blue-500 text-blue-600 border-blue-600 dark:text-blue-400' :
+                              repo === 'Blog' ? 'bg-green-500 text-green-600 border-green-600 dark:text-green-400' :
+                              'bg-orange-500 text-orange-600 border-orange-600 dark:text-orange-400'
+                            }`}
+                          >
+                            {repo}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <div className="w-full grid grid-cols-2 gap-3">
@@ -162,28 +274,44 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                     <span className="font-bold text-xl text-yellow-700">{contributor.total_points || 0}</span>
                     <span className="text-xs text-yellow-600 text-center font-medium">Total Points</span>
                   </div>
-                  
+
                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-blue-50 via-blue-50 to-blue-100 dark:from-blue-400 dark:to-blue-300 border border-blue-200 dark:border-blue-800">
                     <Calendar className="w-6 h-6 text-blue-600 mb-2" />
                     <span className="font-bold text-xl text-blue-700">{totalDaysActive}</span>
                     <span className="text-xs text-blue-600 text-center font-medium">Active Days</span>
                   </div>
-                  
+
                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-green-50 via-green-50 to-green-100 dark:from-green-400 dark:to-green-300 border border-green-200 dark:border-green-800">
-                    <TrendingUp className="w-6 h-6 text-green-600 mb-2" />
-                    <span className="font-bold text-xl text-green-700">{currentStreak}</span>
-                    <span className="text-xs text-green-600 text-center font-medium">Day Streak</span>
+                    <div className="flex items-center gap-2 mb-2">
+                      <TrendingUp className={`w-6 h-6 text-green-600 ${currentStreak > 0 ? "animate-pulse-slow" : ""}`} />
+                      <span className="font-bold text-xl text-green-700">{currentStreak}</span>
+                    </div>
+                    <span className="text-xs text-green-600 text-center font-medium">Current Streak 🔥</span>
+                  </div>
+
+                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-orange-50 via-orange-50 to-orange-100 dark:from-orange-400 dark:to-orange-300 border border-orange-200 dark:border-orange-800">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Trophy className="w-6 h-6 text-orange-600" />
+                      <span className="font-bold text-xl text-orange-700">{longestStreak}</span>
+                    </div>
+                    <span className="text-xs text-orange-600 text-center font-medium">Longest Streak 🏆</span>
                   </div>
                   
-                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-purple-50 via-purple-50 to-purple-100 dark:from-purple-400 dark:to-purple-300 border border-purple-200 dark:border-purple-800">
+                   <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-purple-50 via-purple-50 to-purple-100 dark:from-purple-400 dark:to-purple-300 border border-purple-200 dark:border-purple-800">
                     <Target className="w-6 h-6 text-purple-600 mb-2" />
                     <span className="font-bold text-xl text-purple-700">{averagePointsPerDay}</span>
                     <span className="text-xs text-purple-600 text-center font-medium">Avg/Day</span>
                   </div>
+
+                  <div className="flex flex-col items-center p-4 rounded-xl bg-gradient-to-br from-pink-50 via-pink-50 to-pink-100 dark:from-pink-400 dark:to-pink-300 border border-pink-200 dark:border-pink-800">
+                    <Activity className="w-6 h-6 text-pink-600 mb-2" />
+                    <span className="font-bold text-xl text-pink-700">{sortedActivities.length}</span>
+                    <span className="text-xs text-pink-600 text-center font-medium">Activity Types</span>
+                  </div>
                 </div>
 
-                <a 
-                  href={`https://github.com/${contributor.username}`} 
+                <a
+                  href={`https://github.com/${contributor.username}`}
                   target="_blank" rel="noopener noreferrer"
                   className="w-full flex justify-center mt-4"
                 >
@@ -197,34 +325,97 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
         </div>
 
         <div className="lg:col-span-3 space-y-8">
-          <Card className="bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-primary">
-                <BarChart3 className="w-5 h-5" />
-                This Month&apos;s Activity
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{monthlyPoints}</div>
-                  <div className="text-sm text-muted-foreground">Points Earned</div>
+          <AchievementBadges badges={earnedBadges} />
+
+          {/* Efficiency Metrics */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border-indigo-500/20 shadow-sm">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium flex items-center gap-2 text-indigo-600 dark:text-indigo-400">
+                  <Clock className="w-4 h-4" />
+                  PR Turn-around
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold">
+                    {(() => {
+                      const prOpened = new Map<string, number>();
+                      const times: number[] = [];
+                      const sorted = [...(contributor.activities || [])].sort(
+                        (a, b) => new Date(a.occured_at).getTime() - new Date(b.occured_at).getTime()
+                      );
+                      
+                      sorted.forEach(act => {
+                        if (act.type === "PR opened") prOpened.set(act.link, new Date(act.occured_at).getTime());
+                        else if (act.type === "PR merged" && prOpened.has(act.link)) {
+                          times.push(new Date(act.occured_at).getTime() - prOpened.get(act.link)!);
+                        }
+                      });
+                      
+                      if (times.length === 0) return "N/A";
+                      const avgHours = Math.round(times.reduce((a, b) => a + b, 0) / times.length / (1000 * 3600));
+                      return avgHours > 24 ? `${Math.round(avgHours / 2.4) / 10} days` : `${avgHours}h`;
+                    })()}
+                  </span>
+                  <span className="text-muted-foreground text-sm">avg. merge time</span>
                 </div>
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{monthlyDays}</div>
-                  <div className="text-sm text-muted-foreground">Active Days</div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-orange-500/10 to-red-500/10 border-orange-500/20 shadow-sm">
+              <CardHeader className="pb-2">
+                <CardTitle className="text-sm font-medium flex items-center gap-2 text-orange-600 dark:text-orange-400">
+                  <TrendingUp className="w-4 h-4" />
+                  Activity Impact
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold">{currentStreak}d</span>
+                  <span className="text-muted-foreground text-sm">current streak</span>
                 </div>
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{monthlyDays > 0 ? Math.round(monthlyPoints / monthlyDays) : 0}</div>
-                  <div className="text-sm text-muted-foreground">Daily Average</div>
-                </div>
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{sortedActivities.length}</div>
-                  <div className="text-sm text-muted-foreground">Activity Types</div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
+          
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="md:col-span-2">
+              <Card className="bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20 h-full">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-primary">
+                    <BarChart3 className="w-5 h-5" />
+                    This Month&apos;s Activity
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="text-center p-4 bg-background/50 rounded-lg">
+                      <div className="text-2xl font-bold text-primary">{monthlyPoints}</div>
+                      <div className="text-sm text-muted-foreground">Points Earned</div>
+                    </div>
+                    <div className="text-center p-4 bg-background/50 rounded-lg">
+                      <div className="text-2xl font-bold text-primary">{monthlyDays}</div>
+                      <div className="text-sm text-muted-foreground">Active Days</div>
+                    </div>
+                    <div className="text-center p-4 bg-background/50 rounded-lg">
+                      <div className="text-2xl font-bold text-primary">{monthlyDays > 0 ? Math.round(monthlyPoints / monthlyDays) : 0}</div>
+                      <div className="text-sm text-muted-foreground">Daily Average</div>
+                    </div>
+                    <div className="text-center p-4 bg-background/50 rounded-lg">
+                      <div className="text-2xl font-bold text-primary">{(contributor.activities || []).length}</div>
+                      <div className="text-sm text-muted-foreground">Total Actions</div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            
+            <div className="md:col-span-1">
+              <ActivityChart data={contributor.activity_breakdown} />
+            </div>
+          </div>
 
           <Card>
             <CardHeader>
@@ -234,27 +425,90 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
               </CardTitle>
             </CardHeader>
             <CardContent>
+              {contributor.distribution && contributor.distribution.total > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-muted/20 border border-muted-foreground/10">
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-4 flex items-center gap-2 uppercase tracking-wider">
+                    <Target className="w-4 h-4" />
+                    Contribution Mix
+                  </h3>
+                  <div className="flex h-4 w-full rounded-full overflow-hidden bg-muted mb-4 shadow-inner">
+                    <div 
+                      className="bg-green-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.prs / contributor.distribution.total) * 100}%` }}
+                      title={`PRs: ${contributor.distribution.prs}`}
+                    />
+                    <div 
+                      className="bg-blue-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.issues / contributor.distribution.total) * 100}%` }}
+                      title={`Issues: ${contributor.distribution.issues}`}
+                    />
+                    <div 
+                      className="bg-gray-400 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.others / contributor.distribution.total) * 100}%` }}
+                      title={`Others: ${contributor.distribution.others}`}
+                    />
+                  </div>
+                  <div className="grid grid-cols-3 gap-4">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-green-500" />
+                      <span className="text-xs font-medium">PRs: {Math.round((contributor.distribution.prs / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-blue-500" />
+                      <span className="text-xs font-medium">Issues: {Math.round((contributor.distribution.issues / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-gray-400" />
+                      <span className="text-xs font-medium">Others: {Math.round((contributor.distribution.others / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                  </div>
+                </div>
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {sortedActivities.map(([activity, data]) => {
+                  const config = getActivityConfig(activity);
+
                   return (
-                    <div key={activity} className="group p-5 rounded-xl border bg-gradient-to-br from-background to-muted/30 hover:shadow-lg hover:border-primary/30 transition-all duration-200">
+                    <div
+                      key={activity}
+                      className={`group relative p-5 rounded-xl border ${config.borderColor} bg-gradient-to-br ${config.gradient} hover:shadow-lg transition-all duration-200 overflow-hidden`}
+                    >
+                      {/* Accent bar on the left */}
+                      <div className={`absolute left-0 top-0 bottom-0 w-1 ${config.accentColor}`} />
+
                       <div className="flex items-center gap-3 mb-4">
-                        <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                          {getActivityIcon(activity)}
+                        <div className={`p-2.5 rounded-lg ${config.iconBg} transition-colors ${config.textColor}`}>
+                          {config.icon}
                         </div>
-                        <div>
-                          <h4 className="font-semibold text-lg">{activity}</h4>
+                        <div className="flex-1">
+                          <h4 className={`font-semibold text-lg ${config.textColor}`}>{activity}</h4>
                           <p className="text-sm text-muted-foreground">{data.count} contributions</p>
                         </div>
+                        <Badge className={`${config.bgColor} ${config.textColor} border-0 font-bold text-base px-3 py-1`}>
+                          {data.points}
+                        </Badge>
                       </div>
-                      <div className="space-y-3">
-                        <div className="flex justify-between items-center">
-                          <span className="text-sm font-medium">Activity</span>
-                          <span className="font-bold text-lg text-primary">{data.points} points</span>
+
+                      <div className="space-y-3 pl-1">
+                        <div className="flex justify-between items-center text-sm">
+                          <span className="font-medium text-muted-foreground">Average per contribution</span>
+                          <span className={`font-bold ${config.textColor}`}>
+                            {Math.round(data.points / data.count)} pts
+                          </span>
                         </div>
-                        <div className="flex justify-between text-xs text-muted-foreground">
-                          <span>{Math.round(data.points / data.count)} avg points</span>
-                          <span>{data.count} {data.count === 1 ? 'contribution' : 'contributions'}</span>
+
+                        {/* Visual progress bar */}
+                        <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
+                          <div
+                            className={`h-full ${config.accentColor} transition-all duration-300`}
+                            style={{
+                              width: `${Math.min(
+                                maxPoints > 0 ? (data.points / maxPoints) * 100 : 0,
+                                100
+                              )}%`,
+                            }}
+
+                          />
                         </div>
                       </div>
                     </div>
@@ -279,26 +533,26 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                     const date = new Date(activity.occured_at);
                     const isVeryRecent = index < 3;
                     const daysAgo = Math.floor((currentTime - date.getTime()) / (1000 * 60 * 60 * 24));
-                    
+                    const config = getActivityConfig(activity.type);
+
                     return (
-                      <div 
+                      <div
                         key={`${activity.link}-${index}`}
-                        className={`group flex items-start gap-4 p-4 rounded-lg border transition-all duration-200 hover:shadow-md ${
-                          isVeryRecent 
-                            ? 'bg-gradient-to-r from-primary/5 to-primary/10 border-primary/20 hover:border-primary/40' 
+                        className={`group flex items-start gap-4 p-4 rounded-lg border transition-all duration-200 hover:shadow-md ${isVeryRecent
+                            ? `${config.borderColor} bg-gradient-to-r ${config.gradient}`
                             : 'bg-muted/20 hover:bg-muted/40 hover:border-primary/20'
-                        }`}
+                          }`}
                       >
-                        <div className={`mt-1 p-2 rounded-lg ${isVeryRecent ? 'bg-primary/10' : 'bg-muted'} group-hover:bg-primary/20 transition-colors`}>
-                          {getActivityIcon(activity.type)}
+                        <div className={`mt-1 p-2 rounded-lg ${config.iconBg} ${config.textColor} transition-colors`}>
+                          {config.icon}
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="flex items-start justify-between gap-3 mb-2">
                             <div className="flex-1 min-w-0">
                               {activity.link ? (
-                                <a 
-                                  href={activity.link} 
-                                  target="_blank" 
+                                <a
+                                  href={activity.link}
+                                  target="_blank"
                                   rel="noopener noreferrer"
                                   className="font-medium text-sm line-clamp-2 mb-1 group-hover:text-primary transition-colors cursor-pointer hover:underline"
                                 >
@@ -310,7 +564,7 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                                 </h4>
                               )}
                               <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                                <span className={`font-medium px-2 py-1 rounded-full ${isVeryRecent ? 'bg-primary/20 text-primary' : 'bg-muted'}`}>
+                                <span className={`font-medium px-2 py-1 rounded-full ${config.bgColor} ${config.textColor}`}>
                                   {activity.type}
                                 </span>
                                 <span className="flex items-center gap-1">
@@ -320,23 +574,23 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                               </div>
                             </div>
                             <div className="flex items-center gap-3 shrink-0">
-                              <Badge 
-                                variant={isVeryRecent ? "default" : "secondary"} 
-                                className={`text-xs font-bold ${isVeryRecent ? 'bg-primary shadow-sm' : ''}`}
+                              <Badge
+                                variant={isVeryRecent ? "default" : "secondary"}
+                                className={`text-xs font-bold ${isVeryRecent ? `${config.bgColor} ${config.textColor} border-0` : ''}`}
                               >
                                 +{activity.points} pts
                               </Badge>
                               {isVeryRecent && (
-                                <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
+                                <div className={`w-2 h-2 ${config.accentColor} rounded-full animate-pulse`} />
                               )}
                             </div>
                           </div>
                           {activity.link && (
-                            <a 
-                              href={activity.link} 
+                            <a
+                              href={activity.link}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-xs text-primary hover:text-primary/80 hover:underline font-medium"
+                              className={`inline-flex items-center gap-1 text-xs hover:underline font-medium ${config.textColor}`}
                             >
                               View Contribution
                               <ExternalLink className="w-3 h-3" />
@@ -351,7 +605,7 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
             </Card>
           )}
 
-          <GitHubHeatmap 
+          <GitHubHeatmap
             dailyActivity={recentActivity}
             className="border-primary/20"
           />

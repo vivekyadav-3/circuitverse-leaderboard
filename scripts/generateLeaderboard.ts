@@ -1,98 +1,59 @@
+// scripts/generateLeaderboard.ts
+
 import fs from "fs";
 import path from "path";
 
-/* ================= CONFIG ================= */
+/* -------------------------------------------------------
+   CONSTANTS & CONFIG
+------------------------------------------------------- */
 
+const TOKEN = process.env.GITHUB_TOKEN;
 const ORG = "CircuitVerse";
 const GITHUB_API = "https://api.github.com";
-const TOKEN = process.env.GITHUB_TOKEN;
-
-if (!TOKEN) {
-  throw new Error("❌ GITHUB_TOKEN is required");
-}
-
-/* ================= SCORING ================= */
 
 const POINTS = {
-  PR_OPENED: 2,
-  PR_MERGED: 5,
-  ISSUE_OPENED: 1,
+  PR_OPENED: 5,
+  PR_MERGED: 10,
+  ISSUE_OPENED: 2,
 };
 
-/* ================= TITLE SANITIZER ================= */
-/**
- * Prevents Tailwind / PostCSS crashes caused by
- * titles like: [Fix Commentator] : something
- */
-function sanitizeTitle(title?: string | null) {
-  if (!title) return null;
+/* -------------------------------------------------------
+   TYPES
+------------------------------------------------------- */
 
-  return title
-    .replace(/\[|\]/g, "") // remove brackets
-    .replace(/:/g, " - ") // replace colon
-    .replace(/\s+/g, " ")
-    .trim();
-}
+export type LeaderboardActivity = {
+  username: string;
+  name: string | null;
+  avatar_url: string;
+  role: string;
+  type: string;
+  points: number;
+  occured_at: string;
+  title?: string | null;
+  link?: string | null;
+};
 
-/* ================= UTILS ================= */
+export type ActivityBreakdown = Record<string, { count: number; points: number }>;
 
-function sleep(ms: number) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-// GitHub Search API: 30 req/min limit → throttle
-async function ghSearch(url: string): Promise<{ items?: GitHubItem[] }> {
-  const res = await fetch(url, {
-    headers: {
-      Authorization: `Bearer ${TOKEN}`,
-      Accept: "application/vnd.github+json",
-    },
-  });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`GitHub API ${res.status}: ${text}`);
-  }
-
-  // ⛔ mandatory throttle
-  await sleep(2500);
-
-  return res.json() as Promise<{ items?: GitHubItem[] }>;
-}
-
-function iso(d: Date) {
-  return d.toISOString().split("T")[0];
-}
-
-function daysAgo(n: number) {
-  const d = new Date();
-  d.setDate(d.getDate() - n);
-  return d;
-}
-
-/* ================= FILTERS ================= */
-
-function isBotUser(user: { login?: string; type?: string }): boolean {
-  if (!user?.login) return true;
-  if (user.type && user.type !== "User") return true;
-  return user.login.endsWith("[bot]");
-}
-
-/* ================= TYPES ================= */
+export type DailyActivity = {
+  date: string;
+  count: number;
+  points: number;
+};
 
 export type UserEntry = {
   username: string;
   name: string | null;
-  avatar_url: string | null;
-  role: string | null;
+  avatar_url: string;
+  role: string;
   total_points: number;
-  activity_breakdown: Record<string, { count: number; points: number }>;
-  daily_activity: { date: string; count: number; points: number }[];
+  activity_breakdown: ActivityBreakdown;
+  daily_activity: DailyActivity[];
   raw_activities: {
-    type: "PR opened" | "PR merged" | "Issue opened";
+    type: string;
     occured_at: string;
-    title?: string | null;
-    link?: string | null;
+    title: string | null;
+    link: string | null;
     points: number;
   }[];
 };
@@ -110,7 +71,64 @@ type GitHubItem = {
   html_url?: string | null;
 };
 
-/* ================= HELPERS ================= */
+/* -------------------------------------------------------
+   UTILS
+------------------------------------------------------- */
+
+function sanitizeTitle(title?: string | null) {
+  if (!title) return null;
+  return title
+    .replace(/\[|\]/g, "")
+    .replace(/:/g, " - ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function ghSearch(url: string): Promise<{ items?: GitHubItem[] }> {
+  if (!TOKEN) throw new Error("GITHUB_TOKEN is not set.");
+
+  const res = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`GitHub API ${res.status}: ${text}`);
+  }
+
+  // GitHub Search API rate limit is strict (30 requests per minute for authenticated users)
+  // We wait 2 seconds between requests to be safe.
+  await sleep(2000);
+
+  return res.json() as Promise<{ items?: GitHubItem[] }>;
+}
+
+function iso(d: Date) {
+  return d.toISOString().split("T")[0];
+}
+
+function daysAgo(n: number) {
+  const d = new Date();
+  d.setDate(d.getDate() - n);
+  return d;
+}
+
+function isBotUser(user: { login?: string; type?: string }): boolean {
+  if (!user?.login) return true;
+  if (user.type && user.type !== "User") return true;
+  return user.login.endsWith("[bot]");
+}
+
+/* -------------------------------------------------------
+   HELPERS
+------------------------------------------------------- */
 
 function ensureUser(
   map: Map<string, UserEntry>,
@@ -120,7 +138,7 @@ function ensureUser(
     map.set(user.login, {
       username: user.login,
       name: user.name ?? null,
-      avatar_url: user.avatar_url ?? null,
+      avatar_url: user.avatar_url ?? "https://github.com/identicons/default.png",
       role: "Contributor",
       total_points: 0,
       activity_breakdown: {},
@@ -133,7 +151,7 @@ function ensureUser(
 
 function addActivity(
   entry: UserEntry,
-  type: "PR opened" | "PR merged" | "Issue opened",
+  type: string,
   date: string,
   points: number,
   meta?: { title?: string | null; link?: string | null }
@@ -141,20 +159,18 @@ function addActivity(
   const day = date.split("T")[0]!;
 
   entry.total_points += points;
-
   entry.activity_breakdown[type] ??= { count: 0, points: 0 };
   entry.activity_breakdown[type].count += 1;
   entry.activity_breakdown[type].points += points;
 
-  const existing = entry.daily_activity.find((d) => d.date === day);
-  if (existing) {
-    existing.count += 1;
-    existing.points += points;
+  let existingDay = entry.daily_activity.find((d) => d.date === day);
+  if (existingDay) {
+    existingDay.count += 1;
+    existingDay.points += points;
   } else {
     entry.daily_activity.push({ date: day, count: 1, points });
   }
 
-  // ✅ RAW EVENT (safe title)
   entry.raw_activities.push({
     type,
     occured_at: date,
@@ -164,7 +180,9 @@ function addActivity(
   });
 }
 
-/* ================= SEARCH (1000 CAP SAFE) ================= */
+/* -------------------------------------------------------
+   SEARCH CHUNKER
+------------------------------------------------------- */
 
 async function searchByDateChunks(
   baseQuery: string,
@@ -181,18 +199,16 @@ async function searchByDateChunks(
     next.setDate(next.getDate() + stepDays);
     const to = next > end ? end : next;
 
-    console.log(`→ ${from} .. ${iso(to)}`);
+    console.log(`Searching GitHub for ${baseQuery} from ${from} to ${iso(to)}...`);
 
     let page = 1;
     while (true) {
-      const res = await ghSearch(
-        `${GITHUB_API}/search/issues?q=${baseQuery}+created:${from}..${iso(
-          to
-        )}&per_page=100&page=${page}`
-      );
+      const url = `${GITHUB_API}/search/issues?q=${baseQuery}+created:${from}..${iso(to)}&per_page=100&page=${page}`;
+      const res = await ghSearch(url);
 
-      all.push(...(res.items ?? []));
-      if (!res.items || res.items.length < 100) break;
+      if (!res.items || res.items.length === 0) break;
+      all.push(...res.items);
+      if (res.items.length < 100) break;
       page++;
     }
 
@@ -202,210 +218,116 @@ async function searchByDateChunks(
   return all;
 }
 
-/* ================= YEAR GENERATOR ================= */
+/* -------------------------------------------------------
+   MAIN GENERATOR
+------------------------------------------------------- */
 
-async function generateYear() {
+async function main() {
+  if (!TOKEN) {
+    console.error("⛔ Error: GITHUB_TOKEN environment variable is not set.");
+    process.exit(1);
+  }
+
   const since = daysAgo(365);
   const now = new Date();
   const users = new Map<string, UserEntry>();
 
-  console.log("🔍 PRs opened");
-  for (const pr of await searchByDateChunks(`org:${ORG}+is:pr`, since, now)) {
-    if (isBotUser(pr.user)) continue;
-    addActivity(
-      ensureUser(users, pr.user),
-      "PR opened",
-      pr.created_at,
-      POINTS.PR_OPENED,
-      { title: pr.title, link: pr.html_url }
-    );
-  }
+  console.log("🚀 Starting GitHub Leaderboard Generation...");
 
-  console.log("🔍 PRs merged");
-  for (const pr of await searchByDateChunks(
-    `org:${ORG}+is:pr+is:merged`,
-    since,
-    now
-  )) {
-    if (isBotUser(pr.user)) continue;
-    addActivity(
-      ensureUser(users, pr.user),
-      "PR merged",
-      pr.closed_at,
-      POINTS.PR_MERGED,
-      { title: pr.title, link: pr.html_url }
-    );
-  }
-
-  console.log("🔍 Issues opened");
-  for (const issue of await searchByDateChunks(
-    `org:${ORG}+is:issue`,
-    since,
-    now
-  )) {
-    if (isBotUser(issue.user)) continue;
-    addActivity(
-      ensureUser(users, issue.user),
-      "Issue opened",
-      issue.created_at,
-      POINTS.ISSUE_OPENED,
-      { title: issue.title, link: issue.html_url }
-    );
-  }
-
-  const entries = [...users.values()]
-    .filter((u) => u.total_points > 0)
-    .sort((a, b) => b.total_points - a.total_points);
-
-  const outDir = path.join(process.cwd(), "public", "leaderboard");
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const yearData = {
-    period: "year",
-    updatedAt: Date.now(),
-    startDate: iso(since),
-    endDate: iso(now),
-    hiddenRoles: [],
-    topByActivity: {},
-    entries,
-  };
-
-  fs.writeFileSync(
-    path.join(outDir, "year.json"),
-    JSON.stringify(yearData, null, 2)
-  );
-
-  console.log(`✅ Generated year.json (${entries.length} contributors)`);
-
-  derivePeriod(yearData, 7, "week");
-  derivePeriod(yearData, 14, "2week");
-  derivePeriod(yearData, 21, "3week");
-  derivePeriod(yearData, 30, "month");
-  derivePeriod(yearData, 60, "2month");
-
-  generateRecentActivities(yearData, 14);
-}
-
-/* ================= DERIVED PERIODS ================= */
-
-function derivePeriod(source: { entries: UserEntry[] }, days: number, period: string) {
-  const cutoff = daysAgo(days);
-
-  const entries = source.entries
-    .map((entry: UserEntry) => {
-      // only activities in range
-      const acts = entry.raw_activities.filter(
-        (a) => new Date(a.occured_at) >= cutoff
-      );
-
-      if (acts.length === 0) return null;
-
-      // rebuild breakdown
-      const breakdown: Record<string, { count: number; points: number }> = {};
-      const daily: Record<
-        string,
-        { date: string; count: number; points: number }
-      > = {};
-      let total = 0;
-
-      for (const a of acts) {
-        const day = a.occured_at.split("T")[0]!;
-
-        total += a.points;
-
-        const type = a.type;
-
-        breakdown[type] ??= { count: 0, points: 0 };
-        breakdown[type].count += 1;
-        breakdown[type].points += a.points;
-
-        daily[day] ??= { date: day, count: 0, points: 0 };
-        daily[day].count += 1;
-        daily[day].points += a.points;
-      }
-
-      return {
-        username: entry.username,
-        name: entry.name,
-        avatar_url: entry.avatar_url,
-        role: entry.role,
-        total_points: total,
-        activity_breakdown: breakdown,
-        daily_activity: Object.values(daily),
-        activities: acts.map((a) => ({
-          type: a.type,
-          title: a.title,
-          occured_at: a.occured_at,
-          link: a.link,
-          points: a.points,
-          contributor: entry.username,
-          contributor_name: entry.name,
-          contributor_avatar_url: entry.avatar_url,
-        })),
-      };
-    })
-    .filter((e): e is NonNullable<typeof e> => e !== null)
-    .sort((a, b) => b.total_points - a.total_points);
-
-  fs.writeFileSync(
-    path.join(process.cwd(), "public", "leaderboard", `${period}.json`),
-    JSON.stringify(
-      {
-        period,
-        updatedAt: Date.now(),
-        startDate: iso(cutoff),
-        endDate: iso(new Date()),
-        hiddenRoles: [],
-        topByActivity: {},
-        entries,
-      },
-      null,
-      2
-    )
-  );
-
-  console.log(`✅ Generated ${period}.json`);
-}
-
-/* ================= RECENT ACTIVITIES ================= */
-
-function generateRecentActivities(source: { entries: UserEntry[] }, days = 14) {
-  const cutoff = daysAgo(days);
-  const groups = new Map<string, Array<{ username: string; name: string | null; title: string | null; link: string | null; avatar_url: string | null; points: number }>>();
-
-  for (const entry of source.entries) {
-    for (const act of entry.raw_activities) {
-      const day = act.occured_at.split("T")[0]!;
-      if (new Date(day) < cutoff) continue;
-
-      groups.set(day, groups.get(day) ?? []);
-      groups.get(day)!.push({
-        username: entry.username,
-        name: entry.name,
-        title: act.title ?? null,
-        link: act.link ?? null,
-        avatar_url: entry.avatar_url,
-        points: act.points,
+  try {
+    // 1. Fetch Pull Requests Opened
+    console.log("🔍 Fetching PRs opened...");
+    const prsOpened = await searchByDateChunks(`org:${ORG}+is:pr`, since, now);
+    for (const pr of prsOpened) {
+      if (isBotUser(pr.user)) continue;
+      addActivity(ensureUser(users, pr.user), "PR opened", pr.created_at, POINTS.PR_OPENED, {
+        title: pr.title,
+        link: pr.html_url,
       });
     }
+
+    // 2. Fetch Pull Requests Merged
+    console.log("🔍 Fetching PRs merged...");
+    const prsMerged = await searchByDateChunks(`org:${ORG}+is:pr+is:merged`, since, now);
+    for (const pr of prsMerged) {
+      if (isBotUser(pr.user)) continue;
+      const date = pr.closed_at || pr.created_at;
+      addActivity(ensureUser(users, pr.user), "PR merged", date, POINTS.PR_MERGED, {
+        title: pr.title,
+        link: pr.html_url,
+      });
+    }
+
+    // 3. Fetch Issues Opened
+    console.log("🔍 Fetching Issues opened...");
+    const issuesOpened = await searchByDateChunks(`org:${ORG}+is:issue`, since, now);
+    for (const issue of issuesOpened) {
+      if (isBotUser(issue.user)) continue;
+      addActivity(ensureUser(users, issue.user), "Issue opened", issue.created_at, POINTS.ISSUE_OPENED, {
+        title: issue.title,
+        link: issue.html_url,
+      });
+    }
+
+    const entries = [...users.values()]
+      .filter((u) => u.total_points > 0)
+      .sort((a, b) => b.total_points - a.total_points);
+
+    // Save outputs
+    const outDir = path.join(process.cwd(), "public", "leaderboard");
+    if (!fs.existsSync(outDir)) {
+      fs.mkdirSync(outDir, { recursive: true });
+    }
+
+    const output = {
+        updatedAt: Date.now(),
+        startDate: iso(since),
+        endDate: iso(now),
+        entries
+    };
+
+    fs.writeFileSync(path.join(outDir, "year.json"), JSON.stringify(output, null, 2));
+    
+    // Generate week/month subsets for efficiency
+    const generateSubset = (days: number, filename: string) => {
+        const cutoff = daysAgo(days);
+        const subsetEntries = entries.map(entry => {
+            const filteredActivities = entry.raw_activities.filter(a => new Date(a.occured_at) >= cutoff);
+            if (filteredActivities.length === 0) return null;
+
+            const breakdown: ActivityBreakdown = {};
+            filteredActivities.forEach(a => {
+                breakdown[a.type] ??= { count: 0, points: 0 };
+                breakdown[a.type].count++;
+                breakdown[a.type].points += a.points;
+            });
+
+            return {
+                ...entry,
+                total_points: filteredActivities.reduce((sum, a) => sum + a.points, 0),
+                activity_breakdown: breakdown,
+                activities: filteredActivities,
+                raw_activities: undefined // don't duplicate
+            };
+        }).filter(Boolean);
+
+        fs.writeFileSync(path.join(outDir, filename), JSON.stringify({
+            updatedAt: Date.now(),
+            startDate: iso(cutoff),
+            endDate: iso(now),
+            entries: subsetEntries
+        }, null, 2));
+    };
+
+    console.log("📦 Generating subsets (week, month)...");
+    generateSubset(7, "week.json");
+    generateSubset(30, "month.json");
+
+    console.log("✅ Leaderboard generation complete!");
+  } catch (error) {
+    console.error("❌ Error generating leaderboard:", error);
+    process.exit(1);
   }
-
-  const out = [...groups.entries()]
-    .sort((a, b) => b[0].localeCompare(a[0]))
-    .map(([date, items]) => ({ date, items }));
-
-  fs.writeFileSync(
-    path.join(process.cwd(), "public", "leaderboard", "recent-activities.json"),
-    JSON.stringify({ updatedAt: Date.now(), groups: out }, null, 2)
-  );
-
-  console.log("✅ Generated recent-activities.json");
 }
 
-/* ================= RUN ================= */
-
-generateYear().catch((e) => {
-  console.error("❌ Leaderboard generation failed");
-  console.error(e);
-  process.exit(1);
-});
+main();

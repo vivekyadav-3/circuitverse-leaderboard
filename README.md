@@ -67,18 +67,47 @@ Built a performant React component with data aggregation, interactive tooltips, 
 ```
 app/
   leaderboard/
+    page.tsx
     [period]/
       page.tsx
+  api/
+    people/
+      route.ts
+  layout.tsx
+
 components/
   Leaderboard/
     LeaderboardView.tsx
+    ActivityTrendChart.tsx
+    stats-card/
+      active-contributors.tsx
+      activity-line-card.tsx
+      activity-types.tsx
+  people/
+    ContributorCard.tsx
+    ContributorDetail.tsx
+    PeopleGrid.tsx
+    SearchFilter.tsx
+
+lib/
+  leaderboard.ts
+  db.ts
+  utils.ts
+
 public/
   leaderboard/
     week.json
     month.json
     year.json
+    recent-activities.json
+
 scripts/
   generateLeaderboard.ts
+  get-theme.ts
+
+types/
+  db.ts
+
 .github/
   workflows/
     leaderboard.yml
