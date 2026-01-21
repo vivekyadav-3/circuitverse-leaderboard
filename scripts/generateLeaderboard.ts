@@ -98,21 +98,56 @@ function sleep(ms: number) {
 async function ghSearch(url: string): Promise<{ items?: GitHubItem[] }> {
   if (!TOKEN) throw new Error("GITHUB_TOKEN is not set.");
 
-  const res = await fetch(url, {
-    headers: {
-      Authorization: `Bearer ${TOKEN}`,
-      Accept: "application/vnd.github+json",
-    },
-  });
+  const makeRequest = async () => {
+    return fetch(url, {
+      headers: {
+        Authorization: `Bearer ${TOKEN}`,
+        Accept: "application/vnd.github+json",
+      },
+    });
+  };
+
+  let res = await makeRequest();
+
+  // Handle Rate Limiting (Secondary/Abuse limits often return 403 or 429)
+  if (res.status === 403 || res.status === 429) {
+    const resetTime = res.headers.get("x-ratelimit-reset");
+    const retryAfter = res.headers.get("retry-after");
+    
+    let waitTime = 60000; // Default 1 min
+    if (retryAfter) {
+      waitTime = parseInt(retryAfter) * 1000;
+    } else if (resetTime) {
+      waitTime = (parseInt(resetTime) * 1000) - Date.now() + 1000;
+    }
+    
+    if (waitTime > 0) {
+      console.log(`⚠️ Rate limit hit. Waiting ${Math.ceil(waitTime / 1000)}s...`);
+      await sleep(waitTime);
+      res = await makeRequest();
+    }
+  }
 
   if (!res.ok) {
     const text = await res.text();
     throw new Error(`GitHub API ${res.status}: ${text}`);
   }
 
-  // GitHub Search API rate limit is strict (30 requests per minute for authenticated users)
-  // We wait 2 seconds between requests to be safe.
-  await sleep(2000);
+  // Smart delay based on remaining quota
+  const remaining = res.headers.get("x-ratelimit-remaining");
+  if (remaining && parseInt(remaining) <= 2) {
+    const resetTime = res.headers.get("x-ratelimit-reset");
+    if (resetTime) {
+      const wait = (parseInt(resetTime) * 1000) - Date.now() + 2000; // +2s buffer
+      if (wait > 0) {
+        console.log(`⏳ Rate limit nearing exhaustion. Sleeping ${Math.ceil(wait/1000)}s until reset...`);
+        await sleep(wait);
+      }
+    }
+  } else {
+    // Default safety delay (Search API is strict: 30req/min = 2s/req)
+    await sleep(2500); 
+  }
 
   return res.json() as Promise<{ items?: GitHubItem[] }>;
 }
