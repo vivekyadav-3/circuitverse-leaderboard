@@ -64,3 +64,15 @@ config.
 # allow required generated files
 !app/icons.gen.ts
 !app/overrides.gen.css
+# AI & Planning Docs (Keep PRs lean for GSoC)
+*_SUMMARY.md
+*_DRAFT.md
+*_PLAN.md
+*_FEATURE.md
+*_ROADMAP.md
+GSOC_*.md
+SESSION_*.md
+WORK_*.md
+HEATMAP_*.md
+WHERE_TO_USE_*.md
+temp_*.ts

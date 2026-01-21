@@ -4,6 +4,7 @@ import { UserEntry } from "@/scripts/generateLeaderboard";
 import fs from "fs";
 import path from "path";
 import { differenceInDays } from "date-fns";
+import { calculateStreaks, DailyActivity } from "./streak-utils";
 
 type ActivityItem = {
   slug: string;
@@ -37,54 +38,6 @@ export type MonthBuckets = {
   w3: number;
   w4: number;
 };
-
-// Used by app/page.tsx
-// export async function getRecentActivitiesGroupedByType(valid: "week" | "month" | "year"): Promise<ActivityGroup[]> {
-//   const filePath = path.join(
-//     process.cwd(),
-//     "public",
-//     "leaderboard",
-//     `${valid}.json`
-//   );
-
-//   let activityGroups: ActivityGroup[] = [];
-
-//   if (fs.existsSync(filePath)) {
-//     const file = fs.readFileSync(filePath, "utf-8");
-//     const data: RecentActivitiesJSON = JSON.parse(file);
-    
-//     const groupsFromEntries: ActivityGroup[] =
-//       Object.entries(
-//         data.entries.reduce((acc, user) => {
-//           for (const [type, meta] of Object.entries(
-//             user.activity_breakdown
-//           )) {
-//             if (!acc[type]) {
-//               acc[type] = {
-//                 activity_definition: type,
-//                 activity_name: type,
-//                 activities: [],
-//               };
-//             }
-
-//             acc[type].activities.push({
-//               slug: `${user.username}-${type}`,
-//               contributor: user.username,
-//               contributor_name: user.name,
-//               contributor_avatar_url: user.avatar_url,
-//               occured_at: data.updatedAt,
-//               points: meta.points,
-//             });
-//           }
-//           return acc;
-//         }, {} as Record<string, ActivityGroup>)
-//       ).map(([, group]) => group);
-
-//     activityGroups = groupsFromEntries;
-//   }
-  
-//   return activityGroups;
-// }
 
 export async function getRecentActivitiesGroupedByType(
   valid: "week" | "month" | "2month" | "year"
@@ -186,8 +139,6 @@ export async function getContributor(username: string) {
   return leaderboard.find(entry => entry.username.toLowerCase() === username.toLowerCase()) || null;
 }
 
-import { calculateStreaks, DailyActivity } from "./streak-utils";
-
 /**
  * Calculates contributor profile and stats
  */
@@ -199,7 +150,7 @@ export async function getContributorProfile(username: string) {
     totalPoints: 0, 
     activityByDate: {}, 
     dailyActivity: [], 
-    stats: { currentStreak: 0, longestStreak: 0 } 
+    stats: { currentStreak: 0, longestStreak: 0, avgTurnAroundMs: 0 } 
   };
 
   if (!fs.existsSync(filePath)) return defaultReturn;
@@ -215,7 +166,7 @@ export async function getContributorProfile(username: string) {
 
   if (!contributor) return defaultReturn;
 
-  const activities = (contributor.activities || []).map((a: any) => ({
+  const activities = (contributor.activities || contributor.raw_activities || []).map((a: any) => ({
     ...a,
     occured_at: new Date(a.occured_at),
   }));

@@ -14,7 +14,34 @@ interface ContributorEntry {
   daily_activity: DailyActivity[];
   current_streak?: number;
   longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
+  top_repos?: string[];
   activities?: any[];
+  raw_activities?: Array<{ type: string; occured_at: string; title: string; link: string; points: number }>;
+}
+
+/**
+ * Extracts repository name from a GitHub link
+ */
+function getRepoName(link: string): string | undefined {
+  if (!link) return undefined;
+  const match = link.match(/github\.com\/CircuitVerse\/([^/]+)/);
+  return match ? match[1] : undefined;
+}
+
+/**
+ * Categorizes activity names into Pull Requests, Issues, or Others
+ */
+function getActivityCategory(activityName: string): 'prs' | 'issues' | 'others' {
+  const name = activityName.toLowerCase();
+  if (name.includes('pr') || name.includes('pull request')) return 'prs';
+  if (name.includes('issue')) return 'issues';
+  return 'others';
 }
 
 interface LeaderboardData {
@@ -56,16 +83,43 @@ export async function GET() {
 
           // Calculate streaks server-side
           const streaks = calculateStreaks(entry.daily_activity);
-          const entryWithStreaks = {
+          
+          // Calculate activity distribution
+          const distribution = { prs: 0, issues: 0, others: 0, total: 0 };
+          Object.entries(entry.activity_breakdown || {}).forEach(([name, data]) => {
+            const category = getActivityCategory(name);
+            const count = (data as { count: number; points: number }).count;
+            distribution[category] += count;
+            distribution.total += count;
+          });
+
+          // Calculate top repositories
+          const repoCounts = new Map<string, number>();
+          const rawActivities = entry.activities || entry.raw_activities || [];
+          rawActivities.forEach((activity) => {
+            const repo = getRepoName(activity.link);
+            if (repo) {
+              repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+            }
+          });
+
+          const topRepos = Array.from(repoCounts.entries())
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 3)
+            .map(([name]) => name);
+
+          const entryWithStats = {
             ...entry,
-            activities: entry.activities || (entry as any).raw_activities || [],
+            activities: rawActivities,
             current_streak: streaks.current,
-            longest_streak: streaks.longest
+            longest_streak: streaks.longest,
+            distribution,
+            top_repos: topRepos
           };
 
           const existing = allContributors.get(entry.username);
           if (!existing || entry.total_points > existing.total_points) {
-            allContributors.set(entry.username, entryWithStreaks);
+            allContributors.set(entry.username, entryWithStats);
           }
         }
       } catch (error) {

@@ -56,6 +56,13 @@ interface ContributorEntry {
   daily_activity: Array<{ date: string; count: number; points: number }>;
   current_streak?: number;
   longest_streak?: number;
+  distribution?: {
+    prs: number;
+    issues: number;
+    others: number;
+    total: number;
+  };
+  top_repos?: string[];
   activities?: Array<{
     type: string;
     title: string;
@@ -214,9 +221,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                 <div className="relative">
                   <Avatar className="w-36 h-36 ring-4 ring-primary/20 shadow-xl">
                     <AvatarImage
-                      src={contributor.avatar_url}
-                      alt={contributor.name || contributor.username}
-                      className="object-cover"
+                       src={contributor.avatar_url}
+                       alt={contributor.name || contributor.username}
+                       className="object-cover"
                     />
                     <AvatarFallback className="text-2xl bg-gradient-to-br from-primary/30 to-primary/10 text-primary font-bold">
                       {(contributor.name || contributor.username)
@@ -231,12 +238,34 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   )}
                 </div>
 
-                <div className="text-center w-full">
-                  <h2 className="text-2xl font-bold mb-2">{contributor.name || contributor.username}</h2>
-                  <p className="text-muted-foreground mb-3 text-lg">@{contributor.username}</p>
-                  <Badge variant="secondary" className="mb-6 bg-primary/10 text-primary font-semibold px-4 py-2">
+                <div className="text-center w-full space-y-3">
+                  <h2 className="text-2xl font-bold">{contributor.name || contributor.username}</h2>
+                  <p className="text-muted-foreground text-lg">@{contributor.username}</p>
+                  <Badge variant="secondary" className="bg-primary/10 text-primary font-semibold px-4 py-2">
                     {contributor.role}
                   </Badge>
+
+                  {contributor.top_repos && contributor.top_repos.length > 0 && (
+                    <div className="pt-4 space-y-2">
+                      <p className="text-[10px] uppercase font-bold text-muted-foreground tracking-widest text-left px-1">Project Focus</p>
+                      <div className="flex flex-wrap gap-2 justify-center">
+                        {contributor.top_repos.map(repo => (
+                          <Badge 
+                            key={repo} 
+                            variant="outline" 
+                            className={`text-[10px] font-bold uppercase tracking-tight py-0.5 px-2 bg-opacity-10 border-opacity-50 ${
+                              repo === 'cv-frontend-vue' ? 'bg-purple-500 text-purple-600 border-purple-600 dark:text-purple-400' :
+                              repo === 'CircuitVerse' ? 'bg-blue-500 text-blue-600 border-blue-600 dark:text-blue-400' :
+                              repo === 'Blog' ? 'bg-green-500 text-green-600 border-green-600 dark:text-green-400' :
+                              'bg-orange-500 text-orange-600 border-orange-600 dark:text-orange-400'
+                            }`}
+                          >
+                            {repo}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <div className="w-full grid grid-cols-2 gap-3">
@@ -396,6 +425,45 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
               </CardTitle>
             </CardHeader>
             <CardContent>
+              {contributor.distribution && contributor.distribution.total > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-muted/20 border border-muted-foreground/10">
+                  <h3 className="text-sm font-semibold text-muted-foreground mb-4 flex items-center gap-2 uppercase tracking-wider">
+                    <Target className="w-4 h-4" />
+                    Contribution Mix
+                  </h3>
+                  <div className="flex h-4 w-full rounded-full overflow-hidden bg-muted mb-4 shadow-inner">
+                    <div 
+                      className="bg-green-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.prs / contributor.distribution.total) * 100}%` }}
+                      title={`PRs: ${contributor.distribution.prs}`}
+                    />
+                    <div 
+                      className="bg-blue-500 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.issues / contributor.distribution.total) * 100}%` }}
+                      title={`Issues: ${contributor.distribution.issues}`}
+                    />
+                    <div 
+                      className="bg-gray-400 h-full transition-all duration-500 hover:brightness-110" 
+                      style={{ width: `${(contributor.distribution.others / contributor.distribution.total) * 100}%` }}
+                      title={`Others: ${contributor.distribution.others}`}
+                    />
+                  </div>
+                  <div className="grid grid-cols-3 gap-4">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-green-500" />
+                      <span className="text-xs font-medium">PRs: {Math.round((contributor.distribution.prs / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-blue-500" />
+                      <span className="text-xs font-medium">Issues: {Math.round((contributor.distribution.issues / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-gray-400" />
+                      <span className="text-xs font-medium">Others: {Math.round((contributor.distribution.others / contributor.distribution.total) * 100)}%</span>
+                    </div>
+                  </div>
+                </div>
+              )}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {sortedActivities.map(([activity, data]) => {
                   const config = getActivityConfig(activity);
