@@ -56,6 +56,13 @@ export type UserEntry = {
     link: string | null;
     points: number;
   }[];
+  activities?: {
+    type: string;
+    occured_at: string;
+    title: string | null;
+    link: string | null;
+    points: number;
+  }[];
 };
 
 type GitHubItem = {
@@ -297,9 +304,13 @@ async function main() {
 
             const breakdown: ActivityBreakdown = {};
             filteredActivities.forEach(a => {
-                breakdown[a.type] ??= { count: 0, points: 0 };
-                breakdown[a.type].count++;
-                breakdown[a.type].points += a.points;
+                let entry = breakdown[a.type];
+                if (!entry) {
+                    entry = { count: 0, points: 0 };
+                    breakdown[a.type] = entry;
+                }
+                entry.count++;
+                entry.points += a.points;
             });
 
             return {

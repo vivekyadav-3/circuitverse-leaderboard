@@ -199,6 +199,23 @@ export async function getContributorProfile(username: string) {
     ? turnAroundTimes.reduce((a, b) => a + b, 0) / turnAroundTimes.length 
     : 0;
 
+  // Calculate Top Repos
+  const repoCounts = new Map<string, number>();
+  activities.forEach((activity: any) => {
+    if (activity.link) {
+      const match = activity.link.match(/github\.com\/([^/]+)\/([^/]+)/);
+      if (match) {
+        const repo = match[2];
+        repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+      }
+    }
+  });
+
+  const top_repos = Array.from(repoCounts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name]) => name);
+
   return {
     contributor,
     activities: sortedActivities.reverse(), // newest first
@@ -209,7 +226,8 @@ export async function getContributorProfile(username: string) {
       currentStreak: streaks.current,
       longestStreak: streaks.longest,
       avgTurnAroundMs,
-      distribution
+      distribution,
+      top_repos
     }
   };
 }

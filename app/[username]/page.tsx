@@ -7,6 +7,7 @@ import { getConfig } from "@/lib/config";
 import ActivityHeatmap from "@/components/Leaderboard/ActivityHeatmap";
 import type { Metadata } from "next";
 import type { ActivityItem } from "@/types/contributor";
+import { Badge } from "@/components/ui/badge";
 
 type Props = {
   params: Promise<{ username: string }>;
@@ -125,6 +126,20 @@ export default async function UserProfilePage({ params }: Props) {
               </div>
             </div>
           )}
+          
+          {/* Project Focus */}
+          {stats?.top_repos && stats.top_repos.length > 0 && (
+            <div className="bg-card border rounded-xl p-6 shadow-sm">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-4">Project Focus</h3>
+                <div className="flex flex-wrap gap-2">
+                  {stats.top_repos.map((repo: string) => (
+                    <Badge key={repo} variant="secondary" className="text-[10px] font-bold uppercase tracking-tight py-1 px-3">
+                      {repo}
+                    </Badge>
+                  ))}
+                </div>
+            </div>
+          )}
         </div>
 
         {/* MAIN CONTENT: Heatmap & Timeline */}
@@ -143,8 +158,8 @@ export default async function UserProfilePage({ params }: Props) {
           <div className="space-y-6">
             <h3 className="font-bold text-xl px-2">Recent Timeline</h3>
             <div className="space-y-4">
-              {activities.map((act: ActivityItem, i: number) => (
-                <TimelineItem key={`${act.slug}-${i}`} activity={act} />
+              {activities.map((act: any, i: number) => (
+                <TimelineItem key={`${act.slug || act.type || 'activity'}-${i}`} activity={act} />
               ))}
             </div>
           </div>
@@ -169,7 +184,7 @@ function DistributionBar({ label, count, total, color }: { label: string, count:
   )
 }
 
-function TimelineItem({ activity }: { activity: ActivityItem }) {
+function TimelineItem({ activity }: { activity: any }) {
   return (
     <div className="bg-white border rounded-xl p-5 shadow-sm hover:border-primary/50 transition-all group">
       <div className="flex items-start justify-between">
@@ -183,7 +198,7 @@ function TimelineItem({ activity }: { activity: ActivityItem }) {
           </div>
           <div className="flex items-center text-xs text-muted-foreground gap-2">
             <span className="px-1.5 py-0.5 rounded bg-secondary uppercase font-bold text-[8px] tracking-widest">
-              {activity.slug.split('-')[1]?.replace('_', ' ')}
+              {(activity.slug ? activity.slug.split('-')[1]?.replace('_', ' ') : activity.type) || "ACTIVITY"}
             </span>
             <span>•</span>
             <span>{new Date(activity.occured_at).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })}</span>
