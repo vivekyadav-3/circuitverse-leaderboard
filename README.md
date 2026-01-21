@@ -1,5 +1,50 @@
 # GitHub Activity Leaderboard
 
+![Build Status](https://github.com/CircuitVerse/community-dashboard/actions/workflows/leaderboard.yml/badge.svg)
+![License](https://img.shields.io/github/license/CircuitVerse/community-dashboard)
+![Contributors](https://img.shields.io/github/contributors/CircuitVerse/community-dashboard)
+
+---
+
+## ✨ Features
+
+- 📊 **Weekly, Monthly, and Yearly leaderboards**
+- 🔍 **Search and filter contributors**
+- 🎨 **Dark/Light mode support**
+- 📱 **Mobile responsive**
+- 🏆 **Top contributors by activity type**
+- 📈 **Activity trend charts**
+
+---
+
+## 📸 Screenshots
+
+### Leaderboard View (Light Mode)
+
+![Leaderboard Light Mode](docs/images/leaderboard-light.png)
+
+### Leaderboard View (Dark Mode)
+
+![Leaderboard Dark Mode](docs/images/leaderboard-dark.png)
+
+### Mobile Responsive View
+
+![Mobile View](docs/images/leaderboard-mobile.png)
+
+### Empty State UI
+
+![Empty State](docs/images/empty-state.png)
+
+---
+
+## 🔗 Quick Links
+
+- 🌐 [Live Demo](https://cv-community-dashboard.netlify.app/)
+- 🐛 [Report Bug](https://github.com/CircuitVerse/community-dashboard/issues/new)
+- 💡 [Request Feature](https://github.com/CircuitVerse/community-dashboard/issues/new)
+
+---
+
 ## 🏁 Overview
 
 This project powers the **CircuitVerse Leaderboard**, which ranks contributors based on their GitHub activity such as:
@@ -119,9 +164,10 @@ types/
 
 | Activity     | Points |
 | ------------ | ------ |
-| PR Merged    | 5      |
-| PR opened    | 2      |
-| Issue opened | 1      |
+| PR Merged    | 10     |
+| PR opened    | 5      |
+| Issue opened | 2      |
+| PR reviewed  | 4      |
 
 > PR reviews and label triaging are intentionally excluded for now and will be added via separate issues.
 
@@ -131,7 +177,7 @@ types/
 
 The leaderboard is updated automatically using **GitHub Actions**.
 
-- Runs every **6 hours**
+- Runs every **24 hours**
 - Can be triggered manually
 
 ---
