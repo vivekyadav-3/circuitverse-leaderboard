@@ -1,6 +1,6 @@
 // lib/db.ts — temporary stub (no DB)
 
-import { UserEntry } from "@/scripts/generateLeaderboard";
+import { UserEntry, RepoStats } from "@/scripts/generateLeaderboard";
 import fs from "fs";
 import path from "path";
 import { differenceInDays } from "date-fns";
@@ -34,6 +34,7 @@ export type MonthBuckets = {
   w3: number;
   w4: number;
 };
+
 
 // Helper function to extract repository name from GitHub URL
 function extractRepoFromUrl(url: string | null | undefined): string | null {
@@ -91,7 +92,7 @@ function extractRepoFromUrl(url: string | null | undefined): string | null {
 //   return activityGroups;
 // }
 
->>>>>>> upstream/main
+
 export async function getRecentActivitiesGroupedByType(
   valid: "week" | "month" | "2month" | "year"
 ): Promise<ActivityGroup[]> {
@@ -133,14 +134,9 @@ export async function getRecentActivitiesGroupedByType(
       contributor_avatar_url: user.avatar_url,
       contributor_role: (user.role ?? null) as string | null,
       occured_at: act.occured_at,
-<<<<<<< HEAD
       title: act.title ?? null,
       link: act.link ?? null,
-=======
-      title: act.title ?? null,     // ✅ REAL title
-      link: act.link ?? null,       // ✅ REAL GitHub link
-      repo: extractRepoFromUrl(act.link ?? null), // ✅ Extract repo name
->>>>>>> upstream/main
+      repo: extractRepoFromUrl(act.link ?? null),
       points: act.points ?? 0,
     });
   }
@@ -158,13 +154,6 @@ export async function getRecentActivitiesGroupedByType(
 }
 
 export async function getUpdatedTime() {
-<<<<<<< HEAD
-  const filePath = path.join(process.cwd(), "public", "leaderboard", "week.json");
-  if (!fs.existsSync(filePath)) return null;
-  const file = fs.readFileSync(filePath, "utf-8");
-  const data = JSON.parse(file);
-  return data.updatedAt ? new Date(data.updatedAt) : null;
-=======
   const publicPath = path.join(process.cwd(), "public", "leaderboard");
   if(!fs.existsSync(publicPath)) return null;
   const files = fs.readdirSync(publicPath).filter(
@@ -185,7 +174,6 @@ export async function getUpdatedTime() {
     }
   }
   return latestUpdatedAt > 0 ? new Date(latestUpdatedAt) : null;
->>>>>>> upstream/main
 }
 
 export async function getLeaderboard(): Promise<UserEntry[]> {
@@ -414,8 +402,6 @@ export async function getPreviousMonthActivityCount(): Promise<number> {
 
   return count;
 }
-<<<<<<< HEAD
-=======
 
 export async function getReposOverview(): Promise<RepoStats[]> {
   const filePath = path.join(
@@ -438,23 +424,5 @@ export async function getReposOverview(): Promise<RepoStats[]> {
   }
 }
 
-export async function getTopContributorsByActivity() {
-  return {};
-}
 
-export async function getAllContributorsWithAvatars() {
-  return [];
-}
 
-export async function getAllContributorUsernames() {
-  return [];
-}
-
-export async function getContributor(_username: string) {
-  return null;
-}
-
-export async function getContributorProfile(_username: string) {
-  return { contributor: null, activities: [], totalPoints: 0, activityByDate: {} };
-}
->>>>>>> upstream/main

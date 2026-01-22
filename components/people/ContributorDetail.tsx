@@ -225,30 +225,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
 
   const monthlyPoints = monthlyActivity.reduce((sum, day) => sum + day.points, 0);
   const monthlyDays = monthlyActivity.length;
-<<<<<<< HEAD
 
   const earnedBadges = getContributorBadges(contributor);
 
-  const displayName = contributor.name || contributor.username;
-  const displayUsername = `@${contributor.username}`;
-=======
-  const monthlyActivityTypes = new Set<string>();
-  if(contributor.activities){
-    const currentMonth = thisMonth.getMonth();
-    const currentYear = thisMonth.getFullYear();
-    for(const activity of contributor.activities){
-      const activityDate = new Date(activity.occured_at);
-      if(activityDate.getMonth() === currentMonth && activityDate.getFullYear() === currentYear){
-        monthlyActivityTypes.add(activity.type);
-      }
-    }
-  }
-  const monthlyActivityTypesCount = monthlyActivityTypes.size;
-  const maxPoints =
-  sortedActivities.length > 0
-    ? Math.max(...sortedActivities.map(([, d]) => d.points))
-    : 0;
->>>>>>> upstream/main
 
   const displayName = contributor.name || contributor.username;
   const displayUsername = `@${contributor.username}`;
@@ -285,13 +264,7 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   )}
                 </div>
 
-<<<<<<< HEAD
-                <div className="text-center w-full space-y-3">
-                  <h2 className="text-2xl font-bold">{contributor.name || contributor.username}</h2>
-                  <p className="text-muted-foreground text-lg">@{contributor.username}</p>
-                  <Badge variant="secondary" className="bg-primary/10 text-primary font-semibold px-4 py-2">
-=======
-                 <div className="text-center w-full min-w-0 px-4">
+                <div className="text-center w-full min-w-0 px-4">
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <h2 className="text-2xl font-bold mb-2 truncate max-w-full min-w-0" aria-label={displayName}>
@@ -314,7 +287,6 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                     </TooltipContent>
                   </Tooltip>
                   <Badge variant="secondary" className="mb-6 bg-primary/10 text-primary font-semibold px-4 py-2">
->>>>>>> upstream/main
                     {contributor.role}
                   </Badge>
 
@@ -448,7 +420,6 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
                   <span className="text-3xl font-bold">{currentStreak}d</span>
                   <span className="text-muted-foreground text-sm">current streak</span>
                 </div>
-<<<<<<< HEAD
               </CardContent>
             </Card>
           </div>
@@ -490,19 +461,6 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
               <ActivityChart data={contributor.activity_breakdown} />
             </div>
           </div>
-=======
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{monthlyDays > 0 ? Math.round(monthlyPoints / monthlyDays) : 0}</div>
-                  <div className="text-sm text-muted-foreground">Daily Average</div>
-                </div>
-                <div className="text-center p-4 bg-background/50 rounded-lg">
-                  <div className="text-2xl font-bold text-primary">{monthlyActivityTypesCount}</div>
-                  <div className="text-sm text-muted-foreground">Activity Types</div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
->>>>>>> upstream/main
 
           <Card>
             <CardHeader>

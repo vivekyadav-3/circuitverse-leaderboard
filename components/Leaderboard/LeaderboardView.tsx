@@ -157,9 +157,7 @@ export default function LeaderboardView({
   const router = useRouter();
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState("");
-<<<<<<< HEAD
   const pathname = usePathname();
-=======
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
 
 
@@ -216,7 +214,6 @@ export default function LeaderboardView({
       setCurrentPage(1);
     }
   }, [searchParams]);
->>>>>>> upstream/main
 
   // sorting
   const [sortBy, setSortBy] = useState<SortBy>(() => {
@@ -443,33 +440,22 @@ export default function LeaderboardView({
   const clearFilters = () => {
     const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
     const params = new URLSearchParams(searchParams.toString());
-<<<<<<< HEAD
-    if(isMobile){
-      setSearchQuery("");
-      setSortBy("points");
-=======
     if (isMobile) {
       setSearchQuery("");
->>>>>>> upstream/main
       return;
     }
     params.delete("roles");
     params.delete("sort");
     params.delete("order");
-<<<<<<< HEAD
-=======
     // Reset to page 1 when clearing filters
     params.delete("page");
     setCurrentPage(1);
     // Note: We preserve the limit param when clearing filters
->>>>>>> upstream/main
 
     window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
     setSearchQuery("");
     setSortBy("points");
   };
-<<<<<<< HEAD
-=======
 
   const updatePageSize = (newPageSize: number | "all") => {
     const params = new URLSearchParams(searchParams.toString());
@@ -520,7 +506,6 @@ export default function LeaderboardView({
       updatePage(page);
     }
   };
->>>>>>> upstream/main
 
   const updateRolesParam = (roles: Set<string>) => {
     const params = new URLSearchParams(searchParams.toString());
@@ -577,39 +562,6 @@ export default function LeaderboardView({
                 </p>
               </div>
 
-<<<<<<< HEAD
-              {/* Filters & Search */}
-              <div className="w-full md:w-auto md:ml-auto flex flex-col md:items-end lg:flex-row lg:items-center gap-2">
-                <div className="flex items-center gap-2 w-full md:justify-end">
-                  <div className="relative w-full md:w-[16rem]">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                    <Input
-                      type="text"
-                      placeholder="Search contributors..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className="pl-9 h-9 w-full bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 focus-visible:ring-2 focus-visible:ring-[#50B78B] shadow-sm"
-                    />
-                  </div>
-
-                  <div className="hidden sm:flex">
-                    <button
-                      type="button"
-                      className="h-9 px-4 rounded-md bg-[#50B78B] text-white text-sm font-medium flex items-center justify-center gap-2"
-                      onClick={() => setPopoverOpen(true)}
-                    >
-                      <span>
-                        {sortBy === "points"
-                          ? "Total Points"
-                          : sortBy === "pr_opened"
-                          ? "PR Opened"
-                          : sortBy === "pr_merged"
-                          ? "PR Merged"
-                          : "Issue Opened"}
-                      </span>
-                    </button>
-                  </div>
-=======
               {/* Filters */}
               <div
                 className="
@@ -630,7 +582,6 @@ export default function LeaderboardView({
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="pl-9 h-9 w-full bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 focus-visible:ring-2 focus-visible:ring-[#50B78B]"
                   />
->>>>>>> upstream/main
                 </div>
 
                 {/* Controls row - grid/list on left, filter on right */}
@@ -651,69 +602,7 @@ export default function LeaderboardView({
                       >
                         <List className="h-4 w-4" />
                       </Button>
-<<<<<<< HEAD
-                    </PopoverTrigger>
-                    <PopoverContent align="end" className="w-56 bg-white dark:bg-[#07170f]">
-                      <div className="space-y-4">
-                        <div className="space-y-2">
-                          <h4 className="font-medium text-sm">Sort By</h4>
-                          <div className="space-y-1">
-                            {[
-                              { key: 'points' as SortBy, label: 'Total Points' },
-                              { key: 'pr_opened' as SortBy, label: 'PRs Opened' },
-                              { key: 'pr_merged' as SortBy, label: 'PRs Merged' },
-                              { key: 'issues' as SortBy, label: 'Issue Opened' },
-                            ].map((opt) => {
-                              const active = sortBy === opt.key;
-                              return (
-                                <button
-                                  key={opt.key}
-                                  onClick={() => {
-                                    setPopoverOpen(false);
-                                    setSortBy(opt.key);
-                                    const params = new URLSearchParams(searchParams.toString());
-                                    if(opt.key === 'points'){
-                                      params.delete('sort');
-                                      params.delete('order');
-                                    }else{
-                                      params.set('sort', opt.key);
-                                      params.set('order', 'desc');
-                                    }
-                                    window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
-                                  }}
-                                  className={cn('w-full text-left px-3 py-1.5 cursor-pointer rounded-md text-sm transition-colors', active ? 'bg-[#50B78B] text-white font-semibold' : 'hover:bg-muted')}
-                                >
-                                  {opt.label}
-                                </button>
-                              )
-                            })}
-                          </div>
-                        </div>
 
-                        <div className="space-y-2">
-                          <h4 className="font-medium text-sm">Roles</h4>
-                          <div className="space-y-2 max-h-64 overflow-y-auto pr-1">
-                            {availableRoles.map((role) => (
-                              <div key={role} className="flex items-center space-x-2">
-                                <Checkbox
-                                  id={role}
-                                  checked={selectedRoles.has(role)}
-                                  onCheckedChange={() => toggleRole(role)}
-                                />
-                                <label
-                                  htmlFor={role}
-                                  className="text-sm font-medium leading-none cursor-pointer"
-                                >
-                                  {role}
-                                </label>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                    </PopoverContent>
-                  </Popover>
-=======
                       <Button
                         variant={viewMode === "grid" ? "default" : "ghost"}
                         size="sm"
@@ -882,26 +771,13 @@ export default function LeaderboardView({
                       </PopoverContent>
                     </Popover>
                   </div>
->>>>>>> upstream/main
+
                 </div>
               </div>
             </div>
           </div>
 
           {/* Period Selector */}
-<<<<<<< HEAD
-          <div className="flex gap-2 mb-8 border-b">
-            {(["week", "month", "year"] as const).map((p) => (
-              <Link
-                key={p}
-                href={`/leaderboard/${p}`}
-                className={cn(
-                  "px-4 py-2 font-medium transition-colors border-b-2 relative outline-none",
-                  period === p
-                    ? "border-[#50B78B] text-[#50B78B] bg-linear-to-t from-[#50B78B]/10 to-transparent"
-                    : "border-transparent text-muted-foreground hover:text-[#50B78B]"
-                )}
-=======
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8 border-b">
             <div className="flex gap-2">
               {(["week", "month", "year"] as const).map((p) => {
@@ -939,7 +815,6 @@ export default function LeaderboardView({
                     updatePageSize(parseInt(value, 10));
                   }
                 }}
->>>>>>> upstream/main
               >
                 <SelectTrigger
                   id="page-size-select"
@@ -960,10 +835,7 @@ export default function LeaderboardView({
             </div>
           </div>
 
-<<<<<<< HEAD
           {/* Leaderboard Entries */}
-=======
->>>>>>> upstream/main
           {filteredEntries.length === 0 ? (
             <Card>
               <CardContent className="py-16 text-center">
@@ -1008,16 +880,10 @@ export default function LeaderboardView({
                     key={entry.username}
                     entry={entry}
                     rank={rank}
-                  />
-
-=======
-                    entry={entry}
-                    rank={rank}
                     startDate={startDate}
                     endDate={endDate}
                     variant={viewMode === "grid" ? "grid" : "list"}
                   />
->>>>>>> upstream/main
                 );
               })}
             </div>
@@ -1170,17 +1036,7 @@ export default function LeaderboardView({
                  );
               })}
             </div>
-                                </div>
-                              </div>
-                            </Link>
-                          ))}
-                        </div>
-                      </CardContent>
-                    </Card>
-                  );
-                }
-              )}
-            </div>
+
           </div>
         )}
       </div>

@@ -29,21 +29,6 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 
-<<<<<<< HEAD
-// --- 1. Custom Label Component ---
-interface PeakLabelProps {
-  x?: number;
-  y?: number;
-  index?: number;
-  chartData?: Array<{ isPeak: boolean }>;
-  color?: string;
-}
-
-const CustomPeakLabel = (props: PeakLabelProps) => {
-  const { x, y, index, chartData, color } = props;
-
-  if (index === undefined || !chartData || !chartData[index]) return null;
-=======
 /* -------------------------------------------------------------------------- */
 /*                               Types                                        */
 /* -------------------------------------------------------------------------- */
@@ -82,7 +67,6 @@ const CustomPeakLabel = ({
   ) {
     return null;
   }
->>>>>>> upstream/main
 
   const isPeak = chartData[index].isPeak;
   if (!isPeak) return null;
