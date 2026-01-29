@@ -176,7 +176,7 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
               className="text-[10px] text-muted-foreground uppercase tracking-tighter"
               style={{
                 position: "absolute",
-                left: `${label.offset * 14 + 40}px`,
+                left: `${label.offset * 16 + 40}px`,
               }}
             >
               {label.month}
@@ -239,7 +239,7 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
           }}
         >
           <div className="font-semibold">
-            {new Date(tooltip.date).toLocaleDateString("en-US", {
+            {new Date(tooltip.date + 'T00:00:00').toLocaleDateString("en-US", {
               weekday: "short",
               month: "short",
               day: "numeric",

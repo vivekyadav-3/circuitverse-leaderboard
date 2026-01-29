@@ -245,4 +245,25 @@ Through this project, I aim to:
 
 ---
 
-**Last Updated:** December 29, 2025
+### **Phase 4: Bug Fixes & Stability** 🛠️ **COMPLETED**
+
+#### 4.1 Activity Heatmap Accuracy
+
+- **Status:** ✅ Complete
+- **Date:** Jan 29, 2026
+- **Tasks:**
+  - [x] Fix horizontal drift in month labels (pixel-perfect alignment)
+  - [x] Resolve "Off-by-One" date bug in tooltips
+  - [x] Fix UTC vs Local timezone shift in daily activity aggregation
+
+#### 4.2 UX & Filter Consistency
+
+- **Status:** ✅ Complete
+- **Date:** Jan 29, 2026
+- **Tasks:**
+  - [x] Fix "Clear Filters" inconsistency on mobile devices
+  - [x] Ensure all state resets correctly across breakpoints
+
+---
+
+**Last Updated:** January 29, 2026

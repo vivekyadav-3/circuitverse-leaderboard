@@ -438,23 +438,19 @@ export default function LeaderboardView({
   };
 
   const clearFilters = () => {
-    const isMobile = typeof window !== "undefined" && window.innerWidth < 640;
     const params = new URLSearchParams(searchParams.toString());
-    if (isMobile) {
-      setSearchQuery("");
-      return;
-    }
     params.delete("roles");
     params.delete("sort");
     params.delete("order");
-    // Reset to page 1 when clearing filters
     params.delete("page");
+    
     setCurrentPage(1);
-    // Note: We preserve the limit param when clearing filters
-
-    window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
-    setSearchQuery("");
     setSortBy("points");
+    setSearchQuery("");
+
+    if (typeof window !== "undefined") {
+      window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
+    }
   };
 
   const updatePageSize = (newPageSize: number | "all") => {
