@@ -145,13 +145,13 @@ Actively engaging with the CircuitVerse community to ensure features align with 
 
 ### **Issue #50: Activity Distribution** 📊
 
-- **Status:** ⏳ Planned
-- **Description:** PR vs Issue breakdown with progress bars
+- **Status:** ✅ **COMPLETED** (Jan 29, 2026)
+- **Description:** Implemented PR vs Issue breakdown with dynamic progress bars on user profiles.
 
 ### **Issue #51: Profile Dashboard V2** 🎨
 
-- **Status:** ⏳ Planned
-- **Description:** 2-column layout and enhanced heatmap
+- **Status:** ✅ **COMPLETED** (Jan 29, 2026)
+- **Description:** 2-column layout, enhanced heatmap integration, and "Project Focus" repository badges.
 
 ---
 
