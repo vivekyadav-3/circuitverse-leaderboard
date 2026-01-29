@@ -46,7 +46,11 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
     const currentDate = new Date(oneYearAgo);
 
     while (currentDate <= today) {
-      const dateKey = currentDate.toISOString().split("T")[0] || "";
+      const year = currentDate.getFullYear();
+      const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+      const day = String(currentDate.getDate()).padStart(2, '0');
+      const dateKey = `${year}-${month}-${day}`;
+      
       const activity = activityMap.get(dateKey);
 
       const count = activity?.count || 0;
@@ -152,7 +156,7 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
     weeks.forEach((week, weekIndex) => {
       const firstDayOfWeek = week.find(cell => cell.date);
       if (firstDayOfWeek && firstDayOfWeek.date) {
-        const date = new Date(firstDayOfWeek.date);
+        const date = new Date(firstDayOfWeek.date + 'T00:00:00');
         const month = date.toLocaleDateString("en-US", { month: "short" });
         
         if (month !== currentMonth) {

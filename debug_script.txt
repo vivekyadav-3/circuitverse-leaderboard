@@ -1,0 +1,42 @@
+﻿≡ƒÜÇ Starting Leaderboard Generation (Incremental)
+   ΓåÆ 2026-01-21 .. 2026-01-22
+node.exe : C:\Users\KIIT\.gemini\antigravity\scratch\Circ
+uitVerse-Leaderboard-GSOC\scripts\generateLeaderboard.ts:
+205
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\KI 
+   IT\....derboard.ts:205:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    throw new Error(`GitHub API ${res.status}: ${await 
+res.text()}`);
+          ^
+
+
+Error: GitHub API 401: {
+
+  "message": "Bad credentials",
+
+  "documentation_url": "https://docs.github.com/rest",
+
+  "status": "401"
+
+}
+    at ghSearchRaw (C:\Users\KIIT\.gemini\antigravity\scr
+atch\CircuitVerse-Leaderboard-GSOC\scripts\generateLeader
+board.ts:205:11)
+    at process.processTicksAndRejections 
+(node:internal/process/task_queues:105:5)
+    at async searchByDateChunks (C:\Users\KIIT\.gemini\an
+tigravity\scratch\CircuitVerse-Leaderboard-GSOC\scripts\g
+enerateLeaderboard.ts:232:19)
+    at async generateYear (C:\Users\KIIT\.gemini\antigrav
+ity\scratch\CircuitVerse-Leaderboard-GSOC\scripts\generat
+eLeaderboard.ts:594:20)
+    at async run (C:\Users\KIIT\.gemini\antigravity\scrat
+ch\CircuitVerse-Leaderboard-GSOC\scripts\generateLeaderbo
+ard.ts:649:3)
+
+Node.js v22.15.0

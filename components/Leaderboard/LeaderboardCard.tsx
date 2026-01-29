@@ -34,15 +34,15 @@ const activityStyles: Record<string, {
   },
   "Review submitted": {
     icon: Eye,
-    bgColor: "bg-green-500/10 dark:bg-green-500/15",
-    textColor: "text-green-700 dark:text-green-400",
-    borderColor: "border-l-green-500"
+    bgColor: "bg-teal-500/10 dark:bg-teal-500/15",
+    textColor: "text-teal-700 dark:text-teal-400",
+    borderColor: "border-l-teal-500"
   },
   "Issue labeled": {
     icon: Tag,
-    bgColor: "bg-yellow-500/10 dark:bg-yellow-500/15",
-    textColor: "text-yellow-700 dark:text-yellow-400",
-    borderColor: "border-l-yellow-500"
+    bgColor: "bg-pink-500/10 dark:bg-pink-500/15",
+    textColor: "text-pink-700 dark:text-pink-400",
+    borderColor: "border-l-pink-500"
   },
   "Issue assigned": {
     icon: UserPlus,

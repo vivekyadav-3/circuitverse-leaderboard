@@ -146,7 +146,10 @@ function sleep(ms: number) {
 }
 
 function iso(d: Date) {
-  return d.toISOString().split("T")[0];
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 function daysAgo(n: number) {
@@ -403,31 +406,38 @@ async function fetchIssueTriagingActivities(users: Map<string, Contributor>, sin
   console.log("🔍 Fetching Issue Triaging...");
   const allRepos = await fetchOrgRepos();
   for (const repoName of allRepos) {
-    const res = await fetch(`${GITHUB_API}/repos/${ORG}/${repoName}/issues/events?per_page=100`, {
-      headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
-    });
-    if (!res.ok) continue;
-    const events = await res.json();
-    for (const event of events) {
-      if (!event.actor || isBotUser(event.actor)) continue;
-      const date = new Date(event.created_at);
-      if (date < since || date > now) continue;
+    let page = 1;
+    while (page <= 5) { // Fetch up to 500 events per repo for safety
+      const res = await fetch(`${GITHUB_API}/repos/${ORG}/${repoName}/issues/events?per_page=100&page=${page}`, {
+        headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
+      });
+      if (!res.ok) break;
+      const events = await res.json();
+      if (!events || events.length === 0) break;
 
-      if (event.event === "labeled") {
-        addActivity(ensureUser(users, event.actor), "Issue labeled", event.created_at, POINTS["Issue labeled"]!, {
-          title: `Labeled issue in ${repoName}`,
-        });
-      } else if (event.event === "assigned") {
-        addActivity(ensureUser(users, event.actor), "Issue assigned", event.created_at, POINTS["Issue assigned"]!, {
-          title: `Assigned issue in ${repoName}`,
-        });
-      } else if (event.event === "closed") {
-        addActivity(ensureUser(users, event.actor), "Issue closed", event.created_at, POINTS["Issue closed"]!, {
-          title: `Closed issue in ${repoName}`,
-        });
+      for (const event of events) {
+        if (!event.actor || isBotUser(event.actor)) continue;
+        const date = new Date(event.created_at);
+        if (date < since || date > now) continue;
+
+        if (event.event === "labeled") {
+          addActivity(ensureUser(users, event.actor), "Issue labeled", event.created_at, POINTS["Issue labeled"]!, {
+            title: `Labeled issue in ${repoName}`,
+          });
+        } else if (event.event === "assigned") {
+          addActivity(ensureUser(users, event.actor), "Issue assigned", event.created_at, POINTS["Issue assigned"]!, {
+            title: `Assigned issue in ${repoName}`,
+          });
+        } else if (event.event === "closed") {
+          addActivity(ensureUser(users, event.actor), "Issue closed", event.created_at, POINTS["Issue closed"]!, {
+            title: `Closed issue in ${repoName}`,
+          });
+        }
       }
+      if (events.length < 100) break;
+      page++;
+      await sleep(1000);
     }
-    await sleep(500);
   }
 }
 

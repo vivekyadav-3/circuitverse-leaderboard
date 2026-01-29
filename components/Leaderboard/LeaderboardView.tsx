@@ -23,7 +23,8 @@ import {
   SearchX,
   Eye,
   Tag,
-  CheckCircle
+  CheckCircle,
+  UserPlus
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useMemo, useState, useEffect, useRef } from "react";
@@ -104,9 +105,9 @@ const activityStyles: Record<string, {
   },
   "Issue closed": {
     icon: CheckCircle,
-    bgColor: "bg-green-500/10 dark:bg-green-500/15",
-    textColor: "text-green-700 dark:text-green-400",
-    borderColor: "border-l-green-500"
+    bgColor: "bg-emerald-500/10 dark:bg-emerald-500/15",
+    textColor: "text-emerald-700 dark:text-emerald-400",
+    borderColor: "border-l-emerald-500"
   },
   "Issue labeled": {
     icon: Tag,
@@ -119,6 +120,12 @@ const activityStyles: Record<string, {
     bgColor: "bg-teal-500/10 dark:bg-teal-500/15",
     textColor: "text-teal-700 dark:text-teal-400",
     borderColor: "border-l-teal-500"
+  },
+  "Issue assigned": {
+    icon: UserPlus,
+    bgColor: "bg-indigo-500/10 dark:bg-indigo-500/15",
+    textColor: "text-indigo-700 dark:text-indigo-400",
+    borderColor: "border-l-indigo-500"
   }
 };
 
