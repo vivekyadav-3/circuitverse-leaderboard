@@ -85,18 +85,7 @@ export type RepoStats = {
 };
 
 
-type GitHubItem = {
-  user: {
-    login: string;
-    name?: string | null;
-    avatar_url?: string | null;
-    type?: string;
-  };
-  created_at: string;
-  closed_at: string;
-  title?: string | null;
-  html_url?: string | null;
-};
+
 
 interface GitHubSearchItem {
   user: { login: string; name?: string | null; avatar_url?: string | null; type?: string };
@@ -126,6 +115,40 @@ interface RecentActivityItem {
 
 interface ExistingYearData extends YearData {
   lastFetchedAt: number;
+}
+
+interface GitHubRepo {
+  name: string;
+  description: string | null;
+  stargazers_count: number;
+  forks_count: number;
+  language: string | null;
+  html_url: string;
+  owner: {
+    avatar_url: string;
+  };
+}
+
+interface GitHubPR {
+  number: number;
+  title: string;
+  html_url: string;
+  created_at: string;
+  updated_at: string;
+  closed_at: string | null;
+  user: {
+    login: string;
+  };
+}
+
+interface GitHubReview {
+  state: string;
+  submitted_at: string;
+  html_url: string;
+  user: {
+    login: string;
+    type?: string;
+  };
 }
 
 /* -------------------------------------------------------
@@ -188,7 +211,13 @@ async function smartSleep(res: Response, defaultMs: number = 2500): Promise<void
   }
 }
 
-async function ghSearchRaw(url: string): Promise<any> {
+interface GitHubSearchResponse {
+  total_count: number;
+  incomplete_results: boolean;
+  items: GitHubSearchItem[];
+}
+
+async function ghSearchRaw(url: string): Promise<GitHubSearchResponse> {
   if (!TOKEN) throw new Error("GITHUB_TOKEN is not set.");
   const res = await fetch(url, {
     headers: {
@@ -334,26 +363,26 @@ async function fetchOrgRepos(): Promise<string[]> {
       headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
     });
     if (!res.ok) break;
-    const data = await res.json();
+    const data: GitHubRepo[] = await res.json();
     if (data.length === 0) break;
-    repos.push(...data.map((r: any) => r.name));
+    repos.push(...data.map((r) => r.name));
     page++;
     await sleep(500);
   }
   return repos;
 }
 
-async function fetchRepoPRs(repo: string, since: Date): Promise<any[]> {
-  const prs: any[] = [];
+async function fetchRepoPRs(repo: string, since: Date): Promise<GitHubPR[]> {
+  const prs: GitHubPR[] = [];
   let page = 1;
   while (true) {
     const res = await fetch(`${GITHUB_API}/repos/${ORG}/${repo}/pulls?state=all&sort=updated&direction=desc&per_page=100&page=${page}`, {
       headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
     });
     if (!res.ok) break;
-    const data = await res.json();
+    const data: GitHubPR[] = await res.json();
     if (data.length === 0) break;
-    const filtered = data.filter((pr: any) => new Date(pr.updated_at) >= since);
+    const filtered = data.filter((pr) => new Date(pr.updated_at) >= since);
     prs.push(...filtered);
     if (filtered.length < data.length) break;
     page++;
@@ -362,7 +391,7 @@ async function fetchRepoPRs(repo: string, since: Date): Promise<any[]> {
   return prs;
 }
 
-async function fetchPRReviews(repo: string, prNumber: number): Promise<any[]> {
+async function fetchPRReviews(repo: string, prNumber: number): Promise<GitHubReview[]> {
   const res = await fetch(`${GITHUB_API}/repos/${ORG}/${repo}/pulls/${prNumber}/reviews`, {
     headers: { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json" },
   });
@@ -550,7 +579,7 @@ function derivePeriod(source: YearData, days: number, period: string) {
       };
     })
     .filter(Boolean)
-    .sort((a: any, b: any) => b.total_points - a.total_points);
+    .sort((a, b) => (b as UserEntry).total_points - (a as UserEntry).total_points);
 
   fs.writeFileSync(
     path.join(process.cwd(), "public", "leaderboard", `${period}.json`),
