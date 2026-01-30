@@ -4,6 +4,14 @@ import fs from "fs";
 import { coreTeamMembers, alumniMembers } from "@/lib/team-data";
 import { calculateStreaks, DailyActivity } from "@/lib/streak-utils";
 
+interface Activity {
+  type: string;
+  occured_at: string;
+  title: string;
+  link: string;
+  points: number;
+}
+
 interface ContributorEntry {
   username: string;
   name: string | null;
@@ -21,8 +29,8 @@ interface ContributorEntry {
     total: number;
   };
   top_repos?: string[];
-  activities?: any[];
-  raw_activities?: Array<{ type: string; occured_at: string; title: string; link: string; points: number }>;
+  activities?: Activity[];
+  raw_activities?: Activity[];
 }
 
 /**
