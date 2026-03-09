@@ -25,6 +25,29 @@ const activityKeyMap: Record<string, string> = {
   "star": "Stars",
 };
 
+const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: unknown[] }) => {
+  if (active && Array.isArray(payload) && payload.length) {
+    const data = (payload[0] as Record<string, unknown>).payload as Record<string, unknown>; // fine to suppress single local cast but better to avoid any
+    return (
+      <div className="bg-background border border-border p-3 rounded-lg shadow-lg ring-1 ring-black/5">
+        <p className="font-bold text-sm mb-1">{String(data.name)}</p>
+        <div className="flex flex-col gap-0.5 text-xs text-muted-foreground">
+          <span className="font-medium text-foreground">
+            {Number(data.value)} points
+          </span>
+          <span>
+            {Number(data.count)} contribution{Number(data.count) !== 1 ? 's' : ''}
+          </span>
+          <span>
+            ({Math.round(Number(data.value) / Number(data.count))} pts/action)
+          </span>
+        </div>
+      </div>
+    );
+  }
+  return null;
+};
+
 export function ActivityChart({ data }: ActivityChartProps) {
   // Transform data for Recharts
   const chartData = Object.entries(data)
@@ -35,30 +58,6 @@ export function ActivityChart({ data }: ActivityChartProps) {
       originalKey: key
     }))
     .sort((a, b) => b.value - a.value);
-
-  // Custom Tooltip
-  const CustomTooltip = ({ active, payload }: any) => {
-    if (active && payload && payload.length) {
-      const data = payload[0].payload;
-      return (
-        <div className="bg-background border border-border p-3 rounded-lg shadow-lg ring-1 ring-black/5">
-          <p className="font-bold text-sm mb-1">{data.name}</p>
-          <div className="flex flex-col gap-0.5 text-xs text-muted-foreground">
-            <span className="font-medium text-foreground">
-              {data.value} points
-            </span>
-            <span>
-              {data.count} contribution{data.count !== 1 ? 's' : ''}
-            </span>
-            <span>
-              ({Math.round(data.value / data.count)} pts/action)
-            </span>
-          </div>
-        </div>
-      );
-    }
-    return null;
-  };
 
   if (chartData.length === 0) return null;
 

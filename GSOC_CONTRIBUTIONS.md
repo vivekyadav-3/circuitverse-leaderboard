@@ -129,7 +129,8 @@ Actively engaging with the CircuitVerse community to ensure features align with 
 - **Interactions:**
   - **Feedback Iteration:** Refactored Profile UI from V1 to V2 based on design mockups provided by community members (**Utpal Sen**).
   - **Conflict Resolution:** Proactively discussing overlapping PRs with other contributors (**Atharva Raut**) to coordinate efforts and maximize project value.
-  - **Feature Validation:** Demonstrated new components (Heatmap, Streaks) via video walkthroughs in both Light and Dark modes for maintainer review (**Aboobacker MK**, **Radhika Chauhan**).
+  - **Feature Validation:** Demonstrated new components (Heatmap, Streaks) via video walkthroughs in both Light and Dark modes for review. Acknowledged feedback on correct maintainer roles and communication channels.
+  - **Community Protocol:** Aligned communication strategy to use project-specific channels (e.g., `#leaderboard`) for technical updates, ensuring proper visibility for core maintainers (**Aboobacker MK**).
   - **Bug Responsiveness:** Immediately identified and resolved technical debt (Duplicate key warnings) reported during community testing.
 
 ---
@@ -233,6 +234,8 @@ Through this project, I aim to:
 - Regular communication with maintainers via Slack
 - Small, focused PRs for easier review
 - Conventional commit messages for clarity
+- **Channel Specificity:** Post technical updates for the Leaderboard in the `#leaderboard` Slack channel rather than general GSoC/Community channels.
+- **Maintainer Respect:** Direct specific technical queries to project-leads (e.g., Aboobacker MK) and allow community members to engage without pinning "Maintainer" expectations on them (e.g., Radhika Chauhan).
 
 ---
 
@@ -276,6 +279,81 @@ Through this project, I aim to:
   - [x] Resolve **Wrong Day Cell Mapping** in Heatmap grid
   - [x] Fix **Local-Date Drift** in GitHub Search API queries
 
+### **Phase 5: March 2026 Refresh & Architectural Refactor** 🏗️ **IN PROGRESS**
+
+#### 5.1 EmbeddedChat: ChatInput Architectural Overhaul
+
+- **Status:** 🛠️ In Progress
+- **Date:** March 3, 2026
+- **Tasks:**
+  - [x] Implement `useChatInputState` hook to centralize input logic.
+  - [x] Decouple "Logical State" (quotes, metadata) from "UI State" (textarea value).
+  - [x] Refactor `ChatInput.js` to move away from fragile string manipulation.
+  - [x] Enhance `ChatInput` styling with premium glassmorphism and smooth transitions.
+
+#### 5.2 Leaderboard: Advanced Heatmap Analytics
+
+- **Status:** ✅ Complete
+- **Date:** March 3, 2026
+- **Tasks:**
+  - [x] Implement **Streak Tracking** (Current 🔥 and Longest 🏆).
+  - [x] Enhance Heatmap header with real-time contribution analytics.
+  - [x] Refine Heatmap grid for better performance and visual clarity.
+
 ---
 
-**Last Updated:** January 29, 2026
+### **Phase 6: JSON Schema - Documentation & Tooling** 🌐 **IN PROGRESS**
+
+#### 6.1 Interactive JSON Editor Enhancements
+
+- **Status:** ✅ Complete
+- **Date:** March 9, 2026
+- **Tasks:**
+  - [x] Analyze `JsonEditor.tsx` for performance bottlenecks in Slate.js.
+  - [x] Implement basic syntax highlighting for partial schemas (JSONC).
+  - [x] Add real-time validation feedback using `ajv` inside the editor.
+  - [x] Implement breadcrumb navigation for deeply nested schemas.
+
+#### 6.2 "Getting Started" Tutorial Polish
+
+- **Status:** 🛠️ In Progress
+- **Date:** March 3, 2026
+- **Tasks:**
+  - [x] Audit the `getting-started-step-by-step.md` for clarity.
+  - [x] Synchronize editor examples with the latest draft (2020-12).
+  - [ ] Add interactive checklists for tutorial milestones.
+
+---
+
+### **Phase 7: EmbeddedChat - Foundation Modernization & Compatibility (Ahmad's Feedback)** 🏗️ **COMPLETED**
+
+#### 7.1 Core Stack Upgrade
+
+- **Status:** ✅ Complete
+- **Date:** March 9, 2026
+- **Tasks:**
+  - [x] Audit `package.json` for all outdated dependencies (Node 16 → 20+, React 17 → 18/19).
+  - [x] Plan the migration from legacy `Rocket.Chat.js.SDK` to modern modular SDKs (@rocket.chat/rest-client, @rocket.chat/ddp-client).
+  - [x] Research Rocket.Chat 7.0+ breaking changes relevant to EmbeddedChat.
+
+#### 7.2 API Refactor & Hardening
+
+- **Status:** ✅ Complete
+- **Date:** March 9, 2026
+- **Tasks:**
+  - [x] Replace manual `fetch` calls in `EmbeddedChatApi.ts` with standardized SDK methods.
+  - [x] Implement robust error handling and retry mechanisms for the "resume" token flow (as discussed with Ahmad).
+  - [x] Verify compatibility with latest Rocket.Chat server releases.
+
+#### 7.3 Roadmap Alignment (Federation & AI)
+
+- **Status:** ✅ Complete
+- **Date:** March 9, 2026
+- **Tasks:**
+  - [x] Research Federation API support in modern Rocket.Chat SDKs.
+  - [x] Design the abstraction layer for the pluggable AI Adapter.
+  - [x] Prototype a basic AI greeting or moderation response via the adapter.
+
+---
+
+**Last Updated:** March 4, 2026

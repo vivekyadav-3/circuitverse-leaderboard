@@ -158,8 +158,8 @@ export default async function UserProfilePage({ params }: Props) {
           <div className="space-y-6">
             <h3 className="font-bold text-xl px-2">Recent Timeline</h3>
             <div className="space-y-4">
-              {activities.map((act: any, i: number) => (
-                <TimelineItem key={`${act.slug || act.type || 'activity'}-${i}`} activity={act} />
+              {activities.map((act: { slug?: string; type?: string; link?: string | null; title?: string | null; occured_at: Date; points?: number | null }, i: number) => (
+                <TimelineItem key={`${act.slug || act.type || 'activity'}-${i}`} activity={act as unknown as React.ComponentProps<typeof TimelineItem>['activity']} />
               ))}
             </div>
           </div>
@@ -184,7 +184,7 @@ function DistributionBar({ label, count, total, color }: { label: string, count:
   )
 }
 
-function TimelineItem({ activity }: { activity: any }) {
+function TimelineItem({ activity }: { activity: { slug?: string; type?: string; link?: string | null; title?: string | null; occured_at: string | Date; points?: number | null } }) {
   return (
     <div className="bg-white border rounded-xl p-5 shadow-sm hover:border-primary/50 transition-all group">
       <div className="flex items-start justify-between">

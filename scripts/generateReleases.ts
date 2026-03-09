@@ -33,7 +33,7 @@ async function fetchCommitsBetween(
   return res.json();
 }
 
-function extractContributors(commits: any[]) {
+function extractContributors(commits: { author?: { login?: string } }[]) {
   const map: Record<string, number> = {};
 
   commits.forEach((c) => {
@@ -71,7 +71,7 @@ function getReleaseSummary(body?: string) {
 // ---------- MAIN ----------
 
 async function run() {
-  const allReleases: any[] = [];
+  const allReleases: Record<string, unknown>[] = [];
 
   for (const repo of REPOS) {
     const releases = await fetchReleases(repo.slug);
@@ -85,7 +85,7 @@ async function run() {
       const current = releases[i];
       const previous = releases[i + 1];
 
-      let contributors: any[] = [];
+      let contributors: { username: string, commits: number }[] = [];
 
       if (previous) {
         const compare = await fetchCommitsBetween(

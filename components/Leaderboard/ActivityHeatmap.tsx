@@ -23,7 +23,7 @@ interface TooltipData {
   y: number;
 }
 
-export default function ActivityHeatmap({ dailyActivity, username }: ActivityHeatmapProps) {
+export default function ActivityHeatmap({ dailyActivity }: ActivityHeatmapProps) {
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
 
   // Generate heatmap data for the last 365 days
@@ -142,36 +142,80 @@ export default function ActivityHeatmap({ dailyActivity, username }: ActivityHea
     setTooltip(null);
   };
 
-  const totalContributions = useMemo(() => {
-    return heatmapData.reduce((sum, cell) => sum + cell.count, 0);
+  // Calculate streaks
+  const streaks = useMemo(() => {
+    let currentStreak = 0;
+    let longestStreak = 0;
+    let tempStreak = 0;
+
+    // We iterate backwards from today to find the current streak
+    const sortedData = [...heatmapData].reverse();
+    
+    // For longest streak, we need chronological order
+    const chronoData = [...heatmapData];
+
+    // Longest streak
+    chronoData.forEach((cell) => {
+      if (cell.count > 0) {
+        tempStreak++;
+        if (tempStreak > longestStreak) longestStreak = tempStreak;
+      } else {
+        tempStreak = 0;
+      }
+    });
+
+    // Current streak
+    for (const cell of sortedData) {
+      if (cell.count > 0) {
+        currentStreak++;
+      } else if (cell.date !== new Date().toISOString().split('T')[0]) {
+        // If we hit a gap and it's not today (allow for today not being finished yet)
+        break;
+      }
+    }
+
+    return { currentStreak, longestStreak };
   }, [heatmapData]);
 
-  const currentYear = new Date().getFullYear();
-
-  // Month labels
+  const totalContributions = useMemo(() => heatmapData.reduce((acc, cell) => acc + cell.count, 0), [heatmapData]);
+  
   const monthLabels = useMemo(() => {
     const labels: { month: string; offset: number }[] = [];
-    let currentMonth = "";
-    
-    weeks.forEach((week, weekIndex) => {
-      const firstDayOfWeek = week.find(cell => cell.date);
-      if (firstDayOfWeek && firstDayOfWeek.date) {
-        const date = new Date(firstDayOfWeek.date + 'T00:00:00');
-        const month = date.toLocaleDateString("en-US", { month: "short" });
-        
-        if (month !== currentMonth) {
-          currentMonth = month;
-          labels.push({ month, offset: weekIndex });
+    let currentMonth = -1;
+    weeks.forEach((week, index) => {
+      const firstDay = week.find((day) => day.date);
+      if (firstDay) {
+        const date = new Date(firstDay.date + 'T00:00:00');
+        if (date.getMonth() !== currentMonth) {
+          currentMonth = date.getMonth();
+          labels.push({ 
+            month: date.toLocaleString('default', { month: 'short' }), 
+            offset: index 
+          });
         }
       }
     });
-    
     return labels;
   }, [weeks]);
 
   return (
     <div className="w-full">
-      <div className="relative overflow-x-auto pb-2 custom-scrollbar">
+      <div className="flex gap-8 mb-6">
+        <div>
+          <div className="text-2xl font-bold text-primary">{totalContributions}</div>
+          <div className="text-xs text-muted-foreground uppercase tracking-wider">Contributions in 2025</div>
+        </div>
+        <div className="border-l pl-8">
+          <div className="text-2xl font-bold text-orange-500">{streaks.currentStreak} days</div>
+          <div className="text-xs text-muted-foreground uppercase tracking-wider">Current Streak</div>
+        </div>
+        <div className="border-l pl-8">
+          <div className="text-2xl font-bold text-blue-500">{streaks.longestStreak} days</div>
+          <div className="text-xs text-muted-foreground uppercase tracking-wider">Longest Streak</div>
+        </div>
+      </div>
+
+      <div className="relative overflow-x-auto pb-2 custom-scrollbar no-scrollbar">
         {/* Month labels */}
         <div className="flex mb-3 ml-10">
           {monthLabels.map((label, index) => (

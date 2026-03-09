@@ -71,7 +71,7 @@ export const BADGE_DEFINITIONS: Record<string, BadgeDefinition> = {
   },
 };
 
-export function getContributorBadges(contributor: any) {
+export function getContributorBadges(contributor: { current_streak?: number; longest_streak?: number; total_points?: number; role?: string; username?: string }) {
   const badges: BadgeDefinition[] = [];
 
   const addBadge = (slug: string) => {

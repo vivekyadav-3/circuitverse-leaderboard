@@ -5,7 +5,7 @@ import fs from "fs";
 import path from "path";
 import { differenceInDays } from "date-fns";
 import { calculateStreaks, DailyActivity } from "./streak-utils";
-import type { Contributor, ContributorWithAvatar } from "@/types/contributor";
+import type { Contributor, ContributorWithAvatar, Activity, GlobalActivity } from "@/types/contributor";
 
 type ActivityItem = {
   slug: string;
@@ -185,7 +185,7 @@ export async function getLeaderboard(): Promise<UserEntry[]> {
   
   if (!data?.entries) return [];
 
-  return data.entries.sort((a: any, b: any) => b.total_points - a.total_points);
+  return data.entries.sort((a: UserEntry, b: UserEntry) => b.total_points - a.total_points);
 }
 
 export async function getTopContributorsByActivity() {
@@ -222,13 +222,14 @@ export async function getContributorProfile(username: string) {
   const contributor = await getContributor(username);
   if (!contributor) return null;
 
-  const activities = (contributor.activities || contributor.raw_activities || []).map((a: any) => ({
+  type ParsedActivity = Omit<Activity, 'occured_at'> & { occured_at: Date };
+  const activities = (contributor.activities || contributor.raw_activities || []).map((a: Activity) => ({
     ...a,
     occured_at: new Date(a.occured_at),
-  }));
+  })) as ParsedActivity[];
 
   const dailyActivityMap = new Map();
-  activities.forEach((activity: any) => {
+  activities.forEach((activity: ParsedActivity) => {
     const d = new Date(activity.occured_at);
     const date = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     if (!dailyActivityMap.has(date)) {
@@ -239,7 +240,7 @@ export async function getContributorProfile(username: string) {
     dayData.points += (activity.points || 0);
   });
 
-  const dailyActivity: DailyActivity[] = Array.from(dailyActivityMap.entries()).map(([date, stats]: [string, any]) => ({
+  const dailyActivity: DailyActivity[] = Array.from(dailyActivityMap.entries()).map(([date, stats]: [string, { count: number; points: number }]) => ({
     date,
     ...stats
   })).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
@@ -260,9 +261,9 @@ export async function getContributorProfile(username: string) {
   const sortedActivities = [...activities].sort((a, b) => a.occured_at.getTime() - b.occured_at.getTime());
 
   sortedActivities.forEach(activity => {
-    if (activity.type === "PR opened") {
+    if (activity.type === "PR opened" && activity.link) {
       prOpenedMap.set(activity.link, activity.occured_at);
-    } else if (activity.type === "PR merged") {
+    } else if (activity.type === "PR merged" && activity.link) {
       const openedAt = prOpenedMap.get(activity.link);
       if (openedAt) {
         const diff = activity.occured_at.getTime() - openedAt.getTime();
@@ -277,12 +278,14 @@ export async function getContributorProfile(username: string) {
 
   // Calculate Top Repos
   const repoCounts = new Map<string, number>();
-  activities.forEach((activity: any) => {
+  activities.forEach((activity: ParsedActivity) => {
     if (activity.link) {
       const match = activity.link.match(/github\.com\/([^/]+)\/([^/]+)/);
       if (match) {
         const repo = match[2];
-        repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+        if (repo) {
+          repoCounts.set(repo, (repoCounts.get(repo) || 0) + 1);
+        }
       }
     }
   });
@@ -342,7 +345,7 @@ export async function getRepositories() {
 
 export async function getGlobalRecentActivities(typeFilter?: string) {
   const entries = await getLeaderboard();
-  const allActivities: any[] = [];
+  const allActivities: GlobalActivity[] = [];
 
   for (const entry of entries) {
     const rawActivities = entry.activities || entry.raw_activities || [];
@@ -388,7 +391,7 @@ export async function getPreviousMonthActivityCount(): Promise<number> {
   
   if (!data?.entries?.length) return 0;
   
-  const activities = data.entries.flatMap((entry: any) => entry.activities || entry.raw_activities || []);
+  const activities = data.entries.flatMap((entry: UserEntry) => entry.activities || entry.raw_activities || []);
   const now = new Date();
 
   let count = 0;
