@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 
 export default function NotFound() {
   const router = useRouter();
-
   return (
     <div className="relative min-h-screen flex justify-center px-6 pt-0 sm:pt-24 md:pt-28 lg:pt-20 overflow-hidden bg-background">
 

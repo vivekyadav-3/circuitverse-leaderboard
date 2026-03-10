@@ -9,10 +9,10 @@ export function ThemeProvider({
 }: React.ComponentProps<typeof NextThemesProvider>) {
   // Clear any invalid theme values from localStorage on mount
   React.useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const storedTheme = localStorage.getItem('theme');
-      if (storedTheme && storedTheme.includes(' ')) {
-        localStorage.removeItem('theme');
+    if (typeof window !== "undefined") {
+      const storedTheme = localStorage.getItem("theme");
+      if (storedTheme && storedTheme.includes(" ")) {
+        localStorage.removeItem("theme");
       }
     }
   }, []);

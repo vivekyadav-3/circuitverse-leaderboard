@@ -23,6 +23,13 @@ const geistMono = Geist_Mono({
 // Get config for metadata
 const config = getConfig();
 
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+};
+
 export const metadata: Metadata = {
   title: config.meta.title,
   description: config.meta.description,
@@ -34,14 +41,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: config.meta.title,
     description: config.meta.description,
-    images: [config.meta.image_url],
+    images: config.meta.image_url,
     url: config.meta.site_url,
   },
   twitter: {
     card: "summary_large_image",
     title: config.meta.title,
     description: config.meta.description,
-    images: [config.meta.image_url],
+    images: config.meta.image_url,
   },
 };
 
