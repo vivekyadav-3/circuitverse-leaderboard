@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useId } from "react";
 
 interface ActivityTrendChartProps {
   dailyActivity: Array<{ date: string; count: number; points: number }>;
@@ -17,6 +17,7 @@ export default function ActivityTrendChart({
   mode,
   maxDataPoints = 32,
 }: ActivityTrendChartProps) {
+  const gradientId = useId().replace(/:/g, "");
   // Generate all dates in the range
   const dateRange = useMemo(() => {
     const dates: string[] = [];
@@ -189,13 +190,13 @@ export default function ActivityTrendChart({
       >
         {/* Define gradient */}
         <defs>
-          <linearGradient id="trendGradient" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id={`trendGradient-${gradientId}`} x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="currentColor" stopOpacity="0.5" />
             <stop offset="100%" stopColor="currentColor" stopOpacity="0.05" />
           </linearGradient>
         </defs>
         {/* Area fill with gradient */}
-        <path d={areaPathData} fill="url(#trendGradient)" stroke="none" />
+        <path d={areaPathData} fill={`url(#trendGradient-${gradientId})`} stroke="none" />
         {/* Trend line */}
         <path
           d={pathData}
