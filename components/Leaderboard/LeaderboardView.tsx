@@ -493,15 +493,6 @@ export default function LeaderboardView({
     }
   };
 
-  const updateRolesParam = (roles: Set<string>) => {
-    const params = new URLSearchParams(searchParams.toString());
-    if (roles.size > 0) {
-      params.set("roles", Array.from(roles).join(","));
-    } else {
-      params.delete("roles");
-    }
-    if (typeof window !== 'undefined') window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
-  };
 
   const handlePeriodChange = (newPeriod: "week" | "month" | "year") => {
     if (periodLoading || newPeriod === selectedPeriod) return;
@@ -704,7 +695,7 @@ export default function LeaderboardView({
                                 return (
                                   <button
                                     key={opt.key}
-                                    onClick={(e) => {
+                                    onClick={() => {
                                       setPopoverOpen(false);
                                       setSortBy(opt.key as SortBy);
                                       const params = new URLSearchParams(searchParams.toString());
@@ -887,7 +878,7 @@ export default function LeaderboardView({
                 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6 items-stretch"
                 : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-0 lg:space-y-4 lg:block items-stretch"
             )}>
-              {paginatedEntries.map((entry, index) => {
+              {paginatedEntries.map((entry) => {
                 // Use the pre-computed rank from entryRanks, which is based on full sorted list
                 // This ensures rank doesn't change with search or pagination
                 const rank = entryRanks.get(entry.username) || 1;

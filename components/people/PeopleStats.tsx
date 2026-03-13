@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
@@ -173,9 +174,11 @@ const topContributors = useMemo(() => {
                   }[index] || 'bg-gradient-to-br from-primary/20 to-primary/40 text-primary font-semibold'}`}>
                     {contributor.rank}
                   </div>
-                  <img 
+                  <Image 
                     src={contributor.avatar_url} 
                     alt={contributor.name || contributor.username}
+                    width={40}
+                    height={40}
                     className="w-10 h-10 rounded-full ring-2 ring-primary/10"
                   />
                   <div className="flex-1 min-w-0">

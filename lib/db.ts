@@ -1,6 +1,6 @@
 // lib/db.ts — temporary stub (no DB)
 
-import { RepoStats, UserEntry } from "@/scripts/generateLeaderboard";
+import { RepoStats, UserEntry, RawActivity } from "@/scripts/generateLeaderboard";
 import fs from "fs";
 import path from "path";
 import { differenceInDays } from "date-fns";
@@ -26,11 +26,6 @@ export type ActivityGroup = {
   activities: ActivityItem[];
 };
 
-type RecentActivitiesJSON = {
-  updatedAt: number;
-  entries: UserEntry[];
-  groups: ActivityGroup[];
-};
 
 export type MonthBuckets = {
   w1: number;
@@ -172,7 +167,7 @@ export async function getUpdatedTime() {
       if (data.updatedAt && data.updatedAt > latestUpdatedAt) {
         latestUpdatedAt = data.updatedAt;
       }
-    } catch (error) {
+    } catch {
       // Skip files that can't be parsed
       continue;
     }
@@ -220,7 +215,7 @@ export async function getContributorProfile(username: string) {
   const filePath = path.join(process.cwd(), "public", "leaderboard", "year.json");
   const defaultReturn = { 
     contributor: null as UserEntry | null, 
-    activities: [] as any[], 
+    activities: [] as Array<Omit<RawActivity, "occured_at"> & { occured_at: Date }>, 
     totalPoints: 0, 
     activityByDate: new Map<string, { count: number, points: number }>(), 
     dailyActivity: [] as DailyActivity[], 
@@ -242,8 +237,8 @@ export async function getContributorProfile(username: string) {
 
   const activities = (contributor.activities || []).map((a) => ({
     ...a,
-    occured_at: new Date(a.occured_at),
-  }));
+    occured_at: new Date(a.occured_at || ""),
+  })) as Array<Omit<RawActivity, "occured_at"> & { occured_at: Date }>;
 
   const dailyActivityMap = new Map<string, { count: number, points: number }>();
   activities.forEach((activity) => {
@@ -256,7 +251,7 @@ export async function getContributorProfile(username: string) {
     dayData.points += (activity.points || 0);
   });
 
-  const dailyActivity: DailyActivity[] = Array.from(dailyActivityMap.entries()).map(([date, stats]: [string, any]) => ({
+  const dailyActivity: DailyActivity[] = Array.from(dailyActivityMap.entries()).map(([date, stats]: [string, { count: number, points: number }]) => ({
     date,
     ...stats
   }));
@@ -272,9 +267,9 @@ export async function getContributorProfile(username: string) {
 
   sortedActivitiesTAT.forEach(activity => {
     if (activity.type === "PR opened" && activity.link) {
-      prOpenedMap.set(activity.link, activity.occured_at);
+      prOpenedMap.set(activity.link!, activity.occured_at);
     } else if (activity.type === "PR merged" && activity.link) {
-      const openedAt = prOpenedMap.get(activity.link);
+      const openedAt = prOpenedMap.get(activity.link!);
       if (openedAt) {
         const diff = activity.occured_at.getTime() - openedAt.getTime();
         turnAroundTimes.push(diff);
@@ -329,7 +324,7 @@ export async function getPreviousMonthActivityCount(): Promise<number> {
   
   if (!data?.entries?.length) return 0;
   
-  const activities = data.entries.flatMap((entry: any) => entry.activities || []);
+  const activities = (data.entries as UserEntry[]).flatMap((entry) => entry.activities || []);
   const now = new Date();
 
   let count = 0;

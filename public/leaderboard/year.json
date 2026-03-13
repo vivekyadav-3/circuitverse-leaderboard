@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1773240440226,
-  "lastFetchedAt": 1773240440226,
-  "startDate": "2025-03-11",
-  "endDate": "2026-03-11",
+  "updatedAt": 1773410542357,
+  "lastFetchedAt": 1773410542357,
+  "startDate": "2025-03-13",
+  "endDate": "2026-03-13",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -12,19 +12,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 533,
+      "total_points": 538,
       "activity_breakdown": {
         "PR opened": {
-          "count": 53,
-          "points": 106
-        },
-        "Issue labeled": {
-          "count": 28,
-          "points": 56
+          "count": 54,
+          "points": 108
         },
         "Issue opened": {
-          "count": 48,
-          "points": 48
+          "count": 49,
+          "points": 49
+        },
+        "Issue labeled": {
+          "count": 29,
+          "points": 58
         },
         "Issue closed": {
           "count": 33,
@@ -40,6 +40,16 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-03-12",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-03-11",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-03-09",
           "count": 1,
@@ -407,6 +417,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-12T17:38:29Z",
+          "title": "feat(avo) - Add custom dashboard with admin statistics and metrics",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7154",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-11T17:03:19Z",
+          "title": "Feature - Avo Admin - Add custom dashboard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7152",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-11T17:03:20Z",
+          "title": "Labeled issue #7152 - 🌟 feature",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7152",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-03-09T17:49:18Z",
@@ -2019,15 +2050,15 @@
         }
       ],
       "streak": {
-        "current": 0,
+        "current": 2,
         "longest": 12,
-        "lastActivityDate": "2026-03-09"
+        "lastActivityDate": "2026-03-12"
       },
       "active_prs": [
         {
           "title": "feat(avo): Add ActiveStorage resources (Blob, Attachment, VariantRecord)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7145",
-          "updatedAt": "2026-03-09T17:55:17Z"
+          "updatedAt": "2026-03-12T18:51:53Z"
         },
         {
           "title": "Resolve v1 drag-and-drop functionality by fixing module initialization",
@@ -10055,7 +10086,7 @@
         }
       ],
       "streak": {
-        "current": 1,
+        "current": 0,
         "longest": 4,
         "lastActivityDate": "2026-03-10"
       },
@@ -10064,11 +10095,6 @@
           "title": "ci: add Tauri desktop testing workflow",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1018",
           "updatedAt": "2026-03-10T13:04:59Z"
-        },
-        {
-          "title": "chore: standardize all GitHub Action versions to latest",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7076",
-          "updatedAt": "2026-02-25T19:26:47Z"
         },
         {
           "title": "Feature/admin ban system clean ",
@@ -10092,6 +10118,11 @@
         }
       ],
       "stale_prs": [
+        {
+          "title": "chore: standardize all GitHub Action versions to latest",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7076",
+          "updatedAt": "2026-02-25T19:26:47Z"
+        },
         {
           "title": "fix: update qlty.yml to target master branch and use yarn",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7026",
@@ -11925,7 +11956,7 @@
         "longest": 3,
         "lastActivityDate": "2026-03-02"
       },
-      "active_prs": [
+      "stale_prs": [
         {
           "title": "docs: fix the bold wordings",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/529",
@@ -11940,9 +11971,7 @@
           "title": "Feat: Add analytics resources to Avo",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7080",
           "updatedAt": "2026-02-25T21:37:20Z"
-        }
-      ],
-      "stale_prs": [
+        },
         {
           "title": "feat: [docs] Add issue triaging file explaining all labels used",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/915",
@@ -15779,6 +15808,13 @@
           "title": "Consolidated typo fixes",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7015",
           "updatedAt": "2026-03-02T09:37:24Z"
+        }
+      ],
+      "stale_prs": [
+        {
+          "title": "docs: fix shortcuts typo in quick button assets",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/966",
+          "updatedAt": "2026-02-22T08:52:08Z"
         },
         {
           "title": "docs: fix information wording in lms integration guide",
@@ -15789,13 +15825,6 @@
           "title": "docs: fix keyboard shortcut spelling in chapter docs",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/520",
           "updatedAt": "2026-02-26T05:05:26Z"
-        }
-      ],
-      "stale_prs": [
-        {
-          "title": "docs: fix shortcuts typo in quick button assets",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/966",
-          "updatedAt": "2026-02-22T08:52:08Z"
         },
         {
           "title": "docs: improve repetitive wording in readme intro",
@@ -17522,14 +17551,12 @@
         "longest": 12,
         "lastActivityDate": "2026-02-24"
       },
-      "active_prs": [
+      "stale_prs": [
         {
           "title": "ui : horizontal rule correction in groups",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6900",
           "updatedAt": "2026-02-27T06:56:28Z"
-        }
-      ],
-      "stale_prs": [
+        },
         {
           "title": "chore: make pre-commit hook scripts executable",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6659",
@@ -20237,14 +20264,14 @@
           "title": "Fix: Add test globals to eslint config",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/901",
           "updatedAt": "2026-03-09T20:45:02Z"
-        },
+        }
+      ],
+      "stale_prs": [
         {
           "title": "Fix: setPlotValue() early return preventing logic execution",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/891",
           "updatedAt": "2026-02-25T23:32:58Z"
-        }
-      ],
-      "stale_prs": [
+        },
         {
           "title": "refactor: Convert events.js to TypeScript",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/858",
@@ -23046,7 +23073,7 @@
         }
       ],
       "streak": {
-        "current": 1,
+        "current": 0,
         "longest": 6,
         "lastActivityDate": "2026-03-10"
       },
@@ -24029,12 +24056,14 @@
         "longest": 4,
         "lastActivityDate": "2026-03-08"
       },
-      "active_prs": [
+      "stale_prs": [
         {
           "title": "Adds Circuit Data Version",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7078",
           "updatedAt": "2026-02-26T07:14:34Z"
-        },
+        }
+      ],
+      "active_prs": [
         {
           "title": "fix: make search icon keyboard accessible and auto-focus input on activation",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
@@ -27848,6 +27877,244 @@
       ]
     },
     {
+      "username": "hiraljj05",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/212759472?v=4",
+      "role": "Contributor",
+      "total_points": 28,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 9,
+          "points": 18
+        },
+        "Issue opened": {
+          "count": 10,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-11",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-03-04",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-03-03",
+          "count": 3,
+          "points": 5
+        },
+        {
+          "date": "2026-02-25",
+          "count": 3,
+          "points": 5
+        },
+        {
+          "date": "2026-02-24",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-02-23",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-02-21",
+          "count": 8,
+          "points": 9
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-11T16:52:11Z",
+          "title": "Feature/offline support",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/529",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-11T14:06:05Z",
+          "title": "Add Offline Reading Support for Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/528",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-04T18:16:23Z",
+          "title": "Fix/forgot password error handling",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-03T15:34:16Z",
+          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-03T12:46:13Z",
+          "title": "Fix signup error handling and improve dialog for existing email",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-03T11:58:00Z",
+          "title": "Logout from Navigation Drawer does not navigate to Home screen or update UI immediately",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/520",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-25T13:30:04Z",
+          "title": "Fix Signup Error Handling and Add Proper Dialogs for Existing Emails",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/509",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-25T12:14:29Z",
+          "title": "Fix login error message for incorrect credentials",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-25T12:19:28Z",
+          "title": "No Error Message Displayed When Signing Up With an Existing Email",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/508",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-24T16:00:29Z",
+          "title": "Fix #503 - Prevent automatic login before email verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-23T07:05:39Z",
+          "title": "Google auth fix",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-21T03:04:46Z",
+          "title": "chore(l10n) - remove deprecated synthetic-package config",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:25:39Z",
+          "title": "User Automatically Logged In After Signup Without Email Verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/503",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:24:22Z",
+          "title": "No Error Message Displayed for Incorrect Email or Password",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/502",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:06:54Z",
+          "title": "Login Allows Direct Access Without Proper Email Verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/501",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:05:51Z",
+          "title": "GitHub Login Not Functioning",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/500",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:05:08Z",
+          "title": "Google OAuth Login Fails After Account Selection",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/499",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:03:52Z",
+          "title": "Forgot Password Sends Instructions for Unregistered Emails & Email Not Received",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/498",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T14:24:54Z",
+          "title": "Auth flow broken/incomplete - Google, GitHub, and Email login lack proper authentication handling",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/497",
+          "points": 1
+        }
+      ],
+      "streak": {
+        "current": 0,
+        "longest": 3,
+        "lastActivityDate": "2026-03-11"
+      },
+      "active_prs": [
+        {
+          "title": "Feature/offline support",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/529",
+          "updatedAt": "2026-03-11T19:51:47Z"
+        },
+        {
+          "title": "Fix/forgot password error handling",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
+          "updatedAt": "2026-03-05T17:24:01Z"
+        },
+        {
+          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
+          "updatedAt": "2026-03-03T16:47:02Z"
+        },
+        {
+          "title": "Fix signup error handling and improve dialog for existing email",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
+          "updatedAt": "2026-03-03T12:49:17Z"
+        }
+      ],
+      "stale_prs": [
+        {
+          "title": "Fix login error message for incorrect credentials",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
+          "updatedAt": "2026-02-25T12:33:28Z"
+        },
+        {
+          "title": "Fix #503: Prevent automatic login before email verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
+          "updatedAt": "2026-02-25T02:18:12Z"
+        },
+        {
+          "title": "Google auth fix",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
+          "updatedAt": "2026-02-23T07:49:25Z"
+        },
+        {
+          "title": "chore(l10n): remove deprecated synthetic-package config",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
+          "updatedAt": "2026-02-21T16:34:12Z"
+        }
+      ]
+    },
+    {
       "username": "manmeetsantre",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
@@ -28600,232 +28867,6 @@
           "title": "fix: spacing issue in edit page",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5589",
           "updatedAt": "2025-05-20T21:33:25Z"
-        }
-      ]
-    },
-    {
-      "username": "hiraljj05",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/212759472?v=4",
-      "role": "Contributor",
-      "total_points": 26,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 10,
-          "points": 10
-        },
-        "PR opened": {
-          "count": 8,
-          "points": 16
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-11",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-03-04",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-03-03",
-          "count": 3,
-          "points": 5
-        },
-        {
-          "date": "2026-02-25",
-          "count": 3,
-          "points": 5
-        },
-        {
-          "date": "2026-02-24",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-02-23",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-02-21",
-          "count": 8,
-          "points": 9
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-11T14:06:05Z",
-          "title": "Add Offline Reading Support for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/528",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-04T18:16:23Z",
-          "title": "Fix/forgot password error handling",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-03T15:34:16Z",
-          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-03T12:46:13Z",
-          "title": "Fix signup error handling and improve dialog for existing email",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-03T11:58:00Z",
-          "title": "Logout from Navigation Drawer does not navigate to Home screen or update UI immediately",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/520",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T13:30:04Z",
-          "title": "Fix Signup Error Handling and Add Proper Dialogs for Existing Emails",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/509",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T12:14:29Z",
-          "title": "Fix login error message for incorrect credentials",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-25T12:19:28Z",
-          "title": "No Error Message Displayed When Signing Up With an Existing Email",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/508",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-24T16:00:29Z",
-          "title": "Fix #503 - Prevent automatic login before email verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-23T07:05:39Z",
-          "title": "Google auth fix",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-21T03:04:46Z",
-          "title": "chore(l10n) - remove deprecated synthetic-package config",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:25:39Z",
-          "title": "User Automatically Logged In After Signup Without Email Verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/503",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:24:22Z",
-          "title": "No Error Message Displayed for Incorrect Email or Password",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/502",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:06:54Z",
-          "title": "Login Allows Direct Access Without Proper Email Verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/501",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:05:51Z",
-          "title": "GitHub Login Not Functioning",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/500",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:05:08Z",
-          "title": "Google OAuth Login Fails After Account Selection",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/499",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:03:52Z",
-          "title": "Forgot Password Sends Instructions for Unregistered Emails & Email Not Received",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/498",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T14:24:54Z",
-          "title": "Auth flow broken/incomplete - Google, GitHub, and Email login lack proper authentication handling",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/497",
-          "points": 1
-        }
-      ],
-      "streak": {
-        "current": 1,
-        "longest": 3,
-        "lastActivityDate": "2026-03-11"
-      },
-      "active_prs": [
-        {
-          "title": "Fix/forgot password error handling",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
-          "updatedAt": "2026-03-05T17:24:01Z"
-        },
-        {
-          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
-          "updatedAt": "2026-03-03T16:47:02Z"
-        },
-        {
-          "title": "Fix signup error handling and improve dialog for existing email",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
-          "updatedAt": "2026-03-03T12:49:17Z"
-        }
-      ],
-      "stale_prs": [
-        {
-          "title": "Fix login error message for incorrect credentials",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
-          "updatedAt": "2026-02-25T12:33:28Z"
-        },
-        {
-          "title": "Fix #503: Prevent automatic login before email verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
-          "updatedAt": "2026-02-25T02:18:12Z"
-        },
-        {
-          "title": "Google auth fix",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
-          "updatedAt": "2026-02-23T07:49:25Z"
-        },
-        {
-          "title": "chore(l10n): remove deprecated synthetic-package config",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
-          "updatedAt": "2026-02-21T16:34:12Z"
         }
       ]
     },
@@ -31195,6 +31236,11 @@
           "title": "fix: make header navigation accessible for keyboard users",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7000",
           "updatedAt": "2026-03-02T10:54:12Z"
+        },
+        {
+          "title": "feat: implement server-side contribution streaks and longest streak tracking",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
+          "updatedAt": "2026-03-11T15:07:11Z"
         }
       ],
       "stale_prs": [
@@ -31217,11 +31263,6 @@
           "title": "fix: change notification badge border-radius to 50%",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6550",
           "updatedAt": "2026-01-15T15:09:49Z"
-        },
-        {
-          "title": "feat: implement server-side contribution streaks and longest streak tracking",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
-          "updatedAt": "2026-01-14T02:22:20Z"
         }
       ]
     },
@@ -32500,7 +32541,7 @@
         }
       ],
       "streak": {
-        "current": 3,
+        "current": 0,
         "longest": 3,
         "lastActivityDate": "2026-03-11"
       },
@@ -35151,14 +35192,14 @@
           "title": "fix-forgot",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7089",
           "updatedAt": "2026-03-02T14:12:56Z"
-        },
+        }
+      ],
+      "stale_prs": [
         {
           "title": "Fix: search icon keyboard accessibility",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7074",
           "updatedAt": "2026-02-27T13:53:46Z"
-        }
-      ],
-      "stale_prs": [
+        },
         {
           "title": "Fix forum linkFix broken forum link in footer",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7023",
@@ -36288,6 +36329,95 @@
         "longest": 2,
         "lastActivityDate": "2026-01-03"
       }
+    },
+    {
+      "username": "SantamRC",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 8
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-12",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2026-02-28",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-01-31",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-12T23:23:48Z",
+          "title": "Fix - Deprecated Dependencies Upgraded to Latest Compatible Versions (Android)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-12T15:49:38Z",
+          "title": "Proof of Concept - Added Structured JSON API Endpoint to be used by Flutter App",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/766",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-28T21:00:53Z",
+          "title": "Proof of Concept - Interactive Book Improvement",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-31T23:33:26Z",
+          "title": "Google Classroom Integration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
+          "points": 2
+        }
+      ],
+      "streak": {
+        "current": 1,
+        "longest": 1,
+        "lastActivityDate": "2026-03-12"
+      },
+      "active_prs": [
+        {
+          "title": "Fix: Deprecated Dependencies Upgraded to Latest Compatible Versions (Android)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
+          "updatedAt": "2026-03-13T00:42:52Z"
+        },
+        {
+          "title": "Proof of Concept - Added Structured JSON API Endpoint to be used by Flutter App",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/766",
+          "updatedAt": "2026-03-12T15:56:47Z"
+        },
+        {
+          "title": "Proof of Concept - Interactive Book Improvement",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
+          "updatedAt": "2026-03-12T15:52:20Z"
+        }
+      ],
+      "stale_prs": [
+        {
+          "title": "Google Classroom Integration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
+          "updatedAt": "2026-02-16T20:16:55Z"
+        }
+      ]
     },
     {
       "username": "solanki505",
@@ -37800,7 +37930,7 @@
         }
       ],
       "streak": {
-        "current": 2,
+        "current": 0,
         "longest": 2,
         "lastActivityDate": "2026-03-10"
       }
@@ -37924,7 +38054,7 @@
         {
           "title": "Fix: Improve notification message handling when user/project is deleted",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6995",
-          "updatedAt": "2026-03-10T18:47:54Z"
+          "updatedAt": "2026-03-13T07:05:52Z"
         }
       ],
       "stale_prs": [
@@ -39856,66 +39986,6 @@
       ]
     },
     {
-      "username": "SantamRC",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-02-28",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-01-31",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-28T21:00:53Z",
-          "title": "Proof of Concept - Interactive Book Improvement",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-31T23:33:26Z",
-          "title": "Google Classroom Integration",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
-          "points": 2
-        }
-      ],
-      "streak": {
-        "current": 0,
-        "longest": 1,
-        "lastActivityDate": "2026-02-28"
-      },
-      "active_prs": [
-        {
-          "title": "Proof of Concept - Interactive Book Improvement",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
-          "updatedAt": "2026-03-08T18:55:59Z"
-        }
-      ],
-      "stale_prs": [
-        {
-          "title": "Google Classroom Integration",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
-          "updatedAt": "2026-02-16T20:16:55Z"
-        }
-      ]
-    },
-    {
       "username": "VineethChethula",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/151843956?v=4",
@@ -40193,7 +40263,7 @@
         "longest": 1,
         "lastActivityDate": "2026-01-18"
       },
-      "active_prs": [
+      "stale_prs": [
         {
           "title": "Update Code of Conduct attribution to Contributor Covenant v2.1",
           "link": "https://github.com/CircuitVerse/Interactive-Book/pull/758",
@@ -41328,7 +41398,7 @@
         "longest": 1,
         "lastActivityDate": "2026-02-26"
       },
-      "active_prs": [
+      "stale_prs": [
         {
           "title": "chore(l10n): remove deprecated synthetic-package option from l10n.yaml",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/511",
@@ -42288,6 +42358,47 @@
       }
     },
     {
+      "username": "gayatri728",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/214634310?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-13",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-13T10:09:58Z",
+          "title": "fix - replace deprecated action_cable.js with actioncable.js",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7155",
+          "points": 2
+        }
+      ],
+      "streak": {
+        "current": 1,
+        "longest": 1,
+        "lastActivityDate": "2026-03-13"
+      },
+      "active_prs": [
+        {
+          "title": "fix: replace deprecated action_cable.js with actioncable.js",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7155",
+          "updatedAt": "2026-03-13T10:13:16Z"
+        }
+      ]
+    },
+    {
       "username": "lahari936",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/183959424?v=4",
@@ -42316,7 +42427,7 @@
         }
       ],
       "streak": {
-        "current": 1,
+        "current": 0,
         "longest": 1,
         "lastActivityDate": "2026-03-11"
       },

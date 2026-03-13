@@ -11,6 +11,34 @@ const HEADERS = {
   Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
 };
 
+interface GitHubCommit {
+  author?: {
+    login: string;
+  };
+}
+
+interface ContributorInfo {
+  username: string;
+  commits: number;
+}
+
+interface ReleaseInfo {
+  tag_name: string;
+  published_at: string;
+  body?: string;
+  html_url: string;
+}
+
+interface GeneratedRelease {
+  repo: string;
+  repoSlug: string;
+  version: string;
+  date: string;
+  summary: string;
+  contributors: ContributorInfo[];
+  githubUrl: string;
+}
+
 // ---------- GitHub API helpers ----------
 
 async function fetchReleases(repo: string) {
@@ -33,7 +61,7 @@ async function fetchCommitsBetween(
   return res.json();
 }
 
-function extractContributors(commits: any[]) {
+function extractContributors(commits: GitHubCommit[]): ContributorInfo[] {
   const map: Record<string, number> = {};
 
   commits.forEach((c) => {
@@ -71,10 +99,10 @@ function getReleaseSummary(body?: string) {
 // ---------- MAIN ----------
 
 async function run() {
-  const allReleases: any[] = [];
+  const allReleases: GeneratedRelease[] = [];
 
   for (const repo of REPOS) {
-    const releases = await fetchReleases(repo.slug);
+    const releases = (await fetchReleases(repo.slug)) as ReleaseInfo[];
 
     if (!Array.isArray(releases)) {
       console.error("❌ Failed to fetch releases for", repo.slug);
@@ -85,14 +113,14 @@ async function run() {
       const current = releases[i];
       const previous = releases[i + 1];
 
-      let contributors: any[] = [];
+      let contributors: ContributorInfo[] = [];
 
       if (previous) {
-        const compare = await fetchCommitsBetween(
+        const compare = (await fetchCommitsBetween(
           repo.slug,
           previous.tag_name,
           current.tag_name
-        );
+        )) as { commits?: GitHubCommit[] };
 
         contributors = extractContributors(compare.commits || []);
       }

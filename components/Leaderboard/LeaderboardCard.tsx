@@ -3,7 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { Trophy, GitMerge, GitPullRequest, AlertCircle, Eye, Tag, UserPlus, CheckCircle } from "lucide-react";
+import { Trophy, GitMerge, GitPullRequest, AlertCircle, Eye, Tag, UserPlus, CheckCircle, Flame } from "lucide-react";
 import { cn } from "@/lib/utils";
 import ActivityTrendChart from "./ActivityTrendChart";
 import "./LeaderboardCard.css";
@@ -85,6 +85,13 @@ export type LeaderboardEntry = {
     points: number;
     count: number;
   }>;
+  streak?: {
+    current: number;
+    longest: number;
+    lastActivityDate: string | null;
+  };
+  active_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  stale_prs?: Array<{ title: string; link: string; updatedAt: string }>;
 };
 
 interface LeaderboardCardProps {
@@ -229,6 +236,16 @@ export function LeaderboardCard({
                   </Badge>
                 )}
 
+                {/* Streak Badge (Mobile) */}
+                {entry.streak && entry.streak.current > 1 && (
+                  <div className="flex items-center justify-center gap-1 mb-2">
+                    <div className="flex items-center gap-1 bg-orange-500/10 text-orange-600 dark:text-orange-400 px-2 py-0.5 rounded-full text-[10px] font-bold animate-pulse">
+                      <Flame className="w-3 h-3 fill-orange-500" />
+                      <span>{entry.streak.current} DAY STREAK</span>
+                    </div>
+                  </div>
+                )}
+
                 {/* Points */}
                 <div className="mb-2">
                   <div className="flex items-center justify-center gap-1 text-sm">
@@ -243,7 +260,7 @@ export function LeaderboardCard({
               <div className="flex-1 w-full">
                 <div className="space-y-1.5">
                   {sortActivitiesByPriority(Object.entries(entry.activity_breakdown))
-                    .filter(([activityName, data]) => data.count > 0)
+                    .filter(([, data]) => data.count > 0)
                     .map(([activityName, data]) => {
                       const style = getActivityStyle(activityName);
                       const IconComponent = style.icon;
@@ -317,6 +334,13 @@ export function LeaderboardCard({
                       {entry.role}
                     </span>
                   )}
+                  {/* Streak Badge (List mode) */}
+                  {entry.streak && entry.streak.current > 1 && (
+                    <div className="flex items-center gap-1 bg-orange-500/10 text-orange-600 dark:text-orange-400 px-2 py-0.5 rounded-full text-xs font-bold ring-1 ring-orange-500/20">
+                      <Flame className="w-3 h-3 fill-orange-500" />
+                      <span>{entry.streak.current} DAY STREAK</span>
+                    </div>
+                  )}
                 </div>
 
                 <span
@@ -331,7 +355,7 @@ export function LeaderboardCard({
                 {/* Activity Breakdown */}
                 <div className="flex flex-wrap gap-2">
                   {sortActivitiesByPriority(Object.entries(entry.activity_breakdown))
-                    .filter(([activityName, data]) => data.count > 0)
+                    .filter(([, data]) => data.count > 0)
                     .map(([activityName, data]) => {
                       const style = getActivityStyle(activityName);
                       const IconComponent = style.icon;
@@ -460,6 +484,14 @@ export function LeaderboardCard({
                     {entry.role}
                   </Badge>
                 )}
+
+                {/* Streak Badge (Grid mode small) */}
+                {entry.streak && entry.streak.current > 1 && (
+                  <div className="flex items-center gap-0.5 bg-orange-500/10 text-orange-600 dark:text-orange-400 px-1.5 py-0.5 rounded-full text-[10px] font-black">
+                    <Flame className="w-2.5 h-2.5 fill-orange-500" />
+                    <span>{entry.streak.current}</span>
+                  </div>
+                )}
                 <div className="text-right">
                   <div className="flex items-center justify-center gap-1 text-sm">
                     <Trophy className="w-3 h-3 text-yellow-500" />
@@ -472,7 +504,7 @@ export function LeaderboardCard({
               {/* Activity Tags */}
               <div className="space-y-1 flex-1">
                 {sortActivitiesByPriority(Object.entries(entry.activity_breakdown))
-                  .filter(([activityName, data]) => data.count > 0)
+                  .filter(([, data]) => data.count > 0)
                   .map(([activityName, data]) => {
                     const style = getActivityStyle(activityName);
                     const IconComponent = style.icon;
@@ -567,7 +599,7 @@ export function LeaderboardCard({
             <div className="flex-1 w-full">
               <div className="space-y-1.5">
                 {sortActivitiesByPriority(Object.entries(entry.activity_breakdown))
-                  .filter(([activityName, data]) => data.count > 0)
+                  .filter(([, data]) => data.count > 0)
                   .map(([activityName, data]) => {
                     const style = getActivityStyle(activityName);
                     const IconComponent = style.icon;

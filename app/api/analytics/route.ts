@@ -97,7 +97,7 @@ interface AnalyticsData {
   repositories: number;
 }
 
-export async function GET(request: Request) {
+export async function GET() {
   try {
     // Read analytics data from the generated JSON file
     const analyticsPath = path.join(process.cwd(), 'public', 'analytics', 'analytics.json');

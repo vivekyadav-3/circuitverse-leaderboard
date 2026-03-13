@@ -576,7 +576,7 @@ async function fetchRepoMeta(repo: string) {
   }>;
 }
 
-async function fetchAll<T = any>(url: string): Promise<T[]> {
+async function fetchAll<T = unknown>(url: string): Promise<T[]> {
   let page = 1;
   const results: T[] = [];
   while (true) {
@@ -595,7 +595,7 @@ async function fetchAll<T = any>(url: string): Promise<T[]> {
       throw new Error(`GitHub API ${res.status}: ${text}`);
     }
     await smartSleep(res, 500);
-    const data = (await res.json()) as any;
+    const data = (await res.json()) as T[] | { items: T[] };
     
     if (!data) {
       console.warn(`⚠️ No data received from ${fullUrl}`);

@@ -71,7 +71,15 @@ export const BADGE_DEFINITIONS: Record<string, BadgeDefinition> = {
   },
 };
 
-export function getContributorBadges(contributor: any) {
+interface ContributorBadgeData {
+  username: string;
+  total_points: number;
+  current_streak?: number;
+  longest_streak?: number;
+  role?: string;
+}
+
+export function getContributorBadges(contributor: ContributorBadgeData) {
   const badges: BadgeDefinition[] = [];
 
   const addBadge = (slug: string) => {
@@ -94,7 +102,7 @@ export function getContributorBadges(contributor: any) {
   else if (totalPoints >= 100) addBadge("points_100");
 
   // Special logic
-  if (contributor.role === "Core Team") {
+  if (contributor.role === "Core Team" || contributor.role === "Maintainer") {
     addBadge("core_team");
   }
 

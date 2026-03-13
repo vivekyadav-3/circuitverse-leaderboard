@@ -16,13 +16,13 @@ import {
   BarChart3,
   Clock,
   GitPullRequest,
-  Bug,
   ArrowLeft,
   Target,
   Github,
   ExternalLink,
   GitMerge,
-  AlertCircle
+  AlertCircle,
+  FlameIcon
 } from "lucide-react";
 import { AchievementBadges } from "@/components/people/AchievementBadges";
 import { ActivityChart } from "@/components/people/ActivityChart";
@@ -65,6 +65,13 @@ interface ContributorEntry {
     link: string;
     points: number;
   }>;
+  active_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  stale_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  streak?: {
+    current: number;
+    longest: number;
+    lastActivityDate: string | null;
+  };
 }
 
 interface ContributorDetailProps {
@@ -166,13 +173,9 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
 
 
 
-  const getActivityIcon = (activityType: string) => {
-    return getActivityConfig(activityType).icon;
-  };
-
   const sortedActivities = Object.entries(contributor.activity_breakdown || {})
     .sort(([, a], [, b]) => b.points - a.points);
-  const maxPoints = Math.max(...sortedActivities.map(([_, d]) => d.points)) || 0;
+  const maxPoints = Math.max(...sortedActivities.map(([, d]) => d.points)) || 0;
 
   const recentActivity = contributor.daily_activity || [];
   const totalDaysActive = recentActivity.length;
@@ -181,8 +184,8 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
     : 0;
 
   // Using server-side streaks provided by the API
-  const currentStreak = contributor.current_streak || 0;
-  const longestStreak = contributor.longest_streak || 0;
+  const currentStreak = contributor.streak?.current || contributor.current_streak || 0;
+  const longestStreak = contributor.streak?.longest || contributor.longest_streak || 0;
 
   const uniqueContributions = contributor.activities
     ? (() => {
@@ -604,6 +607,99 @@ export function ContributorDetail({ contributor, onBack }: ContributorDetailProp
             dailyActivity={recentActivity}
             className="border-primary/20"
           />
+
+          {/* Pull Request Status Section */}
+          {(contributor.active_prs?.length || 0) + (contributor.stale_prs?.length || 0) > 0 && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Active PRs */}
+              <Card className="border-emerald-500/20 bg-emerald-500/5 h-full">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400">
+                    <FlameIcon className="w-5 h-5" />
+                    Active Pull Requests
+                    <Badge variant="outline" className="ml-auto border-emerald-500/30 text-emerald-600">
+                      {contributor.active_prs?.length || 0}
+                    </Badge>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  {contributor.active_prs && contributor.active_prs.length > 0 ? (
+                    <div className="space-y-3">
+                      {contributor.active_prs.map((pr, i) => (
+                        <a
+                          key={i}
+                          href={pr.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-start gap-3 p-3 rounded-lg bg-background/60 hover:bg-background border border-emerald-500/10 hover:border-emerald-500/30 transition-all group"
+                        >
+                          <GitPullRequest className="w-4 h-4 mt-1 text-emerald-500 shrink-0" />
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium line-clamp-2 group-hover:text-emerald-600 transition-colors">
+                              {pr.title}
+                            </p>
+                            <p className="text-[10px] text-muted-foreground mt-1 flex items-center gap-1">
+                              <Clock className="w-2.5 h-2.5" />
+                              Updated {new Date(pr.updatedAt).toLocaleDateString()}
+                            </p>
+                          </div>
+                          <ExternalLink className="w-3 h-3 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </a>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-sm text-muted-foreground text-center py-4 italic">
+                      No active pull requests at the moment.
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+
+              {/* Stale PRs */}
+              <Card className="border-orange-500/20 bg-orange-500/5 h-full">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-orange-600 dark:text-orange-400">
+                    <Clock className="w-5 h-5" />
+                    Stale Pull Requests
+                    <Badge variant="outline" className="ml-auto border-orange-500/30 text-orange-600">
+                      {contributor.stale_prs?.length || 0}
+                    </Badge>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  {contributor.stale_prs && contributor.stale_prs.length > 0 ? (
+                    <div className="space-y-3">
+                      {contributor.stale_prs.map((pr, i) => (
+                        <a
+                          key={i}
+                          href={pr.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-start gap-3 p-3 rounded-lg bg-background/60 hover:bg-background border border-orange-500/10 hover:border-orange-500/30 transition-all group"
+                        >
+                          <AlertCircle className="w-4 h-4 mt-1 text-orange-500 shrink-0" />
+                          <div className="min-w-0">
+                            <p className="text-sm font-medium line-clamp-2 group-hover:text-orange-600 transition-colors">
+                              {pr.title}
+                            </p>
+                            <p className="text-[10px] text-muted-foreground mt-1 flex items-center gap-1">
+                              <Clock className="w-2.5 h-2.5" />
+                              Last activity: {new Date(pr.updatedAt).toLocaleDateString()}
+                            </p>
+                          </div>
+                          <ExternalLink className="w-3 h-3 ml-auto opacity-0 group-hover:opacity-100 transition-opacity" />
+                        </a>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-sm text-muted-foreground text-center py-4 italic">
+                      No stale pull requests listed.
+                    </p>
+                  )}
+                </CardContent>
+              </Card>
+            </div>
+          )}
         </div>
       </div>
     </div>

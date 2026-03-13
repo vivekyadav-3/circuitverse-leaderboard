@@ -37,21 +37,22 @@ export function ActivityChart({ data }: ActivityChartProps) {
     .sort((a, b) => b.value - a.value);
 
   // Custom Tooltip
-  const CustomTooltip = ({ active, payload }: any) => {
+  const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: unknown[] }) => {
     if (active && payload && payload.length) {
-      const data = payload[0].payload;
+      const data = payload[0] as { payload: { name: string; value: number; count: number } };
+      const { name, value, count } = data.payload;
       return (
         <div className="bg-background border border-border p-3 rounded-lg shadow-lg ring-1 ring-black/5">
-          <p className="font-bold text-sm mb-1">{data.name}</p>
+          <p className="font-bold text-sm mb-1">{name}</p>
           <div className="flex flex-col gap-0.5 text-xs text-muted-foreground">
             <span className="font-medium text-foreground">
-              {data.value} points
+              {value} points
             </span>
             <span>
-              {data.count} contribution{data.count !== 1 ? 's' : ''}
+              {count} contribution{count !== 1 ? 's' : ''}
             </span>
             <span>
-              ({Math.round(data.value / data.count)} pts/action)
+              ({Math.round(value / count)} pts/action)
             </span>
           </div>
         </div>

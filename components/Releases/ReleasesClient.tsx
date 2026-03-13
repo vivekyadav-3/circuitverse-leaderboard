@@ -70,7 +70,4 @@ export default function ReleasesClient({
     </div>
   );
 }
-function setActiveRepo(arg0: string): void {
-  throw new Error("Function not implemented.");
-}
 

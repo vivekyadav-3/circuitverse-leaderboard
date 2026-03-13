@@ -99,8 +99,8 @@ async function fetchAllPages<T = unknown>(url: string): Promise<T[]> {
       results.push(...data);
       if (data.length < 100) break;
       page++;
-    } catch (e) {
-      console.warn(`Warning: Failed to fetch page ${page} of ${url}`, e);
+    } catch {
+      console.warn(`Warning: Failed to fetch page ${page} of ${url}`);
       break;
     }
   }
@@ -110,12 +110,12 @@ async function fetchAllPages<T = unknown>(url: string): Promise<T[]> {
 
 async function fetchSearchCount(query: string): Promise<number> {
   try {
-    const data = await fetchWithAuth(
-      `${GITHUB_API}/search/issues?q=${encodeURIComponent(query)}&per_page=1`
-    );
+    const data = (await fetchWithAuth(
+      `${GITHUB_API}/search/issues?q=${encodeURIComponent(query)}&per_page=1`,
+    )) as { total_count: number };
     return data?.total_count || 0;
-  } catch (e) {
-    console.warn(`Warning: Failed search query '${query}'`, e);
+  } catch {
+    console.warn(`Warning: Failed search query '${query}'`);
     return 0;
   }
 }
@@ -182,7 +182,7 @@ async function fetchOrgStats(): Promise<OrgStats> {
       console.log("   ⚠️ overview.json not found, falling back to API");
       useLocalData = false;
     }
-  } catch (e) {
+  } catch {
     console.log("   ⚠️ Failed to read overview.json, falling back to API");
     useLocalData = false;
   }
@@ -220,7 +220,7 @@ async function fetchOrgStats(): Promise<OrgStats> {
         licenseCount[detail.license.spdx_id] =
           (licenseCount[detail.license.spdx_id] || 0) + 1;
       }
-    } catch (e) {
+    } catch {
       console.warn(`   ⚠️ Failed to fetch details for ${repo.name}`);
     }
 
@@ -230,7 +230,7 @@ async function fetchOrgStats(): Promise<OrgStats> {
         `${GITHUB_API}/repos/${ORG}/${repo.name}/releases`,
       );
       totalReleases += releases.length;
-    } catch (e) {
+    } catch {
       console.warn(`   ⚠️ Failed to fetch releases for ${repo.name}`);
     }
   }

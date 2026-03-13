@@ -21,6 +21,13 @@ interface ContributorEntry {
     link: string;
     points: number;
   }>;
+  active_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  stale_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  streak?: {
+    current: number;
+    longest: number;
+    lastActivityDate: string | null;
+  };
 }
 
 interface LeaderboardData {
@@ -66,6 +73,8 @@ export async function GET() {
             allContributors.set(entry.username, {
               ...entry,
               activities: entry.activities ?? [],
+              active_prs: entry.active_prs ?? [],
+              stale_prs: entry.stale_prs ?? [],
             });
           } else {
             // Merge activities
@@ -113,6 +122,10 @@ export async function GET() {
             if (entry.total_points > existing.total_points) {
                Object.assign(existing, entry);
             }
+            if (entry.active_prs) existing.active_prs = entry.active_prs;
+            if (entry.stale_prs) existing.stale_prs = entry.stale_prs;
+            if (entry.streak) existing.streak = entry.streak;
+            
             existing.activities = combined.slice(0, 15);
           }
         }
@@ -121,12 +134,15 @@ export async function GET() {
       }
     }
 
-    // Now calculate streaks for each contributor
+    // Use streaks from JSON if available, otherwise calculate
     for (const contributor of allContributors.values()) {
-      if (contributor.daily_activity) {
+      if (!contributor.current_streak && contributor.daily_activity) {
         const streaks = calculateStreaks(contributor.daily_activity);
         contributor.current_streak = streaks.current;
         contributor.longest_streak = streaks.longest;
+      } else if (contributor.streak) {
+        contributor.current_streak = contributor.streak.current;
+        contributor.longest_streak = contributor.streak.longest;
       }
     }
 

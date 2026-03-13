@@ -31,6 +31,13 @@ interface ContributorEntry {
     link: string;
     points: number;
   }>;
+  active_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  stale_prs?: Array<{ title: string; link: string; updatedAt: string }>;
+  streak?: {
+    current: number;
+    longest: number;
+    lastActivityDate: string | null;
+  };
 }
 
 type PeopleResponse = {

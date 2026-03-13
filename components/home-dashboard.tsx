@@ -32,6 +32,7 @@ import { PaginatedActivitySection } from "@/components/PaginatedActivitySection"
 import { ActivityGroup, MonthBuckets } from "@/lib/db";
 import { Config } from "@/types/config";
 import { RepoStats } from "@/scripts/generateLeaderboard";
+import { Users } from "lucide-react";
 
 // --- Types ---
 type ViewState = "overview" | "repositories";
@@ -110,7 +111,7 @@ export default function HomeDashboard({
       case "forks":
         return b.forks - a.forks;
       case "issues":
-        return b.current.issue_created - a.current.issue_created;
+        return b.open_issues - a.open_issues;
       case "prs":
         return b.current.pr_opened + b.current.pr_merged - (a.current.pr_opened + a.current.pr_merged);
       case "contributions":
@@ -469,7 +470,7 @@ function RepoCard({ repo }: { repo: RepoStats }) {
           >
             <MetricFlowItem
               icon={<CircleDot className="h-4 w-4 sm:h-5 sm:w-5" />}
-              count={repo.current.issue_created}
+              count={repo.open_issues}
               label="Issues"
               variant="neutral"
             />
@@ -500,6 +501,41 @@ function RepoCard({ repo }: { repo: RepoStats }) {
           </Link>
         </div>
       </div>
+
+      {/* Top Contributors Section */}
+      {repo.top_contributors && repo.top_contributors.length > 0 && (
+        <div className="px-5 pb-5 sm:px-6 sm:pb-6 border-t border-zinc-100 dark:border-white/5 pt-4 bg-[#50B78B]/5 dark:bg-[#50B78B]/5">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-[10px] font-bold text-zinc-500 uppercase flex items-center gap-1">
+              <Users className="w-3 h-3" />
+              Top Contributors
+            </span>
+          </div>
+          <div className="flex -space-x-2">
+            {repo.top_contributors.slice(0, 5).map((contributor) => (
+              <Link 
+                key={contributor.username}
+                href={`/people/${contributor.username}`}
+                title={`${contributor.username} (${contributor.points} pts)`}
+                className="relative h-8 w-8 rounded-full border-2 border-white dark:border-zinc-900 overflow-hidden hover:z-10 hover:scale-110 transition-all hover:border-[#50B78B]"
+              >
+                <Image
+                  src={contributor.avatar_url || `https://github.com/${contributor.username}.png`}
+                  alt={contributor.username}
+                  width={32}
+                  height={32}
+                  className="object-cover"
+                />
+              </Link>
+            ))}
+            {repo.top_contributors.length > 5 && (
+              <div className="h-8 w-8 rounded-full bg-zinc-100 dark:bg-zinc-800 border-2 border-white dark:border-zinc-900 flex items-center justify-center text-[10px] font-bold text-zinc-500">
+                +{repo.top_contributors.length - 5}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

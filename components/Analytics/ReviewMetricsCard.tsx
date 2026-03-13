@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { GitPullRequest, Clock, TrendingUp, Users, Divide } from "lucide-react";
+import { GitPullRequest, Clock, TrendingUp, Users } from "lucide-react";
 
 interface ReviewMetrics {
   totalReviews: number;
