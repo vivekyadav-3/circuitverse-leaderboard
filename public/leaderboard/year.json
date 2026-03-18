@@ -1,17 +1,21 @@
 {
   "period": "year",
-  "updatedAt": 1773713362874,
-  "lastFetchedAt": 1773713362874,
-  "startDate": "2025-03-17",
-  "endDate": "2026-03-17",
+  "updatedAt": 1773799992918,
+  "lastFetchedAt": 1773799992918,
+  "startDate": "2025-03-18",
+  "endDate": "2026-03-18",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 739,
+      "total_points": 749,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 19,
+          "points": 135
+        },
         "PR opened": {
           "count": 54,
           "points": 165
@@ -24,10 +28,6 @@
           "count": 27,
           "points": 39
         },
-        "PR merged": {
-          "count": 18,
-          "points": 125
-        },
         "Review submitted": {
           "count": 50,
           "points": 288
@@ -38,6 +38,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-03-17",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-03-12",
           "count": 1,
@@ -430,6 +435,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-03-17T06:16:39Z",
+          "title": "feat(avo) - Add Contests & Submissions resources (Submission, SubmissionVote, ContestWinner)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7105",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-03-12T17:38:29Z",
@@ -3418,11 +3430,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 511,
+      "total_points": 517,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 83,
-          "points": 83
+          "count": 89,
+          "points": 89
         },
         "Review submitted": {
           "count": 33,
@@ -3446,6 +3458,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-03-17",
+          "count": 6,
+          "points": 6
+        },
         {
           "date": "2026-03-15",
           "count": 2,
@@ -3773,6 +3790,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:16:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:16:39Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:09:26Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:09:25Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:08:43Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-17T06:04:13Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-03-15T14:13:19Z",
@@ -24251,6 +24310,121 @@
       ]
     },
     {
+      "username": "Omkar-Wagholikar",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/104051137?v=4",
+      "role": "Contributor",
+      "total_points": 48,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 3,
+          "points": 30
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        },
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-17",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-03-15",
+          "count": 3,
+          "points": 13
+        },
+        {
+          "date": "2026-03-14",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-09",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-08",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-03-04",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-03-17T06:09:25Z",
+          "title": "fix - update manifest.js",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7156",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-03-15T06:58:35Z",
+          "title": "refactor - use guard clause style for redirect",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7147",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-15T02:32:10Z",
+          "title": "Bug - Missing favicon.ico in manifest.js causing testcases to fail",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7158",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-15T02:32:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-14T11:02:54Z",
+          "title": "refactor - update manifest.js",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7156",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-09T19:28:32Z",
+          "title": "refactor - use guard clause style for redirect",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7147",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-04T17:07:59Z",
+          "title": "fix - correct typo in separator variable in base_controller pagination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7121",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-03-08T09:35:32Z",
+          "title": "fix - correct typo in separator variable in base_controller pagination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7121",
+          "points": 10
+        }
+      ]
+    },
+    {
       "username": "yashveer-1",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
@@ -24927,109 +25101,6 @@
           "title": "Fix #6500 - Resolve Red Flash and ReferenceError in Simulator Navigation",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6551",
           "points": 2
-        }
-      ]
-    },
-    {
-      "username": "Omkar-Wagholikar",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/104051137?v=4",
-      "role": "Contributor",
-      "total_points": 38,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 2,
-          "points": 20
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        },
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-15",
-          "count": 3,
-          "points": 13
-        },
-        {
-          "date": "2026-03-14",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-03-09",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-03-08",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-03-04",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-03-15T06:58:35Z",
-          "title": "refactor - use guard clause style for redirect",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7147",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-15T02:32:10Z",
-          "title": "Bug - Missing favicon.ico in manifest.js causing testcases to fail",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7158",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-15T02:32:11Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-14T11:02:54Z",
-          "title": "refactor - update manifest.js",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7156",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-09T19:28:32Z",
-          "title": "refactor - use guard clause style for redirect",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7147",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-04T17:07:59Z",
-          "title": "fix - correct typo in separator variable in base_controller pagination",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7121",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-03-08T09:35:32Z",
-          "title": "fix - correct typo in separator variable in base_controller pagination",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7121",
-          "points": 10
         }
       ]
     },
@@ -30437,6 +30508,49 @@
       ]
     },
     {
+      "username": "palakvishwakarma44",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192522358?v=4",
+      "role": "Contributor",
+      "total_points": 15,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-17",
+          "count": 3,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-17T12:12:43Z",
+          "title": "fix - improve UI alignment in assignment edit page (#5541)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7167",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-17T11:52:58Z",
+          "title": "fix - align project title and stats properly (#4107)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7166",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-17T11:26:25Z",
+          "title": "First contribution docs - add VAPID keys documentation (#4040)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7165",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "harshit-ht22",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/197410420?v=4",
@@ -32300,6 +32414,47 @@
           "occured_at": "2025-03-29T15:51:34Z",
           "title": "New - added flutter web target",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/308",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "samarth-swami",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/235930796?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-17",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-21",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-17T15:40:48Z",
+          "title": "feat - integrate Sentry for simulator error tracking (#4962)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1027",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-21T12:53:34Z",
+          "title": "docs - add desktop application (Tauri) development instructions",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/974",
           "points": 5
         }
       ]
@@ -35140,35 +35295,6 @@
           "occured_at": "2026-03-11T09:07:46Z",
           "title": "fix - change display of subscribed to mails from true/false to yes/no",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/527",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "samarth-swami",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/235930796?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-02-21",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-21T12:53:34Z",
-          "title": "docs - add desktop application (Tauri) development instructions",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/974",
           "points": 5
         }
       ]
