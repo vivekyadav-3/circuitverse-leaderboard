@@ -1,9 +1,891 @@
 {
   "period": "week",
-  "updatedAt": 1773972475152,
-  "startDate": "2026-03-13",
-  "endDate": "2026-03-20",
+  "updatedAt": 1774058520839,
+  "startDate": "2026-03-14",
+  "endDate": "2026-03-21",
   "entries": [
+    {
+      "username": "magic-peach",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
+      "role": "Contributor",
+      "total_points": 49,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 7,
+          "points": 35
+        },
+        "Issue opened": {
+          "count": 7,
+          "points": 14
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-20",
+          "count": 14,
+          "points": 49
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:56:35Z",
+          "title": "fix - rescue per-project fork errors in AssignmentDeadlineSubmissionJob to prevent partial batch failure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7192",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:55:57Z",
+          "title": "fix - use find_by in AssignmentDeadlineVerificationJob to avoid RecordNotFound on deleted assignments",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7191",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:54:46Z",
+          "title": "fix - add partial unique index on assignments.lti_consumer_key for LTI 1.1 lookups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7190",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:54:06Z",
+          "title": "fix - block grade writes when assignment grades_finalized is true",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7189",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:53:36Z",
+          "title": "fix - add includes( - user) to Assignment notification callbacks to avoid N+1 queries",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7188",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:52:46Z",
+          "title": "fix - scope AssignmentsController#index to current user's groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7187",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:51:44Z",
+          "title": "fix - remove duplicate update! call in Api - - V1 - - AssignmentsController#update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7186",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:50:04Z",
+          "title": "Bug - AssignmentDeadlineSubmissionJob aborts entire batch if a single project fork fails, leaving assignment partially submitted and unclosed",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7185",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:49:44Z",
+          "title": "Bug - AssignmentDeadlineVerificationJob raises ActiveRecord - - RecordNotFound when assignment is deleted while queued",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7184",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:49:09Z",
+          "title": "Performance - Missing database index on assignments.lti_consumer_key causes full table scan during LTI 1.1 auth",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7183",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:48:50Z",
+          "title": "Bug - GradePolicy does not enforce grades_finalized flag — mentors can overwrite grades after finalization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7182",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:48:23Z",
+          "title": "Performance - N+1 queries in Assignment notification callbacks (notify_recipient, send_new_assignment_mail, send_update_mail)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7181",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:47:55Z",
+          "title": "Security - AssignmentsController#index leaks all assignments to any authenticated user",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7180",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:47:40Z",
+          "title": "Bug - Api - - V1 - - AssignmentsController#update calls update! and update twice with identical params",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7179",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-18T14:27:28Z",
+          "title": "fix - remove duplicate group create save call",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6989",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T17:14:51Z",
+          "title": "docs - fix shortcuts typo in quick button assets",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/966",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T17:10:52Z",
+          "title": "docs - fix explicitly typo in friendly_id comment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6978",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T10:16:19Z",
+          "title": "fix - remove duplicate assignment update call",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6976",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T10:10:38Z",
+          "title": "docs - fix implement typo in auth store comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/965",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T10:03:58Z",
+          "title": "docs - fix simulator typos in production dockerfile",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6973",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:56:00Z",
+          "title": "docs - fix simulator typos in production dockerfile",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6972",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:55:08Z",
+          "title": "docs - fix transparent typo in save function comments",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/963",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:22:12Z",
+          "title": "docs - fix committing typo in tasks list",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/265",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:21:03Z",
+          "title": "docs - fix information wording in lms integration guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/524",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:20:13Z",
+          "title": "docs - fix typos in test circuits chapter text",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/522",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:18:53Z",
+          "title": "docs - fix keyboard shortcut spelling in chapter docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/520",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:13:31Z",
+          "title": "docs - improve repetitive wording in readme intro",
+          "link": "https://github.com/CircuitVerse/upptime/pull/174",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:03:06Z",
+          "title": "docs - fix preferred typo in hotkey panel comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/959",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:02:17Z",
+          "title": "docs - fix shortcut spelling in hotkey documentation",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/957",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:01:37Z",
+          "title": "docs - fix information typo in simulator handler comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/955",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T09:00:29Z",
+          "title": "docs - fix toggle typo in simulator stylesheet comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/953",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:58:53Z",
+          "title": "test - fix simulator context wording typo in spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6970",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:57:59Z",
+          "title": "test - fix signed-in wording typo in projects spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6968",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:57:12Z",
+          "title": "test - fix signed-in wording typo in grades spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6966",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:56:18Z",
+          "title": "test - fix callback description typo in pending invitation spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6964",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:55:16Z",
+          "title": "docs - fix announcement heading typo in locale",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6962",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:43:12Z",
+          "title": "test - fix typo strings in search controller spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6959",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:42:24Z",
+          "title": "test - fix response typo in simulator post issue spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6957",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:41:33Z",
+          "title": "test - fix addition typo in projects index spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6955",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:40:43Z",
+          "title": "docs - fix typo text in simulator mobile and quick menu",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6953",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:39:59Z",
+          "title": "fix - correct separator typo in api pagination helper",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6951",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:20:20Z",
+          "title": "docs - fix restart instruction grammar in remote guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6949",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:19:23Z",
+          "title": "docs - fix restart instruction grammar in docker guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6947",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:18:18Z",
+          "title": "docs - update ruby version in docs setup guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6945",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:17:14Z",
+          "title": "docs - fix deadline description in assignments api table",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6943",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:13:16Z",
+          "title": "docs - replace atleast typo in installation guides",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6941",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:10:12Z",
+          "title": "docs - fix troubleshooting guide solution grammar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6939",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:08:17Z",
+          "title": "docs - fix delete group exception text in api docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6937",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:04:14Z",
+          "title": "docs - fix typo in groups api response note",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6935",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T08:01:13Z",
+          "title": "docs - fix grammar in assignment start endpoint docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6933",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T07:57:58Z",
+          "title": "docs - fix query parameters heading typo in assignments docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6931",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T07:54:07Z",
+          "title": "fix - correct grammar in featured circuit email copy",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6929",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T07:51:09Z",
+          "title": "fix - render mentor name in assignment update email",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6927",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T07:44:43Z",
+          "title": "fix - standardize url capitalization in group invite notices",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6925",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-17T05:16:25Z",
+          "title": "feat - add domain-based access restriction for group invitations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6922",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-23T14:21:15Z",
+          "title": "Add domain-based access restriction for group invitations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7017",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-23T13:41:23Z",
+          "title": "Consolidated typo fixes",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7015",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-19T18:00:39Z",
+          "title": "docs - fix committing typo in tasks list",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/265",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-21T16:53:19Z",
+          "title": "docs - fix typos in test circuits chapter text",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/522",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:47:00Z",
+          "title": "🐞 Bug - Educational institute typeahead LIKE wildcard bypass",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6988",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:45:53Z",
+          "title": "🐞 Bug - IDOR in notifications mark_as_read",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6987",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:43:37Z",
+          "title": "🐞 Bug - Time API inconsistency in AssignmentDecorator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6986",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:40:28Z",
+          "title": "🐞 Bug - Assignment deadline race window closes early",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6985",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:38:56Z",
+          "title": "🐞 Bug - Duplicate update call in Projects API update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6984",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:37:44Z",
+          "title": "🐞 Bug - Duplicate update call in Groups API update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6983",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-18T13:13:48Z",
+          "title": "🐞 Bug - Duplicate save call in Groups API create",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6982",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T10:14:49Z",
+          "title": "bug - assignments API update performs duplicate update calls",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6975",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T10:09:39Z",
+          "title": "docs - fix implement typo in auth store TODO comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/964",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T10:07:35Z",
+          "title": "docs - fix explicity typo in friendly_id initializer comment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6974",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:54:25Z",
+          "title": "docs - fix transparent typo in save function comments",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/962",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:53:45Z",
+          "title": "docs - fix shortcuts typo in quick button labels",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/961",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:53:32Z",
+          "title": "docs - fix simulator/dependencies typos in Dockerfile.production",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6971",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:21:48Z",
+          "title": "docs - fix committing typo in tasks list",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/264",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:20:33Z",
+          "title": "docs - fix information wording in lms integration guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/523",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:19:38Z",
+          "title": "docs - fix separation and attach typos in test circuits pages",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/521",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:18:31Z",
+          "title": "docs - fix keyboard shortcut spelling in chapter 8 and chapter 9 docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/519",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:12:59Z",
+          "title": "docs - improve repetitive wording in readme intro",
+          "link": "https://github.com/CircuitVerse/upptime/issues/173",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:02:37Z",
+          "title": "docs - fix preferred typo in hotkey panel comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/958",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:01:54Z",
+          "title": "docs - fix shortcut spelling in hotkey binder documentation",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/956",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T09:01:18Z",
+          "title": "docs - fix information typo in simulator handler comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/954",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:59:42Z",
+          "title": "docs - fix toggle typo in simulator stylesheet comment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/952",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:58:20Z",
+          "title": "test - fix simulator context wording typo in controller spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6969",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:57:31Z",
+          "title": "test - fix signed-in wording typo in projects controller spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6967",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:56:35Z",
+          "title": "test - fix signed-in wording typo in grades controller spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6965",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:55:40Z",
+          "title": "test - fix callback description typo in pending invitation spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6963",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:54:38Z",
+          "title": "docs - fix announcement heading typo in locale",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6961",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:42:44Z",
+          "title": "test - fix typo strings in search controller spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6958",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:41:55Z",
+          "title": "test - fix reponse typo in simulator post issue spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6956",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:40:58Z",
+          "title": "test - fix additon typo in projects index request spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6954",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:40:18Z",
+          "title": "docs - fix typo text in simulator mobile and quick menu labels",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6952",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:39:33Z",
+          "title": "fix - correct separator typo in api pagination helper",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6950",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:19:48Z",
+          "title": "docs - fix restart instruction grammar in remote development guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6948",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:18:41Z",
+          "title": "docs - fix restart instruction grammar in docker guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6946",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:17:37Z",
+          "title": "docs - update outdated ruby version in docs setup guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6944",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:16:34Z",
+          "title": "docs - fix incorrect deadline description in assignments api table",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6942",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:12:01Z",
+          "title": "docs - replace atleast with at least in installation guides",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6940",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:09:17Z",
+          "title": "docs - fix grammar in troubleshooting guide solution text",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6938",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:06:57Z",
+          "title": "docs - fix delete group exception description in groups api docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6936",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:03:23Z",
+          "title": "docs - fix typo in groups api response note",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6934",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T08:00:18Z",
+          "title": "docs - fix grammar in assignments start endpoint description",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6932",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T07:57:03Z",
+          "title": "docs - fix url query parameters heading typo in assignments api docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6930",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T07:52:34Z",
+          "title": "bug - featured circuit email uses incorrect grammar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6928",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T07:49:46Z",
+          "title": "bug - assignment update email does not render mentor name",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6926",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T07:42:30Z",
+          "title": "bug - group invite errors use inconsistent url capitalization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6924",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T05:15:07Z",
+          "title": "feat - Add domain-based access restriction for group invitations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6921",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-17T04:56:51Z",
+          "title": "feat - Add domain-based access restriction for group invitations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6920",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-16T15:15:18Z",
+          "title": "Feature Add dark mode support for simulator canvas and UI",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6916",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-23T14:10:09Z",
+          "title": "Feature Add Email Domain Restriction for Group Invite Links",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7016",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:56:35Z",
+          "title": "fix - rescue per-project fork errors in AssignmentDeadlineSubmissionJob to prevent partial batch failure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7192",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:55:57Z",
+          "title": "fix - use find_by in AssignmentDeadlineVerificationJob to avoid RecordNotFound on deleted assignments",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7191",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:54:46Z",
+          "title": "fix - add partial unique index on assignments.lti_consumer_key for LTI 1.1 lookups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7190",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:54:06Z",
+          "title": "fix - block grade writes when assignment grades_finalized is true",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7189",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:53:36Z",
+          "title": "fix - add includes( - user) to Assignment notification callbacks to avoid N+1 queries",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7188",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:52:46Z",
+          "title": "fix - scope AssignmentsController#index to current user's groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7187",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T06:51:44Z",
+          "title": "fix - remove duplicate update! call in Api - - V1 - - AssignmentsController#update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7186",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:50:04Z",
+          "title": "Bug - AssignmentDeadlineSubmissionJob aborts entire batch if a single project fork fails, leaving assignment partially submitted and unclosed",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7185",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:49:44Z",
+          "title": "Bug - AssignmentDeadlineVerificationJob raises ActiveRecord - - RecordNotFound when assignment is deleted while queued",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7184",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:49:09Z",
+          "title": "Performance - Missing database index on assignments.lti_consumer_key causes full table scan during LTI 1.1 auth",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7183",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:48:50Z",
+          "title": "Bug - GradePolicy does not enforce grades_finalized flag — mentors can overwrite grades after finalization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7182",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:48:23Z",
+          "title": "Performance - N+1 queries in Assignment notification callbacks (notify_recipient, send_new_assignment_mail, send_update_mail)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7181",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:47:55Z",
+          "title": "Security - AssignmentsController#index leaks all assignments to any authenticated user",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7180",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T06:47:40Z",
+          "title": "Bug - Api - - V1 - - AssignmentsController#update calls update! and update twice with identical params",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7179",
+          "points": 2
+        }
+      ]
+    },
     {
       "username": "palakvishwakarma44",
       "name": null,
@@ -2542,272 +3424,6 @@
       ]
     },
     {
-      "username": "hiraljj05",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/212759472?v=4",
-      "role": "Contributor",
-      "total_points": 10,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-16",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-03-14",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-03-13",
-          "count": 2,
-          "points": 7
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-16T18:39:20Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-14T08:17:37Z",
-          "title": "Add full-text search for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/533",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-13T18:02:32Z",
-          "title": "Add reading progress tracking for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/532",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-13T17:56:25Z",
-          "title": "Reading position is not preserved in Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/531",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-11T16:52:11Z",
-          "title": "Feature/offline support",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/529",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-11T14:06:05Z",
-          "title": "Add Offline Reading Support for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/528",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-21T03:04:46Z",
-          "title": "chore(l10n) - remove deprecated synthetic-package config",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-04T18:16:23Z",
-          "title": "Fix/forgot password error handling",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-03T15:34:16Z",
-          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-03T12:46:13Z",
-          "title": "Fix signup error handling and improve dialog for existing email",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T13:30:04Z",
-          "title": "Fix Signup Error Handling and Add Proper Dialogs for Existing Emails",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/509",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T12:14:29Z",
-          "title": "Fix login error message for incorrect credentials",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-24T16:00:29Z",
-          "title": "Fix #503 - Prevent automatic login before email verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-23T07:05:39Z",
-          "title": "Google auth fix",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:25:39Z",
-          "title": "User Automatically Logged In After Signup Without Email Verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/503",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:24:22Z",
-          "title": "No Error Message Displayed for Incorrect Email or Password",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/502",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:06:54Z",
-          "title": "Login Allows Direct Access Without Proper Email Verification",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/501",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:05:51Z",
-          "title": "GitHub Login Not Functioning",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/500",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:05:08Z",
-          "title": "Google OAuth Login Fails After Account Selection",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/499",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T15:03:52Z",
-          "title": "Forgot Password Sends Instructions for Unregistered Emails & Email Not Received",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/498",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T14:24:54Z",
-          "title": "Auth flow broken/incomplete - Google, GitHub, and Email login lack proper authentication handling",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/497",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-03T11:58:00Z",
-          "title": "Logout from Navigation Drawer does not navigate to Home screen or update UI immediately",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/520",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-25T12:19:28Z",
-          "title": "No Error Message Displayed When Signing Up With an Existing Email",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/508",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-03T12:25:24Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-03-03T06:58:01Z",
-          "title": "Assigned issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-03-03T06:57:47Z",
-          "title": "Assigned issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-02-25T12:26:05Z",
-          "title": "Assigned issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-02-21T14:59:23Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-16T18:39:20Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-14T08:17:37Z",
-          "title": "Add full-text search for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/533",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-13T18:02:32Z",
-          "title": "Add reading progress tracking for Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/532",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-13T17:56:25Z",
-          "title": "Reading position is not preserved in Interactive Books",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/531",
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "NARAYAN790",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/227332428?v=4",
@@ -4280,6 +4896,325 @@
       ]
     },
     {
+      "username": "Teesta-Mukherjee",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/168867474?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-20",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T13:49:43Z",
+          "title": "feat - introduce organization model and link groups to organizations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7194",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T11:59:43Z",
+          "title": "Feature - Add organization entity to support institutional group management",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7193",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-20T11:59:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-07T21:07:43Z",
+          "title": "Add CORS preflight support for Tauri auth endpoints",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6854",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-24T19:29:22Z",
+          "title": "Feature/user reporting",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6740",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-24T18:48:40Z",
+          "title": "Feature/user reporting",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6738",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-22T10:40:44Z",
+          "title": "fix - show tooltips on simulator hover",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/844",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-08T10:34:28Z",
+          "title": "Add backend support for subgroups within groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7139",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-22T09:20:34Z",
+          "title": "fix - make navbar sticky on scroll",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/218",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-01T11:18:58Z",
+          "title": "🐞 Bug - Tauri Authentication model works locally but fails for API requests in deployed environment",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/907",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-01T11:07:34Z",
+          "title": "🐞 Bug Authentication model works locally but fails for API requests in deployed environment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6799",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-22T14:19:57Z",
+          "title": "Make contributor avatars clickable on homepage (open contributor profile)",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/232",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-08T10:13:58Z",
+          "title": "Feature Add subgroup within groups(Backend part)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7138",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-09T21:08:27Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-08T10:13:59Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-21T22:16:43Z",
+          "title": "Feature - Add tooltips for simulator sidebar buttons (hover labels)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/841",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-21T22:16:45Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-19T18:35:57Z",
+          "title": "🐞Bug - Not gate and wire segment cannot be deleted after aborted connection",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/829",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-19T18:35:58Z",
+          "title": "Labeled issue #829 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/829",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-18T13:32:22Z",
+          "title": "fix - make navbar sticky on scroll",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/218",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-17T11:50:25Z",
+          "title": "fix - remove duplicate --br-circuit theme key",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/804",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-17T11:04:12Z",
+          "title": "UI - Navbar disappears on scroll — make it sticky",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/215",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-15T22:27:28Z",
+          "title": "fix - remove duplicate --br-circuit theme key",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/804",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-13T17:53:34Z",
+          "title": "fix - redirect contributors CTA to #contributors",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/201",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-12T11:23:06Z",
+          "title": "fix - redirect contributors CTA to #contributors",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/201",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T14:21:23Z",
+          "title": "Fix alignment of Boolean Logic Table dialog",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6507",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T12:30:10Z",
+          "title": "Fix properties panel disappearing after closing Edit Layout",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6506",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T09:11:10Z",
+          "title": "Fix properties panel disappearing after closing Edit Layout",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6505",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-18T22:13:57Z",
+          "title": "Fix - User dropdown does not close on repeated click (mobile)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6485",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-18T21:00:49Z",
+          "title": "Fix - User dropdown does not close on repeated click (mobile)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6484",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-18T12:02:17Z",
+          "title": "Improve UI layout and spacing of Edit Profile page (#4470)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6481",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-17T23:26:42Z",
+          "title": "Improve UI layout and spacing of Edit Details page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6480",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-12T17:26:47Z",
+          "title": "Fix - full-width hover highlight for dropdown text (#2919)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6466",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T23:16:35Z",
+          "title": "fix - clarify CTA label on contributors card",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/116",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T12:33:29Z",
+          "title": "fix - soften hover background for back button",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/87",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-03T14:43:38Z",
+          "title": "fix - soften hover background for back button",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/87",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T23:21:59Z",
+          "title": "UX - Move \"View All Members\" CTA out of Contributors card for better clarity",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/117",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T19:43:32Z",
+          "title": "UX - \"View All Members\" on Contributors card redirects to Core Team instead of Contributors",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/112",
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-20T13:49:43Z",
+          "title": "feat - introduce organization model and link groups to organizations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7194",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-20T11:59:43Z",
+          "title": "Feature - Add organization entity to support institutional group management",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7193",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-20T11:59:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "SouparnaChatterjee",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
@@ -4790,40 +5725,245 @@
       ]
     },
     {
-      "username": "gayatri728",
+      "username": "hiraljj05",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/214634310?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/212759472?v=4",
       "role": "Contributor",
-      "total_points": 5,
+      "total_points": 3,
       "activity_breakdown": {
-        "PR opened": {
+        "Issue closed": {
           "count": 1,
-          "points": 5
+          "points": 1
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
         }
       },
       "daily_activity": [
         {
-          "date": "2026-03-13",
+          "date": "2026-03-16",
           "count": 1,
-          "points": 5
+          "points": 1
+        },
+        {
+          "date": "2026-03-14",
+          "count": 1,
+          "points": 2
         }
       ],
       "raw_activities": [
         {
+          "type": "Issue closed",
+          "occured_at": "2026-03-16T18:39:20Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-14T08:17:37Z",
+          "title": "Add full-text search for Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/533",
+          "points": 2
+        },
+        {
           "type": "PR opened",
-          "occured_at": "2026-03-13T10:09:58Z",
-          "title": "fix - replace deprecated action_cable.js with actioncable.js",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7155",
+          "occured_at": "2026-03-13T18:02:32Z",
+          "title": "Add reading progress tracking for Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/532",
           "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-13T17:56:25Z",
+          "title": "Reading position is not preserved in Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/531",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-11T16:52:11Z",
+          "title": "Feature/offline support",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/529",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-11T14:06:05Z",
+          "title": "Add Offline Reading Support for Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/528",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-21T03:04:46Z",
+          "title": "chore(l10n) - remove deprecated synthetic-package config",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/495",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-04T18:16:23Z",
+          "title": "Fix/forgot password error handling",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/525",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-03T15:34:16Z",
+          "title": "Fix logout navigation drawer UI not updating and navigate to Home screen",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/522",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-03T12:46:13Z",
+          "title": "Fix signup error handling and improve dialog for existing email",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/521",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-25T13:30:04Z",
+          "title": "Fix Signup Error Handling and Add Proper Dialogs for Existing Emails",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/509",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-25T12:14:29Z",
+          "title": "Fix login error message for incorrect credentials",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/507",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-24T16:00:29Z",
+          "title": "Fix #503 - Prevent automatic login before email verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/506",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-23T07:05:39Z",
+          "title": "Google auth fix",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/505",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:25:39Z",
+          "title": "User Automatically Logged In After Signup Without Email Verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/503",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:24:22Z",
+          "title": "No Error Message Displayed for Incorrect Email or Password",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/502",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:06:54Z",
+          "title": "Login Allows Direct Access Without Proper Email Verification",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/501",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:05:51Z",
+          "title": "GitHub Login Not Functioning",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/500",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:05:08Z",
+          "title": "Google OAuth Login Fails After Account Selection",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/499",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T15:03:52Z",
+          "title": "Forgot Password Sends Instructions for Unregistered Emails & Email Not Received",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/498",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T14:24:54Z",
+          "title": "Auth flow broken/incomplete - Google, GitHub, and Email login lack proper authentication handling",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/497",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-03T11:58:00Z",
+          "title": "Logout from Navigation Drawer does not navigate to Home screen or update UI immediately",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/520",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-25T12:19:28Z",
+          "title": "No Error Message Displayed When Signing Up With an Existing Email",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/508",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-03T12:25:24Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-03-03T06:58:01Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-03-03T06:57:47Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-02-25T12:26:05Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-02-21T14:59:23Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
         }
       ],
       "activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-03-13T10:09:58Z",
-          "title": "fix - replace deprecated action_cable.js with actioncable.js",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7155",
-          "points": 5
+          "type": "Issue closed",
+          "occured_at": "2026-03-16T18:39:20Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-14T08:17:37Z",
+          "title": "Add full-text search for Interactive Books",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/533",
+          "points": 2
         }
       ]
     },
@@ -5234,51 +6374,6 @@
           "type": "Issue closed",
           "occured_at": "2026-03-15T15:43:41Z",
           "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "kartikaeyy",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/114746821?v=4",
-      "role": "Contributor",
-      "total_points": 1,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-13",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-13T20:14:14Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-04T13:16:50Z",
-          "title": "added a snackbar for github oauth error handle for contributors",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/524",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-13T20:14:14Z",
-          "title": "Closed issue in mobile-app",
           "link": null,
           "points": 1
         }
