@@ -133,7 +133,6 @@ export async function GET() {
         console.error(`Error reading ${file}:`, error);
       }
     }
-
     // Use streaks from JSON if available, otherwise calculate
     for (const contributor of allContributors.values()) {
       if (!contributor.current_streak && contributor.daily_activity) {

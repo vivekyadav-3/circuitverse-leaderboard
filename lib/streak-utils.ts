@@ -14,8 +14,8 @@ export function calculateStreaks(dailyActivity: DailyActivity[]) {
 
   // Helper to parse YYYY-MM-DD to a UTC timestamp at midnight
   const getTimestamp = (dateStr: string) => {
-    const [year, month, day] = dateStr.split('-').map(Number);
-    return Date.UTC(year, month - 1, day);
+    const parts = dateStr.split('-').map(Number) as [number, number, number];
+    return Date.UTC(parts[0], parts[1] - 1, parts[2]);
   };
 
   const MS_PER_DAY = 1000 * 60 * 60 * 24;
@@ -65,11 +65,12 @@ export function calculateStreaks(dailyActivity: DailyActivity[]) {
   let currentStreak = 0;
 
   // Only consider current if the last active day was today or yesterday
-  if (lastDay.timestamp === todayUTC || lastDay.timestamp === yesterdayUTC) {
+  if (lastDay && (lastDay.timestamp === todayUTC || lastDay.timestamp === yesterdayUTC)) {
     currentStreak = 1;
     for (let i = activeDays.length - 1; i > 0; i--) {
-      const current = activeDays[i].timestamp;
-      const previous = activeDays[i - 1].timestamp;
+      const current = activeDays[i]?.timestamp;
+      const previous = activeDays[i - 1]?.timestamp;
+      if (current === undefined || previous === undefined) break;
       const diff = Math.round((current - previous) / MS_PER_DAY);
 
       if (diff === 1) {

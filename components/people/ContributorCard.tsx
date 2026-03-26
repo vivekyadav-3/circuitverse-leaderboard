@@ -23,8 +23,6 @@ interface ContributorCardProps {
 }
 
 
-/* ---------------- ORDER + ICON NORMALIZATION ---------------- */
-
 const ACTIVITY_ORDER = ["PR merged", "PR opened", "Issue opened"];
 
 

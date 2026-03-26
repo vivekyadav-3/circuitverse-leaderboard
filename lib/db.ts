@@ -242,7 +242,7 @@ export async function getContributorProfile(username: string) {
 
   const dailyActivityMap = new Map<string, { count: number, points: number }>();
   activities.forEach((activity) => {
-    const date = new Date(activity.occured_at).toISOString().split("T")[0];
+    const date = new Date(activity.occured_at).toISOString().split("T")[0]!;
     if (!dailyActivityMap.has(date)) {
       dailyActivityMap.set(date, { count: 0, points: 0 });
     }
