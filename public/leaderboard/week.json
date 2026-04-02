@@ -1,189 +1,9 @@
 {
   "period": "week",
-  "updatedAt": 1775011144047,
-  "startDate": "2026-03-25",
-  "endDate": "2026-04-01",
+  "updatedAt": 1775096693302,
+  "startDate": "2026-03-26",
+  "endDate": "2026-04-02",
   "entries": [
-    {
-      "username": "RAJEEVTIWARI8052",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/180764866?v=4",
-      "role": "Contributor",
-      "total_points": 16,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue opened": {
-          "count": 3,
-          "points": 6
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-26",
-          "count": 3,
-          "points": 9
-        },
-        {
-          "date": "2026-03-25",
-          "count": 2,
-          "points": 7
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-26T14:18:17Z",
-          "title": "Fix/image cropper web settings",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/565",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:54:49Z",
-          "title": "Bug - Profile image update crashes on Web due to dart - io File usage",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/564",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:44:48Z",
-          "title": "Bug - ImageCropper crashes on Web (Missing WebUiSettings)",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/563",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T08:05:18Z",
-          "title": "docs - add Chrome CORS workaround for local web development",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/562",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-25T07:58:17Z",
-          "title": "Bug - CORS policy blocks all API requests when running app via flutter run -d chrome",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/561",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T20:17:38Z",
-          "title": "fix - replace GestureDetector with InkWell in ProjectCard for ripple f…",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/560",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T15:48:11Z",
-          "title": "fix - correctly parse and route absolute anchor URLs in Interactive Book",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/557",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T15:30:08Z",
-          "title": "fix - resolve memory leak in AssignmentDetailsView",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/555",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T20:12:45Z",
-          "title": "Enhancement / Frontend - Replace GestureDetector with InkWell on interactive components for visual touch feedback",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/559",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T16:41:01Z",
-          "title": "Documentation - Fix broken links, list formatting errors, and missing git-hook instructions",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/558",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T15:46:01Z",
-          "title": "Bug - Frontend Interactive Book incorrectly parses absolute anchor link URLs",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/556",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T15:25:35Z",
-          "title": "Bug - Memory Leak in `AssignmentDetailsView` due to un-disposed `TextEditingController`s",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/554",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-24T16:22:17Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T13:29:13Z",
-          "title": "Bug Missing UnauthorizedException handling in fetchCurrentUser and updateProfile API calls",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/548",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T12:51:34Z",
-          "title": "Bug build_runner code generation fails silently on fresh clone - generated files missing",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/546",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-23T13:23:49Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-26T14:18:17Z",
-          "title": "Fix/image cropper web settings",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/565",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:54:49Z",
-          "title": "Bug - Profile image update crashes on Web due to dart - io File usage",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/564",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:44:48Z",
-          "title": "Bug - ImageCropper crashes on Web (Missing WebUiSettings)",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/563",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T08:05:18Z",
-          "title": "docs - add Chrome CORS workaround for local web development",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/562",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-25T07:58:17Z",
-          "title": "Bug - CORS policy blocks all API requests when running app via flutter run -d chrome",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/561",
-          "points": 2
-        }
-      ]
-    },
     {
       "username": "indiadolf",
       "name": null,
@@ -445,6 +265,167 @@
       ]
     },
     {
+      "username": "RAJEEVTIWARI8052",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/180764866?v=4",
+      "role": "Contributor",
+      "total_points": 9,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-26",
+          "count": 3,
+          "points": 9
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-26T14:18:17Z",
+          "title": "Fix/image cropper web settings",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/565",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-26T13:54:49Z",
+          "title": "Bug - Profile image update crashes on Web due to dart - io File usage",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/564",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-26T13:44:48Z",
+          "title": "Bug - ImageCropper crashes on Web (Missing WebUiSettings)",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/563",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-25T08:05:18Z",
+          "title": "docs - add Chrome CORS workaround for local web development",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/562",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-25T07:58:17Z",
+          "title": "Bug - CORS policy blocks all API requests when running app via flutter run -d chrome",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/561",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-24T20:17:38Z",
+          "title": "fix - replace GestureDetector with InkWell in ProjectCard for ripple f…",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/560",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-24T15:48:11Z",
+          "title": "fix - correctly parse and route absolute anchor URLs in Interactive Book",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/557",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-24T15:30:08Z",
+          "title": "fix - resolve memory leak in AssignmentDetailsView",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/555",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-24T20:12:45Z",
+          "title": "Enhancement / Frontend - Replace GestureDetector with InkWell on interactive components for visual touch feedback",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/559",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-24T16:41:01Z",
+          "title": "Documentation - Fix broken links, list formatting errors, and missing git-hook instructions",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/558",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-24T15:46:01Z",
+          "title": "Bug - Frontend Interactive Book incorrectly parses absolute anchor link URLs",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/556",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-24T15:25:35Z",
+          "title": "Bug - Memory Leak in `AssignmentDetailsView` due to un-disposed `TextEditingController`s",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/554",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-24T16:22:17Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-23T13:29:13Z",
+          "title": "Bug Missing UnauthorizedException handling in fetchCurrentUser and updateProfile API calls",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/548",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-23T12:51:34Z",
+          "title": "Bug build_runner code generation fails silently on fresh clone - generated files missing",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/546",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-23T13:23:49Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-26T14:18:17Z",
+          "title": "Fix/image cropper web settings",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/565",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-26T13:54:49Z",
+          "title": "Bug - Profile image update crashes on Web due to dart - io File usage",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/564",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-26T13:44:48Z",
+          "title": "Bug - ImageCropper crashes on Web (Missing WebUiSettings)",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/563",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "DELTA-45-G",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/199814118?v=4",
@@ -511,106 +492,6 @@
           "title": "Task Support Predictive Back Gesture (Android 13+) and Modernize Navigation",
           "link": "https://github.com/CircuitVerse/mobile-app/issues/567",
           "points": 2
-        }
-      ]
-    },
-    {
-      "username": "Gouri-Pawar",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/186403831?v=4",
-      "role": "Contributor",
-      "total_points": 8,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-30",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-03-25",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-30T14:24:11Z",
-          "title": "Add collaborator notification when assigned to an assignment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7230",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-30T14:24:13Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T14:24:24Z",
-          "title": "Fix ArgumentError in rack_attack due to invalid email encoding",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7215",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-21T09:31:21Z",
-          "title": "UI/UX Bug - Search shows blank page instead of “No circuits found” message",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7197",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-21T09:31:23Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-21T09:31:22Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-30T14:24:11Z",
-          "title": "Add collaborator notification when assigned to an assignment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7230",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-30T14:24:13Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T14:24:24Z",
-          "title": "Fix ArgumentError in rack_attack due to invalid email encoding",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7215",
-          "points": 5
         }
       ]
     },
@@ -839,67 +720,6 @@
       ]
     },
     {
-      "username": "jay2006-dev",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/208452115?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-28",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-03-25",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-28T09:27:40Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T08:14:12Z",
-          "title": "feat(#3618) - Migrate delete buttons to reusable ViewComponent",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7214",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-28T09:27:40Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T08:14:12Z",
-          "title": "feat(#3618) - Migrate delete buttons to reusable ViewComponent",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7214",
-          "points": 5
-        }
-      ]
-    },
-    {
       "username": "Uday9909",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/178378295?v=4",
@@ -1020,51 +840,6 @@
           "occured_at": "2026-03-27T08:09:35Z",
           "title": "Add interactive circuit visualizations using GIFs and video embeds",
           "link": "https://github.com/CircuitVerse/Interactive-Book/pull/775",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "Shashikumar-ezhilarasu",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/152071778?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-25",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T03:30:48Z",
-          "title": "Fix/increase simulator navbar height",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7213",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-21T20:36:05Z",
-          "title": "fix - show 'No circuits found' message when search returns no results",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7198",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T03:30:48Z",
-          "title": "Fix/increase simulator navbar height",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7213",
           "points": 5
         }
       ]
@@ -1783,6 +1558,146 @@
       ]
     },
     {
+      "username": "Gouri-Pawar",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/186403831?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-30",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-30T14:24:11Z",
+          "title": "Add collaborator notification when assigned to an assignment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7230",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-30T14:24:13Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-25T14:24:24Z",
+          "title": "Fix ArgumentError in rack_attack due to invalid email encoding",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7215",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-21T09:31:21Z",
+          "title": "UI/UX Bug - Search shows blank page instead of “No circuits found” message",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7197",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-21T09:31:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-21T09:31:22Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-30T14:24:11Z",
+          "title": "Add collaborator notification when assigned to an assignment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7230",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-30T14:24:13Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "koustubh-v",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157939125?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-01",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-01T08:59:43Z",
+          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-01T08:59:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-01T08:59:43Z",
+          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-01T08:59:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "aniketchawardol",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/142898217?v=4",
@@ -1863,6 +1778,51 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-03-31T13:04:57Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "jay2006-dev",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/208452115?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-03-28",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-28T09:27:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-25T08:14:12Z",
+          "title": "feat(#3618) - Migrate delete buttons to reusable ViewComponent",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7214",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-28T09:27:40Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
