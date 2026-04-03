@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1775096693292,
-  "lastFetchedAt": 1775096693292,
-  "startDate": "2025-04-02",
-  "endDate": "2026-04-02",
+  "updatedAt": 1775183193156,
+  "lastFetchedAt": 1775183193156,
+  "startDate": "2025-04-03",
+  "endDate": "2026-04-03",
   "entries": [
     {
       "username": "naman79820",
@@ -33109,6 +33109,76 @@
       ]
     },
     {
+      "username": "LalitNarayanYadav",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/162928571?v=4",
+      "role": "Contributor",
+      "total_points": 11,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue labeled": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-02",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-28",
+          "count": 4,
+          "points": 6
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-02T20:51:37Z",
+          "title": "fix(flip-flops) - resolve inconsistent latch vs flip-flop concepts",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/777",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-28T21:09:36Z",
+          "title": "Feature - Add One-Hot Encoding option to FSM Synthesizer",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1035",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-28T16:22:04Z",
+          "title": "🐞 Bug - Bug Report - D Flip-Flop `enable` pin floats to 0 when unconnected, permanently disabling FF output in exported Verilog",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1034",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-28T21:09:37Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-28T16:22:05Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Himanshu-code-place",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/191907527?v=4",
@@ -33313,6 +33383,47 @@
           "occured_at": "2025-03-29T15:51:34Z",
           "title": "New - added flutter web target",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/308",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "mounika63020-blip",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/267663802?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-02",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-30",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-02T13:27:19Z",
+          "title": "Fix Windows sync error handling using robust syscall.Errno unwrapping",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7240",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-30T12:49:19Z",
+          "title": "Mounika63020 blip patch 3",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7229",
           "points": 5
         }
       ]
@@ -35826,60 +35937,6 @@
       ]
     },
     {
-      "username": "LalitNarayanYadav",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/162928571?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-28",
-          "count": 4,
-          "points": 6
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-28T21:09:36Z",
-          "title": "Feature - Add One-Hot Encoding option to FSM Synthesizer",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1035",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-28T16:22:04Z",
-          "title": "🐞 Bug - Bug Report - D Flip-Flop `enable` pin floats to 0 when unconnected, permanently disabling FF output in exported Verilog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1034",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-28T21:09:37Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-28T16:22:05Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
       "username": "jay2006-dev",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/208452115?v=4",
@@ -36572,9 +36629,9 @@
       ]
     },
     {
-      "username": "mounika63020-blip",
+      "username": "subikshajegadish",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/267663802?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87119985?v=4",
       "role": "Contributor",
       "total_points": 5,
       "activity_breakdown": {
@@ -36585,7 +36642,7 @@
       },
       "daily_activity": [
         {
-          "date": "2026-03-30",
+          "date": "2026-04-02",
           "count": 1,
           "points": 5
         }
@@ -36593,9 +36650,9 @@
       "raw_activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-03-30T12:49:19Z",
-          "title": "Mounika63020 blip patch 3",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7229",
+          "occured_at": "2026-04-02T03:33:06Z",
+          "title": "Fix TypeError when page param is not a hash in paginate",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7238",
           "points": 5
         }
       ]
