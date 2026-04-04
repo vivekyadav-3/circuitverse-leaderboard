@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1775183193156,
-  "lastFetchedAt": 1775183193156,
-  "startDate": "2025-04-03",
-  "endDate": "2026-04-03",
+  "updatedAt": 1775268686387,
+  "lastFetchedAt": 1775268686387,
+  "startDate": "2025-04-04",
+  "endDate": "2026-04-04",
   "entries": [
     {
       "username": "naman79820",
@@ -3430,11 +3430,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 517,
+      "total_points": 518,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 89,
-          "points": 89
+          "count": 90,
+          "points": 90
         },
         "Review submitted": {
           "count": 33,
@@ -3458,6 +3458,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-03",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-03-17",
           "count": 6,
@@ -3790,6 +3795,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-03T10:31:09Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-03-17T06:16:40Z",
@@ -20325,228 +20337,15 @@
       ]
     },
     {
-      "username": "Arnabdaz",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/96580571?v=4",
-      "role": "Maintainer",
-      "total_points": 84,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 4
-        },
-        "Review submitted": {
-          "count": 15,
-          "points": 60
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-01-25",
-          "count": 3,
-          "points": 20
-        },
-        {
-          "date": "2025-06-14",
-          "count": 5,
-          "points": 20
-        },
-        {
-          "date": "2025-06-09",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-05-31",
-          "count": 2,
-          "points": 8
-        },
-        {
-          "date": "2025-02-22",
-          "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2025-02-10",
-          "count": 9,
-          "points": 30
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-25T15:58:24Z",
-          "title": "chore - add Vue simulator version dropdown to bug report",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/868",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-25T15:38:28Z",
-          "title": "Add Vue Simulator Version dropdown to bug report",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/865",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-25T16:24:12Z",
-          "title": "chore - add Vue simulator version dropdown to bug report",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/868",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-02-22T16:15:27Z",
-          "title": "Sync the src changes to v0 and v1 versions of the simualtor",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/491",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-02-22T16:08:31Z",
-          "title": "Update Developer Documentation for Vue simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/490",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-02-10T06:27:33Z",
-          "title": "Chore - Reduce usage of set timout and set interval",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/469",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-02-10T05:56:00Z",
-          "title": "🐞 Bug - Fix Circuit generation from the combinational analysis / boolean logic table.",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/468",
-          "points": 1
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-14T15:10:58Z",
-          "title": "Review on PR #522",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/522",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-14T14:59:13Z",
-          "title": "Review on PR #512",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/512",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-14T14:31:47Z",
-          "title": "Review on PR #424",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-14T14:26:49Z",
-          "title": "Review on PR #419",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-14T14:23:58Z",
-          "title": "Review on PR #411",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/411",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-06-09T06:35:10Z",
-          "title": "Review on PR #578",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/578",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-05-31T07:58:17Z",
-          "title": "Review on PR #558",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-05-31T08:10:55Z",
-          "title": "Review on PR #556",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/556",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T09:20:57Z",
-          "title": "Review on PR #421",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T08:49:10Z",
-          "title": "Review on PR #451",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/451",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T08:43:43Z",
-          "title": "Review on PR #454",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/454",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T07:32:57Z",
-          "title": "Review on PR #459",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:06:19Z",
-          "title": "Review on PR #410",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/410",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:14:15Z",
-          "title": "Review on PR #461",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:10:56Z",
-          "title": "Review on PR #466",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/466",
-          "points": 4
-        }
-      ]
-    },
-    {
       "username": "SouparnaChatterjee",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
       "role": "Contributor",
-      "total_points": 81,
+      "total_points": 86,
       "activity_breakdown": {
         "PR opened": {
-          "count": 14,
-          "points": 40
+          "count": 15,
+          "points": 45
         },
         "Issue opened": {
           "count": 14,
@@ -20562,6 +20361,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-03",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-03-14",
           "count": 3,
@@ -20644,6 +20448,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-03T14:14:24Z",
+          "title": "fix - replace jQuery DOM manipulation in TimingDiagramPanel with Pinia…",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1038",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-03-14T08:45:20Z",
@@ -20888,6 +20699,219 @@
           "title": "Improve readability, grammar, and MDX best practices in Chapter 1 Introduction",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/487",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Arnabdaz",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/96580571?v=4",
+      "role": "Maintainer",
+      "total_points": 84,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 4
+        },
+        "Review submitted": {
+          "count": 15,
+          "points": 60
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-25",
+          "count": 3,
+          "points": 20
+        },
+        {
+          "date": "2025-06-14",
+          "count": 5,
+          "points": 20
+        },
+        {
+          "date": "2025-06-09",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-05-31",
+          "count": 2,
+          "points": 8
+        },
+        {
+          "date": "2025-02-22",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-02-10",
+          "count": 9,
+          "points": 30
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-25T15:58:24Z",
+          "title": "chore - add Vue simulator version dropdown to bug report",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/868",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-25T15:38:28Z",
+          "title": "Add Vue Simulator Version dropdown to bug report",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/865",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-25T16:24:12Z",
+          "title": "chore - add Vue simulator version dropdown to bug report",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/868",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-02-22T16:15:27Z",
+          "title": "Sync the src changes to v0 and v1 versions of the simualtor",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/491",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-02-22T16:08:31Z",
+          "title": "Update Developer Documentation for Vue simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/490",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-02-10T06:27:33Z",
+          "title": "Chore - Reduce usage of set timout and set interval",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/469",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-02-10T05:56:00Z",
+          "title": "🐞 Bug - Fix Circuit generation from the combinational analysis / boolean logic table.",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/468",
+          "points": 1
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-14T15:10:58Z",
+          "title": "Review on PR #522",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/522",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-14T14:59:13Z",
+          "title": "Review on PR #512",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/512",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-14T14:31:47Z",
+          "title": "Review on PR #424",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-14T14:26:49Z",
+          "title": "Review on PR #419",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-14T14:23:58Z",
+          "title": "Review on PR #411",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/411",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-06-09T06:35:10Z",
+          "title": "Review on PR #578",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/578",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-05-31T07:58:17Z",
+          "title": "Review on PR #558",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-05-31T08:10:55Z",
+          "title": "Review on PR #556",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/556",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T09:20:57Z",
+          "title": "Review on PR #421",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T08:49:10Z",
+          "title": "Review on PR #451",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/451",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T08:43:43Z",
+          "title": "Review on PR #454",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/454",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T07:32:57Z",
+          "title": "Review on PR #459",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:06:19Z",
+          "title": "Review on PR #410",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/410",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:14:15Z",
+          "title": "Review on PR #461",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:10:56Z",
+          "title": "Review on PR #466",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/466",
+          "points": 4
         }
       ]
     },
@@ -39530,6 +39554,35 @@
           "title": "Feature Improve Login Page UI and Password Visibility Toggle",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5387",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "vedant21-oss",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/210591514?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-03",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-03T03:41:07Z",
+          "title": "Temporary File Leaks During Project Creation `SimulatorController#create`",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7242",
+          "points": 2
         }
       ]
     },
