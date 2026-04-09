@@ -1,8 +1,8 @@
 {
   "period": "week",
-  "updatedAt": 1775615404707,
-  "startDate": "2026-04-01",
-  "endDate": "2026-04-08",
+  "updatedAt": 1775701518997,
+  "startDate": "2026-04-02",
+  "endDate": "2026-04-09",
   "entries": [
     {
       "username": "tachyons",
@@ -2053,16 +2053,12 @@
       ]
     },
     {
-      "username": "koustubh-v",
+      "username": "298A-E9E3",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/157939125?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166412009?v=4",
       "role": "Contributor",
-      "total_points": 4,
+      "total_points": 3,
       "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
         "Issue opened": {
           "count": 1,
           "points": 2
@@ -2074,34 +2070,22 @@
       },
       "daily_activity": [
         {
-          "date": "2026-04-06",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-04-01",
+          "date": "2026-04-08",
           "count": 2,
           "points": 3
         }
       ],
       "raw_activities": [
         {
-          "type": "Issue closed",
-          "occured_at": "2026-04-06T21:41:17Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
           "type": "Issue opened",
-          "occured_at": "2026-04-01T08:59:43Z",
-          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
+          "occured_at": "2026-04-08T17:19:45Z",
+          "title": "JK flip-flop ignoring timing 🐞 Bug",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7256",
           "points": 2
         },
         {
           "type": "Issue labeled",
-          "occured_at": "2026-04-01T08:59:44Z",
+          "occured_at": "2026-04-08T17:19:47Z",
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
@@ -2109,22 +2093,15 @@
       ],
       "activities": [
         {
-          "type": "Issue closed",
-          "occured_at": "2026-04-06T21:41:17Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
           "type": "Issue opened",
-          "occured_at": "2026-04-01T08:59:43Z",
-          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
+          "occured_at": "2026-04-08T17:19:45Z",
+          "title": "JK flip-flop ignoring timing 🐞 Bug",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7256",
           "points": 2
         },
         {
           "type": "Issue labeled",
-          "occured_at": "2026-04-01T08:59:44Z",
+          "occured_at": "2026-04-08T17:19:47Z",
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
@@ -2288,6 +2265,58 @@
           "title": "Temporary File Leaks During Project Creation `SimulatorController#create`",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7242",
           "points": 2
+        }
+      ]
+    },
+    {
+      "username": "koustubh-v",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157939125?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-06",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-06T21:41:17Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-01T08:59:43Z",
+          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-01T08:59:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-06T21:41:17Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
         }
       ]
     }
