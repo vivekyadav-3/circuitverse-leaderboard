@@ -1,32 +1,32 @@
 {
   "period": "year",
-  "updatedAt": 1776307299883,
-  "lastFetchedAt": 1776307299883,
-  "startDate": "2025-04-16",
-  "endDate": "2026-04-16",
+  "updatedAt": 1776393443758,
+  "lastFetchedAt": 1776393443758,
+  "startDate": "2025-04-17",
+  "endDate": "2026-04-17",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 762,
+      "total_points": 795,
       "activity_breakdown": {
-        "Issue opened": {
-          "count": 50,
-          "points": 65
-        },
-        "Issue labeled": {
-          "count": 38,
-          "points": 50
+        "PR opened": {
+          "count": 56,
+          "points": 175
         },
         "PR merged": {
-          "count": 19,
-          "points": 135
+          "count": 21,
+          "points": 155
         },
-        "PR opened": {
-          "count": 54,
-          "points": 165
+        "Issue opened": {
+          "count": 51,
+          "points": 67
+        },
+        "Issue labeled": {
+          "count": 39,
+          "points": 51
         },
         "Review submitted": {
           "count": 50,
@@ -38,6 +38,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 6,
+          "points": 33
+        },
         {
           "date": "2026-04-14",
           "count": 2,
@@ -445,6 +450,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T14:34:37Z",
+          "title": "fix(security) - upgrade dependencies and resolve bundler-audit vulnerabilities",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7311",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T13:06:10Z",
+          "title": "fix(tests) - restore test suite after Devise confirmable tightening (CVE-2026-32700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7308",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-16T15:49:34Z",
+          "title": "fix(security) - upgrade dependencies and resolve bundler-audit vulnerabilities",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7311",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-16T14:49:22Z",
+          "title": "fix(tests) - restore test suite after Devise confirmable tightening (CVE-2026-32700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7308",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-16T13:24:09Z",
+          "title": "🐞 Bug - bundler-audit failing due to multiple vulnerable dependencies",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7309",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-16T13:24:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-04-14T18:36:52Z",
@@ -2342,8 +2389,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 534,
+      "total_points": 538,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 95,
+          "points": 95
+        },
         "PR opened": {
           "count": 23,
           "points": 49
@@ -2351,10 +2402,6 @@
         "PR merged": {
           "count": 22,
           "points": 115
-        },
-        "Issue closed": {
-          "count": 91,
-          "points": 91
         },
         "Review submitted": {
           "count": 33,
@@ -2370,6 +2417,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 4,
+          "points": 4
+        },
         {
           "date": "2026-04-04",
           "count": 3,
@@ -2712,6 +2764,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-16T15:49:36Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-16T15:49:34Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-16T14:49:24Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-16T14:49:22Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-04-04T17:11:06Z",
@@ -9934,19 +10014,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 262,
+      "total_points": 278,
       "activity_breakdown": {
         "PR opened": {
-          "count": 33,
-          "points": 102
+          "count": 35,
+          "points": 112
         },
         "Issue opened": {
-          "count": 23,
-          "points": 33
+          "count": 25,
+          "points": 37
         },
         "Issue labeled": {
-          "count": 21,
-          "points": 24
+          "count": 23,
+          "points": 26
         },
         "PR merged": {
           "count": 15,
@@ -9958,6 +10038,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 6,
+          "points": 16
+        },
         {
           "date": "2026-04-09",
           "count": 4,
@@ -10145,6 +10230,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T20:38:48Z",
+          "title": "Feat - Add misc resources - announcements, issue-circuit and task runs to Avo",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7316",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T20:28:25Z",
+          "title": "feat - add assigment related resources into Avo dashboard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7315",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-16T20:22:19Z",
+          "title": "Feature Add announcement resources to Avo",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7314",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-16T20:20:24Z",
+          "title": "Feature Add Assignment related resource to Avo",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7313",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-16T20:22:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-16T20:20:25Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-04-09T14:55:15Z",
@@ -31612,6 +31739,35 @@
       ]
     },
     {
+      "username": "tachyons-gitlab",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/139858804?v=4",
+      "role": "Contributor",
+      "total_points": 15,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 1,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 1,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-04-16T14:48:18Z",
+          "title": "Review on CircuitVerse#7308",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7308#pullrequestreview-4121862315",
+          "points": 15
+        }
+      ]
+    },
+    {
       "username": "Deepcode007",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/244596472?u=53d1cef702eee506ea8c70cad4fc16aacd871538&v=4",
@@ -37019,6 +37175,35 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "adinjithj",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/99316452?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T13:46:40Z",
+          "title": "Fix - Update favicon link to resolve display issue",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7310",
+          "points": 5
         }
       ]
     },
