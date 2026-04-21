@@ -1,24 +1,24 @@
 {
   "period": "year",
-  "updatedAt": 1776653016721,
-  "lastFetchedAt": 1776653016721,
-  "startDate": "2025-04-20",
-  "endDate": "2026-04-20",
+  "updatedAt": 1776739105041,
+  "lastFetchedAt": 1776739105041,
+  "startDate": "2025-04-21",
+  "endDate": "2026-04-21",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 795,
+      "total_points": 805,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 22,
+          "points": 165
+        },
         "PR opened": {
           "count": 56,
           "points": 175
-        },
-        "PR merged": {
-          "count": 21,
-          "points": 155
         },
         "Issue opened": {
           "count": 51,
@@ -38,6 +38,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-20",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-04-16",
           "count": 6,
@@ -450,6 +455,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-20T15:02:27Z",
+          "title": "Groups Add Avo Admin Panel Controllers and Resources for Groups System",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7088",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-04-16T14:34:37Z",
@@ -2387,13 +2399,17 @@
     {
       "username": "tachyons",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?u=a7289671a2d228cf269bc52e064be89f13882e10&v=4",
       "role": "Maintainer",
-      "total_points": 538,
+      "total_points": 575,
       "activity_breakdown": {
+        "Review submitted": {
+          "count": 34,
+          "points": 268
+        },
         "Issue closed": {
-          "count": 95,
-          "points": 95
+          "count": 117,
+          "points": 117
         },
         "PR opened": {
           "count": 23,
@@ -2402,10 +2418,6 @@
         "PR merged": {
           "count": 22,
           "points": 115
-        },
-        "Review submitted": {
-          "count": 33,
-          "points": 253
         },
         "Issue labeled": {
           "count": 2,
@@ -2417,6 +2429,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-20",
+          "count": 23,
+          "points": 37
+        },
         {
           "date": "2026-04-16",
           "count": 4,
@@ -2764,6 +2781,167 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-04-20T15:01:46Z",
+          "title": "Review on CircuitVerse#7088",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7088#pullrequestreview-4141112580",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T15:38:12Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T15:38:11Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T15:02:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T15:02:27Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:54:25Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:54:24Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:54:23Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:54:22Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:57Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:56Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:55Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:43Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:42Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:41Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:39Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:38Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:37Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:36Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:35Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:34Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T06:53:33Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-04-16T15:49:36Z",
@@ -10014,8 +10192,20 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 278,
+      "total_points": 293,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 16,
+          "points": 110
+        },
+        "Issue closed": {
+          "count": 5,
+          "points": 5
+        },
+        "Issue assigned": {
+          "count": 3,
+          "points": 3
+        },
         "PR opened": {
           "count": 35,
           "points": 112
@@ -10027,17 +10217,14 @@
         "Issue labeled": {
           "count": 23,
           "points": 26
-        },
-        "PR merged": {
-          "count": 15,
-          "points": 100
-        },
-        "Issue closed": {
-          "count": 3,
-          "points": 3
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-20",
+          "count": 6,
+          "points": 15
+        },
         {
           "date": "2026-04-16",
           "count": 6,
@@ -10230,6 +10417,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-20T15:38:11Z",
+          "title": "Add commentator related resources to Avo",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7260",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T16:19:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-20T16:19:01Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-04-20T06:55:27Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-04-20T06:55:08Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-04-20T06:55:01Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-04-16T20:38:48Z",
