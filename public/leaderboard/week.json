@@ -1,34 +1,39 @@
 {
   "period": "week",
-  "updatedAt": 1776739105052,
-  "startDate": "2026-04-14",
-  "endDate": "2026-04-21",
+  "updatedAt": 1776825400983,
+  "startDate": "2026-04-15",
+  "endDate": "2026-04-22",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 46,
+      "total_points": 48,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        },
         "PR merged": {
           "count": 3,
           "points": 30
         },
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
         "Issue opened": {
-          "count": 2,
-          "points": 4
+          "count": 1,
+          "points": 2
         },
         "Issue labeled": {
-          "count": 2,
-          "points": 2
+          "count": 1,
+          "points": 1
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-21",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-04-20",
           "count": 1,
@@ -38,14 +43,16 @@
           "date": "2026-04-16",
           "count": 6,
           "points": 33
-        },
-        {
-          "date": "2026-04-14",
-          "count": 2,
-          "points": 3
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-21T18:20:09Z",
+          "title": "fix - replace removed devise_error_messages! in confirmation view",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7324",
+          "points": 5
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-04-20T15:02:27Z",
@@ -1988,6 +1995,13 @@
       ],
       "activities": [
         {
+          "type": "PR opened",
+          "occured_at": "2026-04-21T18:20:09Z",
+          "title": "fix - replace removed devise_error_messages! in confirmation view",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7324",
+          "points": 5
+        },
+        {
           "type": "PR merged",
           "occured_at": "2026-04-20T15:02:27Z",
           "title": "Groups Add Avo Admin Panel Controllers and Resources for Groups System",
@@ -2035,40 +2049,31 @@
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-14T18:36:52Z",
-          "title": "🐞 Bug - bundle exec rspec tests failing",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7265",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-14T18:36:54Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
     {
       "username": "tachyons",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?u=a7289671a2d228cf269bc52e064be89f13882e10&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 41,
+      "total_points": 47,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 32,
+          "points": 32
+        },
         "Review submitted": {
           "count": 1,
           "points": 15
-        },
-        "Issue closed": {
-          "count": 26,
-          "points": 26
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-21",
+          "count": 6,
+          "points": 6
+        },
         {
           "date": "2026-04-20",
           "count": 23,
@@ -2081,6 +2086,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:13:16Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:12:31Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:12:30Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:11:17Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T12:05:33Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T12:05:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-04-20T15:01:46Z",
@@ -3631,6 +3678,48 @@
       ],
       "activities": [
         {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:13:16Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:12:31Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:12:30Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T15:11:17Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T12:05:33Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-21T12:05:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "Review submitted",
           "occured_at": "2026-04-20T15:01:46Z",
           "title": "Review on CircuitVerse#7088",
@@ -3826,11 +3915,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 31,
+      "total_points": 41,
       "activity_breakdown": {
         "PR merged": {
-          "count": 1,
-          "points": 10
+          "count": 2,
+          "points": 20
         },
         "Issue closed": {
           "count": 2,
@@ -3855,6 +3944,11 @@
       },
       "daily_activity": [
         {
+          "date": "2026-04-21",
+          "count": 1,
+          "points": 10
+        },
+        {
           "date": "2026-04-20",
           "count": 6,
           "points": 15
@@ -3866,6 +3960,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-21T12:05:29Z",
+          "title": "feat - add assigment related resources into Avo dashboard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7315",
+          "points": 10
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-04-20T15:38:11Z",
@@ -4619,6 +4720,13 @@
       "activities": [
         {
           "type": "PR merged",
+          "occured_at": "2026-04-21T12:05:29Z",
+          "title": "feat - add assigment related resources into Avo dashboard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7315",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
           "occured_at": "2026-04-20T15:38:11Z",
           "title": "Add commentator related resources to Avo",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7260",
@@ -4742,23 +4850,171 @@
       ]
     },
     {
+      "username": "sum1t-here",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/126807055?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-21",
+          "count": 1,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-21T15:12:30Z",
+          "title": "fix - remove duplicate vite process start from bin/docker/boot",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7251",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-05T19:30:59Z",
+          "title": "fix - remove duplicate vite process start from bin/docker/boot",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7251",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-05T18:05:53Z",
+          "title": "fix - install bundler ~> 2.5 in Dockerfile to match Gemfile.lock requi…",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7249",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-05T19:08:32Z",
+          "title": "🐞 Bug - Docker setup fails with \"Port 3036 is already in use\" due to Vite starting twice",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7250",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-05T17:55:14Z",
+          "title": "🐞 Bug - Docker setup fails on macOS - Dockerfile does not install bundler ~> 2.5 required by Gemfile.lock",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7248",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-05T19:08:34Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-05T17:55:19Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-21T15:12:30Z",
+          "title": "fix - remove duplicate vite process start from bin/docker/boot",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7251",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "adinjithj",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/99316452?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-16",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T13:46:40Z",
+          "title": "Fix - Update favicon link to resolve display issue",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7310",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-16T13:46:40Z",
+          "title": "Fix - Update favicon link to resolve display issue",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7310",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "srimanh",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/115865378?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-15",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-15T06:01:08Z",
+          "title": "fix - add Hindi localization for Recent Circuits section",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7303",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-15T06:01:08Z",
+          "title": "fix - add Hindi localization for Recent Circuits section",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7303",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "satu0king",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2092958?v=4",
       "role": "Maintainer",
-      "total_points": 5,
+      "total_points": 1,
       "activity_breakdown": {
         "Issue closed": {
           "count": 1,
           "points": 1
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 2
         }
       },
       "daily_activity": [
@@ -4766,11 +5022,6 @@
           "date": "2026-04-15",
           "count": 1,
           "points": 1
-        },
-        {
-          "date": "2026-04-14",
-          "count": 3,
-          "points": 4
         }
       ],
       "raw_activities": [
@@ -5139,253 +5390,6 @@
           "title": "Closed issue in upptime",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-14T20:35:57Z",
-          "title": "🛑 Main Platform is down",
-          "link": "https://github.com/CircuitVerse/upptime/issues/178",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-14T20:35:59Z",
-          "title": "Labeled issue in upptime",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-14T20:35:58Z",
-          "title": "Labeled issue in upptime",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "RAJEEVTIWARI8052",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/180764866?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-14",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-14T10:34:31Z",
-          "title": "fix - resolve framework assertion crash in Interactive Books caused by…",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/574",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-26T14:18:17Z",
-          "title": "Fix/image cropper web settings",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/565",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:54:49Z",
-          "title": "Bug - Profile image update crashes on Web due to dart - io File usage",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/564",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-26T13:44:48Z",
-          "title": "Bug - ImageCropper crashes on Web (Missing WebUiSettings)",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/563",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-25T08:05:18Z",
-          "title": "docs - add Chrome CORS workaround for local web development",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/562",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-25T07:58:17Z",
-          "title": "Bug - CORS policy blocks all API requests when running app via flutter run -d chrome",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/561",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T20:17:38Z",
-          "title": "fix - replace GestureDetector with InkWell in ProjectCard for ripple f…",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/560",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T15:48:11Z",
-          "title": "fix - correctly parse and route absolute anchor URLs in Interactive Book",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/557",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T15:30:08Z",
-          "title": "fix - resolve memory leak in AssignmentDetailsView",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/555",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T20:12:45Z",
-          "title": "Enhancement / Frontend - Replace GestureDetector with InkWell on interactive components for visual touch feedback",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/559",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T16:41:01Z",
-          "title": "Documentation - Fix broken links, list formatting errors, and missing git-hook instructions",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/558",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T15:46:01Z",
-          "title": "Bug - Frontend Interactive Book incorrectly parses absolute anchor link URLs",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/556",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-24T15:25:35Z",
-          "title": "Bug - Memory Leak in `AssignmentDetailsView` due to un-disposed `TextEditingController`s",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/554",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-24T16:22:17Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T13:29:13Z",
-          "title": "Bug Missing UnauthorizedException handling in fetchCurrentUser and updateProfile API calls",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/548",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T12:51:34Z",
-          "title": "Bug build_runner code generation fails silently on fresh clone - generated files missing",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/546",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-23T13:23:49Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-14T10:34:31Z",
-          "title": "fix - resolve framework assertion crash in Interactive Books caused by…",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/574",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "adinjithj",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/99316452?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-16",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-16T13:46:40Z",
-          "title": "Fix - Update favicon link to resolve display issue",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7310",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-16T13:46:40Z",
-          "title": "Fix - Update favicon link to resolve display issue",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7310",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "srimanh",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/115865378?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-15",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-15T06:01:08Z",
-          "title": "fix - add Hindi localization for Recent Circuits section",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7303",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-15T06:01:08Z",
-          "title": "fix - add Hindi localization for Recent Circuits section",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7303",
-          "points": 5
         }
       ]
     },
