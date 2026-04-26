@@ -1,24 +1,24 @@
 {
   "period": "year",
-  "updatedAt": 1777084209183,
-  "lastFetchedAt": 1777084209183,
-  "startDate": "2025-04-25",
-  "endDate": "2026-04-25",
+  "updatedAt": 1777171566663,
+  "lastFetchedAt": 1777171566663,
+  "startDate": "2025-04-26",
+  "endDate": "2026-04-26",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 820,
+      "total_points": 825,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 58,
+          "points": 185
+        },
         "PR merged": {
           "count": 23,
           "points": 175
-        },
-        "PR opened": {
-          "count": 57,
-          "points": 180
         },
         "Issue opened": {
           "count": 51,
@@ -38,6 +38,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-04-25",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-04-22",
           "count": 1,
@@ -465,6 +470,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T12:07:03Z",
+          "title": "fix - resolve statement timeouts and n+1 on avo project index pages",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7336",
+          "points": 5
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-04-22T03:30:20Z",
@@ -34318,6 +34330,42 @@
           "occured_at": "2025-03-29T15:51:34Z",
           "title": "New - added flutter web target",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/308",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "genarocosta",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2650833?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-25",
+          "count": 2,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:19:59Z",
+          "title": "feat - add Brazilian Portuguese (pt-BR) i18n and simulator language switcher",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7337",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:11:48Z",
+          "title": "Implemented a Language Switch on the Simulator and the I18N for Brazilian Portuguese",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1041",
           "points": 5
         }
       ]
