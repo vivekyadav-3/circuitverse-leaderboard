@@ -1,20 +1,16 @@
 {
   "period": "week",
-  "updatedAt": 1777431273314,
-  "startDate": "2026-04-22",
-  "endDate": "2026-04-29",
+  "updatedAt": 1777517762116,
+  "startDate": "2026-04-23",
+  "endDate": "2026-04-30",
   "entries": [
     {
-      "username": "naman79820",
+      "username": "aindree-2005",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68018372?v=4",
       "role": "Contributor",
-      "total_points": 15,
+      "total_points": 10,
       "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
         "PR merged": {
           "count": 1,
           "points": 10
@@ -22,14 +18,334 @@
       },
       "daily_activity": [
         {
-          "date": "2026-04-25",
+          "date": "2026-04-24",
           "count": 1,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-24T15:12:48Z",
+          "title": "Added binary multiplication and division quiz corrections",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-27T02:22:45Z",
+          "title": "Help components fixed for all V0 elements",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/877",
           "points": 5
         },
         {
-          "date": "2026-04-22",
-          "count": 1,
+          "type": "PR opened",
+          "occured_at": "2026-01-26T15:23:15Z",
+          "title": "docs(simulator) - improve help for sequential elements",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/875",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-27T12:59:49Z",
+          "title": "Help components fixed for all V0 elements",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/877",
           "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-27T01:00:01Z",
+          "title": "docs(simulator) - improve help for sequential elements",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/875",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-24T04:28:51Z",
+          "title": "fix(ram) - make verilog write behavior match simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/817",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-26T15:44:15Z",
+          "title": "🐞 Bug",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6754",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-19T03:19:46Z",
+          "title": "Improved Readability for Pop Quizzes in ROM- Microcontrollers",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/760",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-19T02:48:51Z",
+          "title": "Markdown Syntax Bug in ROM Microcontrollers",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/759",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-18T03:17:33Z",
+          "title": "Added binary multiplication and division quiz corrections",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-18T03:04:41Z",
+          "title": "Incorrect Pop Quiz Answers",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/756",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-17T14:28:25Z",
+          "title": "fix(ram) - make verilog write behavior match simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/817",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-17T13:51:50Z",
+          "title": "🐞 Bug - RAM Verilog export does not match simulator behavior",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/816",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-17T13:28:27Z",
+          "title": "🐞 Bug - Inconsistent flip-flop and latch semantics",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/815",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-17T13:51:52Z",
+          "title": "Labeled issue #816 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/816",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-17T13:28:28Z",
+          "title": "Labeled issue #815 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/815",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-16T11:45:11Z",
+          "title": "🐞 Bug - ROM Simulator Behavior Mismatches Verilog Export",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/805",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-16T04:11:26Z",
+          "title": "Inconsistent use of latch vs flip-flop concepts",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/753",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-16T11:45:12Z",
+          "title": "Labeled issue #805 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/805",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-15T16:34:01Z",
+          "title": "fix(simulator) - align D flip flop Verilog with documented latch behavior",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/801",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-15T17:24:34Z",
+          "title": "Add Basic (Not Priority) Encoder component",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/803",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-15T17:24:35Z",
+          "title": "Labeled issue #803 - 🌟 feature",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/803",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-14T13:44:19Z",
+          "title": "🐞 Bug - DFlipFlop simulator implements master–slave behavior while exported Verilog is edge-triggered",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/797",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-14T13:44:21Z",
+          "title": "Labeled issue #797 - 🐞 bug",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/797",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-04-24T15:12:48Z",
+          "title": "Added binary multiplication and division quiz corrections",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "genarocosta",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2650833?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-25",
+          "count": 2,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:19:59Z",
+          "title": "feat - add Brazilian Portuguese (pt-BR) i18n and simulator language switcher",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7337",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:11:48Z",
+          "title": "Implemented a Language Switch on the Simulator and the I18N for Brazilian Portuguese",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1041",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:19:59Z",
+          "title": "feat - add Brazilian Portuguese (pt-BR) i18n and simulator language switcher",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7337",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-25T22:11:48Z",
+          "title": "Implemented a Language Switch on the Simulator and the I18N for Brazilian Portuguese",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1041",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "GarvSaxena",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/91243091?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-24",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-24T14:00:18Z",
+          "title": "fix - toggle behavior of Getting Started dropdown (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7333",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-24T13:20:54Z",
+          "title": "🐞 Bug - 'Getting Started' dropdown does not close when clicked again",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7332",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-24T13:20:56Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-04-24T14:00:18Z",
+          "title": "fix - toggle behavior of Getting Started dropdown (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7333",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-24T13:20:54Z",
+          "title": "🐞 Bug - 'Getting Started' dropdown does not close when clicked again",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7332",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-04-24T13:20:56Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "naman79820",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-25",
+          "count": 1,
+          "points": 5
         }
       ],
       "raw_activities": [
@@ -2001,345 +2317,156 @@
           "title": "fix - resolve statement timeouts and n+1 on avo project index pages",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7336",
           "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-04-22T03:30:20Z",
-          "title": "fix - replace removed devise_error_messages! in confirmation view",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7324",
-          "points": 10
         }
       ]
     },
     {
-      "username": "aindree-2005",
+      "username": "ViRUS-0-0",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/68018372?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
       "role": "Contributor",
-      "total_points": 10,
+      "total_points": 5,
       "activity_breakdown": {
-        "PR merged": {
-          "count": 1,
-          "points": 10
+        "Issue closed": {
+          "count": 5,
+          "points": 5
         }
       },
       "daily_activity": [
         {
-          "date": "2026-04-24",
-          "count": 1,
-          "points": 10
+          "date": "2026-04-26",
+          "count": 5,
+          "points": 5
         }
       ],
       "raw_activities": [
         {
-          "type": "PR merged",
-          "occured_at": "2026-04-24T15:12:48Z",
-          "title": "Added binary multiplication and division quiz corrections",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-27T02:22:45Z",
-          "title": "Help components fixed for all V0 elements",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/877",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-26T15:23:15Z",
-          "title": "docs(simulator) - improve help for sequential elements",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/875",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-27T12:59:49Z",
-          "title": "Help components fixed for all V0 elements",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/877",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-27T01:00:01Z",
-          "title": "docs(simulator) - improve help for sequential elements",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/875",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-24T04:28:51Z",
-          "title": "fix(ram) - make verilog write behavior match simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/817",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-26T15:44:15Z",
-          "title": "🐞 Bug",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6754",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-19T03:19:46Z",
-          "title": "Improved Readability for Pop Quizzes in ROM- Microcontrollers",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/760",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-19T02:48:51Z",
-          "title": "Markdown Syntax Bug in ROM Microcontrollers",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/759",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-18T03:17:33Z",
-          "title": "Added binary multiplication and division quiz corrections",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-18T03:04:41Z",
-          "title": "Incorrect Pop Quiz Answers",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/756",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-17T14:28:25Z",
-          "title": "fix(ram) - make verilog write behavior match simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/817",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-17T13:51:50Z",
-          "title": "🐞 Bug - RAM Verilog export does not match simulator behavior",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/816",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-17T13:28:27Z",
-          "title": "🐞 Bug - Inconsistent flip-flop and latch semantics",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/815",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-17T13:51:52Z",
-          "title": "Labeled issue #816 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/816",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-17T13:28:28Z",
-          "title": "Labeled issue #815 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/815",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-16T11:45:11Z",
-          "title": "🐞 Bug - ROM Simulator Behavior Mismatches Verilog Export",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/805",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-16T04:11:26Z",
-          "title": "Inconsistent use of latch vs flip-flop concepts",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/753",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-16T11:45:12Z",
-          "title": "Labeled issue #805 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/805",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-15T16:34:01Z",
-          "title": "fix(simulator) - align D flip flop Verilog with documented latch behavior",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/801",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-15T17:24:34Z",
-          "title": "Add Basic (Not Priority) Encoder component",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/803",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-15T17:24:35Z",
-          "title": "Labeled issue #803 - 🌟 feature",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/803",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-14T13:44:19Z",
-          "title": "🐞 Bug - DFlipFlop simulator implements master–slave behavior while exported Verilog is edge-triggered",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/797",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-14T13:44:21Z",
-          "title": "Labeled issue #797 - 🐞 bug",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/797",
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-04-24T15:12:48Z",
-          "title": "Added binary multiplication and division quiz corrections",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/757",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "username": "genarocosta",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/2650833?v=4",
-      "role": "Contributor",
-      "total_points": 10,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-25",
-          "count": 2,
-          "points": 10
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-25T22:19:59Z",
-          "title": "feat - add Brazilian Portuguese (pt-BR) i18n and simulator language switcher",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7337",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-25T22:11:48Z",
-          "title": "Implemented a Language Switch on the Simulator and the I18N for Brazilian Portuguese",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1041",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-25T22:19:59Z",
-          "title": "feat - add Brazilian Portuguese (pt-BR) i18n and simulator language switcher",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7337",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-25T22:11:48Z",
-          "title": "Implemented a Language Switch on the Simulator and the I18N for Brazilian Portuguese",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1041",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "GarvSaxena",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/91243091?v=4",
-      "role": "Contributor",
-      "total_points": 8,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-24",
-          "count": 3,
-          "points": 8
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-24T14:00:18Z",
-          "title": "fix - toggle behavior of Getting Started dropdown (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7333",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-24T13:20:54Z",
-          "title": "🐞 Bug - 'Getting Started' dropdown does not close when clicked again",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7332",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-24T13:20:56Z",
-          "title": "Labeled issue in CircuitVerse",
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:28:05Z",
+          "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:28:00Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:54Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:48Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:31Z",
+          "title": "Closed issue in community-dashboard",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-30T18:43:45Z",
+          "title": "fixed statement timeout issue caused by paginated urls",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6531",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T10:26:35Z",
+          "title": "fixed ArgumentError - invalid value for Integer()",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-27T12:47:01Z",
+          "title": "Fix createPopper error by including Popper.js dependency",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T06:07:29Z",
+          "title": "Fixed Uncaught Error - Minified React error",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/97",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T14:52:49Z",
+          "title": "fix red flicker issue when opening simulator page from homepage",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6554",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T18:18:10Z",
+          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-03T16:03:32Z",
+          "title": "BUG - Uncaught Error - Minified React error",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/88",
+          "points": 1
         }
       ],
       "activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-04-24T14:00:18Z",
-          "title": "fix - toggle behavior of Getting Started dropdown (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7333",
-          "points": 5
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:28:05Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
         },
         {
-          "type": "Issue opened",
-          "occured_at": "2026-04-24T13:20:54Z",
-          "title": "🐞 Bug - 'Getting Started' dropdown does not close when clicked again",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7332",
-          "points": 2
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:28:00Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
         },
         {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-24T13:20:56Z",
-          "title": "Labeled issue in CircuitVerse",
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:54Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:48Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-26T14:27:31Z",
+          "title": "Closed issue in community-dashboard",
           "link": null,
           "points": 1
         }
       ]
     },
     {
-      "username": "tachyons",
+      "username": "pulkit-30",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76155456?v=4",
       "role": "Maintainer",
       "total_points": 5,
       "activity_breakdown": {
@@ -2351,13 +2478,102 @@
       "daily_activity": [
         {
           "date": "2026-04-24",
-          "count": 3,
-          "points": 3
+          "count": 5,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:50Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
         },
         {
-          "date": "2026-04-22",
-          "count": 2,
-          "points": 2
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:44Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:37Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:22Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:50Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:44Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:37Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-04-24T13:06:22Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "tachyons",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+      "role": "Maintainer",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 3,
+          "points": 3
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-24",
+          "count": 3,
+          "points": 3
         }
       ],
       "raw_activities": [
@@ -4005,257 +4221,6 @@
           "type": "Issue closed",
           "occured_at": "2026-04-24T15:12:48Z",
           "title": "Closed issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-22T03:30:21Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-22T03:30:20Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "ViRUS-0-0",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 5,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-26",
-          "count": 5,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:28:05Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:28:00Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:54Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:48Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:31Z",
-          "title": "Closed issue in community-dashboard",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-30T18:43:45Z",
-          "title": "fixed statement timeout issue caused by paginated urls",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6531",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-28T10:26:35Z",
-          "title": "fixed ArgumentError - invalid value for Integer()",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-27T12:47:01Z",
-          "title": "Fix createPopper error by including Popper.js dependency",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-04T06:07:29Z",
-          "title": "Fixed Uncaught Error - Minified React error",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/97",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T14:52:49Z",
-          "title": "fix red flicker issue when opening simulator page from homepage",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6554",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-28T18:18:10Z",
-          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-03T16:03:32Z",
-          "title": "BUG - Uncaught Error - Minified React error",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/88",
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:28:05Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:28:00Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:54Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:48Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-26T14:27:31Z",
-          "title": "Closed issue in community-dashboard",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "pulkit-30",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/76155456?v=4",
-      "role": "Maintainer",
-      "total_points": 5,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 5,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-24",
-          "count": 5,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:50Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:44Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:37Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:29Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:22Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:50Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:44Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:37Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:29Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-24T13:06:22Z",
-          "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
         }
