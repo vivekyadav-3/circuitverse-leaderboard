@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1777689816558,
-  "lastFetchedAt": 1777689816558,
-  "startDate": "2025-05-02",
-  "endDate": "2026-05-02",
+  "updatedAt": 1777776974479,
+  "lastFetchedAt": 1777776974479,
+  "startDate": "2025-05-03",
+  "endDate": "2026-05-03",
   "entries": [
     {
       "username": "naman79820",
@@ -33380,6 +33380,65 @@
       ]
     },
     {
+      "username": "vishnusairam654",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/154720335?v=4",
+      "role": "Contributor",
+      "total_points": 12,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        },
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-02",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2026-02-28",
+          "count": 2,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-02T03:33:03Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-02T03:33:02Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-28T07:59:57Z",
+          "title": "feat - add active state to navbar links for current page indication",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7096",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-28T06:50:30Z",
+          "title": "fix - describe your change closes #6331",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7095",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "Gouri-Pawar",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/186403831?v=4",
@@ -34893,42 +34952,6 @@
           "occured_at": "2026-02-27T13:15:09Z",
           "title": "fix - add missing member_since_html translation for arabic (#6002)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7090",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "vishnusairam654",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/154720335?v=4",
-      "role": "Contributor",
-      "total_points": 10,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-02-28",
-          "count": 2,
-          "points": 10
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-28T07:59:57Z",
-          "title": "feat - add active state to navbar links for current page indication",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7096",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-28T06:50:30Z",
-          "title": "fix - describe your change closes #6331",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7095",
           "points": 5
         }
       ]
