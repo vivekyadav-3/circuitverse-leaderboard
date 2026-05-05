@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1777863239797,
-  "startDate": "2026-04-04",
-  "endDate": "2026-05-04",
+  "updatedAt": 1777949144419,
+  "startDate": "2026-04-05",
+  "endDate": "2026-05-05",
   "entries": [
     {
       "username": "naman79820",
@@ -2189,23 +2189,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 68,
+      "total_points": 52,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 38,
-          "points": 38
+          "count": 37,
+          "points": 37
         },
         "Review submitted": {
           "count": 1,
           "points": 15
-        },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
         }
       },
       "daily_activity": [
@@ -2233,11 +2225,6 @@
           "date": "2026-04-16",
           "count": 4,
           "points": 4
-        },
-        {
-          "date": "2026-04-04",
-          "count": 3,
-          "points": 16
         }
       ],
       "raw_activities": [
@@ -4132,27 +4119,6 @@
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-04-04T17:11:06Z",
-          "title": "Revert \"build(deps) - bump avo from 3.28.0 to 3.30.3\"",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7246",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-04-04T17:11:15Z",
-          "title": "Revert \"build(deps) - bump avo from 3.28.0 to 3.30.3\"",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7246",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-04T17:11:15Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -5631,77 +5597,96 @@
       ]
     },
     {
-      "username": "Ram-sah19",
+      "username": "sahiladit",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/208265520?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159920447?v=4",
       "role": "Contributor",
       "total_points": 6,
       "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
+        "Issue opened": {
+          "count": 2,
+          "points": 4
         },
-        "Issue closed": {
-          "count": 1,
-          "points": 1
+        "Issue labeled": {
+          "count": 2,
+          "points": 2
         }
       },
       "daily_activity": [
         {
-          "date": "2026-04-04",
+          "date": "2026-05-04",
           "count": 2,
-          "points": 6
+          "points": 3
+        },
+        {
+          "date": "2026-05-03",
+          "count": 2,
+          "points": 3
         }
       ],
       "raw_activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-04-04T05:52:07Z",
-          "title": "Fix - Blue color glitch on \"Learn Logic Design\" page (dark mode rendering issue)",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/778",
-          "points": 5
+          "type": "Issue opened",
+          "occured_at": "2026-05-04T07:37:09Z",
+          "title": "🐞 Bug - Image upload in simulator fails due to Imgur API error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7342",
+          "points": 2
         },
         {
-          "type": "Issue closed",
-          "occured_at": "2026-04-04T05:37:44Z",
-          "title": "Closed issue in Interactive-Book",
+          "type": "Issue labeled",
+          "occured_at": "2026-05-04T07:37:10Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-03T07:41:02Z",
+          "title": "Feature - Improve Advanced Search filter with suggestions",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7340",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-03T07:41:03Z",
+          "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
         },
         {
           "type": "PR opened",
-          "occured_at": "2026-03-27T08:09:35Z",
-          "title": "Add interactive circuit visualizations using GIFs and video embeds",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/775",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T06:37:18Z",
-          "title": "Fix - Shuffle Bias, jQuery Check, Global Scope Issues, Scroll Handling, and Outdated Configurations",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/773",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T06:28:53Z",
-          "title": "Fix - Multiple Code Quality, Performance, and Maintenance Issues",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/772",
+          "occured_at": "2025-01-24T15:52:31Z",
+          "title": "Fix/#5336 - alignment of star and eye icon corrected",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5349",
           "points": 2
         }
       ],
       "activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-04-04T05:52:07Z",
-          "title": "Fix - Blue color glitch on \"Learn Logic Design\" page (dark mode rendering issue)",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/778",
-          "points": 5
+          "type": "Issue opened",
+          "occured_at": "2026-05-04T07:37:09Z",
+          "title": "🐞 Bug - Image upload in simulator fails due to Imgur API error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7342",
+          "points": 2
         },
         {
-          "type": "Issue closed",
-          "occured_at": "2026-04-04T05:37:44Z",
-          "title": "Closed issue in Interactive-Book",
+          "type": "Issue labeled",
+          "occured_at": "2026-05-04T07:37:10Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-03T07:41:02Z",
+          "title": "Feature - Improve Advanced Search filter with suggestions",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7340",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-03T07:41:03Z",
+          "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
         }
@@ -7666,147 +7651,6 @@
       ]
     },
     {
-      "username": "sahu-virendra-1908",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/177405578?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-11",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-04-04",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-11T16:54:48Z",
-          "title": "Enhancement - Add dynamic routing for contributor detail pages with shareable URLs",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/275",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-04T07:48:42Z",
-          "title": "Handle missing/invalid project images with fallback UI",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/570",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-20T21:58:48Z",
-          "title": "Fix Android build configuration and align with dependency requirements (Resolves #493)",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/494",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-01T14:35:04Z",
-          "title": "fix - resolve login state issue preventing navigation (#504)",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/515",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-21T17:34:17Z",
-          "title": "Login succeeds but app does not navigate to landing screen",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/504",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-20T21:49:27Z",
-          "title": "Android build fails due to Gradle, Kotlin, and SDK configuration mismatch",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/493",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-06T12:58:26Z",
-          "title": "Add Simplified Chinese (zh) localization support to improve accessibility",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/526",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-01T14:42:39Z",
-          "title": "High Priority - Potential memory leak due to undisposed StreamController in IbInteractionBuilder",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/516",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-09T13:01:50Z",
-          "title": "feat - improve theme toggle component",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/463",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-09T11:20:05Z",
-          "title": "The theme toggle is currently implemented as a simple icon button (sun/moon). The button does not visually represent the current theme state clearly and lacks an intuitive toggle behavior, which leads to a poor user experience.",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/462",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-18T22:25:46Z",
-          "title": "Email us feature #258",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/283",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-18T19:19:25Z",
-          "title": "Update to latest version of flutter #277",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/282",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-05-25T18:30:45Z",
-          "title": "improve text contrast for inactive tabs in dark mode",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/366",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-06-07T19:22:27Z",
-          "title": "improve text contrast for inactive tabs in dark mode",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/374",
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-11T16:54:48Z",
-          "title": "Enhancement - Add dynamic routing for contributor detail pages with shareable URLs",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/275",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-04T07:48:42Z",
-          "title": "Handle missing/invalid project images with fallback UI",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/570",
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "Me-Priyank",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
@@ -8458,69 +8302,6 @@
       ]
     },
     {
-      "username": "sahiladit",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/159920447?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-03",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-05-03T07:41:02Z",
-          "title": "Feature - Improve Advanced Search filter with suggestions",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7340",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-03T07:41:03Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-24T15:52:31Z",
-          "title": "Fix/#5336 - alignment of star and eye icon corrected",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5349",
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-05-03T07:41:02Z",
-          "title": "Feature - Improve Advanced Search filter with suggestions",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7340",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-03T07:41:03Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
       "username": "298A-E9E3",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/166412009?v=4",
@@ -8573,6 +8354,348 @@
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Harkeerat24",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-04",
+          "count": 2,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-04T15:08:20Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-04T15:07:24Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-20T12:28:54Z",
+          "title": "fix - correct splitted typo to split in groups controller",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7005",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-20T10:59:28Z",
+          "title": "fix - correct geo_contry typo to geo_country in users helper",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7003",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-20T09:45:57Z",
+          "title": "fix - make header dropdown menus keyboard accessible with Enter/Space",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7001",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-19T19:37:59Z",
+          "title": "fix - make search icon keyboard accessible and auto-focus input on activation",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-06T13:48:56Z",
+          "title": "Fix/consolidate typo fixes",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1000",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-05T15:25:21Z",
+          "title": "Feat - add preview in export dialog + fix clipboard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/999",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-25T20:09:13Z",
+          "title": "Adds Circuit Data Version",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7078",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-03-08T11:28:36Z",
+          "title": "Fix/consolidate typo fixes",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1000",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-22T15:45:24Z",
+          "title": "fix - correct splitted typo to split in groups controller",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7005",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-22T14:42:42Z",
+          "title": "fix - correct geo_contry typo to geo_country in users helper",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7003",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-22T15:17:04Z",
+          "title": "fix - make header dropdown menus keyboard accessible with Enter/Space",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7001",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-20T12:22:27Z",
+          "title": "Typo - Incorrect word \"splitted\" used as variable names in groups controller",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7004",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-20T10:57:12Z",
+          "title": "Typo - 'country' misspelled in variable name `geo_contry` in UsersCircuitverseHelper",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7002",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-19T13:19:39Z",
+          "title": "🐞 Bug - Enter Key Not Working in Header Dropdown Menus",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6993",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-19T12:59:29Z",
+          "title": "🐞 Bug - Search icon not focusable with Tab and focus not moving to search input",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6992",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-07T17:05:45Z",
+          "title": "fix - consolidate typo fixes",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1007",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-07T16:25:33Z",
+          "title": "Feature - Add JSON preview and copy to clipboard in Export as .cv File dialog",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1005",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-05T15:09:07Z",
+          "title": "feat - add a preview and copy to clipboard in export as file",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/998",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-25T20:04:31Z",
+          "title": "feat - add circuit data format version to save/load pipeline",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7077",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-02-27T13:44:20Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-03-07T16:33:30Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-07T16:25:35Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-07T16:25:34Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-04T15:08:20Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-04T15:07:24Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "sahu-virendra-1908",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/177405578?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-04-11",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-11T16:54:48Z",
+          "title": "Enhancement - Add dynamic routing for contributor detail pages with shareable URLs",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/275",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-04T07:48:42Z",
+          "title": "Handle missing/invalid project images with fallback UI",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/570",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-20T21:58:48Z",
+          "title": "Fix Android build configuration and align with dependency requirements (Resolves #493)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/494",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-01T14:35:04Z",
+          "title": "fix - resolve login state issue preventing navigation (#504)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/515",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-21T17:34:17Z",
+          "title": "Login succeeds but app does not navigate to landing screen",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/504",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-20T21:49:27Z",
+          "title": "Android build fails due to Gradle, Kotlin, and SDK configuration mismatch",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/493",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-06T12:58:26Z",
+          "title": "Add Simplified Chinese (zh) localization support to improve accessibility",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/526",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-01T14:42:39Z",
+          "title": "High Priority - Potential memory leak due to undisposed StreamController in IbInteractionBuilder",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/516",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-09T13:01:50Z",
+          "title": "feat - improve theme toggle component",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/463",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-09T11:20:05Z",
+          "title": "The theme toggle is currently implemented as a simple icon button (sun/moon). The button does not visually represent the current theme state clearly and lacks an intuitive toggle behavior, which leads to a poor user experience.",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/462",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-18T22:25:46Z",
+          "title": "Email us feature #258",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/283",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-18T19:19:25Z",
+          "title": "Update to latest version of flutter #277",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/282",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-05-25T18:30:45Z",
+          "title": "improve text contrast for inactive tabs in dark mode",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/366",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-06-07T19:22:27Z",
+          "title": "improve text contrast for inactive tabs in dark mode",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/374",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-04-11T16:54:48Z",
+          "title": "Enhancement - Add dynamic routing for contributor detail pages with shareable URLs",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/275",
+          "points": 2
         }
       ]
     },
