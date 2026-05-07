@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1778035941968,
-  "startDate": "2026-04-06",
-  "endDate": "2026-05-06",
+  "updatedAt": 1778122392665,
+  "startDate": "2026-04-07",
+  "endDate": "2026-05-07",
   "entries": [
     {
       "username": "naman79820",
@@ -5365,11 +5365,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 31,
+      "total_points": 36,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 10
+          "count": 3,
+          "points": 15
         },
         "PR merged": {
           "count": 2,
@@ -5382,12 +5382,24 @@
       },
       "daily_activity": [
         {
+          "date": "2026-05-06",
+          "count": 1,
+          "points": 5
+        },
+        {
           "date": "2026-05-05",
           "count": 5,
           "points": 31
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-06T19:36:30Z",
+          "title": "Upgrade Dependencies and Breaking CI Workflows",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/590",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-05T08:41:26Z",
@@ -5532,6 +5544,13 @@
       "activities": [
         {
           "type": "PR opened",
+          "occured_at": "2026-05-06T19:36:30Z",
+          "title": "Upgrade Dependencies and Breaking CI Workflows",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/590",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
           "occured_at": "2026-05-05T08:41:26Z",
           "title": "Removed auto-generated plugin files and added them to gitignore",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/578",
@@ -5561,6 +5580,387 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-05-05T08:30:00Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "hardik17771",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/85028179?v=4",
+      "role": "Maintainer",
+      "total_points": 16,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 16,
+          "points": 16
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-06",
+          "count": 16,
+          "points": 16
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:28:18Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:54Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:53Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:52Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:51Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:50Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:49Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:48Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:47Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:46Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:57Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:56Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:55Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:23:29Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:22:51Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:22:50Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-03T19:39:49Z",
+          "title": "Revert \"Fallback email/URL mechanism and sms intent\"",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/329",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-04-03T20:26:11Z",
+          "title": "Revert \"Fallback email/URL mechanism and sms intent\"",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/329",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-04-01T19:21:52Z",
+          "title": "Improve web support and solve bugs",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/318",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-31T13:48:55Z",
+          "title": "Multilingual support (Internationalization)",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/371",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-31T13:41:25Z",
+          "title": "Update profile feature not working.",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/370",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-31T13:39:53Z",
+          "title": "Text capitalization and uniformity.",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/369",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-31T13:37:31Z",
+          "title": "Authorization errors using social login (Google OAuth and Github)",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/368",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-31T13:35:03Z",
+          "title": "Dependencies resolution and updation",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/367",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-21T16:14:31Z",
+          "title": "Project Cards Redesign",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/389",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-21T16:04:21Z",
+          "title": "Debugging Interactive Book",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/388",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-21T16:02:57Z",
+          "title": "Right-to-left Language Support",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/387",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-07-30T16:42:47Z",
+          "title": "User Profile View UI/UX design improvement",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/412",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-07-07T16:36:42Z",
+          "title": "Updating workflow files to upload APK in releases with versioning.",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/399",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-08-28T16:35:44Z",
+          "title": "Removing deprecated facebook_auth package and improving CI File",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/432",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-08-10T12:21:00Z",
+          "title": "Upgrading AGP version and Gradle version of app build files",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/423",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-08-10T12:17:33Z",
+          "title": "Resolving Simulator Issues, bugs and missing features to make it mobile ready.",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/422",
+          "points": 1
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-08-28T16:25:57Z",
+          "title": "Review on PR #429",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/429",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-03-20T10:30:31Z",
+          "title": "Review on PR #284",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/284",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-03-21T15:42:04Z",
+          "title": "Review on PR #290",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/290",
+          "points": 4
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:28:18Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:54Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:53Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:52Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:51Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:50Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:49Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:48Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:47Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:27:46Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:57Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:56Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:25:55Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:23:29Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:22:51Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-06T07:22:50Z",
           "title": "Closed issue in mobile-app",
           "link": null,
           "points": 1
@@ -6917,6 +7317,44 @@
           "title": "Closed issue in community-dashboard",
           "link": null,
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "harunosakura030303-maker",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/266815032?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-06T10:11:26Z",
+          "title": "chore - add postinstall hook for percy setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7344",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-06T10:11:26Z",
+          "title": "chore - add postinstall hook for percy setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7344",
+          "points": 5
         }
       ]
     },
@@ -10151,58 +10589,6 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-04-30T08:01:05Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "koustubh-v",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/157939125?v=4",
-      "role": "Contributor",
-      "total_points": 1,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-04-06",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-06T21:41:17Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-04-01T08:59:43Z",
-          "title": "🐞 Bug - Grading UI shown for assignments with no grading scale, resulting in a misleading \"Grade is invalid\" error",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7235",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-04-01T08:59:44Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-04-06T21:41:17Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
