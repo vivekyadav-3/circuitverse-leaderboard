@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1778470434515,
-  "lastFetchedAt": 1778470434515,
-  "startDate": "2025-05-11",
-  "endDate": "2026-05-11",
+  "updatedAt": 1778554706882,
+  "lastFetchedAt": 1778554706882,
+  "startDate": "2025-05-12",
+  "endDate": "2026-05-12",
   "entries": [
     {
       "username": "naman79820",
@@ -2463,11 +2463,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 610,
+      "total_points": 612,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 152,
-          "points": 152
+          "count": 153,
+          "points": 153
+        },
+        "Issue labeled": {
+          "count": 3,
+          "points": 4
         },
         "Review submitted": {
           "count": 34,
@@ -2481,16 +2485,17 @@
           "count": 22,
           "points": 115
         },
-        "Issue labeled": {
-          "count": 2,
-          "points": 3
-        },
         "Issue opened": {
           "count": 23,
           "points": 23
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-11",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-05-05",
           "count": 24,
@@ -2863,6 +2868,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-11T12:47:15Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-11T12:47:11Z",
+          "title": "Labeled issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-05-05T15:34:47Z",
@@ -19002,6 +19021,246 @@
       ]
     },
     {
+      "username": "SantamRC",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
+      "role": "Contributor",
+      "total_points": 114,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 18,
+          "points": 90
+        },
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        },
+        "PR merged": {
+          "count": 2,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-11",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-05-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-05-05",
+          "count": 5,
+          "points": 31
+        },
+        {
+          "date": "2026-03-24",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-23",
+          "count": 6,
+          "points": 27
+        },
+        {
+          "date": "2026-03-22",
+          "count": 3,
+          "points": 15
+        },
+        {
+          "date": "2026-03-18",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-12",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-02-28",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-31",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-11T14:42:06Z",
+          "title": "chore - upgraded dependencies",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/593",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-11T08:43:48Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-06T19:36:30Z",
+          "title": "Upgrade Dependencies and Breaking CI Workflows",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/590",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-05T08:41:26Z",
+          "title": "Removed auto-generated plugin files and added them to gitignore",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/578",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-05T08:29:32Z",
+          "title": "Edited gitignore to remove auto generated flutter files",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/577",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-05T15:21:44Z",
+          "title": "Removed auto-generated plugin files and added them to gitignore",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/578",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-05T07:10:01Z",
+          "title": "Fix - Upgrading Deprecated Dependencies Versions (Android)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-05T08:30:00Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-24T15:12:08Z",
+          "title": "Improvements in Testing",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/553",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-23T17:43:07Z",
+          "title": "Improved Contribute Page",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/552",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-23T16:56:06Z",
+          "title": "Added Splash Screens / Onboarding Screens",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/551",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-23T15:51:05Z",
+          "title": "Added contributors image caching mechanism",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/550",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-23T14:22:16Z",
+          "title": "Added Bengali Language Support",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/549",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-23T13:01:33Z",
+          "title": "Fix - FlutterError on Snackbar Overlay",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/547",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-23T10:27:56Z",
+          "title": "Bug - FlutterError Overlay Not Found during Authentication",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/545",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-22T23:55:48Z",
+          "title": "Added isolates to API calls",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/544",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-22T22:53:24Z",
+          "title": "Authentication Improvements",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/543",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-22T12:12:49Z",
+          "title": "Added Mobile Native Notifications and Deep Link",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/542",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-18T21:30:32Z",
+          "title": "Improved Drawer UI Design",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/534",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-12T23:23:48Z",
+          "title": "Fix - Deprecated Dependencies Upgraded to Latest Compatible Versions (Android)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-12T15:49:38Z",
+          "title": "Proof of Concept - Added Structured JSON API Endpoint to be used by Flutter App",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/766",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-31T23:33:26Z",
+          "title": "Google Classroom Integration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-28T21:00:53Z",
+          "title": "Proof of Concept - Interactive Book Improvement",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "gitsofaryan",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/117700812?v=4",
@@ -19500,227 +19759,6 @@
           "title": "🐞 Bug - Minimap Rendering and incorrect Z-index",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/514",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "SantamRC",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
-      "role": "Contributor",
-      "total_points": 108,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 17,
-          "points": 85
-        },
-        "PR merged": {
-          "count": 2,
-          "points": 20
-        },
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-05-05",
-          "count": 5,
-          "points": 31
-        },
-        {
-          "date": "2026-03-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-03-23",
-          "count": 6,
-          "points": 27
-        },
-        {
-          "date": "2026-03-22",
-          "count": 3,
-          "points": 15
-        },
-        {
-          "date": "2026-03-18",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-03-12",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-02-28",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-31",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-06T19:36:30Z",
-          "title": "Upgrade Dependencies and Breaking CI Workflows",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/590",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-05T08:41:26Z",
-          "title": "Removed auto-generated plugin files and added them to gitignore",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/578",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-05T08:29:32Z",
-          "title": "Edited gitignore to remove auto generated flutter files",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/577",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-05T15:21:44Z",
-          "title": "Removed auto-generated plugin files and added them to gitignore",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/578",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-05T07:10:01Z",
-          "title": "Fix - Upgrading Deprecated Dependencies Versions (Android)",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-05T08:30:00Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-24T15:12:08Z",
-          "title": "Improvements in Testing",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/553",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T17:43:07Z",
-          "title": "Improved Contribute Page",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/552",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T16:56:06Z",
-          "title": "Added Splash Screens / Onboarding Screens",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/551",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T15:51:05Z",
-          "title": "Added contributors image caching mechanism",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/550",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T14:22:16Z",
-          "title": "Added Bengali Language Support",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/549",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-23T13:01:33Z",
-          "title": "Fix - FlutterError on Snackbar Overlay",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/547",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-23T10:27:56Z",
-          "title": "Bug - FlutterError Overlay Not Found during Authentication",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/545",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-22T23:55:48Z",
-          "title": "Added isolates to API calls",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/544",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-22T22:53:24Z",
-          "title": "Authentication Improvements",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/543",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-22T12:12:49Z",
-          "title": "Added Mobile Native Notifications and Deep Link",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/542",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-18T21:30:32Z",
-          "title": "Improved Drawer UI Design",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/534",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-12T23:23:48Z",
-          "title": "Fix - Deprecated Dependencies Upgraded to Latest Compatible Versions (Android)",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/530",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-12T15:49:38Z",
-          "title": "Proof of Concept - Added Structured JSON API Endpoint to be used by Flutter App",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/766",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-31T23:33:26Z",
-          "title": "Google Classroom Integration",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6797",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-28T21:00:53Z",
-          "title": "Proof of Concept - Interactive Book Improvement",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
-          "points": 5
         }
       ]
     },
@@ -32850,6 +32888,65 @@
       ]
     },
     {
+      "username": "AdityaOP007",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/190319214?v=4",
+      "role": "Contributor",
+      "total_points": 16,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        },
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-11",
+          "count": 3,
+          "points": 11
+        },
+        {
+          "date": "2026-05-09",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-11T12:54:42Z",
+          "title": "Add vertical scrollbar to simulator sidebar in circuit elements pannel",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7354",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-11T12:30:50Z",
+          "title": "fix scrollbar to side bar in simulator elements pannel",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7353",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-11T12:45:08Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-09T17:05:15Z",
+          "title": "fix - fix element panel overlapping #260",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1049",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "VaibhavJindal7",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/250916516?v=4",
@@ -32907,6 +33004,54 @@
           "title": "docs - Copyright year outdated in about.md",
           "link": "https://github.com/CircuitVerse/Interactive-Book/issues/767",
           "points": 2
+        }
+      ]
+    },
+    {
+      "username": "aakashgautam-git",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/253693237?v=4",
+      "role": "Contributor",
+      "total_points": 15,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-11",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-05-09",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-11T19:28:57Z",
+          "title": "Add scrollbar support to simulator sidebar",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1050",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-11T19:14:01Z",
+          "title": "Add scrollbar support to simulator sidebar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7355",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-09T15:08:25Z",
+          "title": "Add autocomplete suggestions for advanced search filters",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7352",
+          "points": 5
         }
       ]
     },
@@ -38610,64 +38755,6 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "AdityaOP007",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/190319214?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-09",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-09T17:05:15Z",
-          "title": "fix - fix element panel overlapping #260",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1049",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "aakashgautam-git",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/253693237?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-09",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-09T15:08:25Z",
-          "title": "Add autocomplete suggestions for advanced search filters",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7352",
-          "points": 5
         }
       ]
     },
