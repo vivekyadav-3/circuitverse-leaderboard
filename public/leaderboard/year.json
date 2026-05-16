@@ -1,32 +1,36 @@
 {
   "period": "year",
-  "updatedAt": 1778815940721,
-  "lastFetchedAt": 1778815940721,
-  "startDate": "2025-05-15",
-  "endDate": "2026-05-15",
+  "updatedAt": 1778900109336,
+  "lastFetchedAt": 1778900109336,
+  "startDate": "2025-05-16",
+  "endDate": "2026-05-16",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 837,
+      "total_points": 854,
       "activity_breakdown": {
-        "Issue opened": {
-          "count": 53,
-          "points": 71
+        "PR opened": {
+          "count": 61,
+          "points": 200
         },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
+        "Issue opened": {
+          "count": 54,
+          "points": 73
+        },
+        "Issue closed": {
+          "count": 62,
+          "points": 62
         },
         "Issue labeled": {
-          "count": 41,
-          "points": 53
+          "count": 42,
+          "points": 54
         },
-        "PR opened": {
-          "count": 59,
-          "points": 190
+        "Issue assigned": {
+          "count": 2,
+          "points": 2
         },
         "PR merged": {
           "count": 23,
@@ -35,13 +39,14 @@
         "Review submitted": {
           "count": 50,
           "points": 288
-        },
-        "Issue closed": {
-          "count": 59,
-          "points": 59
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-15",
+          "count": 8,
+          "points": 17
+        },
         {
           "date": "2026-05-12",
           "count": 3,
@@ -484,6 +489,62 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-15T20:50:31Z",
+          "title": "Fix vulnerable dependencies flagged by bundler-audit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7363",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-15T19:41:14Z",
+          "title": "Fix N+1 query on collaborations in Users - - CircuitverseController#index",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7359",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T20:42:40Z",
+          "title": "🐞 Bug - bundler-audit CI failing on all PRs due to vulnerable dependencies",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7362",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-15T14:17:24Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-15T14:16:51Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-15T20:42:42Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-15T20:04:34Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-15T19:42:46Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-05-12T17:33:22Z",
@@ -9772,19 +9833,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 306,
+      "total_points": 313,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 35,
+          "points": 115
+        },
         "Issue opened": {
-          "count": 26,
-          "points": 37
+          "count": 27,
+          "points": 39
         },
         "Issue labeled": {
           "count": 5,
           "points": 8
-        },
-        "PR opened": {
-          "count": 34,
-          "points": 110
         },
         "PR merged": {
           "count": 21,
@@ -9796,6 +9857,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-15",
+          "count": 2,
+          "points": 7
+        },
         {
           "date": "2026-04-26",
           "count": 2,
@@ -9983,6 +10049,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-15T16:05:12Z",
+          "title": "refactor - migrate verilog terminal from window global + DOM to Pinia synthesisStore",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1055",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T15:27:15Z",
+          "title": "refactor - Migrate Verilog terminal output from window global + DOM to Pinia store",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1054",
+          "points": 2
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-04-26T07:17:39Z",
@@ -10599,8 +10679,16 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 303,
+      "total_points": 309,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 27,
+          "points": 41
+        },
+        "Issue labeled": {
+          "count": 25,
+          "points": 28
+        },
         "PR merged": {
           "count": 17,
           "points": 120
@@ -10616,17 +10704,14 @@
         "PR opened": {
           "count": 35,
           "points": 112
-        },
-        "Issue opened": {
-          "count": 25,
-          "points": 37
-        },
-        "Issue labeled": {
-          "count": 23,
-          "points": 26
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-15",
+          "count": 4,
+          "points": 6
+        },
         {
           "date": "2026-04-21",
           "count": 1,
@@ -10829,6 +10914,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T11:52:58Z",
+          "title": "Feature Introducing the debugger suite in the vue-simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1053",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T11:37:12Z",
+          "title": "🐞 Bug - Tauri auth Using deep-link authentication for tauri",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1052",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-15T11:52:59Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-15T11:37:13Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-04-21T12:05:29Z",
@@ -40139,6 +40252,42 @@
           "title": "Review on PR #386",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/386",
           "points": 4
+        }
+      ]
+    },
+    {
+      "username": "furniturezone211",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/284943234?v=4",
+      "role": "Contributor",
+      "total_points": 4,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-15",
+          "count": 2,
+          "points": 4
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T14:11:21Z",
+          "title": "How to Create Your Dream Bedroom with the Right Furniture",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/537",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-15T14:06:26Z",
+          "title": "How to Create Your Dream Bedroom with the Right Furniture",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/536",
+          "points": 2
         }
       ]
     },
