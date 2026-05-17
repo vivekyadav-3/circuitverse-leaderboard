@@ -1,17 +1,21 @@
 {
   "period": "year",
-  "updatedAt": 1778900109336,
-  "lastFetchedAt": 1778900109336,
-  "startDate": "2025-05-16",
-  "endDate": "2026-05-16",
+  "updatedAt": 1778988539955,
+  "lastFetchedAt": 1778988539955,
+  "startDate": "2025-05-17",
+  "endDate": "2026-05-17",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 854,
+      "total_points": 864,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 24,
+          "points": 185
+        },
         "PR opened": {
           "count": 61,
           "points": 200
@@ -32,16 +36,17 @@
           "count": 2,
           "points": 2
         },
-        "PR merged": {
-          "count": 23,
-          "points": 175
-        },
         "Review submitted": {
           "count": 50,
           "points": 288
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-16",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-05-15",
           "count": 8,
@@ -489,6 +494,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-16T05:56:06Z",
+          "title": "Fix vulnerable dependencies flagged by bundler-audit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7363",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-15T20:50:31Z",
@@ -2554,11 +2566,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 612,
+      "total_points": 615,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 153,
-          "points": 153
+          "count": 156,
+          "points": 156
         },
         "Issue labeled": {
           "count": 3,
@@ -2582,6 +2594,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-16",
+          "count": 3,
+          "points": 3
+        },
         {
           "date": "2026-05-11",
           "count": 2,
@@ -2959,6 +2976,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-16T05:56:38Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-16T05:56:07Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-16T05:56:06Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-05-11T12:47:15Z",
