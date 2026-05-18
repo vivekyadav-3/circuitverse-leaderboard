@@ -1,17 +1,29 @@
 {
   "period": "year",
-  "updatedAt": 1778988539955,
-  "lastFetchedAt": 1778988539955,
-  "startDate": "2025-05-17",
-  "endDate": "2026-05-17",
+  "updatedAt": 1779075725840,
+  "lastFetchedAt": 1779075725840,
+  "startDate": "2025-05-18",
+  "endDate": "2026-05-18",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 864,
+      "total_points": 873,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 56,
+          "points": 77
+        },
+        "Issue assigned": {
+          "count": 5,
+          "points": 5
+        },
+        "Issue labeled": {
+          "count": 44,
+          "points": 56
+        },
         "PR merged": {
           "count": 24,
           "points": 185
@@ -20,21 +32,9 @@
           "count": 61,
           "points": 200
         },
-        "Issue opened": {
-          "count": 54,
-          "points": 73
-        },
         "Issue closed": {
           "count": 62,
           "points": 62
-        },
-        "Issue labeled": {
-          "count": 42,
-          "points": 54
-        },
-        "Issue assigned": {
-          "count": 2,
-          "points": 2
         },
         "Review submitted": {
           "count": 50,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-17",
+          "count": 7,
+          "points": 9
+        },
         {
           "date": "2026-05-16",
           "count": 1,
@@ -494,6 +499,55 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T17:08:10Z",
+          "title": "Feature - Alter Groups table to add organization_id for classroom nesting (GSoC 2026 - Project 6)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7369",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T17:02:50Z",
+          "title": "Feature - Introduce core Organization database table and model (GSoC 2026 - Project 6)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7368",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-17T17:08:16Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-17T17:08:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-17T17:02:57Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-17T17:02:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-17T08:58:29Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-05-16T05:56:06Z",
@@ -9871,19 +9925,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 313,
+      "total_points": 316,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 28,
+          "points": 41
+        },
+        "Issue labeled": {
+          "count": 6,
+          "points": 9
+        },
         "PR opened": {
           "count": 35,
           "points": 115
-        },
-        "Issue opened": {
-          "count": 27,
-          "points": 39
-        },
-        "Issue labeled": {
-          "count": 5,
-          "points": 8
         },
         "PR merged": {
           "count": 21,
@@ -9895,6 +9949,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-17",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-05-15",
           "count": 2,
@@ -10087,6 +10146,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T15:01:52Z",
+          "title": "Feature - Introduce Client-Side Verilog Synthesis via Web Worker for Tauri Desktop",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1058",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-17T15:01:54Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-15T16:05:12Z",
@@ -19206,8 +19279,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 114,
+      "total_points": 120,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 4,
+          "points": 8
+        },
         "PR opened": {
           "count": 18,
           "points": 90
@@ -19219,13 +19296,14 @@
         "PR merged": {
           "count": 2,
           "points": 20
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-17",
+          "count": 3,
+          "points": 6
+        },
         {
           "date": "2026-05-11",
           "count": 2,
@@ -19278,6 +19356,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T09:19:14Z",
+          "title": "Migrate to Kotlin DSL",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/596",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T09:14:04Z",
+          "title": "Migrate to using Material 3",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/595",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-17T09:10:51Z",
+          "title": "Migrate to Riverpod State Management",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/594",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-11T14:42:06Z",
@@ -27966,6 +28065,182 @@
       ]
     },
     {
+      "username": "star-warrior",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/69752445?v=4",
+      "role": "Contributor",
+      "total_points": 34,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 7,
+          "points": 23
+        },
+        "Issue opened": {
+          "count": 8,
+          "points": 11
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-05-17",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-05-12",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-05-09",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-27",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-06",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-01-05",
+          "count": 3,
+          "points": 4
+        },
+        {
+          "date": "2026-01-04",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-01-03",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-26",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-17T07:41:30Z",
+          "title": "fix - resolve sass deprecation and vue html warning issues",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1057",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-12T08:08:56Z",
+          "title": "Fix - Fix deprecated API and Sass related warnings and errors",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1051",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-09T16:03:23Z",
+          "title": "Chore - Added more Keyboard friendly hotkeys / workflows",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1048",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-09T14:44:32Z",
+          "title": "Chore - Moving towards a more keyboard-friendly use",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1047",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-27T05:56:43Z",
+          "title": "style - spacing fixed for import project box",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/879",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-27T05:43:00Z",
+          "title": "UI Fix - UI inconsistency occurring because of default VUE icon",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/878",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-06T18:40:31Z",
+          "title": "🐞 Bug - Copy Pasted Circuit Breaks Ranodomly",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/724",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T13:02:53Z",
+          "title": "feat - add import online circuit feature to vue simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/720",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T12:53:56Z",
+          "title": "Feature - Ability to Import Online Circuits directly into Simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/719",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T12:52:06Z",
+          "title": "Feature -",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/718",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-30T20:11:59Z",
+          "title": "Explore page fix + UI change",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6532",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T05:02:00Z",
+          "title": "feat - Implement 'Import Online Circuit' in Simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6561",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T15:00:28Z",
+          "title": "feat - Implement 'Import Online Circuit' in Simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6555",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-26T07:27:52Z",
+          "title": "🐞 Bug - Browse by tags can't add or remove Tags in explore page + UI issues",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6508",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-03T14:16:52Z",
+          "title": "Feature - Ability to Import Online Circuits directly into Simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6553",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "vivekyadav-3",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
@@ -28546,170 +28821,6 @@
           "occured_at": "2025-03-25T12:11:54Z",
           "title": "Feature - Implement Secure Password Validation",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5603",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "star-warrior",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/69752445?v=4",
-      "role": "Contributor",
-      "total_points": 29,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 8,
-          "points": 11
-        },
-        "PR opened": {
-          "count": 6,
-          "points": 18
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-12",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-05-09",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-01-27",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-01-06",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-01-05",
-          "count": 3,
-          "points": 4
-        },
-        {
-          "date": "2026-01-04",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-01-03",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-30",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-26",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-05-12T08:08:56Z",
-          "title": "Fix - Fix deprecated API and Sass related warnings and errors",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1051",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-09T16:03:23Z",
-          "title": "Chore - Added more Keyboard friendly hotkeys / workflows",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1048",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-05-09T14:44:32Z",
-          "title": "Chore - Moving towards a more keyboard-friendly use",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1047",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-27T05:56:43Z",
-          "title": "style - spacing fixed for import project box",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/879",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-27T05:43:00Z",
-          "title": "UI Fix - UI inconsistency occurring because of default VUE icon",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/878",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-06T18:40:31Z",
-          "title": "🐞 Bug - Copy Pasted Circuit Breaks Ranodomly",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/724",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T13:02:53Z",
-          "title": "feat - add import online circuit feature to vue simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/720",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T12:53:56Z",
-          "title": "Feature - Ability to Import Online Circuits directly into Simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/719",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T12:52:06Z",
-          "title": "Feature -",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/718",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-30T20:11:59Z",
-          "title": "Explore page fix + UI change",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6532",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-04T05:02:00Z",
-          "title": "feat - Implement 'Import Online Circuit' in Simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6561",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T15:00:28Z",
-          "title": "feat - Implement 'Import Online Circuit' in Simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6555",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-26T07:27:52Z",
-          "title": "🐞 Bug - Browse by tags can't add or remove Tags in explore page + UI issues",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6508",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-03T14:16:52Z",
-          "title": "Feature - Ability to Import Online Circuits directly into Simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6553",
           "points": 1
         }
       ]
