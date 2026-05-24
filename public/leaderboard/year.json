@@ -1,40 +1,40 @@
 {
   "period": "year",
-  "updatedAt": 1779505065567,
-  "lastFetchedAt": 1779505065567,
-  "startDate": "2025-05-23",
-  "endDate": "2026-05-23",
+  "updatedAt": 1779593877154,
+  "lastFetchedAt": 1779593877154,
+  "startDate": "2025-05-24",
+  "endDate": "2026-05-24",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 918,
+      "total_points": 945,
       "activity_breakdown": {
         "PR opened": {
-          "count": 65,
-          "points": 220
+          "count": 66,
+          "points": 225
+        },
+        "PR merged": {
+          "count": 26,
+          "points": 205
         },
         "Issue opened": {
-          "count": 59,
-          "points": 83
+          "count": 60,
+          "points": 85
         },
         "Issue closed": {
-          "count": 63,
-          "points": 63
+          "count": 69,
+          "points": 69
+        },
+        "Issue labeled": {
+          "count": 53,
+          "points": 65
         },
         "Issue assigned": {
           "count": 8,
           "points": 8
-        },
-        "Issue labeled": {
-          "count": 49,
-          "points": 61
-        },
-        "PR merged": {
-          "count": 25,
-          "points": 195
         },
         "Review submitted": {
           "count": 50,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-23",
+          "count": 13,
+          "points": 27
+        },
         {
           "date": "2026-05-22",
           "count": 6,
@@ -519,6 +524,97 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-23T19:53:42Z",
+          "title": "fix - use user.admin? instead of user.admin in ProjectPolicy (flagged by coderabbit)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7393",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-23T15:56:21Z",
+          "title": "Help button not opening docs in desktop app",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/911",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-23T20:50:00Z",
+          "title": "🐞 Bug - Users cannot access app in development after registration due to email confirmation requirement",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7394",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:57:21Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-23T20:50:02Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-23T20:50:01Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:17:41Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:13:34Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:11:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:11:06Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-23T20:08:13Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-23T20:02:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T20:00:18Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-22T23:15:33Z",
@@ -2759,11 +2855,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 627,
+      "total_points": 628,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 166,
-          "points": 166
+          "count": 167,
+          "points": 167
         },
         "Issue labeled": {
           "count": 5,
@@ -2787,6 +2883,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-24",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-05-21",
           "count": 11,
@@ -3179,6 +3280,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-24T01:30:07Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-05-21T13:34:00Z",
@@ -5097,8 +5205,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
       "role": "Maintainer",
-      "total_points": 531,
+      "total_points": 533,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 38,
+          "points": 38
+        },
         "PR opened": {
           "count": 20,
           "points": 43
@@ -5111,10 +5223,6 @@
           "count": 44,
           "points": 385
         },
-        "Issue closed": {
-          "count": 36,
-          "points": 36
-        },
         "Issue labeled": {
           "count": 1,
           "points": 1
@@ -5125,6 +5233,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-23",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-03-08",
           "count": 3,
@@ -5397,6 +5510,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T15:56:22Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-23T15:56:21Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-02-25T16:52:48Z",
@@ -8428,8 +8555,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 382,
+      "total_points": 383,
       "activity_breakdown": {
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        },
         "PR opened": {
           "count": 50,
           "points": 250
@@ -8444,6 +8575,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-24",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-03-20",
           "count": 14,
@@ -8481,6 +8617,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-24T02:05:05Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-03-20T06:56:35Z",
@@ -10205,8 +10348,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 323,
+      "total_points": 326,
       "activity_breakdown": {
+        "Issue assigned": {
+          "count": 3,
+          "points": 3
+        },
         "PR opened": {
           "count": 36,
           "points": 120
@@ -10229,6 +10376,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-05-23",
+          "count": 3,
+          "points": 3
+        },
         {
           "date": "2026-05-18",
           "count": 2,
@@ -10431,6 +10583,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-23T03:40:22Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-23T03:40:18Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-23T03:40:12Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-18T03:42:25Z",
@@ -28949,8 +29122,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/139858804?v=4",
       "role": "Contributor",
-      "total_points": 30,
+      "total_points": 32,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
         "PR opened": {
           "count": 1,
           "points": 5
@@ -28966,6 +29143,11 @@
       },
       "daily_activity": [
         {
+          "date": "2026-05-24",
+          "count": 1,
+          "points": 2
+        },
+        {
           "date": "2026-05-21",
           "count": 2,
           "points": 15
@@ -28977,6 +29159,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-05-24T02:04:44Z",
+          "title": "🐞 Bug LTI specs are failing in master with ruby 4.0",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7395",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-21T06:53:31Z",
