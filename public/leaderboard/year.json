@@ -1,24 +1,32 @@
 {
   "period": "year",
-  "updatedAt": 1780286768163,
-  "lastFetchedAt": 1780286768163,
-  "startDate": "2025-06-01",
-  "endDate": "2026-06-01",
+  "updatedAt": 1780372813345,
+  "lastFetchedAt": 1780372813345,
+  "startDate": "2025-06-02",
+  "endDate": "2026-06-02",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1646,
+      "total_points": 1652,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 64,
+          "points": 93
+        },
+        "Issue assigned": {
+          "count": 10,
+          "points": 10
+        },
+        "Issue labeled": {
+          "count": 361,
+          "points": 373
+        },
         "PR merged": {
           "count": 34,
           "points": 285
-        },
-        "Issue labeled": {
-          "count": 358,
-          "points": 370
         },
         "Issue closed": {
           "count": 363,
@@ -28,20 +36,17 @@
           "count": 69,
           "points": 240
         },
-        "Issue opened": {
-          "count": 63,
-          "points": 91
-        },
-        "Issue assigned": {
-          "count": 9,
-          "points": 9
-        },
         "Review submitted": {
           "count": 50,
           "points": 288
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-01",
+          "count": 5,
+          "points": 6
+        },
         {
           "date": "2026-05-31",
           "count": 37,
@@ -564,6 +569,41 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-01T12:35:21Z",
+          "title": "Feature - Add OrganizationsController and OrganizationMembersController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7455",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-01T12:35:47Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-01T12:35:40Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-01T12:35:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-01T12:35:22Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-05-31T12:59:54Z",
@@ -15419,27 +15459,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 923,
+      "total_points": 927,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 32,
+          "points": 49
+        },
+        "Issue labeled": {
+          "count": 303,
+          "points": 306
+        },
+        "Issue assigned": {
+          "count": 6,
+          "points": 6
+        },
         "PR opened": {
           "count": 38,
           "points": 130
         },
-        "Issue labeled": {
-          "count": 302,
-          "points": 305
-        },
         "Issue closed": {
           "count": 266,
           "points": 266
-        },
-        "Issue opened": {
-          "count": 31,
-          "points": 47
-        },
-        "Issue assigned": {
-          "count": 5,
-          "points": 5
         },
         "PR merged": {
           "count": 23,
@@ -15447,6 +15487,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-01",
+          "count": 3,
+          "points": 4
+        },
         {
           "date": "2026-05-31",
           "count": 61,
@@ -15694,6 +15739,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-01T15:44:16Z",
+          "title": "Feature - Add VFS Guard for client-side Verilog synthesis output validation",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1085",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-01T15:44:19Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-01T15:44:16Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-05-31T11:29:49Z",
@@ -32749,20 +32815,25 @@
     {
       "username": "vedant-jain03",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?u=5494d1c2d4646bf1ce4df09c0951f0b6dc47c33a&v=4",
       "role": "Maintainer",
-      "total_points": 298,
+      "total_points": 313,
       "activity_breakdown": {
+        "Review submitted": {
+          "count": 44,
+          "points": 297
+        },
         "Issue closed": {
           "count": 16,
           "points": 16
-        },
-        "Review submitted": {
-          "count": 43,
-          "points": 282
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-01",
+          "count": 1,
+          "points": 15
+        },
         {
           "date": "2026-05-31",
           "count": 4,
@@ -32925,6 +32996,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-01T05:11:07Z",
+          "title": "Review on CircuitVerse#7391",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391#pullrequestreview-4398597025",
+          "points": 15
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-05-31T11:16:31Z",
