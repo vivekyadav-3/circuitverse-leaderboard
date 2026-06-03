@@ -1,17 +1,25 @@
 {
   "period": "year",
-  "updatedAt": 1780372813345,
-  "lastFetchedAt": 1780372813345,
-  "startDate": "2025-06-02",
-  "endDate": "2026-06-02",
+  "updatedAt": 1780459669679,
+  "lastFetchedAt": 1780459669679,
+  "startDate": "2025-06-03",
+  "endDate": "2026-06-03",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1652,
+      "total_points": 1658,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 70,
+          "points": 245
+        },
+        "Issue closed": {
+          "count": 364,
+          "points": 364
+        },
         "Issue opened": {
           "count": 64,
           "points": 93
@@ -28,20 +36,22 @@
           "count": 34,
           "points": 285
         },
-        "Issue closed": {
-          "count": 363,
-          "points": 363
-        },
-        "PR opened": {
-          "count": 69,
-          "points": 240
-        },
         "Review submitted": {
           "count": 50,
           "points": 288
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-03",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-06-02",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-06-01",
           "count": 5,
@@ -569,6 +579,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-03T00:10:29Z",
+          "title": "feat - Add Organizations and OrganizationMembers controllers",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7457",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-02T23:58:16Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-06-01T12:35:21Z",
