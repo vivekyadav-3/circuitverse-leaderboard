@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1780631125200,
-  "lastFetchedAt": 1780631125200,
-  "startDate": "2025-06-05",
-  "endDate": "2026-06-05",
+  "updatedAt": 1780716682328,
+  "lastFetchedAt": 1780716682328,
+  "startDate": "2025-06-06",
+  "endDate": "2026-06-06",
   "entries": [
     {
       "username": "naman79820",
@@ -33586,8 +33586,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 272,
+      "total_points": 277,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 19,
+          "points": 95
+        },
         "Issue opened": {
           "count": 18,
           "points": 36
@@ -33607,13 +33611,14 @@
         "Issue closed": {
           "count": 47,
           "points": 47
-        },
-        "PR opened": {
-          "count": 18,
-          "points": 90
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-05",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-05-30",
           "count": 1,
@@ -33721,6 +33726,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-05T18:26:53Z",
+          "title": "New Project Build",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/617",
+          "points": 5
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-05-30T16:45:22Z",
