@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1780804670532,
-  "lastFetchedAt": 1780804670532,
-  "startDate": "2025-06-07",
-  "endDate": "2026-06-07",
+  "updatedAt": 1780891331858,
+  "lastFetchedAt": 1780891331858,
+  "startDate": "2025-06-08",
+  "endDate": "2026-06-08",
   "entries": [
     {
       "username": "naman79820",
@@ -10423,8 +10423,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1076,
+      "total_points": 1081,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 53,
+          "points": 265
+        },
         "Issue opened": {
           "count": 66,
           "points": 132
@@ -10441,10 +10445,6 @@
           "count": 123,
           "points": 123
         },
-        "PR opened": {
-          "count": 52,
-          "points": 260
-        },
         "PR merged": {
           "count": 4,
           "points": 40
@@ -10455,6 +10455,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-06-03",
           "count": 4,
@@ -10522,6 +10527,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-07T08:21:32Z",
+          "title": "Feat/lti 1 3 upgrade",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7488",
+          "points": 5
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-06-03T17:02:18Z",
@@ -20517,25 +20529,29 @@
     {
       "username": "tachyons",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?u=a7289671a2d228cf269bc52e064be89f13882e10&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 697,
+      "total_points": 705,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 24,
+          "points": 54
+        },
+        "Issue closed": {
+          "count": 200,
+          "points": 200
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        },
         "Review submitted": {
           "count": 36,
           "points": 298
         },
-        "Issue closed": {
-          "count": 198,
-          "points": 198
-        },
         "Issue labeled": {
           "count": 13,
           "points": 14
-        },
-        "PR opened": {
-          "count": 23,
-          "points": 49
         },
         "PR merged": {
           "count": 22,
@@ -20547,6 +20563,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 4,
+          "points": 8
+        },
         {
           "date": "2026-06-05",
           "count": 4,
@@ -20974,6 +20995,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-07T15:42:36Z",
+          "title": "feat - update to material3",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/618",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T15:46:56Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-07T15:42:36Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T15:26:13Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-06-05T02:48:17Z",
@@ -26224,6 +26273,1275 @@
       ]
     },
     {
+      "username": "ThatDeparted2061",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/166894150?u=c22b1c95974076169a9b255294b322e84bf3dbba&v=4",
+      "role": "Maintainer",
+      "total_points": 410,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 23,
+          "points": 114
+        },
+        "PR merged": {
+          "count": 30,
+          "points": 160
+        },
+        "PR opened": {
+          "count": 59,
+          "points": 118
+        },
+        "Issue opened": {
+          "count": 18,
+          "points": 18
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 1,
+          "points": 15
+        },
+        {
+          "date": "2026-05-28",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-01-31",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-01-25",
+          "count": 1,
+          "points": 15
+        },
+        {
+          "date": "2026-01-10",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-12-25",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-11-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-10-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-10-15",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-09-20",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-09-17",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2025-09-16",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-09-15",
+          "count": 4,
+          "points": 11
+        },
+        {
+          "date": "2025-09-13",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-09-06",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2025-09-03",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-09-02",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-08-17",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-08-02",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-07-31",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-07-29",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-07-27",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-07-18",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-07-01",
+          "count": 2,
+          "points": 8
+        },
+        {
+          "date": "2025-06-14",
+          "count": 3,
+          "points": 12
+        },
+        {
+          "date": "2025-06-10",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-06-07",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-06-04",
+          "count": 3,
+          "points": 3
+        },
+        {
+          "date": "2025-06-03",
+          "count": 3,
+          "points": 3
+        },
+        {
+          "date": "2025-05-11",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-04-28",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2025-04-08",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-04-03",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-19",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-18",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-03-16",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-15",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-03-12",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2025-03-11",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-06",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-28",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-27",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-25",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-20",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-19",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2025-02-18",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-13",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-12",
+          "count": 1,
+          "points": 4
+        },
+        {
+          "date": "2025-02-11",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2025-02-10",
+          "count": 8,
+          "points": 34
+        },
+        {
+          "date": "2025-02-08",
+          "count": 4,
+          "points": 8
+        },
+        {
+          "date": "2025-02-07",
+          "count": 8,
+          "points": 30
+        },
+        {
+          "date": "2025-02-06",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2025-02-01",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-01-31",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-01-28",
+          "count": 5,
+          "points": 16
+        },
+        {
+          "date": "2025-01-27",
+          "count": 3,
+          "points": 9
+        },
+        {
+          "date": "2025-01-26",
+          "count": 3,
+          "points": 6
+        },
+        {
+          "date": "2025-01-25",
+          "count": 5,
+          "points": 14
+        },
+        {
+          "date": "2025-01-24",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-01-23",
+          "count": 4,
+          "points": 8
+        },
+        {
+          "date": "2025-01-22",
+          "count": 7,
+          "points": 13
+        },
+        {
+          "date": "2025-01-21",
+          "count": 3,
+          "points": 12
+        },
+        {
+          "date": "2025-01-19",
+          "count": 3,
+          "points": 6
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-07T21:14:25Z",
+          "title": "Review on cv-frontend-vue#1055",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1055#pullrequestreview-4445825202",
+          "points": 15
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-28T12:00:52Z",
+          "title": "Fix - Update ContextMenu.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/543",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-31T08:19:30Z",
+          "title": "Release Pipelines with Code Signing",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/636",
+          "points": 10
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-01-25T12:39:41Z",
+          "title": "Review on cv-frontend-vue#840",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/840#pullrequestreview-3703818715",
+          "points": 15
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-10T18:18:35Z",
+          "title": "Fix - Update 3lmsintegration.md",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/406",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-06T17:52:31Z",
+          "title": "Feature - Authentication model for web and tauri simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/657",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-01T10:43:37Z",
+          "title": "refactor Js integration and file restructure - src/simulator/src/Verilog2CV.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/449",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-28T10:08:35Z",
+          "title": "refactor - ts and DOM integration - src/simulator/vendor/table2csv.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/446",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-28T04:31:23Z",
+          "title": "refactor - ts integration - src/simulator/src/tutorials.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/445",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-28T04:07:35Z",
+          "title": "refactor - ts integration - src/simulator/src/sequential.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/444",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-27T17:50:25Z",
+          "title": "refactor - For ts integration - src/simulator/src/verilogHelpers.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/443",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-27T17:08:46Z",
+          "title": "refactor - typescript integration - src/simulator/src/wire.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-26T17:31:03Z",
+          "title": "refactor - jq removal - src/components/DialogBox/Themes/ApplyThemes.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/441",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-26T17:20:45Z",
+          "title": "reafctor - remove jquery - src/components/DialogBox/CombinationalAnalysis.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/440",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-26T16:42:08Z",
+          "title": "refactor - jquery removal and ts integration src/components/DialogBox/CombinationalAnalysis.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/439",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-25T19:58:49Z",
+          "title": "refactor - ts integration - src/simulator/src/moduleSetup.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/436",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-25T19:20:46Z",
+          "title": "refactor - typescript integration - src/simulator/src/data.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/435",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-25T15:03:48Z",
+          "title": "refactor - typescript integration src/simulator/src/contention.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-24T08:05:25Z",
+          "title": "refactor - typescript integration in src/simulator/src/app.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/431",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-23T19:05:22Z",
+          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/defaultKeys.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-23T18:46:54Z",
+          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/view/panel.ui.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/429",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-23T18:07:38Z",
+          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/428",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-23T05:20:36Z",
+          "title": "JS to TS - src/simulator/src/hotkey_binder/model/shortcuts.plugin.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T20:37:10Z",
+          "title": "JS to TS - src/simulator/src/hotkey_binder/model/addShortcut.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T19:06:19Z",
+          "title": "JS to TS simulator/src/hotkey_binder/model/actions.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T12:43:47Z",
+          "title": "JS to TS - simulator/src/data/undo.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T02:17:36Z",
+          "title": "JS to Ts - simulator/src/data/saveImage.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T01:21:55Z",
+          "title": "Js to TS - simulator/src/data/redo.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-22T00:30:32Z",
+          "title": "Js to Ts - simulator/src/backupCircuits.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/417",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-19T13:56:13Z",
+          "title": "docs - Wsl setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5333",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-19T13:22:48Z",
+          "title": "docs - Wsl setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5332",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-19T08:10:55Z",
+          "title": "Bump-Bootstrap 4.6.2 - 5.3.3",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/409",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-28T19:23:35Z",
+          "title": "chore - Add alert for incorrect boolean expression in combinational analysis",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5475",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-19T14:18:53Z",
+          "title": "refactor - config/locales/views/circuitverse/en.yml",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5448",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-13T17:03:45Z",
+          "title": "fix - preset logic error fix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5417",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-11T08:24:27Z",
+          "title": "refactor - TS integration Minimap.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/474",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-10T20:34:13Z",
+          "title": "refactor - TS integration in modules.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/472",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-10T19:55:01Z",
+          "title": "refactor - ts integration in restrictedElementDiv",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/471",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-08T09:53:21Z",
+          "title": "refactor - ts integration - src/simulator/src/themer/themes.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-08T09:24:53Z",
+          "title": "refactor - Ts integration - src/simulator/src/themer/themer.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-08T08:23:35Z",
+          "title": "refactor - Ts intergration - src/simulator/src/themer/themeCardSvg.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-08T07:25:36Z",
+          "title": "refactor - vue ts and vue's reactive - src/simulator/src/themer/customThemer.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-07T14:22:29Z",
+          "title": "refactor - typescript integration in src/simulator/src/app.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-07T07:08:20Z",
+          "title": "refactor - TS integration - src/simulator/src/hotkey_binder/model/normalize/normalizer.plugin.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/458",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-07T05:06:23Z",
+          "title": "refactor - TS integration, jquery Dom removal - src/simulator/src/hotkey_binder/keyBinder.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/457",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-06T17:28:28Z",
+          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-03T12:28:01Z",
+          "title": "refactor - fix the vue attributes order in UserMenu.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/548",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-19T19:37:06Z",
+          "title": "Fix - Update ContextMenu.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/543",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-16T06:47:12Z",
+          "title": "Fix - Update 3lmsintegration.md",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/406",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-12T17:05:48Z",
+          "title": "Chore - Add GitHub Actions Workflow for cross-platform Tauri Desktop Release",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/526",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-11T13:38:38Z",
+          "title": "Fix - Change imports from partial v0/src and src to to complete v0/src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/523",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-28T06:08:58Z",
+          "title": "Feat - Authentication to Tauri and Web simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/554",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-08T09:40:27Z",
+          "title": "chore - update codeql action versions",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/551",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-06-14T17:11:51Z",
+          "title": "chore - Sync src to v0/src and v1/src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/599",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-06-07T05:44:54Z",
+          "title": "Change current working directory from v0/src to src/",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/577",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-08-02T12:27:27Z",
+          "title": "Release Pipelines with Code Signing",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/636",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-07-18T03:08:00Z",
+          "title": "Midsem Report Project 2 - Desktop Application and Vue frontend updates",
+          "link": "https://github.com/CircuitVerse/Blog/pull/243",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-02T19:03:15Z",
+          "title": "fix v1 infinite loop",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/647",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-02T18:38:19Z",
+          "title": "Infinite loop for v1 version",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/646",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-17T23:15:38Z",
+          "title": "chore - fix embed failure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6072",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-15T07:54:12Z",
+          "title": "Gsoc 2025 Project 2 Final blog",
+          "link": "https://github.com/CircuitVerse/Blog/pull/250",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-15T05:30:53Z",
+          "title": "Feature - Authentication model for web and tauri simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/657",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-15T03:30:16Z",
+          "title": "chore - create conventional-commit workflow",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/656",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-13T14:52:10Z",
+          "title": "fix - change outdir for Dockerfile.production",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6061",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-03T23:40:41Z",
+          "title": "FEATURE - Update Testbench ui/ux",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/650",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-01-31T04:16:27Z",
+          "title": "refactor - typescript integration - src/simulator/src/wire.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-01-28T04:28:21Z",
+          "title": "refactor - typescript integration src/simulator/src/contention.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-01-28T04:29:25Z",
+          "title": "Js to TS - simulator/src/data/redo.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-01-27T05:51:56Z",
+          "title": "docs - Wsl setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5333",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T06:46:27Z",
+          "title": "refactor - ts integration - src/simulator/src/themer/themes.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T06:47:16Z",
+          "title": "refactor - Ts integration - src/simulator/src/themer/themer.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T06:43:54Z",
+          "title": "refactor - Ts intergration - src/simulator/src/themer/themeCardSvg.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T06:14:32Z",
+          "title": "refactor - vue ts and vue's reactive - src/simulator/src/themer/customThemer.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T07:33:04Z",
+          "title": "refactor - typescript integration in src/simulator/src/app.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-07T08:33:56Z",
+          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-07T15:55:59Z",
+          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/defaultKeys.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-07T07:15:31Z",
+          "title": "JS to TS - src/simulator/src/hotkey_binder/model/shortcuts.plugin.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-07T07:41:15Z",
+          "title": "JS to TS simulator/src/hotkey_binder/model/actions.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-02-10T09:21:30Z",
+          "title": "JS to TS - simulator/src/data/undo.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-03-18T16:38:31Z",
+          "title": "Fix - Change imports from partial v0/src and src to to complete v0/src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/523",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-04-28T05:21:37Z",
+          "title": "chore - update codeql action versions",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/551",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-06-14T14:32:51Z",
+          "title": "JS to TS - src/simulator/src/hotkey_binder/model/addShortcut.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-06-14T14:26:50Z",
+          "title": "JS to Ts - simulator/src/data/saveImage.ts",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-07-29T10:46:37Z",
+          "title": "Midsem Report Project 2 - Desktop Application and Vue frontend updates",
+          "link": "https://github.com/CircuitVerse/Blog/pull/243",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-07-31T14:02:54Z",
+          "title": "chore - Sync src to v0/src and v1/src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/599",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-09-20T14:57:56Z",
+          "title": "chore - fix embed failure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6072",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-09-15T19:33:45Z",
+          "title": "chore - create conventional-commit workflow",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/656",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-09-17T08:02:25Z",
+          "title": "fix - change outdir for Dockerfile.production",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6061",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-09-16T06:37:56Z",
+          "title": "FEATURE - Update Testbench ui/ux",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/650",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-09-06T06:25:53Z",
+          "title": "fix v1 infinite loop",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/647",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-11-30T16:03:18Z",
+          "title": "Gsoc 2025 Project 2 Final blog",
+          "link": "https://github.com/CircuitVerse/Blog/pull/250",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-01-22T12:30:43Z",
+          "title": "🐞 Bug ( optimzation ) - Testbench driver location",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/420",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-04T12:16:21Z",
+          "title": "Fix Versioning, sync codebase and deploy centralized versioning",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/574",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-04T12:14:09Z",
+          "title": "Simulator Integration with the primary codebase",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/573",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-04T12:13:19Z",
+          "title": "Week 4 - Updater plugin integration and Code Signing",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/572",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-03T08:45:11Z",
+          "title": "Deploy Release pipelines",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/571",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-03T05:22:47Z",
+          "title": "(Intensive) - Brainstorm and implement ideas to handle Dashboard for Desktop Application-",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/570",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-03T05:20:31Z",
+          "title": "Draft the User Authentication Model",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/569",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-05-11T19:49:52Z",
+          "title": "Feature - Authentication for simulator - Web and Tauri",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/557",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-10T18:20:33Z",
+          "title": "Sync major v0/src features to src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/596",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-10T18:19:57Z",
+          "title": "Sync src to v0/src and v1/src",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/595",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-07T05:23:04Z",
+          "title": "Change current working directory from v0/src to src/",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/576",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-07-27T15:18:22Z",
+          "title": "Bug- Minor patches for the Desktop Application",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/632",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-07-27T15:14:39Z",
+          "title": "Implement Code Signing and Release Notes Automation",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/631",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-08-17T17:33:17Z",
+          "title": "Feature Week 11 - Testing of the Desktop Simulator and Typescript Integration",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/641",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-09-06T08:34:10Z",
+          "title": "Feature - Testbench UI/UX development",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/651",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-09-03T12:26:13Z",
+          "title": "🐞 Bug - Embed circuit preview keeps going in infinite loop for v1 verison",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/649",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-10-19T20:14:44Z",
+          "title": "Feature - Javascript to Typescript conversion in the src folder",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/661",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-10-15T23:35:41Z",
+          "title": "🐞 Bug - MacOS repository native setup error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6292",
+          "points": 1
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-27T20:41:55Z",
+          "title": "Review on PR #396",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/396",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-21T17:10:24Z",
+          "title": "Review on PR #390",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/390",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-12-31T13:22:45Z",
+          "title": "Review on PR #6511",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6511",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-12-25T10:01:14Z",
+          "title": "Review on PR #6476",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6476",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-20T15:26:23Z",
+          "title": "Review on PR #5422",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5422",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-19T16:36:11Z",
+          "title": "Review on PR #5447",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5447",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-25T13:31:50Z",
+          "title": "Review on PR #5461",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5461",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-03-06T12:41:01Z",
+          "title": "Review on PR #5518",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5518",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-18T18:11:35Z",
+          "title": "Review on PR #5440",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5440",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T15:46:03Z",
+          "title": "Review on PR #5349",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5349",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-21T17:46:54Z",
+          "title": "Review on PR #5337",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5337",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-12T04:49:48Z",
+          "title": "Review on PR #5410",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5410",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-21T16:38:18Z",
+          "title": "Review on PR #5163",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5163",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-03-12T06:18:19Z",
+          "title": "Review on PR #510",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/510",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-07-01T10:08:01Z",
+          "title": "Review on PR #598",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/598",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-07-01T10:01:18Z",
+          "title": "Review on PR #618",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/618",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T06:47:54Z",
+          "title": "Review on PR #432",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/432",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-11T07:05:30Z",
+          "title": "Review on PR #470",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/470",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-03-15T05:39:45Z",
+          "title": "Review on PR #538",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/538",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T14:59:34Z",
+          "title": "Review on PR #452",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/452",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-06T03:07:44Z",
+          "title": "Review on PR #453",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/453",
+          "points": 4
+        }
+      ]
+    },
+    {
       "username": "JatsuAkaYashvant",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146776812?v=4",
@@ -27328,1263 +28646,6 @@
           "occured_at": "2025-06-22T06:23:01Z",
           "title": "Review on PR #377",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/377",
-          "points": 4
-        }
-      ]
-    },
-    {
-      "username": "ThatDeparted2061",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4",
-      "role": "Maintainer",
-      "total_points": 395,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 30,
-          "points": 160
-        },
-        "Review submitted": {
-          "count": 22,
-          "points": 99
-        },
-        "PR opened": {
-          "count": 59,
-          "points": 118
-        },
-        "Issue opened": {
-          "count": 18,
-          "points": 18
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-28",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-01-31",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-01-25",
-          "count": 1,
-          "points": 15
-        },
-        {
-          "date": "2026-01-10",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-12-31",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-12-25",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-11-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-10-19",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-10-15",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-09-20",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-17",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2025-09-16",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-09-15",
-          "count": 4,
-          "points": 11
-        },
-        {
-          "date": "2025-09-13",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-09-06",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2025-09-03",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-09-02",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2025-08-17",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-08-02",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-07-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-29",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-07-27",
-          "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2025-07-18",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-07-01",
-          "count": 2,
-          "points": 8
-        },
-        {
-          "date": "2025-06-14",
-          "count": 3,
-          "points": 12
-        },
-        {
-          "date": "2025-06-10",
-          "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2025-06-07",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-06-04",
-          "count": 3,
-          "points": 3
-        },
-        {
-          "date": "2025-06-03",
-          "count": 3,
-          "points": 3
-        },
-        {
-          "date": "2025-05-11",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-04-28",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2025-04-08",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-04-03",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-19",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-18",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-03-16",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-15",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-03-12",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2025-03-11",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-06",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-28",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-27",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-25",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-20",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-19",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2025-02-18",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-13",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-12",
-          "count": 1,
-          "points": 4
-        },
-        {
-          "date": "2025-02-11",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2025-02-10",
-          "count": 8,
-          "points": 34
-        },
-        {
-          "date": "2025-02-08",
-          "count": 4,
-          "points": 8
-        },
-        {
-          "date": "2025-02-07",
-          "count": 8,
-          "points": 30
-        },
-        {
-          "date": "2025-02-06",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2025-02-01",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-01-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-01-28",
-          "count": 5,
-          "points": 16
-        },
-        {
-          "date": "2025-01-27",
-          "count": 3,
-          "points": 9
-        },
-        {
-          "date": "2025-01-26",
-          "count": 3,
-          "points": 6
-        },
-        {
-          "date": "2025-01-25",
-          "count": 5,
-          "points": 14
-        },
-        {
-          "date": "2025-01-24",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-01-23",
-          "count": 4,
-          "points": 8
-        },
-        {
-          "date": "2025-01-22",
-          "count": 7,
-          "points": 13
-        },
-        {
-          "date": "2025-01-21",
-          "count": 3,
-          "points": 12
-        },
-        {
-          "date": "2025-01-19",
-          "count": 3,
-          "points": 6
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-28T12:00:52Z",
-          "title": "Fix - Update ContextMenu.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/543",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-31T08:19:30Z",
-          "title": "Release Pipelines with Code Signing",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/636",
-          "points": 10
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-01-25T12:39:41Z",
-          "title": "Review on cv-frontend-vue#840",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/840#pullrequestreview-3703818715",
-          "points": 15
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-10T18:18:35Z",
-          "title": "Fix - Update 3lmsintegration.md",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/406",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-06T17:52:31Z",
-          "title": "Feature - Authentication model for web and tauri simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/657",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-01T10:43:37Z",
-          "title": "refactor Js integration and file restructure - src/simulator/src/Verilog2CV.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/449",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-28T10:08:35Z",
-          "title": "refactor - ts and DOM integration - src/simulator/vendor/table2csv.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/446",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-28T04:31:23Z",
-          "title": "refactor - ts integration - src/simulator/src/tutorials.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/445",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-28T04:07:35Z",
-          "title": "refactor - ts integration - src/simulator/src/sequential.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/444",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-27T17:50:25Z",
-          "title": "refactor - For ts integration - src/simulator/src/verilogHelpers.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/443",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-27T17:08:46Z",
-          "title": "refactor - typescript integration - src/simulator/src/wire.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-26T17:31:03Z",
-          "title": "refactor - jq removal - src/components/DialogBox/Themes/ApplyThemes.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/441",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-26T17:20:45Z",
-          "title": "reafctor - remove jquery - src/components/DialogBox/CombinationalAnalysis.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/440",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-26T16:42:08Z",
-          "title": "refactor - jquery removal and ts integration src/components/DialogBox/CombinationalAnalysis.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/439",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-25T19:58:49Z",
-          "title": "refactor - ts integration - src/simulator/src/moduleSetup.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/436",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-25T19:20:46Z",
-          "title": "refactor - typescript integration - src/simulator/src/data.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/435",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-25T15:03:48Z",
-          "title": "refactor - typescript integration src/simulator/src/contention.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-24T08:05:25Z",
-          "title": "refactor - typescript integration in src/simulator/src/app.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/431",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-23T19:05:22Z",
-          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/defaultKeys.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-23T18:46:54Z",
-          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/view/panel.ui.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/429",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-23T18:07:38Z",
-          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/428",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-23T05:20:36Z",
-          "title": "JS to TS - src/simulator/src/hotkey_binder/model/shortcuts.plugin.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T20:37:10Z",
-          "title": "JS to TS - src/simulator/src/hotkey_binder/model/addShortcut.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T19:06:19Z",
-          "title": "JS to TS simulator/src/hotkey_binder/model/actions.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T12:43:47Z",
-          "title": "JS to TS - simulator/src/data/undo.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T02:17:36Z",
-          "title": "JS to Ts - simulator/src/data/saveImage.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T01:21:55Z",
-          "title": "Js to TS - simulator/src/data/redo.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-22T00:30:32Z",
-          "title": "Js to Ts - simulator/src/backupCircuits.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/417",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-19T13:56:13Z",
-          "title": "docs - Wsl setup",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5333",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-19T13:22:48Z",
-          "title": "docs - Wsl setup",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5332",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-19T08:10:55Z",
-          "title": "Bump-Bootstrap 4.6.2 - 5.3.3",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/409",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-28T19:23:35Z",
-          "title": "chore - Add alert for incorrect boolean expression in combinational analysis",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5475",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-19T14:18:53Z",
-          "title": "refactor - config/locales/views/circuitverse/en.yml",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5448",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-13T17:03:45Z",
-          "title": "fix - preset logic error fix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5417",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-11T08:24:27Z",
-          "title": "refactor - TS integration Minimap.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/474",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-10T20:34:13Z",
-          "title": "refactor - TS integration in modules.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/472",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-10T19:55:01Z",
-          "title": "refactor - ts integration in restrictedElementDiv",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/471",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-08T09:53:21Z",
-          "title": "refactor - ts integration - src/simulator/src/themer/themes.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-08T09:24:53Z",
-          "title": "refactor - Ts integration - src/simulator/src/themer/themer.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-08T08:23:35Z",
-          "title": "refactor - Ts intergration - src/simulator/src/themer/themeCardSvg.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-08T07:25:36Z",
-          "title": "refactor - vue ts and vue's reactive - src/simulator/src/themer/customThemer.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-07T14:22:29Z",
-          "title": "refactor - typescript integration in src/simulator/src/app.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-07T07:08:20Z",
-          "title": "refactor - TS integration - src/simulator/src/hotkey_binder/model/normalize/normalizer.plugin.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/458",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-07T05:06:23Z",
-          "title": "refactor - TS integration, jquery Dom removal - src/simulator/src/hotkey_binder/keyBinder.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/457",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-06T17:28:28Z",
-          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-03T12:28:01Z",
-          "title": "refactor - fix the vue attributes order in UserMenu.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/548",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-19T19:37:06Z",
-          "title": "Fix - Update ContextMenu.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/543",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-16T06:47:12Z",
-          "title": "Fix - Update 3lmsintegration.md",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/406",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-12T17:05:48Z",
-          "title": "Chore - Add GitHub Actions Workflow for cross-platform Tauri Desktop Release",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/526",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-11T13:38:38Z",
-          "title": "Fix - Change imports from partial v0/src and src to to complete v0/src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/523",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-28T06:08:58Z",
-          "title": "Feat - Authentication to Tauri and Web simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/554",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-08T09:40:27Z",
-          "title": "chore - update codeql action versions",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/551",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-06-14T17:11:51Z",
-          "title": "chore - Sync src to v0/src and v1/src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/599",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-06-07T05:44:54Z",
-          "title": "Change current working directory from v0/src to src/",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/577",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-08-02T12:27:27Z",
-          "title": "Release Pipelines with Code Signing",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/636",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-07-18T03:08:00Z",
-          "title": "Midsem Report Project 2 - Desktop Application and Vue frontend updates",
-          "link": "https://github.com/CircuitVerse/Blog/pull/243",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-02T19:03:15Z",
-          "title": "fix v1 infinite loop",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/647",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-02T18:38:19Z",
-          "title": "Infinite loop for v1 version",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/646",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-17T23:15:38Z",
-          "title": "chore - fix embed failure",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6072",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-15T07:54:12Z",
-          "title": "Gsoc 2025 Project 2 Final blog",
-          "link": "https://github.com/CircuitVerse/Blog/pull/250",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-15T05:30:53Z",
-          "title": "Feature - Authentication model for web and tauri simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/657",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-15T03:30:16Z",
-          "title": "chore - create conventional-commit workflow",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/656",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-13T14:52:10Z",
-          "title": "fix - change outdir for Dockerfile.production",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6061",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-03T23:40:41Z",
-          "title": "FEATURE - Update Testbench ui/ux",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/650",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-01-31T04:16:27Z",
-          "title": "refactor - typescript integration - src/simulator/src/wire.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-01-28T04:28:21Z",
-          "title": "refactor - typescript integration src/simulator/src/contention.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-01-28T04:29:25Z",
-          "title": "Js to TS - simulator/src/data/redo.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-01-27T05:51:56Z",
-          "title": "docs - Wsl setup",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5333",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T06:46:27Z",
-          "title": "refactor - ts integration - src/simulator/src/themer/themes.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T06:47:16Z",
-          "title": "refactor - Ts integration - src/simulator/src/themer/themer.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T06:43:54Z",
-          "title": "refactor - Ts intergration - src/simulator/src/themer/themeCardSvg.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T06:14:32Z",
-          "title": "refactor - vue ts and vue's reactive - src/simulator/src/themer/customThemer.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/461",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T07:33:04Z",
-          "title": "refactor - typescript integration in src/simulator/src/app.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/459",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-07T08:33:56Z",
-          "title": "refactor - JS to TS - src/simulator/src/hotkey_binder/model/utils.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-07T15:55:59Z",
-          "title": "refactor - Js to Ts - src/simulator/src/hotkey_binder/defaultKeys.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-07T07:15:31Z",
-          "title": "JS to TS - src/simulator/src/hotkey_binder/model/shortcuts.plugin.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-07T07:41:15Z",
-          "title": "JS to TS simulator/src/hotkey_binder/model/actions.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-02-10T09:21:30Z",
-          "title": "JS to TS - simulator/src/data/undo.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/421",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-03-18T16:38:31Z",
-          "title": "Fix - Change imports from partial v0/src and src to to complete v0/src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/523",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-04-28T05:21:37Z",
-          "title": "chore - update codeql action versions",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/551",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-06-14T14:32:51Z",
-          "title": "JS to TS - src/simulator/src/hotkey_binder/model/addShortcut.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-06-14T14:26:50Z",
-          "title": "JS to Ts - simulator/src/data/saveImage.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/419",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-07-29T10:46:37Z",
-          "title": "Midsem Report Project 2 - Desktop Application and Vue frontend updates",
-          "link": "https://github.com/CircuitVerse/Blog/pull/243",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-07-31T14:02:54Z",
-          "title": "chore - Sync src to v0/src and v1/src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/599",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-09-20T14:57:56Z",
-          "title": "chore - fix embed failure",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6072",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-09-15T19:33:45Z",
-          "title": "chore - create conventional-commit workflow",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/656",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-09-17T08:02:25Z",
-          "title": "fix - change outdir for Dockerfile.production",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6061",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-09-16T06:37:56Z",
-          "title": "FEATURE - Update Testbench ui/ux",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/650",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-09-06T06:25:53Z",
-          "title": "fix v1 infinite loop",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/647",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-11-30T16:03:18Z",
-          "title": "Gsoc 2025 Project 2 Final blog",
-          "link": "https://github.com/CircuitVerse/Blog/pull/250",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-01-22T12:30:43Z",
-          "title": "🐞 Bug ( optimzation ) - Testbench driver location",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/420",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-04T12:16:21Z",
-          "title": "Fix Versioning, sync codebase and deploy centralized versioning",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/574",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-04T12:14:09Z",
-          "title": "Simulator Integration with the primary codebase",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/573",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-04T12:13:19Z",
-          "title": "Week 4 - Updater plugin integration and Code Signing",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/572",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-03T08:45:11Z",
-          "title": "Deploy Release pipelines",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/571",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-03T05:22:47Z",
-          "title": "(Intensive) - Brainstorm and implement ideas to handle Dashboard for Desktop Application-",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/570",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-03T05:20:31Z",
-          "title": "Draft the User Authentication Model",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/569",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-05-11T19:49:52Z",
-          "title": "Feature - Authentication for simulator - Web and Tauri",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/557",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-10T18:20:33Z",
-          "title": "Sync major v0/src features to src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/596",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-10T18:19:57Z",
-          "title": "Sync src to v0/src and v1/src",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/595",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-07T05:23:04Z",
-          "title": "Change current working directory from v0/src to src/",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/576",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-07-27T15:18:22Z",
-          "title": "Bug- Minor patches for the Desktop Application",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/632",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-07-27T15:14:39Z",
-          "title": "Implement Code Signing and Release Notes Automation",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/631",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-08-17T17:33:17Z",
-          "title": "Feature Week 11 - Testing of the Desktop Simulator and Typescript Integration",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/641",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-09-06T08:34:10Z",
-          "title": "Feature - Testbench UI/UX development",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/651",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-09-03T12:26:13Z",
-          "title": "🐞 Bug - Embed circuit preview keeps going in infinite loop for v1 verison",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/649",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-10-19T20:14:44Z",
-          "title": "Feature - Javascript to Typescript conversion in the src folder",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/661",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-10-15T23:35:41Z",
-          "title": "🐞 Bug - MacOS repository native setup error",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6292",
-          "points": 1
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-27T20:41:55Z",
-          "title": "Review on PR #396",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/396",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-21T17:10:24Z",
-          "title": "Review on PR #390",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/390",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-12-31T13:22:45Z",
-          "title": "Review on PR #6511",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6511",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-12-25T10:01:14Z",
-          "title": "Review on PR #6476",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6476",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-20T15:26:23Z",
-          "title": "Review on PR #5422",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5422",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-19T16:36:11Z",
-          "title": "Review on PR #5447",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5447",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-25T13:31:50Z",
-          "title": "Review on PR #5461",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5461",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-03-06T12:41:01Z",
-          "title": "Review on PR #5518",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5518",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-18T18:11:35Z",
-          "title": "Review on PR #5440",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5440",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T15:46:03Z",
-          "title": "Review on PR #5349",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5349",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-21T17:46:54Z",
-          "title": "Review on PR #5337",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5337",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-12T04:49:48Z",
-          "title": "Review on PR #5410",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5410",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-21T16:38:18Z",
-          "title": "Review on PR #5163",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5163",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-03-12T06:18:19Z",
-          "title": "Review on PR #510",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/510",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-07-01T10:08:01Z",
-          "title": "Review on PR #598",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/598",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-07-01T10:01:18Z",
-          "title": "Review on PR #618",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/618",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T06:47:54Z",
-          "title": "Review on PR #432",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/432",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-11T07:05:30Z",
-          "title": "Review on PR #470",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/470",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-03-15T05:39:45Z",
-          "title": "Review on PR #538",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/538",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T14:59:34Z",
-          "title": "Review on PR #452",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/452",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-06T03:07:44Z",
-          "title": "Review on PR #453",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/453",
           "points": 4
         }
       ]
@@ -33586,34 +33647,39 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 277,
+      "total_points": 288,
       "activity_breakdown": {
         "PR opened": {
-          "count": 19,
-          "points": 95
+          "count": 20,
+          "points": 100
+        },
+        "Issue labeled": {
+          "count": 63,
+          "points": 63
+        },
+        "Issue assigned": {
+          "count": 8,
+          "points": 8
+        },
+        "Issue closed": {
+          "count": 51,
+          "points": 51
         },
         "Issue opened": {
           "count": 18,
           "points": 36
         },
-        "Issue labeled": {
-          "count": 62,
-          "points": 62
-        },
-        "Issue assigned": {
-          "count": 7,
-          "points": 7
-        },
         "PR merged": {
           "count": 3,
           "points": 30
-        },
-        "Issue closed": {
-          "count": 47,
-          "points": 47
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 7,
+          "points": 11
+        },
         {
           "date": "2026-06-05",
           "count": 1,
@@ -33726,6 +33792,55 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-07T20:04:48Z",
+          "title": "Modified gitignores for modern Flutter builds",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/619",
+          "points": 5
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-07T20:14:39Z",
+          "title": "Labeled issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-07T20:14:05Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T14:18:13Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T14:18:12Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T14:18:11Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-07T14:18:10Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-05T18:26:53Z",
@@ -62367,6 +62482,64 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Namrah-87",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/250446922?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-07T22:59:45Z",
+          "title": "Add toggle behavior to getting started dropdown menu",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7491",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "BHARATH0153",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/214236921?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-07",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-07T10:38:36Z",
+          "title": "Fix pinch-to-zoom on tablets (iPad) — zoom anchors to finger midpoint",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7489",
+          "points": 5
         }
       ]
     },
