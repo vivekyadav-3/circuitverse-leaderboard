@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1780891331858,
-  "lastFetchedAt": 1780891331858,
-  "startDate": "2025-06-08",
-  "endDate": "2026-06-08",
+  "updatedAt": 1780975955490,
+  "lastFetchedAt": 1780975955490,
+  "startDate": "2025-06-09",
+  "endDate": "2026-06-09",
   "entries": [
     {
       "username": "naman79820",
@@ -20531,15 +20531,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 705,
+      "total_points": 720,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 23,
+          "points": 125
+        },
+        "Issue opened": {
+          "count": 24,
+          "points": 25
+        },
+        "Issue closed": {
+          "count": 203,
+          "points": 203
+        },
         "PR opened": {
           "count": 24,
           "points": 54
-        },
-        "Issue closed": {
-          "count": 200,
-          "points": 200
         },
         "Issue assigned": {
           "count": 1,
@@ -20552,17 +20560,14 @@
         "Issue labeled": {
           "count": 13,
           "points": 14
-        },
-        "PR merged": {
-          "count": 22,
-          "points": 115
-        },
-        "Issue opened": {
-          "count": 23,
-          "points": 23
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-08",
+          "count": 5,
+          "points": 15
+        },
         {
           "date": "2026-06-07",
           "count": 4,
@@ -20995,6 +21000,41 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-08T14:17:25Z",
+          "title": "feat - update to material3",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/618",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-08T14:16:50Z",
+          "title": "Add widget preview for major compnents",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/621",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-08T07:03:00Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-08T14:18:14Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-08T14:17:26Z",
+          "title": "Closed issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-07T15:42:36Z",
@@ -33647,19 +33687,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 288,
+      "total_points": 300,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 4,
+          "points": 40
+        },
+        "Issue labeled": {
+          "count": 64,
+          "points": 64
+        },
+        "Issue assigned": {
+          "count": 9,
+          "points": 9
+        },
         "PR opened": {
           "count": 20,
           "points": 100
-        },
-        "Issue labeled": {
-          "count": 63,
-          "points": 63
-        },
-        "Issue assigned": {
-          "count": 8,
-          "points": 8
         },
         "Issue closed": {
           "count": 51,
@@ -33668,13 +33712,14 @@
         "Issue opened": {
           "count": 18,
           "points": 36
-        },
-        "PR merged": {
-          "count": 3,
-          "points": 30
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-08",
+          "count": 3,
+          "points": 12
+        },
         {
           "date": "2026-06-07",
           "count": 7,
@@ -33792,6 +33837,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-08T14:18:14Z",
+          "title": "Modified gitignores for modern Flutter builds",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/619",
+          "points": 10
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-08T17:42:44Z",
+          "title": "Labeled issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-08T14:16:50Z",
+          "title": "Assigned issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-07T20:04:48Z",
