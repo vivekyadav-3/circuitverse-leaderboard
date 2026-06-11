@@ -1,17 +1,21 @@
 {
   "period": "year",
-  "updatedAt": 1781062999978,
-  "lastFetchedAt": 1781062999978,
-  "startDate": "2025-06-10",
-  "endDate": "2026-06-10",
+  "updatedAt": 1781150418030,
+  "lastFetchedAt": 1781150418030,
+  "startDate": "2025-06-11",
+  "endDate": "2026-06-11",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1687,
+      "total_points": 1689,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 67,
+          "points": 99
+        },
         "PR opened": {
           "count": 72,
           "points": 255
@@ -19,10 +23,6 @@
         "PR merged": {
           "count": 35,
           "points": 295
-        },
-        "Issue opened": {
-          "count": 66,
-          "points": 97
         },
         "Issue labeled": {
           "count": 365,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 1,
+          "points": 2
+        },
         {
           "date": "2026-06-09",
           "count": 6,
@@ -584,6 +589,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-10T17:38:15Z",
+          "title": "Backlog Future Enhancements for Enterprise & Institutional Organizations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7505",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-09T06:36:20Z",
@@ -10470,27 +10482,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1081,
+      "total_points": 1091,
       "activity_breakdown": {
         "PR opened": {
-          "count": 53,
-          "points": 265
+          "count": 54,
+          "points": 270
         },
         "Issue opened": {
-          "count": 66,
-          "points": 132
-        },
-        "Issue assigned": {
-          "count": 13,
-          "points": 13
-        },
-        "Issue labeled": {
-          "count": 148,
-          "points": 148
+          "count": 67,
+          "points": 134
         },
         "Issue closed": {
-          "count": 123,
-          "points": 123
+          "count": 124,
+          "points": 124
+        },
+        "Issue labeled": {
+          "count": 149,
+          "points": 149
+        },
+        "Issue assigned": {
+          "count": 14,
+          "points": 14
         },
         "PR merged": {
           "count": 4,
@@ -10502,6 +10514,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 5,
+          "points": 10
+        },
         {
           "date": "2026-06-07",
           "count": 1,
@@ -10574,6 +10591,41 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T05:37:54Z",
+          "title": "Fixing the NameError in the current LTI 1.1 implementation",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7502",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-10T03:55:03Z",
+          "title": "Part 1 of upgrading the LTI version from 1.1 to 1.3 (NameError Fix)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7501",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T16:48:23Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-10T03:55:04Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-10T03:55:03Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-07T08:21:32Z",
@@ -15615,8 +15667,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 927,
+      "total_points": 937,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 24,
+          "points": 180
+        },
         "Issue opened": {
           "count": 32,
           "points": 49
@@ -15636,13 +15692,14 @@
         "Issue closed": {
           "count": 266,
           "points": 266
-        },
-        "PR merged": {
-          "count": 23,
-          "points": 170
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-06-01",
           "count": 3,
@@ -15895,6 +15952,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-10T19:28:57Z",
+          "title": "refactor - migrate verilog terminal from window global + DOM to Pinia synthesisStore",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1055",
+          "points": 10
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-06-01T15:44:16Z",
@@ -20578,11 +20642,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 724,
+      "total_points": 729,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 206,
-          "points": 206
+          "count": 211,
+          "points": 211
         },
         "Issue labeled": {
           "count": 14,
@@ -20610,6 +20674,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 5,
+          "points": 5
+        },
         {
           "date": "2026-06-09",
           "count": 4,
@@ -21052,6 +21121,41 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T16:07:51Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T09:32:27Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T16:06:09Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T09:28:05Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T09:28:04Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-06-09T16:29:08Z",
@@ -24781,11 +24885,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 440,
+      "total_points": 450,
       "activity_breakdown": {
         "PR merged": {
-          "count": 21,
-          "points": 160
+          "count": 22,
+          "points": 170
         },
         "Issue labeled": {
           "count": 46,
@@ -24809,6 +24913,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-05-31",
           "count": 6,
@@ -25046,6 +25155,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-10T09:28:04Z",
+          "title": "fix - Vue simulator renders the embed-only interface",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1082",
+          "points": 10
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-05-31T12:16:56Z",
@@ -26397,11 +26513,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/166894150?u=c22b1c95974076169a9b255294b322e84bf3dbba&v=4",
       "role": "Maintainer",
-      "total_points": 425,
+      "total_points": 442,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 24,
-          "points": 129
+          "count": 25,
+          "points": 144
+        },
+        "Issue closed": {
+          "count": 2,
+          "points": 2
         },
         "PR merged": {
           "count": 30,
@@ -26417,6 +26537,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 3,
+          "points": 17
+        },
         {
           "date": "2026-06-09",
           "count": 1,
@@ -26754,6 +26879,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-10T19:18:04Z",
+          "title": "Review on cv-frontend-vue#1055",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1055#pullrequestreview-4470891701",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T19:28:58Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T19:28:57Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-06-09T14:35:59Z",
@@ -54448,6 +54594,81 @@
       ]
     },
     {
+      "username": "KeerthiKumarR",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/93468344?v=4",
+      "role": "Contributor",
+      "total_points": 23,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue closed": {
+          "count": 3,
+          "points": 3
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 7,
+          "points": 23
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T16:11:00Z",
+          "title": "fix - correct BCD input handler passing undefined variable to setBaseValues",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1090",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T15:27:51Z",
+          "title": "fix - prevent RangeError crash in dec2bin when value overflows bitWidth",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1089",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T09:06:35Z",
+          "title": "fix(policy) - use safe-navigation operator in ProjectPolicy#author_access?",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7504",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T07:36:26Z",
+          "title": "fix(simulator) - correct Euclidean distance formula in utils.js",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1088",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T16:00:12Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T07:42:33Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-10T07:40:18Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "poojaY18",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/169044882?v=4",
@@ -62676,6 +62897,35 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "chavanGaneshDatta",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157039801?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-10",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-10T06:39:05Z",
+          "title": "fix(api) - handle malformed filter parameter",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7503",
+          "points": 5
         }
       ]
     },
