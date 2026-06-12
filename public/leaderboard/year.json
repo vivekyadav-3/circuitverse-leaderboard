@@ -1,32 +1,32 @@
 {
   "period": "year",
-  "updatedAt": 1781150418030,
-  "lastFetchedAt": 1781150418030,
-  "startDate": "2025-06-11",
-  "endDate": "2026-06-11",
+  "updatedAt": 1781236779465,
+  "lastFetchedAt": 1781236779465,
+  "startDate": "2025-06-12",
+  "endDate": "2026-06-12",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1689,
+      "total_points": 1698,
       "activity_breakdown": {
-        "Issue opened": {
-          "count": 67,
-          "points": 99
-        },
         "PR opened": {
-          "count": 72,
-          "points": 255
+          "count": 73,
+          "points": 260
+        },
+        "Issue opened": {
+          "count": 68,
+          "points": 101
+        },
+        "Issue labeled": {
+          "count": 367,
+          "points": 379
         },
         "PR merged": {
           "count": 35,
           "points": 295
-        },
-        "Issue labeled": {
-          "count": 365,
-          "points": 377
         },
         "Issue closed": {
           "count": 365,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-11",
+          "count": 4,
+          "points": 9
+        },
         {
           "date": "2026-06-10",
           "count": 1,
@@ -589,6 +594,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-11T17:02:02Z",
+          "title": "fix - resolve bundler-audit failures caused by vulnerable oauth gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7508",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-11T17:00:52Z",
+          "title": "🐞 Bug - Bundler Audit Fails Due to Vulnerable oauth and oauth2 Dependencies",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7507",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-11T17:00:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-11T11:11:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-06-10T17:38:15Z",
@@ -20642,11 +20675,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 729,
+      "total_points": 730,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 211,
-          "points": 211
+          "count": 212,
+          "points": 212
         },
         "Issue labeled": {
           "count": 14,
@@ -20674,6 +20707,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-11",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-06-10",
           "count": 5,
@@ -21121,6 +21159,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-11T08:04:18Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-06-10T16:07:51Z",
