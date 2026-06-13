@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1781236779490,
-  "startDate": "2026-05-13",
-  "endDate": "2026-06-12",
+  "updatedAt": 1781322262306,
+  "startDate": "2026-05-14",
+  "endDate": "2026-06-13",
   "entries": [
     {
       "username": "aryanndwi123",
@@ -3416,8 +3416,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 861,
+      "total_points": 881,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 14,
+          "points": 140
+        },
         "PR opened": {
           "count": 14,
           "points": 70
@@ -3430,10 +3434,6 @@
           "count": 326,
           "points": 326
         },
-        "PR merged": {
-          "count": 12,
-          "points": 120
-        },
         "Issue closed": {
           "count": 306,
           "points": 306
@@ -3444,6 +3444,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-12",
+          "count": 2,
+          "points": 20
+        },
         {
           "date": "2026-06-11",
           "count": 4,
@@ -3556,6 +3561,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-12T05:09:45Z",
+          "title": "fix - resolve bundler-audit failures caused by vulnerable oauth gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7508",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-12T08:28:40Z",
+          "title": "feat - add organization_members table migration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-11T17:02:02Z",
@@ -10335,6 +10354,20 @@
       ],
       "activities": [
         {
+          "type": "PR merged",
+          "occured_at": "2026-06-12T05:09:45Z",
+          "title": "fix - resolve bundler-audit failures caused by vulnerable oauth gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7508",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-12T08:28:40Z",
+          "title": "feat - add organization_members table migration",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391",
+          "points": 10
+        },
+        {
           "type": "PR opened",
           "occured_at": "2026-06-11T17:02:02Z",
           "title": "fix - resolve bundler-audit failures caused by vulnerable oauth gems",
@@ -10669,20 +10702,6 @@
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T18:00:25Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T17:13:56Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -10691,27 +10710,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 709,
+      "total_points": 718,
       "activity_breakdown": {
         "PR opened": {
-          "count": 4,
-          "points": 20
+          "count": 5,
+          "points": 25
         },
         "Issue opened": {
-          "count": 11,
-          "points": 22
+          "count": 12,
+          "points": 24
+        },
+        "Issue assigned": {
+          "count": 15,
+          "points": 15
         },
         "Issue closed": {
-          "count": 124,
-          "points": 124
+          "count": 125,
+          "points": 125
         },
         "Issue labeled": {
           "count": 149,
           "points": 149
-        },
-        "Issue assigned": {
-          "count": 14,
-          "points": 14
         },
         "PR merged": {
           "count": 2,
@@ -10723,6 +10742,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-12",
+          "count": 4,
+          "points": 9
+        },
         {
           "date": "2026-06-10",
           "count": 5,
@@ -10765,6 +10789,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-12T20:39:37Z",
+          "title": "Added the lti-advantage 0.1.0 gem",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7510",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-12T18:03:17Z",
+          "title": "Updating the gemfile with the lti-advantage 0.1.0 gem",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7509",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-12T18:03:17Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T17:59:19Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-10T05:37:54Z",
@@ -13821,6 +13873,34 @@
       "activities": [
         {
           "type": "PR opened",
+          "occured_at": "2026-06-12T20:39:37Z",
+          "title": "Added the lti-advantage 0.1.0 gem",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7510",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-12T18:03:17Z",
+          "title": "Updating the gemfile with the lti-advantage 0.1.0 gem",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7509",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-12T18:03:17Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T17:59:19Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
           "occured_at": "2026-06-10T05:37:54Z",
           "title": "Fixing the NameError in the current LTI 1.1 implementation",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7502",
@@ -14137,34 +14217,6 @@
         {
           "type": "Issue labeled",
           "occured_at": "2026-05-28T15:11:50Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T15:11:34Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T15:11:28Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T15:10:43Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T15:10:37Z",
           "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "points": 1
@@ -28724,20 +28776,25 @@
     {
       "username": "vedant-jain03",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?u=5494d1c2d4646bf1ce4df09c0951f0b6dc47c33a&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
       "role": "Maintainer",
-      "total_points": 149,
+      "total_points": 151,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 16,
+          "points": 16
+        },
         "Review submitted": {
           "count": 9,
           "points": 135
-        },
-        "Issue closed": {
-          "count": 14,
-          "points": 14
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-12",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-01",
           "count": 1,
@@ -28775,6 +28832,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T08:28:41Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T08:28:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-06-01T05:11:07Z",
@@ -29198,6 +29269,20 @@
       ],
       "activities": [
         {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T08:28:41Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T08:28:40Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "Review submitted",
           "occured_at": "2026-06-01T05:11:07Z",
           "title": "Review on CircuitVerse#7391",
@@ -29365,15 +29450,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 147,
+      "total_points": 148,
       "activity_breakdown": {
+        "Issue labeled": {
+          "count": 24,
+          "points": 24
+        },
         "PR merged": {
           "count": 5,
           "points": 50
-        },
-        "Issue labeled": {
-          "count": 23,
-          "points": 23
         },
         "Issue closed": {
           "count": 44,
@@ -29393,6 +29478,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-12",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-06-10",
           "count": 1,
@@ -29435,6 +29525,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-12T13:15:34Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-10T09:28:04Z",
@@ -30789,6 +30886,13 @@
       ],
       "activities": [
         {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-12T13:15:34Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "PR merged",
           "occured_at": "2026-06-10T09:28:04Z",
           "title": "fix - Vue simulator renders the embed-only interface",
@@ -31130,13 +31234,6 @@
           "title": "Assigned issue in cv-frontend-vue",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-27T13:32:05Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -31145,11 +31242,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 118,
+      "total_points": 120,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 59,
-          "points": 59
+          "count": 61,
+          "points": 61
         },
         "Issue labeled": {
           "count": 11,
@@ -31177,6 +31274,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-12",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-11",
           "count": 1,
@@ -31254,6 +31356,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T05:09:46Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T05:09:45Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-06-11T08:04:18Z",
@@ -33596,6 +33712,20 @@
       "activities": [
         {
           "type": "Issue closed",
+          "occured_at": "2026-06-12T05:09:46Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-12T05:09:45Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
           "occured_at": "2026-06-11T08:04:18Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
@@ -33926,20 +34056,6 @@
         {
           "type": "Issue labeled",
           "occured_at": "2026-05-25T15:13:56Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T15:13:55Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T15:13:54Z",
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
