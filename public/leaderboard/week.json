@@ -1,16 +1,20 @@
 {
   "period": "week",
-  "updatedAt": 1781322262296,
-  "startDate": "2026-06-06",
-  "endDate": "2026-06-13",
+  "updatedAt": 1781409960218,
+  "startDate": "2026-06-07",
+  "endDate": "2026-06-14",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 55,
+      "total_points": 57,
       "activity_breakdown": {
+        "Issue labeled": {
+          "count": 6,
+          "points": 6
+        },
         "PR merged": {
           "count": 3,
           "points": 30
@@ -22,13 +26,14 @@
         "Issue opened": {
           "count": 3,
           "points": 6
-        },
-        "Issue labeled": {
-          "count": 4,
-          "points": 4
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-14",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-12",
           "count": 2,
@@ -51,6 +56,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-12T05:09:45Z",
@@ -6843,6 +6862,20 @@
         }
       ],
       "activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-12T05:09:45Z",
@@ -21471,6 +21504,62 @@
         {
           "type": "Issue labeled",
           "occured_at": "2026-06-09T14:37:13Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Santoshpatel112",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134463761?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-13",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-13T20:25:22Z",
+          "title": "🌙 Dark Mode / ☀️ Light Mode Toggle Not Working Properly",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7512",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-13T20:25:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-13T20:25:22Z",
+          "title": "🌙 Dark Mode / ☀️ Light Mode Toggle Not Working Properly",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7512",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-13T20:25:23Z",
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1

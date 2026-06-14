@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1781322262306,
-  "startDate": "2026-05-14",
-  "endDate": "2026-06-13",
+  "updatedAt": 1781409960228,
+  "startDate": "2026-05-15",
+  "endDate": "2026-06-14",
   "entries": [
     {
       "username": "aryanndwi123",
@@ -3416,8 +3416,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 881,
+      "total_points": 883,
       "activity_breakdown": {
+        "Issue labeled": {
+          "count": 328,
+          "points": 328
+        },
         "PR merged": {
           "count": 14,
           "points": 140
@@ -3430,10 +3434,6 @@
           "count": 15,
           "points": 30
         },
-        "Issue labeled": {
-          "count": 326,
-          "points": 326
-        },
         "Issue closed": {
           "count": 306,
           "points": 306
@@ -3444,6 +3444,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-14",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-12",
           "count": 2,
@@ -3561,6 +3566,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-12T05:09:45Z",
@@ -10354,6 +10373,20 @@
       ],
       "activities": [
         {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "PR merged",
           "occured_at": "2026-06-12T05:09:45Z",
           "title": "fix - resolve bundler-audit failures caused by vulnerable oauth gems",
@@ -10685,20 +10718,6 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-05-31T18:08:48Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:04:46Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T18:02:36Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
@@ -45839,6 +45858,62 @@
           "title": "How to Create Your Dream Bedroom with the Right Furniture",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/536",
           "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Santoshpatel112",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134463761?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-13",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-13T20:25:22Z",
+          "title": "🌙 Dark Mode / ☀️ Light Mode Toggle Not Working Properly",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7512",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-13T20:25:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-13T20:25:22Z",
+          "title": "🌙 Dark Mode / ☀️ Light Mode Toggle Not Working Properly",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7512",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-13T20:25:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
         }
       ]
     },

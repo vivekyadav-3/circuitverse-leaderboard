@@ -1,17 +1,21 @@
 {
   "period": "year",
-  "updatedAt": 1781322262277,
-  "lastFetchedAt": 1781322262277,
-  "startDate": "2025-06-13",
-  "endDate": "2026-06-13",
+  "updatedAt": 1781409960201,
+  "lastFetchedAt": 1781409960201,
+  "startDate": "2025-06-14",
+  "endDate": "2026-06-14",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1718,
+      "total_points": 1720,
       "activity_breakdown": {
+        "Issue labeled": {
+          "count": 369,
+          "points": 381
+        },
         "PR merged": {
           "count": 37,
           "points": 315
@@ -23,10 +27,6 @@
         "Issue opened": {
           "count": 68,
           "points": 101
-        },
-        "Issue labeled": {
-          "count": 367,
-          "points": 379
         },
         "Issue closed": {
           "count": 365,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-14",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-12",
           "count": 2,
@@ -599,6 +604,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-14T01:54:20Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-12T05:09:45Z",
@@ -65462,6 +65481,46 @@
           "title": "Review on PR #5367",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5367",
           "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Santoshpatel112",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134463761?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-13",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-13T20:25:22Z",
+          "title": "🌙 Dark Mode / ☀️ Light Mode Toggle Not Working Properly",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7512",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-13T20:25:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
         }
       ]
     },
