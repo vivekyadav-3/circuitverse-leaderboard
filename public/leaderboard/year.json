@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1781497120020,
-  "lastFetchedAt": 1781497120020,
-  "startDate": "2025-06-15",
-  "endDate": "2026-06-15",
+  "updatedAt": 1781582916609,
+  "lastFetchedAt": 1781582916609,
+  "startDate": "2025-06-16",
+  "endDate": "2026-06-16",
   "entries": [
     {
       "username": "naman79820",
@@ -15783,11 +15783,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 937,
+      "total_points": 952,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 39,
+          "points": 135
+        },
         "PR merged": {
-          "count": 24,
-          "points": 180
+          "count": 25,
+          "points": 190
         },
         "Issue opened": {
           "count": 32,
@@ -15801,16 +15805,17 @@
           "count": 6,
           "points": 6
         },
-        "PR opened": {
-          "count": 38,
-          "points": 130
-        },
         "Issue closed": {
           "count": 266,
           "points": 266
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-15",
+          "count": 2,
+          "points": 15
+        },
         {
           "date": "2026-06-10",
           "count": 1,
@@ -16068,6 +16073,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T17:34:18Z",
+          "title": "fix - resolve Vite 8 and Vitest 4 compatibility issues",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1096",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-15T23:32:00Z",
+          "title": "fix - resolve Vite 8 and Vitest 4 compatibility issues",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1096",
+          "points": 10
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-06-10T19:28:57Z",
@@ -20758,11 +20777,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 732,
+      "total_points": 734,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 214,
-          "points": 214
+          "count": 216,
+          "points": 216
         },
         "Issue labeled": {
           "count": 14,
@@ -20790,6 +20809,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-15",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-06-12",
           "count": 2,
@@ -21247,6 +21271,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-15T23:32:01Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-15T23:32:00Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-06-12T05:09:46Z",
@@ -25044,34 +25082,39 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 451,
+      "total_points": 495,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 43,
+          "points": 152
+        },
+        "Issue opened": {
+          "count": 35,
+          "points": 57
+        },
         "Issue labeled": {
-          "count": 47,
+          "count": 54,
+          "points": 57
+        },
+        "Issue closed": {
+          "count": 50,
           "points": 50
+        },
+        "Issue assigned": {
+          "count": 9,
+          "points": 9
         },
         "PR merged": {
           "count": 22,
           "points": 170
-        },
-        "Issue closed": {
-          "count": 49,
-          "points": 49
-        },
-        "PR opened": {
-          "count": 38,
-          "points": 127
-        },
-        "Issue opened": {
-          "count": 30,
-          "points": 47
-        },
-        "Issue assigned": {
-          "count": 8,
-          "points": 8
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-15",
+          "count": 19,
+          "points": 44
+        },
         {
           "date": "2026-06-12",
           "count": 1,
@@ -25319,6 +25362,139 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T22:38:32Z",
+          "title": "fix - add null fallback instead of 0",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7519",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T22:29:31Z",
+          "title": "fix - add circuit preview in dashboard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7517",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T22:21:57Z",
+          "title": "Fix - theme correction in iframe and remove tabs bar dropdown",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1102",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T21:45:24Z",
+          "title": "chore - remove unused previous ui link option",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1100",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T21:38:47Z",
+          "title": "fix - navbar appears behind the menu bar",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1098",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-15T22:34:52Z",
+          "title": "🐞 Bug (vuesim) initial load of the vuesim throws an error",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7518",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-15T22:25:50Z",
+          "title": "🐞 Bug - (vuesim) Circuit preview not shown in the dashboard of projects",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7516",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-15T22:11:38Z",
+          "title": "🐞 Bug - vuesim Theme selection isn't reflected in the iframe and tabbar remove in embed",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1101",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-15T21:43:28Z",
+          "title": "🐞 Bug - vuesim Remove the previous ui link option",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1099",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-15T21:34:52Z",
+          "title": "🐞 Bug - vuesim navbar hides the admin menubar",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1097",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T22:34:59Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T22:34:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T22:25:58Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T22:25:52Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-15T22:16:28Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T22:11:40Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T21:43:30Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-15T21:37:38Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-15T21:34:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue labeled",
           "occured_at": "2026-06-12T13:15:34Z",
@@ -63146,6 +63322,35 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "italoglhrm",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/153318843?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-15",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-15T19:42:08Z",
+          "title": "Migrate pagination view component#5827",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7514",
+          "points": 5
         }
       ]
     },
