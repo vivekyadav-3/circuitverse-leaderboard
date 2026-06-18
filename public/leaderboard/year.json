@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1781669346155,
-  "lastFetchedAt": 1781669346155,
-  "startDate": "2025-06-17",
-  "endDate": "2026-06-17",
+  "updatedAt": 1781755185055,
+  "lastFetchedAt": 1781755185055,
+  "startDate": "2025-06-18",
+  "endDate": "2026-06-18",
   "entries": [
     {
       "username": "naman79820",
@@ -15783,11 +15783,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 952,
+      "total_points": 958,
       "activity_breakdown": {
         "PR opened": {
-          "count": 39,
-          "points": 135
+          "count": 40,
+          "points": 140
+        },
+        "Issue assigned": {
+          "count": 7,
+          "points": 7
         },
         "PR merged": {
           "count": 25,
@@ -15801,16 +15805,17 @@
           "count": 303,
           "points": 306
         },
-        "Issue assigned": {
-          "count": 6,
-          "points": 6
-        },
         "Issue closed": {
           "count": 266,
           "points": 266
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-17",
+          "count": 2,
+          "points": 6
+        },
         {
           "date": "2026-06-15",
           "count": 2,
@@ -16073,6 +16078,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-17T10:24:46Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-17T10:31:57Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-15T17:34:18Z",

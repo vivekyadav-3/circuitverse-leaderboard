@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1781669346187,
-  "startDate": "2026-05-18",
-  "endDate": "2026-06-17",
+  "updatedAt": 1781755185084,
+  "startDate": "2026-05-19",
+  "endDate": "2026-06-18",
   "entries": [
     {
       "username": "aryanndwi123",
@@ -3416,7 +3416,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 847,
+      "total_points": 842,
       "activity_breakdown": {
         "Issue labeled": {
           "count": 325,
@@ -3427,8 +3427,8 @@
           "points": 130
         },
         "PR opened": {
-          "count": 12,
-          "points": 60
+          "count": 11,
+          "points": 55
         },
         "Issue opened": {
           "count": 12,
@@ -3543,11 +3543,6 @@
           "date": "2026-05-19",
           "count": 5,
           "points": 10
-        },
-        {
-          "date": "2026-05-18",
-          "count": 1,
-          "points": 5
         }
       ],
       "raw_activities": [
@@ -14232,11 +14227,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 629,
+      "total_points": 635,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 15
+          "count": 4,
+          "points": 20
+        },
+        "Issue assigned": {
+          "count": 7,
+          "points": 7
         },
         "PR merged": {
           "count": 4,
@@ -14250,16 +14249,17 @@
           "count": 297,
           "points": 297
         },
-        "Issue assigned": {
-          "count": 6,
-          "points": 6
-        },
         "Issue closed": {
           "count": 265,
           "points": 265
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-17",
+          "count": 2,
+          "points": 6
+        },
         {
           "date": "2026-06-15",
           "count": 2,
@@ -14322,6 +14322,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-17T10:24:46Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-17T10:31:57Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-15T17:34:18Z",
@@ -19023,6 +19037,20 @@
       "activities": [
         {
           "type": "PR opened",
+          "occured_at": "2026-06-17T10:24:46Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-17T10:31:57Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
           "occured_at": "2026-06-15T17:34:18Z",
           "title": "fix - resolve Vite 8 and Vitest 4 compatibility issues",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1096",
@@ -19353,20 +19381,6 @@
         {
           "type": "Issue labeled",
           "occured_at": "2026-05-31T14:09:55Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T14:09:48Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T14:08:50Z",
           "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "points": 1
@@ -31473,11 +31487,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 123,
+      "total_points": 122,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 63,
-          "points": 63
+          "count": 62,
+          "points": 62
         },
         "Issue labeled": {
           "count": 12,
@@ -31584,11 +31598,6 @@
           "date": "2026-05-21",
           "count": 11,
           "points": 11
-        },
-        {
-          "date": "2026-05-19",
-          "count": 1,
-          "points": 1
         }
       ],
       "raw_activities": [
