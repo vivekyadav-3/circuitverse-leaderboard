@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1781926884966,
-  "lastFetchedAt": 1781926884966,
-  "startDate": "2025-06-20",
-  "endDate": "2026-06-20",
+  "updatedAt": 1782015255423,
+  "lastFetchedAt": 1782015255423,
+  "startDate": "2025-06-21",
+  "endDate": "2026-06-21",
   "entries": [
     {
       "username": "naman79820",
@@ -13752,17 +13752,21 @@
     {
       "username": "Nihal4777",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
       "role": "Maintainer",
-      "total_points": 1067,
+      "total_points": 1084,
       "activity_breakdown": {
+        "Review submitted": {
+          "count": 73,
+          "points": 820
+        },
+        "Issue closed": {
+          "count": 97,
+          "points": 97
+        },
         "PR opened": {
           "count": 23,
           "points": 58
-        },
-        "Review submitted": {
-          "count": 72,
-          "points": 805
         },
         "PR merged": {
           "count": 10,
@@ -13771,10 +13775,6 @@
         "Issue labeled": {
           "count": 22,
           "points": 22
-        },
-        "Issue closed": {
-          "count": 95,
-          "points": 95
         },
         "Issue assigned": {
           "count": 1,
@@ -13786,6 +13786,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-20",
+          "count": 3,
+          "points": 17
+        },
         {
           "date": "2026-06-14",
           "count": 1,
@@ -14103,6 +14108,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-20T15:19:32Z",
+          "title": "Review on cv-frontend-vue#1098",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1098#pullrequestreview-4538061805",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-20T15:19:40Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-06-20T15:19:39Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-14T17:40:43Z",
@@ -25134,27 +25160,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 525,
+      "total_points": 539,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 24,
+          "points": 190
+        },
+        "Issue opened": {
+          "count": 38,
+          "points": 63
+        },
+        "Issue labeled": {
+          "count": 57,
+          "points": 60
+        },
+        "Issue assigned": {
+          "count": 14,
+          "points": 14
+        },
         "PR opened": {
           "count": 45,
           "points": 162
-        },
-        "Issue opened": {
-          "count": 37,
-          "points": 61
-        },
-        "Issue labeled": {
-          "count": 56,
-          "points": 59
-        },
-        "Issue assigned": {
-          "count": 13,
-          "points": 13
-        },
-        "PR merged": {
-          "count": 23,
-          "points": 180
         },
         "Issue closed": {
           "count": 50,
@@ -25162,6 +25188,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-20",
+          "count": 4,
+          "points": 14
+        },
         {
           "date": "2026-06-19",
           "count": 10,
@@ -25424,6 +25455,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-06-20T15:19:39Z",
+          "title": "fix - navbar appears behind the menu bar",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1098",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-20T16:24:56Z",
+          "title": "🐞 Bug - vuesim auth webview model isn't compatible for omniauth",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1110",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-20T16:24:57Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-20T16:24:56Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-19T21:20:11Z",
@@ -47706,6 +47765,122 @@
       ]
     },
     {
+      "username": "vamshikrishnaramasamy",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161273586?v=4",
+      "role": "Contributor",
+      "total_points": 65,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 7,
+          "points": 35
+        },
+        "PR merged": {
+          "count": 3,
+          "points": 30
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-21",
+          "count": 4,
+          "points": 20
+        },
+        {
+          "date": "2026-05-30",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-05-27",
+          "count": 3,
+          "points": 20
+        },
+        {
+          "date": "2026-05-26",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-05-25",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-21T02:36:05Z",
+          "title": "fix - handle invalid contest page params",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7537",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-21T02:34:34Z",
+          "title": "fix - clean up canonical function formatting",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/795",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-21T02:29:45Z",
+          "title": "fix - handle missing project preview image",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7536",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-21T02:01:30Z",
+          "title": "fix - cache contest submission count",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7535",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-30T06:03:19Z",
+          "title": "docs - add common Windows/WSL setup pitfalls (closes #6469)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7435",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-27T15:38:30Z",
+          "title": "docs - add common Windows/WSL setup pitfalls (closes #6469)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7435",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-27T06:00:31Z",
+          "title": "Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-27T14:55:34Z",
+          "title": "Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-26T06:02:00Z",
+          "title": "Fix stray character in truth table in canonical.md",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/785",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-25T21:27:43Z",
+          "title": "Fix stray character in truth table in canonical.md",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/785",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "kunal-10-cloud",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/187593306?v=4",
@@ -50695,89 +50870,6 @@
           "title": "🐞 Bug - Search page returns 404 when query is blank or missing",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6360",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "vamshikrishnaramasamy",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/161273586?v=4",
-      "role": "Contributor",
-      "total_points": 45,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 3,
-          "points": 30
-        },
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-05-30",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-05-27",
-          "count": 3,
-          "points": 20
-        },
-        {
-          "date": "2026-05-26",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-05-25",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-30T06:03:19Z",
-          "title": "docs - add common Windows/WSL setup pitfalls (closes #6469)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7435",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-27T15:38:30Z",
-          "title": "docs - add common Windows/WSL setup pitfalls (closes #6469)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7435",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-27T06:00:31Z",
-          "title": "Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-27T14:55:34Z",
-          "title": "Fix MathJax rendering in ROM microcontroller quiz options (closes #759)",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/786",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-26T06:02:00Z",
-          "title": "Fix stray character in truth table in canonical.md",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/785",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-25T21:27:43Z",
-          "title": "Fix stray character in truth table in canonical.md",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/785",
-          "points": 5
         }
       ]
     },
