@@ -1,31 +1,31 @@
 {
   "period": "week",
-  "updatedAt": 1782618731379,
-  "startDate": "2026-06-21",
-  "endDate": "2026-06-28",
+  "updatedAt": 1782705393182,
+  "startDate": "2026-06-22",
+  "endDate": "2026-06-29",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 49,
+      "total_points": 62,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 10
+          "count": 3,
+          "points": 15
         },
         "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
+          "count": 3,
+          "points": 6
         },
         "Issue labeled": {
-          "count": 4,
-          "points": 4
+          "count": 9,
+          "points": 9
+        },
+        "Issue assigned": {
+          "count": 2,
+          "points": 2
         },
         "PR merged": {
           "count": 3,
@@ -33,6 +33,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-06-28",
+          "count": 8,
+          "points": 13
+        },
         {
           "date": "2026-06-25",
           "count": 6,
@@ -50,6 +55,62 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-28T10:03:56Z",
+          "title": "feat - Add Organization Dashboard UI and Logic",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7568",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-28T09:36:43Z",
+          "title": "feature - Organization Dashboard UI with member search, role filter & pagination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7567",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T11:21:45Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T11:21:06Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:56Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-28T09:36:51Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:45Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-25T10:29:47Z",
@@ -6940,6 +7001,62 @@
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-28T10:03:56Z",
+          "title": "feat - Add Organization Dashboard UI and Logic",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7568",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-28T09:36:43Z",
+          "title": "feature - Organization Dashboard UI with member search, role filter & pagination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7567",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T11:21:45Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T11:21:06Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:56Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-06-28T09:36:51Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:45Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-06-28T09:36:44Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-25T10:29:47Z",
@@ -18960,6 +19077,44 @@
           "title": "feat - add client-side Verilog synthesis via YoWASP WASM for offline Tauri desktop",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1111",
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Satyam",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/47507?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-28",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-28T07:56:54Z",
+          "title": "Add a `Load Data` input pin to the EEPROM",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/539",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-28T07:56:54Z",
+          "title": "Add a `Load Data` input pin to the EEPROM",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/539",
+          "points": 2
         }
       ]
     }
