@@ -1,35 +1,35 @@
 {
   "period": "week",
-  "updatedAt": 1782790805795,
-  "startDate": "2026-06-23",
-  "endDate": "2026-06-30",
+  "updatedAt": 1782878089227,
+  "startDate": "2026-06-24",
+  "endDate": "2026-07-01",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 62,
+      "total_points": 44,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 15
+          "count": 2,
+          "points": 10
         },
         "Issue opened": {
-          "count": 3,
-          "points": 6
+          "count": 2,
+          "points": 4
         },
         "Issue labeled": {
-          "count": 9,
-          "points": 9
+          "count": 8,
+          "points": 8
         },
         "Issue assigned": {
           "count": 2,
           "points": 2
         },
         "PR merged": {
-          "count": 3,
-          "points": 30
+          "count": 2,
+          "points": 20
         }
       },
       "daily_activity": [
@@ -45,13 +45,8 @@
         },
         {
           "date": "2026-06-24",
-          "count": 3,
-          "points": 30
-        },
-        {
-          "date": "2026-06-23",
-          "count": 3,
-          "points": 8
+          "count": 2,
+          "points": 20
         }
       ],
       "raw_activities": [
@@ -7101,13 +7096,6 @@
         },
         {
           "type": "PR merged",
-          "occured_at": "2026-06-24T03:32:46Z",
-          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
           "occured_at": "2026-06-24T15:30:58Z",
           "title": "feat - Add Pundit policies for Organization and Group RBAC + Tests",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7493",
@@ -7119,27 +7107,6 @@
           "title": "feat - Add Organization and OrganizationMember models and update User and Group associations",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7451",
           "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T18:02:11Z",
-          "title": "fix - update concurrent-ruby, faraday, and oj for security advisories",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7553",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-23T17:51:59Z",
-          "title": "🐞 Bug - Update vulnerable gems reported by bundler-audit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7552",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-06-23T17:52:01Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -7148,7 +7115,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
       "role": "Maintainer",
-      "total_points": 49,
+      "total_points": 34,
       "activity_breakdown": {
         "PR opened": {
           "count": 1,
@@ -7159,8 +7126,8 @@
           "points": 10
         },
         "Review submitted": {
-          "count": 2,
-          "points": 30
+          "count": 1,
+          "points": 15
         },
         "Issue closed": {
           "count": 2,
@@ -7180,11 +7147,6 @@
           "date": "2026-06-25",
           "count": 7,
           "points": 34
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 15
         }
       ],
       "raw_activities": [
@@ -8988,13 +8950,6 @@
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-23T17:00:16Z",
-          "title": "Review on cv-frontend-vue#1100",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1100#pullrequestreview-4555437519",
-          "points": 15
         }
       ]
     },
@@ -15515,15 +15470,60 @@
       ]
     },
     {
+      "username": "PRATHAM2002-DS",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/79985042?u=13d56c79e336dbdb30be9f8f07abbb1daa9caee3&v=4",
+      "role": "Contributor",
+      "total_points": 15,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 1,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-06-26",
+          "count": 1,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-26T17:11:30Z",
+          "title": "Review on CircuitVerse#7563",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-04T19:19:07Z",
+          "title": "Review on CircuitVerse#7391",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391#pullrequestreview-4430770716",
+          "points": 15
+        }
+      ],
+      "activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-26T17:11:30Z",
+          "title": "Review on CircuitVerse#7563",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
+          "points": 15
+        }
+      ]
+    },
+    {
       "username": "deepak0x",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
       "role": "Contributor",
-      "total_points": 18,
+      "total_points": 13,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 10
+          "count": 1,
+          "points": 5
         },
         "Issue opened": {
           "count": 4,
@@ -15540,11 +15540,6 @@
           "date": "2026-06-24",
           "count": 4,
           "points": 8
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 5
         }
       ],
       "raw_activities": [
@@ -15633,58 +15628,6 @@
           "title": "bug - Project update called twice per request",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
           "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "PRATHAM2002-DS",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/79985042?u=13d56c79e336dbdb30be9f8f07abbb1daa9caee3&v=4",
-      "role": "Contributor",
-      "total_points": 15,
-      "activity_breakdown": {
-        "Review submitted": {
-          "count": 1,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-26",
-          "count": 1,
-          "points": 15
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-26T17:11:30Z",
-          "title": "Review on CircuitVerse#7563",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-04T19:19:07Z",
-          "title": "Review on CircuitVerse#7391",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391#pullrequestreview-4430770716",
-          "points": 15
-        }
-      ],
-      "activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-26T17:11:30Z",
-          "title": "Review on CircuitVerse#7563",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
-          "points": 15
         }
       ]
     },
@@ -15749,11 +15692,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 6,
+      "total_points": 5,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 6,
-          "points": 6
+          "count": 5,
+          "points": 5
         }
       },
       "daily_activity": [
@@ -15761,11 +15704,6 @@
           "date": "2026-06-25",
           "count": 5,
           "points": 5
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 1
         }
       ],
       "raw_activities": [
@@ -18332,13 +18270,6 @@
           "title": "Closed issue in cv-frontend-vue",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-23T15:28:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -18347,18 +18278,18 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/76901313?v=4",
       "role": "Maintainer",
-      "total_points": 6,
+      "total_points": 4,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 6,
-          "points": 6
+          "count": 4,
+          "points": 4
         }
       },
       "daily_activity": [
         {
           "date": "2026-06-24",
-          "count": 6,
-          "points": 6
+          "count": 4,
+          "points": 4
         }
       ],
       "raw_activities": [
@@ -18871,20 +18802,6 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-06-24T14:30:56Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T03:32:47Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-24T03:32:46Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
