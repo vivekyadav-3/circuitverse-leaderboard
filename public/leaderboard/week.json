@@ -1,16 +1,28 @@
 {
   "period": "week",
-  "updatedAt": 1783133704751,
-  "startDate": "2026-06-27",
-  "endDate": "2026-07-04",
+  "updatedAt": 1783221895859,
+  "startDate": "2026-06-28",
+  "endDate": "2026-07-05",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 38,
+      "total_points": 47,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue labeled": {
+          "count": 7,
+          "points": 7
+        },
         "Review submitted": {
           "count": 1,
           "points": 15
@@ -19,24 +31,17 @@
           "count": 1,
           "points": 10
         },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 5,
-          "points": 5
-        },
         "Issue assigned": {
           "count": 1,
           "points": 1
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 4,
+          "points": 9
+        },
         {
           "date": "2026-07-03",
           "count": 1,
@@ -54,6 +59,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-04T14:26:47Z",
+          "title": "feat(organizations) - add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7612",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-04T14:20:32Z",
+          "title": "Feature - Add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7611",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:41Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:33Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-03T17:12:37Z",
@@ -7015,6 +7048,34 @@
       ],
       "activities": [
         {
+          "type": "PR opened",
+          "occured_at": "2026-07-04T14:26:47Z",
+          "title": "feat(organizations) - add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7612",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-04T14:20:32Z",
+          "title": "Feature - Add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7611",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:41Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:33Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "Review submitted",
           "occured_at": "2026-07-03T17:12:37Z",
           "title": "Review on CircuitVerse#7606",
@@ -7087,168 +7148,18 @@
       ]
     },
     {
-      "username": "JoshVarga",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/400540?u=cde386c5c924fa186d90fcba74a2287230c64243&v=4",
-      "role": "Contributor",
-      "total_points": 30,
-      "activity_breakdown": {
-        "Review submitted": {
-          "count": 2,
-          "points": 30
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-03",
-          "count": 2,
-          "points": 30
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:36:19Z",
-          "title": "Review on cv-frontend-vue#1093",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:35:37Z",
-          "title": "Review on cv-frontend-vue#1095",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T22:04:22Z",
-          "title": "Review on PR #424",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-31T04:16:16Z",
-          "title": "Review on PR #442",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:47:07Z",
-          "title": "Review on PR #463",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:46:16Z",
-          "title": "Review on PR #464",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:41:31Z",
-          "title": "Review on PR #462",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T04:14:10Z",
-          "title": "Review on PR #430",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T08:33:02Z",
-          "title": "Review on PR #456",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T07:16:06Z",
-          "title": "Review on PR #423",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T07:15:15Z",
-          "title": "Review on PR #425",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-29T19:56:51Z",
-          "title": "Review on PR #448",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/448",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:33:11Z",
-          "title": "Review on PR #415",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/415",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:29:14Z",
-          "title": "Review on PR #418",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:28:05Z",
-          "title": "Review on PR #434",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T03:41:35Z",
-          "title": "Review on PR #337",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/337",
-          "points": 4
-        }
-      ],
-      "activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:36:19Z",
-          "title": "Review on cv-frontend-vue#1093",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:35:37Z",
-          "title": "Review on cv-frontend-vue#1095",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
-          "points": 15
-        }
-      ]
-    },
-    {
       "username": "ShinichiShi",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 29,
+      "total_points": 39,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 2,
+          "points": 20
+        },
         "PR opened": {
           "count": 2,
-          "points": 10
-        },
-        "PR merged": {
-          "count": 1,
           "points": 10
         },
         "Issue opened": {
@@ -7266,6 +7177,11 @@
       },
       "daily_activity": [
         {
+          "date": "2026-07-04",
+          "count": 1,
+          "points": 10
+        },
+        {
           "date": "2026-07-03",
           "count": 9,
           "points": 28
@@ -7277,6 +7193,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Fix - the default icon is seen even if the user is logged in/logged out",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-03T14:35:59Z",
@@ -8967,6 +8890,13 @@
       ],
       "activities": [
         {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Fix - the default icon is seen even if the user is logged in/logged out",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120",
+          "points": 10
+        },
+        {
           "type": "PR opened",
           "occured_at": "2026-07-03T14:35:59Z",
           "title": "Fix - the default icon is seen even if the user is logged in/logged out",
@@ -9043,8 +8973,16 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 25,
+      "total_points": 36,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 2,
+          "points": 20
+        },
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        },
         "Issue assigned": {
           "count": 2,
           "points": 2
@@ -9056,13 +8994,14 @@
         "PR opened": {
           "count": 1,
           "points": 5
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 2,
+          "points": 11
+        },
         {
           "date": "2026-07-02",
           "count": 10,
@@ -9080,6 +9019,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T18:38:38Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue assigned",
           "occured_at": "2026-07-02T14:19:46Z",
@@ -13913,6 +13866,20 @@
       ],
       "activities": [
         {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T18:38:38Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "Issue assigned",
           "occured_at": "2026-07-02T14:19:46Z",
           "title": "Assigned issue in cv-frontend-vue",
@@ -13999,117 +13966,27 @@
       ]
     },
     {
-      "username": "Saksham-Gupta-GH",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/222087587?v=4",
-      "role": "Contributor",
-      "total_points": 25,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 5,
-          "points": 25
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-03",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-07-02",
-          "count": 3,
-          "points": 15
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:44:08Z",
-          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:02:52Z",
-          "title": "Feat/clear all notifications",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T15:03:50Z",
-          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T12:01:18Z",
-          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T11:01:28Z",
-          "title": "Fix mac ruby version",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:44:08Z",
-          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:02:52Z",
-          "title": "Feat/clear all notifications",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T15:03:50Z",
-          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T12:01:18Z",
-          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T11:01:28Z",
-          "title": "Fix mac ruby version",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
-          "points": 5
-        }
-      ]
-    },
-    {
       "username": "Nihal4777",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
       "role": "Maintainer",
-      "total_points": 15,
+      "total_points": 32,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 1,
-          "points": 15
+          "count": 2,
+          "points": 30
+        },
+        "Issue closed": {
+          "count": 2,
+          "points": 2
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 3,
+          "points": 17
+        },
         {
           "date": "2026-07-03",
           "count": 1,
@@ -14117,6 +13994,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-04T16:50:09Z",
+          "title": "Review on cv-frontend-vue#1120",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120#pullrequestreview-4629954146",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:20Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-03T18:22:38Z",
@@ -15878,10 +15776,280 @@
       "activities": [
         {
           "type": "Review submitted",
+          "occured_at": "2026-07-04T16:50:09Z",
+          "title": "Review on cv-frontend-vue#1120",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120#pullrequestreview-4629954146",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:20Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Review submitted",
           "occured_at": "2026-07-03T18:22:38Z",
           "title": "Review on CircuitVerse#7606",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7606#pullrequestreview-4627504399",
           "points": 15
+        }
+      ]
+    },
+    {
+      "username": "JoshVarga",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/400540?u=cde386c5c924fa186d90fcba74a2287230c64243&v=4",
+      "role": "Contributor",
+      "total_points": 30,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 2,
+          "points": 30
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-03",
+          "count": 2,
+          "points": 30
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:36:19Z",
+          "title": "Review on cv-frontend-vue#1093",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:35:37Z",
+          "title": "Review on cv-frontend-vue#1095",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T22:04:22Z",
+          "title": "Review on PR #424",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-31T04:16:16Z",
+          "title": "Review on PR #442",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:47:07Z",
+          "title": "Review on PR #463",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:46:16Z",
+          "title": "Review on PR #464",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:41:31Z",
+          "title": "Review on PR #462",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T04:14:10Z",
+          "title": "Review on PR #430",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T08:33:02Z",
+          "title": "Review on PR #456",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T07:16:06Z",
+          "title": "Review on PR #423",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T07:15:15Z",
+          "title": "Review on PR #425",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-29T19:56:51Z",
+          "title": "Review on PR #448",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/448",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:33:11Z",
+          "title": "Review on PR #415",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/415",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:29:14Z",
+          "title": "Review on PR #418",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:28:05Z",
+          "title": "Review on PR #434",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T03:41:35Z",
+          "title": "Review on PR #337",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/337",
+          "points": 4
+        }
+      ],
+      "activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:36:19Z",
+          "title": "Review on cv-frontend-vue#1093",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:35:37Z",
+          "title": "Review on cv-frontend-vue#1095",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "Saksham-Gupta-GH",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/222087587?v=4",
+      "role": "Contributor",
+      "total_points": 25,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 5,
+          "points": 25
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-03",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-02",
+          "count": 3,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:44:08Z",
+          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:02:52Z",
+          "title": "Feat/clear all notifications",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T15:03:50Z",
+          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T12:01:18Z",
+          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T11:01:28Z",
+          "title": "Fix mac ruby version",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:44:08Z",
+          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:02:52Z",
+          "title": "Feat/clear all notifications",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T15:03:50Z",
+          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T12:01:18Z",
+          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T11:01:28Z",
+          "title": "Fix mac ruby version",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
+          "points": 5
         }
       ]
     },
@@ -16163,11 +16331,11 @@
       ]
     },
     {
-      "username": "eeshsaxena",
+      "username": "DevPatils",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/139802361?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/145151790?v=4",
       "role": "Contributor",
-      "total_points": 7,
+      "total_points": 8,
       "activity_breakdown": {
         "PR opened": {
           "count": 1,
@@ -16176,45 +16344,63 @@
         "Issue opened": {
           "count": 1,
           "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
         }
       },
       "daily_activity": [
         {
-          "date": "2026-06-29",
-          "count": 2,
-          "points": 7
+          "date": "2026-07-04",
+          "count": 3,
+          "points": 8
         }
       ],
       "raw_activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-06-29T12:20:14Z",
-          "title": "test - add unit tests for EventQueue simulator engine",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
+          "occured_at": "2026-07-04T18:26:50Z",
+          "title": "fix - correct user menu close icon and washed-out hover state",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
           "points": 5
         },
         {
           "type": "Issue opened",
-          "occured_at": "2026-06-29T12:19:39Z",
-          "title": "Add unit tests for EventQueue (simulator engine)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
+          "occured_at": "2026-07-04T18:06:31Z",
+          "title": "🐞 Bug - Close button in the user menu drawer shows a right-arrow icon instead of a close/cross icon.",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1121",
           "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T18:06:32Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-06-29T12:20:14Z",
-          "title": "test - add unit tests for EventQueue simulator engine",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
+          "occured_at": "2026-07-04T18:26:50Z",
+          "title": "fix - correct user menu close icon and washed-out hover state",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
           "points": 5
         },
         {
           "type": "Issue opened",
-          "occured_at": "2026-06-29T12:19:39Z",
-          "title": "Add unit tests for EventQueue (simulator engine)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
+          "occured_at": "2026-07-04T18:06:31Z",
+          "title": "🐞 Bug - Close button in the user menu drawer shows a right-arrow icon instead of a close/cross icon.",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1121",
           "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T18:06:32Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
         }
       ]
     },
@@ -16223,18 +16409,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4",
       "role": "Maintainer",
-      "total_points": 5,
+      "total_points": 7,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 4,
+          "points": 4
+        },
         "Issue labeled": {
           "count": 3,
           "points": 3
-        },
-        "Issue closed": {
-          "count": 2,
-          "points": 2
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-07-02",
           "count": 3,
@@ -16247,6 +16438,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:26Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue labeled",
           "occured_at": "2026-07-02T10:30:27Z",
@@ -17223,6 +17428,20 @@
       ],
       "activities": [
         {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:26Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
           "type": "Issue labeled",
           "occured_at": "2026-07-02T10:30:27Z",
           "title": "Labeled issue in cv-frontend-vue",
@@ -17260,82 +17479,58 @@
       ]
     },
     {
-      "username": "deepak0x",
+      "username": "eeshsaxena",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139802361?v=4",
       "role": "Contributor",
-      "total_points": 5,
+      "total_points": 7,
       "activity_breakdown": {
         "PR opened": {
           "count": 1,
           "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
         }
       },
       "daily_activity": [
         {
-          "date": "2026-06-27",
-          "count": 1,
-          "points": 5
+          "date": "2026-06-29",
+          "count": 2,
+          "points": 7
         }
       ],
       "raw_activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-06-27T22:47:53Z",
-          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
+          "occured_at": "2026-06-29T12:20:14Z",
+          "title": "test - add unit tests for EventQueue simulator engine",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
           "points": 5
         },
         {
           "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:33Z",
-          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:13Z",
-          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:12:43Z",
-          "title": "bug - JSON.parse(nil) crash in project update",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:11:13Z",
-          "title": "bug - Project update called twice per request",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-22T12:43:14Z",
-          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
+          "occured_at": "2026-06-29T12:19:39Z",
+          "title": "Add unit tests for EventQueue (simulator engine)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
           "points": 2
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-06-27T22:47:53Z",
-          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
+          "occured_at": "2026-06-29T12:20:14Z",
+          "title": "test - add unit tests for EventQueue simulator engine",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
           "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-29T12:19:39Z",
+          "title": "Add unit tests for EventQueue (simulator engine)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
+          "points": 2
         }
       ]
     },

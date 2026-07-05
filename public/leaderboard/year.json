@@ -1,17 +1,29 @@
 {
   "period": "year",
-  "updatedAt": 1783133704734,
-  "lastFetchedAt": 1783133704734,
-  "startDate": "2025-07-04",
-  "endDate": "2026-07-04",
+  "updatedAt": 1783221895842,
+  "lastFetchedAt": 1783221895842,
+  "startDate": "2025-07-05",
+  "endDate": "2026-07-05",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1807,
+      "total_points": 1816,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 77,
+          "points": 280
+        },
+        "Issue opened": {
+          "count": 72,
+          "points": 109
+        },
+        "Issue labeled": {
+          "count": 380,
+          "points": 392
+        },
         "Review submitted": {
           "count": 51,
           "points": 303
@@ -19,18 +31,6 @@
         "PR merged": {
           "count": 41,
           "points": 355
-        },
-        "PR opened": {
-          "count": 76,
-          "points": 275
-        },
-        "Issue opened": {
-          "count": 71,
-          "points": 107
-        },
-        "Issue labeled": {
-          "count": 378,
-          "points": 390
         },
         "Issue assigned": {
           "count": 12,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 4,
+          "points": 9
+        },
         {
           "date": "2026-07-03",
           "count": 1,
@@ -634,6 +639,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-04T14:26:47Z",
+          "title": "feat(organizations) - add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7612",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-04T14:20:32Z",
+          "title": "Feature - Add organization settings (edit) page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7611",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:41Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T14:20:33Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-03T17:12:37Z",
@@ -7599,11 +7632,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
       "role": "Maintainer",
-      "total_points": 1148,
+      "total_points": 1165,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 76,
-          "points": 865
+          "count": 77,
+          "points": 880
+        },
+        "Issue closed": {
+          "count": 101,
+          "points": 101
         },
         "PR opened": {
           "count": 24,
@@ -7612,10 +7649,6 @@
         "PR merged": {
           "count": 11,
           "points": 80
-        },
-        "Issue closed": {
-          "count": 99,
-          "points": 99
         },
         "Issue assigned": {
           "count": 2,
@@ -7631,6 +7664,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 3,
+          "points": 17
+        },
         {
           "date": "2026-07-03",
           "count": 1,
@@ -7968,6 +8006,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-04T16:50:09Z",
+          "title": "Review on cv-frontend-vue#1120",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120#pullrequestreview-4629954146",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:20Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-03T18:22:38Z",
@@ -16071,8 +16130,16 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 997,
+      "total_points": 1008,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 27,
+          "points": 210
+        },
+        "Issue closed": {
+          "count": 268,
+          "points": 268
+        },
         "Issue assigned": {
           "count": 10,
           "points": 10
@@ -16085,20 +16152,17 @@
           "count": 43,
           "points": 155
         },
-        "PR merged": {
-          "count": 26,
-          "points": 200
-        },
         "Issue opened": {
           "count": 33,
           "points": 51
-        },
-        "Issue closed": {
-          "count": 267,
-          "points": 267
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 2,
+          "points": 11
+        },
         {
           "date": "2026-07-02",
           "count": 10,
@@ -16391,6 +16455,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "feat - wrap synthesizeVerilog() with 30s timeout guard",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1105",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T18:38:38Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue assigned",
           "occured_at": "2026-07-02T14:19:46Z",
@@ -25733,15 +25811,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 593,
+      "total_points": 603,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 28,
+          "points": 230
+        },
         "PR opened": {
           "count": 48,
           "points": 177
-        },
-        "PR merged": {
-          "count": 27,
-          "points": 220
         },
         "Issue opened": {
           "count": 40,
@@ -25761,6 +25839,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-07-03",
           "count": 9,
@@ -26048,6 +26131,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-04T16:50:19Z",
+          "title": "Fix - the default icon is seen even if the user is logged in/logged out",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1120",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-03T14:35:59Z",
@@ -27742,15 +27832,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/166894150?v=4",
       "role": "Maintainer",
-      "total_points": 447,
+      "total_points": 449,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 6,
+          "points": 6
+        },
         "Issue labeled": {
           "count": 3,
           "points": 3
-        },
-        "Issue closed": {
-          "count": 4,
-          "points": 4
         },
         "Review submitted": {
           "count": 25,
@@ -27770,6 +27860,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-07-02",
           "count": 3,
@@ -28122,6 +28217,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:26Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-04T17:56:25Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue labeled",
           "occured_at": "2026-07-02T10:30:27Z",
@@ -62743,6 +62852,57 @@
           "title": "fix - differentiate team section headings by color hierarchy",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/76",
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "DevPatils",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145151790?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-04",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-04T18:26:50Z",
+          "title": "fix - correct user menu close icon and washed-out hover state",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-04T18:06:31Z",
+          "title": "🐞 Bug - Close button in the user menu drawer shows a right-arrow icon instead of a close/cross icon.",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1121",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T18:06:32Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
         }
       ]
     },
