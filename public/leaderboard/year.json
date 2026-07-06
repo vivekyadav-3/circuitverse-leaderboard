@@ -1,40 +1,40 @@
 {
   "period": "year",
-  "updatedAt": 1783221895842,
-  "lastFetchedAt": 1783221895842,
-  "startDate": "2025-07-05",
-  "endDate": "2026-07-05",
+  "updatedAt": 1783308787380,
+  "lastFetchedAt": 1783308787380,
+  "startDate": "2025-07-06",
+  "endDate": "2026-07-06",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1816,
+      "total_points": 1841,
       "activity_breakdown": {
         "PR opened": {
-          "count": 77,
-          "points": 280
+          "count": 78,
+          "points": 285
         },
         "Issue opened": {
-          "count": 72,
-          "points": 109
-        },
-        "Issue labeled": {
-          "count": 380,
-          "points": 392
+          "count": 73,
+          "points": 111
         },
         "Review submitted": {
-          "count": 51,
-          "points": 303
+          "count": 52,
+          "points": 318
+        },
+        "Issue assigned": {
+          "count": 14,
+          "points": 14
+        },
+        "Issue labeled": {
+          "count": 381,
+          "points": 393
         },
         "PR merged": {
           "count": 41,
           "points": 355
-        },
-        "Issue assigned": {
-          "count": 12,
-          "points": 12
         },
         "Issue closed": {
           "count": 365,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 6,
+          "points": 25
+        },
         {
           "date": "2026-07-04",
           "count": 4,
@@ -639,6 +644,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-05T17:31:04Z",
+          "title": "Naman Chhabra GSoC 2026 Phase 1 report",
+          "link": "https://github.com/CircuitVerse/Blog/pull/267",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T11:58:27Z",
+          "title": "Feature - Add organization members management page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7613",
+          "points": 2
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-05T12:11:22Z",
+          "title": "Review on cv-frontend-vue#1122",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122#pullrequestreview-4631289611",
+          "points": 15
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-05T11:58:35Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-05T11:58:28Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-05T11:53:24Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-04T14:26:47Z",
@@ -7630,17 +7677,17 @@
     {
       "username": "Nihal4777",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4",
       "role": "Maintainer",
-      "total_points": 1165,
+      "total_points": 1167,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 103,
+          "points": 103
+        },
         "Review submitted": {
           "count": 77,
           "points": 880
-        },
-        "Issue closed": {
-          "count": 101,
-          "points": 101
         },
         "PR opened": {
           "count": 24,
@@ -7664,6 +7711,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-07-04",
           "count": 3,
@@ -8006,6 +8058,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-05T12:21:33Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-05T12:21:32Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-04T16:50:09Z",
@@ -16130,8 +16196,24 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 1008,
+      "total_points": 1019,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 44,
+          "points": 160
+        },
+        "Issue opened": {
+          "count": 34,
+          "points": 53
+        },
+        "Issue assigned": {
+          "count": 12,
+          "points": 12
+        },
+        "Issue labeled": {
+          "count": 313,
+          "points": 316
+        },
         "PR merged": {
           "count": 27,
           "points": 210
@@ -16139,25 +16221,14 @@
         "Issue closed": {
           "count": 268,
           "points": 268
-        },
-        "Issue assigned": {
-          "count": 10,
-          "points": 10
-        },
-        "Issue labeled": {
-          "count": 311,
-          "points": 314
-        },
-        "PR opened": {
-          "count": 43,
-          "points": 155
-        },
-        "Issue opened": {
-          "count": 33,
-          "points": 51
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 6,
+          "points": 11
+        },
         {
           "date": "2026-07-04",
           "count": 2,
@@ -16455,6 +16526,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-05T10:14:21Z",
+          "title": "Feature - Synthesis worker lifecycle management to prevent WASM memory growth",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1124",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T09:57:43Z",
+          "title": "Feature - Synthesis worker lifecycle management (prevent WASM memory growth)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1123",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-05T14:46:35Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-05T14:34:08Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-05T09:57:44Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-05T09:57:43Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-04T17:56:25Z",
@@ -21306,11 +21419,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 773,
+      "total_points": 775,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 235,
-          "points": 235
+          "count": 237,
+          "points": 237
         },
         "Review submitted": {
           "count": 37,
@@ -21338,6 +21451,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-07-03",
           "count": 2,
@@ -21825,6 +21943,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-05T14:29:38Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-05T14:29:37Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-07-03T14:29:22Z",
@@ -35482,19 +35614,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 305,
+      "total_points": 313,
       "activity_breakdown": {
         "PR opened": {
-          "count": 21,
-          "points": 105
+          "count": 22,
+          "points": 110
+        },
+        "Issue opened": {
+          "count": 19,
+          "points": 38
+        },
+        "Issue labeled": {
+          "count": 65,
+          "points": 65
         },
         "PR merged": {
           "count": 4,
           "points": 40
-        },
-        "Issue labeled": {
-          "count": 64,
-          "points": 64
         },
         "Issue assigned": {
           "count": 9,
@@ -35503,13 +35639,14 @@
         "Issue closed": {
           "count": 51,
           "points": 51
-        },
-        "Issue opened": {
-          "count": 18,
-          "points": 36
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 3,
+          "points": 8
+        },
         {
           "date": "2026-06-16",
           "count": 1,
@@ -35637,6 +35774,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-05T20:11:33Z",
+          "title": "Santam Mid Term Blog",
+          "link": "https://github.com/CircuitVerse/Blog/pull/268",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T08:36:50Z",
+          "title": "Add Better Logging System in the App",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/630",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-05T08:37:25Z",
+          "title": "Labeled issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-06-16T18:29:06Z",
@@ -44092,6 +44250,360 @@
       ]
     },
     {
+      "username": "Aakansha-Chavan",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/181594189?v=4",
+      "role": "Contributor",
+      "total_points": 129,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 7,
+          "points": 65
+        },
+        "PR opened": {
+          "count": 11,
+          "points": 43
+        },
+        "Issue opened": {
+          "count": 9,
+          "points": 15
+        },
+        "Issue labeled": {
+          "count": 3,
+          "points": 3
+        },
+        "Issue closed": {
+          "count": 3,
+          "points": 3
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-07-03",
+          "count": 3,
+          "points": 8
+        },
+        {
+          "date": "2026-05-31",
+          "count": 2,
+          "points": 20
+        },
+        {
+          "date": "2026-05-30",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-05-26",
+          "count": 3,
+          "points": 3
+        },
+        {
+          "date": "2026-03-01",
+          "count": 4,
+          "points": 9
+        },
+        {
+          "date": "2026-02-19",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-15",
+          "count": 4,
+          "points": 27
+        },
+        {
+          "date": "2026-02-06",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-29",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-25",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-06",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-10-31",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-10-05",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-09-23",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-06-13",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-06-11",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-05T12:21:32Z",
+          "title": "Update vulnerable gems for bundler-audit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7606",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T15:08:36Z",
+          "title": "Update vulnerable gems for bundler-audit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7606",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-03T17:06:08Z",
+          "title": "🐞 Bug - Update vulnerable gems reported by bundler-audit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7607",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-03T17:06:09Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-31T17:05:49Z",
+          "title": "fix - standardize heading and description styles on contests page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7104",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-31T10:59:31Z",
+          "title": "feat - Enhance contest card UI and update related test",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6994",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-30T17:41:34Z",
+          "title": "UI - Hide scrollbar and enable landscape scrolling in navbar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6904",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T08:50:57Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T08:50:13Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T08:49:23Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-19T16:39:47Z",
+          "title": "feat - Enhance contest card UI and update related test",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6994",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-15T16:30:59Z",
+          "title": "UI - Hide scrollbar and enable landscape scrolling in navbar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6904",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-06T16:57:55Z",
+          "title": "Fix - Allow vertical scrolling in collapsed navbar for landscape mode",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6845",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-29T17:15:49Z",
+          "title": "style - remove underline from buttons in Contest sections",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6780",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-25T18:15:30Z",
+          "title": "style - update default project card image to align with mobile app image",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6743",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-01T14:14:33Z",
+          "title": "fix - standardize heading and description styles on contests page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7104",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-15T14:28:58Z",
+          "title": "Fix - Allow vertical scrolling in collapsed navbar for landscape mode",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6845",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-15T14:31:18Z",
+          "title": "style - remove underline from buttons in Contest sections",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6780",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-15T16:07:35Z",
+          "title": "🐞 Bug/UX - Hide scrollbar while enabling vertical scroll in mobile navbar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6903",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-06T16:34:43Z",
+          "title": "🐞 Bug - Navbar menu items are unreachable in mobile landscape mode",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6844",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-29T17:01:27Z",
+          "title": "Feature UI Enhancement - Remove underline decoration on Contest registration button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6779",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-25T17:57:59Z",
+          "title": "UI/UX Align default project card image (thumbnail) with Mobile App",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6742",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-01T13:59:16Z",
+          "title": "🐞 Bug - Standardize Heading and Description styles on Contests page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7103",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-01T13:59:17Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-01T13:59:16Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-06-11T12:55:53Z",
+          "title": "Enhanced styling for Open Collective donation button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5807",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-09-23T18:16:43Z",
+          "title": "feat - Added ability to edit contest name",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6079",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-10-31T14:22:53Z",
+          "title": "Feat/contest name management",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6322",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-10-05T13:24:21Z",
+          "title": "feat - Implemented full contest naming functionality (creation and editing)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6103",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-06-13T11:30:44Z",
+          "title": "Enhanced styling for Open Collective donation button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5807",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-06-11T12:00:21Z",
+          "title": "🐞 Bug UI Bug – Blurry Open Collective Donation Button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5806",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-19T10:17:12Z",
+          "title": "UI bug - Change focus border color on Contact Us form from red to green",
+          "link": "https://github.com/CircuitVerse/Blog/issues/257",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-06T17:42:02Z",
+          "title": "UI Bug - Button color transition failure on hover (Green to Red)",
+          "link": "https://github.com/CircuitVerse/Blog/issues/255",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "gitsofaryan",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/117700812?v=4",
@@ -44601,348 +45113,6 @@
           "occured_at": "2025-03-08T05:37:06Z",
           "title": "🐞 Bug - Minimap Rendering and incorrect Z-index",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/514",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Aakansha-Chavan",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/181594189?v=4",
-      "role": "Contributor",
-      "total_points": 119,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 11,
-          "points": 43
-        },
-        "Issue opened": {
-          "count": 9,
-          "points": 15
-        },
-        "Issue labeled": {
-          "count": 3,
-          "points": 3
-        },
-        "PR merged": {
-          "count": 6,
-          "points": 55
-        },
-        "Issue closed": {
-          "count": 3,
-          "points": 3
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-03",
-          "count": 3,
-          "points": 8
-        },
-        {
-          "date": "2026-05-31",
-          "count": 2,
-          "points": 20
-        },
-        {
-          "date": "2026-05-30",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-05-26",
-          "count": 3,
-          "points": 3
-        },
-        {
-          "date": "2026-03-01",
-          "count": 4,
-          "points": 9
-        },
-        {
-          "date": "2026-02-19",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-02-15",
-          "count": 4,
-          "points": 27
-        },
-        {
-          "date": "2026-02-06",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-01-29",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-01-25",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2025-12-19",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-06",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-10-31",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-10-05",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-09-23",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-06-13",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-06-11",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T15:08:36Z",
-          "title": "Update vulnerable gems for bundler-audit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7606",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-03T17:06:08Z",
-          "title": "🐞 Bug - Update vulnerable gems reported by bundler-audit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7607",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-03T17:06:09Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-31T17:05:49Z",
-          "title": "fix - standardize heading and description styles on contests page",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7104",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-31T10:59:31Z",
-          "title": "feat - Enhance contest card UI and update related test",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6994",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-30T17:41:34Z",
-          "title": "UI - Hide scrollbar and enable landscape scrolling in navbar",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6904",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T08:50:57Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T08:50:13Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T08:49:23Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-19T16:39:47Z",
-          "title": "feat - Enhance contest card UI and update related test",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6994",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-15T16:30:59Z",
-          "title": "UI - Hide scrollbar and enable landscape scrolling in navbar",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6904",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-06T16:57:55Z",
-          "title": "Fix - Allow vertical scrolling in collapsed navbar for landscape mode",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6845",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-29T17:15:49Z",
-          "title": "style - remove underline from buttons in Contest sections",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6780",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-25T18:15:30Z",
-          "title": "style - update default project card image to align with mobile app image",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6743",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-01T14:14:33Z",
-          "title": "fix - standardize heading and description styles on contests page",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7104",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-15T14:28:58Z",
-          "title": "Fix - Allow vertical scrolling in collapsed navbar for landscape mode",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6845",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-15T14:31:18Z",
-          "title": "style - remove underline from buttons in Contest sections",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6780",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-15T16:07:35Z",
-          "title": "🐞 Bug/UX - Hide scrollbar while enabling vertical scroll in mobile navbar",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6903",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-06T16:34:43Z",
-          "title": "🐞 Bug - Navbar menu items are unreachable in mobile landscape mode",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6844",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-29T17:01:27Z",
-          "title": "Feature UI Enhancement - Remove underline decoration on Contest registration button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6779",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-25T17:57:59Z",
-          "title": "UI/UX Align default project card image (thumbnail) with Mobile App",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6742",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-01T13:59:16Z",
-          "title": "🐞 Bug - Standardize Heading and Description styles on Contests page",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7103",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-01T13:59:17Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-01T13:59:16Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-06-11T12:55:53Z",
-          "title": "Enhanced styling for Open Collective donation button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5807",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-09-23T18:16:43Z",
-          "title": "feat - Added ability to edit contest name",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6079",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-10-31T14:22:53Z",
-          "title": "Feat/contest name management",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6322",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-10-05T13:24:21Z",
-          "title": "feat - Implemented full contest naming functionality (creation and editing)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6103",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-06-13T11:30:44Z",
-          "title": "Enhanced styling for Open Collective donation button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5807",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-06-11T12:00:21Z",
-          "title": "🐞 Bug UI Bug – Blurry Open Collective Donation Button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5806",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-19T10:17:12Z",
-          "title": "UI bug - Change focus border color on Contact Us form from red to green",
-          "link": "https://github.com/CircuitVerse/Blog/issues/257",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-06T17:42:02Z",
-          "title": "UI Bug - Button color transition failure on hover (Green to Red)",
-          "link": "https://github.com/CircuitVerse/Blog/issues/255",
           "points": 1
         }
       ]
@@ -51891,6 +52061,59 @@
       ]
     },
     {
+      "username": "PRATHAM2002-DS",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/79985042?u=13d56c79e336dbdb30be9f8f07abbb1daa9caee3&v=4",
+      "role": "Contributor",
+      "total_points": 45,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 3,
+          "points": 45
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 1,
+          "points": 15
+        },
+        {
+          "date": "2026-06-26",
+          "count": 1,
+          "points": 15
+        },
+        {
+          "date": "2026-06-04",
+          "count": 1,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-05T15:32:09Z",
+          "title": "Review on CircuitVerse#7457",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7457#pullrequestreview-4631546865",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-26T17:11:30Z",
+          "title": "Review on CircuitVerse#7563",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-06-04T19:19:07Z",
+          "title": "Review on CircuitVerse#7391",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391#pullrequestreview-4430770716",
+          "points": 15
+        }
+      ]
+    },
+    {
       "username": "star-warrior",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/69752445?v=4",
@@ -54449,47 +54672,6 @@
       ]
     },
     {
-      "username": "PRATHAM2002-DS",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/79985042?u=13d56c79e336dbdb30be9f8f07abbb1daa9caee3&v=4",
-      "role": "Contributor",
-      "total_points": 30,
-      "activity_breakdown": {
-        "Review submitted": {
-          "count": 2,
-          "points": 30
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-26",
-          "count": 1,
-          "points": 15
-        },
-        {
-          "date": "2026-06-04",
-          "count": 1,
-          "points": 15
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-26T17:11:30Z",
-          "title": "Review on CircuitVerse#7563",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7563#pullrequestreview-4581306253",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-06-04T19:19:07Z",
-          "title": "Review on CircuitVerse#7391",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7391#pullrequestreview-4430770716",
-          "points": 15
-        }
-      ]
-    },
-    {
       "username": "yashikajotwani12",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/77020164?u=df4dfd08cf66a946ac21c7f54f364949e5b651a9&v=4",
@@ -56891,6 +57073,108 @@
       ]
     },
     {
+      "username": "deepak0x",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
+      "role": "Contributor",
+      "total_points": 22,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 6,
+          "points": 12
+        },
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-06-27",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-06-24",
+          "count": 4,
+          "points": 8
+        },
+        {
+          "date": "2026-06-23",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-06-22",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T15:23:15Z",
+          "title": "bug - destroy? allows primary mentor to remove own org membership",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7615",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-27T22:47:53Z",
+          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:33Z",
+          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:13Z",
+          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:12:43Z",
+          "title": "bug - JSON.parse(nil) crash in project update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:11:13Z",
+          "title": "bug - Project update called twice per request",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-23T10:23:17Z",
+          "title": "fix - correct invalid MIME type for circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-22T12:43:14Z",
+          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "prabhat-kumar96",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/203159061?v=4",
@@ -57424,96 +57708,6 @@
           "title": "Upgrade to flutter 3.29.2",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/281",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "deepak0x",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
-      "role": "Contributor",
-      "total_points": 20,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue opened": {
-          "count": 5,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-06-27",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-06-24",
-          "count": 4,
-          "points": 8
-        },
-        {
-          "date": "2026-06-23",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-06-22",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-27T22:47:53Z",
-          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:33Z",
-          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:13Z",
-          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:12:43Z",
-          "title": "bug - JSON.parse(nil) crash in project update",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:11:13Z",
-          "title": "bug - Project update called twice per request",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-22T12:43:14Z",
-          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
-          "points": 2
         }
       ]
     },
@@ -58135,6 +58329,73 @@
           "title": "fix - fix element panel overlapping #260",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1049",
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "DevPatils",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/145151790?v=4",
+      "role": "Contributor",
+      "total_points": 18,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        },
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-07-04",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-05T14:29:37Z",
+          "title": "fix - correct user menu close icon and washed-out hover state",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-04T18:26:50Z",
+          "title": "fix - correct user menu close icon and washed-out hover state",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-04T18:06:31Z",
+          "title": "🐞 Bug - Close button in the user menu drawer shows a right-arrow icon instead of a close/cross icon.",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1121",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-04T18:06:32Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
         }
       ]
     },
@@ -61148,6 +61409,42 @@
       ]
     },
     {
+      "username": "ameenmv",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/150484349?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-05",
+          "count": 2,
+          "points": 10
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-05T17:45:30Z",
+          "title": "fix - sanitize_name now correctly mutates params read by project_params (#7559)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7617",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-05T17:33:39Z",
+          "title": "fix - prevent primary mentor from removing own org membership (#7615)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7616",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "pedro4896",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/94026535?v=4",
@@ -62852,57 +63149,6 @@
           "title": "fix - differentiate team section headings by color hierarchy",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/76",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "DevPatils",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/145151790?v=4",
-      "role": "Contributor",
-      "total_points": 8,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-04",
-          "count": 3,
-          "points": 8
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-04T18:26:50Z",
-          "title": "fix - correct user menu close icon and washed-out hover state",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1122",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-04T18:06:31Z",
-          "title": "🐞 Bug - Close button in the user menu drawer shows a right-arrow icon instead of a close/cross icon.",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1121",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-04T18:06:32Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
         }
       ]
     },
