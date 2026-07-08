@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1783394603275,
-  "lastFetchedAt": 1783394603275,
-  "startDate": "2025-07-07",
-  "endDate": "2026-07-07",
+  "updatedAt": 1783478473231,
+  "lastFetchedAt": 1783478473231,
+  "startDate": "2025-07-08",
+  "endDate": "2026-07-08",
   "entries": [
     {
       "username": "naman79820",
@@ -21539,8 +21539,16 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 797,
+      "total_points": 800,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 25,
+          "points": 27
+        },
+        "Issue labeled": {
+          "count": 20,
+          "points": 21
+        },
         "Issue closed": {
           "count": 259,
           "points": 259
@@ -21549,17 +21557,9 @@
           "count": 37,
           "points": 313
         },
-        "Issue labeled": {
-          "count": 19,
-          "points": 20
-        },
         "PR merged": {
           "count": 23,
           "points": 125
-        },
-        "Issue opened": {
-          "count": 24,
-          "points": 25
         },
         "PR opened": {
           "count": 24,
@@ -21571,6 +21571,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-07",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-07-06",
           "count": 22,
@@ -22068,6 +22073,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-07T12:01:44Z",
+          "title": "Remove feature flag active_storage_s3",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7627",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-07T12:02:36Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-07-06T12:34:50Z",
@@ -29681,27 +29700,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
       "role": "Contributor",
-      "total_points": 412,
+      "total_points": 423,
       "activity_breakdown": {
         "PR opened": {
-          "count": 14,
-          "points": 70
+          "count": 15,
+          "points": 75
+        },
+        "Issue closed": {
+          "count": 68,
+          "points": 68
+        },
+        "Issue labeled": {
+          "count": 156,
+          "points": 156
+        },
+        "Issue assigned": {
+          "count": 16,
+          "points": 16
         },
         "PR merged": {
           "count": 9,
           "points": 90
-        },
-        "Issue labeled": {
-          "count": 155,
-          "points": 155
-        },
-        "Issue assigned": {
-          "count": 15,
-          "points": 15
-        },
-        "Issue closed": {
-          "count": 64,
-          "points": 64
         },
         "Issue opened": {
           "count": 9,
@@ -29709,6 +29728,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-07",
+          "count": 7,
+          "points": 11
+        },
         {
           "date": "2026-07-06",
           "count": 4,
@@ -29816,6 +29840,55 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-07T11:33:48Z",
+          "title": "feat - update Export Project dialog and import project for canonical support",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1132",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-07T12:40:08Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-07T12:37:57Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-07T12:36:59Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-07T12:35:43Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-07T11:47:48Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-07T11:47:31Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-06T21:29:12Z",
@@ -37359,10 +37432,14 @@
     {
       "username": "salmoneatenbybear",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177742943?u=7cbde821ec8efe87fd0cf5e8c53581a12a8e5d3c&v=4",
       "role": "Maintainer",
-      "total_points": 254,
+      "total_points": 269,
       "activity_breakdown": {
+        "Review submitted": {
+          "count": 3,
+          "points": 23
+        },
         "PR opened": {
           "count": 45,
           "points": 90
@@ -37374,13 +37451,14 @@
         "Issue opened": {
           "count": 36,
           "points": 36
-        },
-        "Review submitted": {
-          "count": 2,
-          "points": 8
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-07",
+          "count": 1,
+          "points": 15
+        },
         {
           "date": "2025-12-08",
           "count": 1,
@@ -37658,6 +37736,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-07T17:08:08Z",
+          "title": "Review on cv-frontend-vue#1127",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127#pullrequestreview-4647347359",
+          "points": 15
+        },
         {
           "type": "PR opened",
           "occured_at": "2025-03-02T16:02:23Z",
@@ -52840,6 +52925,99 @@
       ]
     },
     {
+      "username": "Saksham-Gupta-GH",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/222087587?v=4",
+      "role": "Contributor",
+      "total_points": 40,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 8,
+          "points": 40
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-07",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-03",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-02",
+          "count": 3,
+          "points": 15
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-07T21:49:58Z",
+          "title": "Fix oauth duplicate account 7262",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7629",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-07T19:32:31Z",
+          "title": "fix - guard against nil data in set_name_project_datum (Fixes #7557)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7628",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T13:18:04Z",
+          "title": "Fix dropdown toggle",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7622",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:44:08Z",
+          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-03T19:02:52Z",
+          "title": "Feat/clear all notifications",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T15:03:50Z",
+          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T12:01:18Z",
+          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-02T11:01:28Z",
+          "title": "Fix mac ruby version",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "himanshumoral",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/187115281?v=4",
@@ -55209,80 +55387,6 @@
           "title": "Review on CircuitVerse#7308",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7308#pullrequestreview-4121862315",
           "points": 15
-        }
-      ]
-    },
-    {
-      "username": "Saksham-Gupta-GH",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/222087587?v=4",
-      "role": "Contributor",
-      "total_points": 30,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 6,
-          "points": 30
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-03",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-07-02",
-          "count": 3,
-          "points": 15
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T13:18:04Z",
-          "title": "Fix dropdown toggle",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7622",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:44:08Z",
-          "title": "feat - add eye buttons to password reset form and fix layout (#2951)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7609",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-03T19:02:52Z",
-          "title": "Feat/clear all notifications",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7608",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T15:03:50Z",
-          "title": "feat(about) - Migrate Team Section Card to View Component (#5801)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7578",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T12:01:18Z",
-          "title": "fix(notifications) - resolve abnormal footer movement issue (#4535)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7576",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-02T11:01:28Z",
-          "title": "Fix mac ruby version",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7574",
-          "points": 5
         }
       ]
     },
@@ -64724,6 +64828,51 @@
       ]
     },
     {
+      "username": "Shruti2110-coder",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        },
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-07",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-07-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-07T15:14:03Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T13:34:22Z",
+          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "Toxic209",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/196954700?v=4",
@@ -65691,35 +65840,6 @@
           "occured_at": "2026-07-06T16:34:59Z",
           "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "Shruti2110-coder",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-06",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T13:34:22Z",
-          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
           "points": 5
         }
       ]
