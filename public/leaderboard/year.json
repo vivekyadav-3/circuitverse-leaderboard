@@ -1,24 +1,28 @@
 {
   "period": "year",
-  "updatedAt": 1783824352961,
-  "lastFetchedAt": 1783824352961,
-  "startDate": "2025-07-12",
-  "endDate": "2026-07-12",
+  "updatedAt": 1783910833221,
+  "lastFetchedAt": 1783910833221,
+  "startDate": "2025-07-13",
+  "endDate": "2026-07-13",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1910,
+      "total_points": 1913,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 75,
+          "points": 115
+        },
+        "Issue labeled": {
+          "count": 386,
+          "points": 398
+        },
         "PR opened": {
           "count": 80,
           "points": 295
-        },
-        "Issue opened": {
-          "count": 74,
-          "points": 113
         },
         "Review submitted": {
           "count": 54,
@@ -32,16 +36,17 @@
           "count": 15,
           "points": 15
         },
-        "Issue labeled": {
-          "count": 385,
-          "points": 397
-        },
         "PR merged": {
           "count": 43,
           "points": 375
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-12",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-07-10",
           "count": 9,
@@ -664,6 +669,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-12T10:22:17Z",
+          "title": "Feature - Addition of nested group URLs in Organization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7646",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-12T10:22:18Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-10T11:13:44Z",
@@ -13210,11 +13229,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1105,
+      "total_points": 1110,
       "activity_breakdown": {
         "PR opened": {
-          "count": 56,
-          "points": 280
+          "count": 57,
+          "points": 285
         },
         "Issue opened": {
           "count": 68,
@@ -13242,6 +13261,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-12",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-07-08",
           "count": 1,
@@ -13329,6 +13353,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-12T14:49:39Z",
+          "title": "fix(lti) - persist grades before LMS passback",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7647",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-08T16:03:31Z",
@@ -21754,19 +21785,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 801,
+      "total_points": 804,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 260,
-          "points": 260
+          "count": 261,
+          "points": 261
+        },
+        "Issue labeled": {
+          "count": 22,
+          "points": 23
         },
         "Issue opened": {
           "count": 25,
           "points": 27
-        },
-        "Issue labeled": {
-          "count": 20,
-          "points": 21
         },
         "Review submitted": {
           "count": 37,
@@ -21786,6 +21817,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-12",
+          "count": 3,
+          "points": 3
+        },
         {
           "date": "2026-07-08",
           "count": 1,
@@ -22293,6 +22329,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-12T11:39:26Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-12T11:39:18Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-12T11:39:17Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-07-08T17:46:01Z",
