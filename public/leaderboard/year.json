@@ -1,40 +1,40 @@
 {
   "period": "year",
-  "updatedAt": 1784428940669,
-  "lastFetchedAt": 1784428940669,
-  "startDate": "2025-07-19",
-  "endDate": "2026-07-19",
+  "updatedAt": 1784518277737,
+  "lastFetchedAt": 1784518277737,
+  "startDate": "2025-07-20",
+  "endDate": "2026-07-20",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1919,
+      "total_points": 1932,
       "activity_breakdown": {
         "PR opened": {
-          "count": 81,
-          "points": 300
-        },
-        "Issue closed": {
-          "count": 368,
-          "points": 368
+          "count": 82,
+          "points": 305
         },
         "Issue opened": {
-          "count": 75,
-          "points": 115
+          "count": 76,
+          "points": 117
+        },
+        "Issue closed": {
+          "count": 369,
+          "points": 369
         },
         "Issue labeled": {
-          "count": 386,
-          "points": 398
+          "count": 389,
+          "points": 401
+        },
+        "Issue assigned": {
+          "count": 17,
+          "points": 17
         },
         "Review submitted": {
           "count": 54,
           "points": 348
-        },
-        "Issue assigned": {
-          "count": 15,
-          "points": 15
         },
         "PR merged": {
           "count": 43,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 8,
+          "points": 13
+        },
         {
           "date": "2026-07-14",
           "count": 2,
@@ -674,6 +679,62 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-19T11:19:04Z",
+          "title": "Add organization switcher to dashboard header",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7665",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T11:01:24Z",
+          "title": "Feature - Add organization switcher to dashboard header",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7664",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-19T13:45:31Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T11:01:45Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T11:01:38Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-19T11:01:32Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T11:01:25Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-19T10:56:05Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-14T10:05:38Z",
@@ -21859,11 +21920,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 857,
+      "total_points": 862,
       "activity_breakdown": {
         "PR opened": {
-          "count": 25,
-          "points": 59
+          "count": 26,
+          "points": 64
         },
         "PR merged": {
           "count": 24,
@@ -21891,6 +21952,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-07-18",
           "count": 13,
@@ -22428,6 +22494,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-19T14:02:19Z",
+          "title": "feat - add oidc provider using doorkeeper gem",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7668",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-18T10:47:22Z",
@@ -30437,8 +30510,16 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
       "role": "Contributor",
-      "total_points": 458,
+      "total_points": 461,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 10,
+          "points": 20
+        },
+        "Issue labeled": {
+          "count": 157,
+          "points": 157
+        },
         "PR merged": {
           "count": 12,
           "points": 120
@@ -30451,20 +30532,17 @@
           "count": 68,
           "points": 68
         },
-        "Issue labeled": {
-          "count": 156,
-          "points": 156
-        },
         "Issue assigned": {
           "count": 16,
           "points": 16
-        },
-        "Issue opened": {
-          "count": 9,
-          "points": 18
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-07-17",
           "count": 2,
@@ -30592,6 +30670,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T16:29:12Z",
+          "title": "refactor - node.js, module.js, and circuitElement.js to TypeScript with type definitions",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1148",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T16:29:13Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-17T14:04:46Z",
@@ -47620,6 +47712,259 @@
       ]
     },
     {
+      "username": "aryan7071",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+      "role": "Contributor",
+      "total_points": 102,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 4,
+          "points": 8
+        },
+        "Issue labeled": {
+          "count": 5,
+          "points": 5
+        },
+        "PR merged": {
+          "count": 5,
+          "points": 50
+        },
+        "PR opened": {
+          "count": 7,
+          "points": 35
+        },
+        "Issue assigned": {
+          "count": 4,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 5,
+          "points": 7
+        },
+        {
+          "date": "2026-07-17",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-07-13",
+          "count": 4,
+          "points": 18
+        },
+        {
+          "date": "2026-07-10",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-07-09",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-05-27",
+          "count": 3,
+          "points": 16
+        },
+        {
+          "date": "2026-05-26",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-05-25",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-05-24",
+          "count": 5,
+          "points": 22
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T13:32:28Z",
+          "title": "🐞 Bug bundler-audit fails on master due to vulnerable gem versions",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7667",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T13:23:52Z",
+          "title": "🐞 Bug FooterLinksComponent spec fails on master when forum feature is enabled",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7666",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:32:30Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:23:54Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:23:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-17T01:34:33Z",
+          "title": "Dependabot fix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-13T20:24:30Z",
+          "title": "fix - use include instead of match with simple regex in contests_update_deadline_spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-13T15:31:08Z",
+          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-13T18:23:50Z",
+          "title": "🐞 Bug CI lint failing on master",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7651",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-13T18:23:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-10T18:29:10Z",
+          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-10T07:04:54Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-09T19:59:01Z",
+          "title": "🐞 Bug - Bundler Audit Fails Due to Vulnerable view_component and websocket-driver Dependencies",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7636",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-09T19:59:02Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-27T19:56:49Z",
+          "title": "fix - update jwt gem to 2.10.3 to patch CVE-2026-45363",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7439",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-27T08:16:26Z",
+          "title": "Fix/search no results bugfix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-27T19:08:44Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-26T19:59:55Z",
+          "title": "Fix/search no results bugfix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-26T17:31:37Z",
+          "title": "Fix #7197 - Show 'No circuits found' message",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-25T18:48:37Z",
+          "title": "Fix #7197 - Show 'No circuits found' message",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-24T17:04:37Z",
+          "title": "fix - uid-first lookup in from_omniauth to prevent duplicate accounts",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7401",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-24T09:45:40Z",
+          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-24T15:09:50Z",
+          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-24T10:44:42Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-24T09:08:29Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "senutpal",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
@@ -48011,219 +48356,6 @@
           "occured_at": "2025-12-07T17:23:32Z",
           "title": "Bug - Correct 'systemrequirments' typo in filename, doc ID, and sidebar entry",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/444",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "aryan7071",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
-      "role": "Contributor",
-      "total_points": 95,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 5,
-          "points": 50
-        },
-        "PR opened": {
-          "count": 7,
-          "points": 35
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 2
-        },
-        "Issue assigned": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-17",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-07-13",
-          "count": 4,
-          "points": 18
-        },
-        {
-          "date": "2026-07-10",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2026-07-09",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-05-27",
-          "count": 3,
-          "points": 16
-        },
-        {
-          "date": "2026-05-26",
-          "count": 2,
-          "points": 15
-        },
-        {
-          "date": "2026-05-25",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-05-24",
-          "count": 5,
-          "points": 22
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-17T01:34:33Z",
-          "title": "Dependabot fix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-13T20:24:30Z",
-          "title": "fix - use include instead of match with simple regex in contests_update_deadline_spec",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-13T15:31:08Z",
-          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-13T18:23:50Z",
-          "title": "🐞 Bug CI lint failing on master",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7651",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-13T18:23:51Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-10T18:29:10Z",
-          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
-          "points": 5
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-10T07:04:54Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-09T19:59:01Z",
-          "title": "🐞 Bug - Bundler Audit Fails Due to Vulnerable view_component and websocket-driver Dependencies",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7636",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-09T19:59:02Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-27T19:56:49Z",
-          "title": "fix - update jwt gem to 2.10.3 to patch CVE-2026-45363",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7439",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-27T08:16:26Z",
-          "title": "Fix/search no results bugfix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-27T19:08:44Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-26T19:59:55Z",
-          "title": "Fix/search no results bugfix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-26T17:31:37Z",
-          "title": "Fix #7197 - Show 'No circuits found' message",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-25T18:48:37Z",
-          "title": "Fix #7197 - Show 'No circuits found' message",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-24T17:04:37Z",
-          "title": "fix - uid-first lookup in from_omniauth to prevent duplicate accounts",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7401",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-24T09:45:40Z",
-          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-24T15:09:50Z",
-          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-24T10:44:42Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-24T09:08:29Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
           "points": 1
         }
       ]
@@ -49837,22 +49969,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2092958?v=4",
       "role": "Maintainer",
-      "total_points": 70,
+      "total_points": 73,
       "activity_breakdown": {
+        "Issue opened": {
+          "count": 28,
+          "points": 42
+        },
+        "Issue labeled": {
+          "count": 18,
+          "points": 18
+        },
         "Issue closed": {
           "count": 13,
           "points": 13
-        },
-        "Issue opened": {
-          "count": 27,
-          "points": 40
-        },
-        "Issue labeled": {
-          "count": 17,
-          "points": 17
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2026-05-28",
           "count": 1,
@@ -49960,6 +50097,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T18:11:22Z",
+          "title": "🛑 Main Platform is down",
+          "link": "https://github.com/CircuitVerse/upptime/issues/181",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T18:11:23Z",
+          "title": "Labeled issue in upptime",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-05-28T06:38:24Z",
@@ -56664,6 +56815,93 @@
       ]
     },
     {
+      "username": "bhuvan-somisetty",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
+      "role": "Contributor",
+      "total_points": 32,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-19",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-18",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-07-08",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-07-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-19T14:22:16Z",
+          "title": "fix - validate circuit JSON schema by key presence, not order",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7669",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-18T08:03:22Z",
+          "title": "fix(simulator) - match D Flip-Flop sidebar icon to placed element",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1146",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-18T09:15:11Z",
+          "title": "🐞 Bug - D/T/JK/SR flip-flops render as visually identical shapes on canvas — no type indicator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1147",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-08T15:34:25Z",
+          "title": "fix - correct node deletion to clear it from its actual parent's nodeList",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1133",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-08T09:47:41Z",
+          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T16:34:59Z",
+          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "Himanshu-kiran",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/133533054?v=4",
@@ -57134,81 +57372,6 @@
           "title": "Add Entries-Per-Page Dropdown to Leaderboard",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/58",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "bhuvan-somisetty",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
-      "role": "Contributor",
-      "total_points": 27,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-18",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-07-08",
-          "count": 2,
-          "points": 15
-        },
-        {
-          "date": "2026-07-06",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-18T08:03:22Z",
-          "title": "fix(simulator) - match D Flip-Flop sidebar icon to placed element",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1146",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-18T09:15:11Z",
-          "title": "🐞 Bug - D/T/JK/SR flip-flops render as visually identical shapes on canvas — no type indicator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1147",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-08T15:34:25Z",
-          "title": "fix - correct node deletion to clear it from its actual parent's nodeList",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1133",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-08T09:47:41Z",
-          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T16:34:59Z",
-          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
-          "points": 5
         }
       ]
     },
