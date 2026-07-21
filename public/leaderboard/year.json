@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1784518277737,
-  "lastFetchedAt": 1784518277737,
-  "startDate": "2025-07-20",
-  "endDate": "2026-07-20",
+  "updatedAt": 1784601603970,
+  "lastFetchedAt": 1784601603970,
+  "startDate": "2025-07-21",
+  "endDate": "2026-07-21",
   "entries": [
     {
       "username": "naman79820",
@@ -16577,8 +16577,20 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 1089,
+      "total_points": 1096,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 47,
+          "points": 175
+        },
+        "Issue labeled": {
+          "count": 317,
+          "points": 320
+        },
+        "Issue assigned": {
+          "count": 16,
+          "points": 16
+        },
         "PR merged": {
           "count": 32,
           "points": 260
@@ -16587,24 +16599,17 @@
           "count": 36,
           "points": 57
         },
-        "Issue labeled": {
-          "count": 316,
-          "points": 319
-        },
-        "Issue assigned": {
-          "count": 15,
-          "points": 15
-        },
-        "PR opened": {
-          "count": 46,
-          "points": 170
-        },
         "Issue closed": {
           "count": 268,
           "points": 268
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 3,
+          "points": 7
+        },
         {
           "date": "2026-07-18",
           "count": 1,
@@ -16922,6 +16927,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-20T08:19:14Z",
+          "title": "chore(synthesis) - add parity tests for Yosys WASM pipeline output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1150",
+          "points": 5
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-20T08:19:33Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-20T08:19:26Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-18T16:17:25Z",
@@ -21920,8 +21946,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 862,
+      "total_points": 865,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 287,
+          "points": 287
+        },
         "PR opened": {
           "count": 26,
           "points": 64
@@ -21929,10 +21959,6 @@
         "PR merged": {
           "count": 24,
           "points": 135
-        },
-        "Issue closed": {
-          "count": 284,
-          "points": 284
         },
         "Review submitted": {
           "count": 38,
@@ -21952,6 +21978,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 3,
+          "points": 3
+        },
         {
           "date": "2026-07-19",
           "count": 1,
@@ -22494,6 +22525,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T16:03:38Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T16:03:36Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T14:15:01Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-19T14:02:19Z",
@@ -26879,11 +26931,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 681,
+      "total_points": 691,
       "activity_breakdown": {
         "PR merged": {
-          "count": 32,
-          "points": 270
+          "count": 33,
+          "points": 280
         },
         "PR opened": {
           "count": 53,
@@ -26907,6 +26959,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-07-18",
           "count": 3,
@@ -27224,6 +27281,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-20T16:03:36Z",
+          "title": "Convert data to JSON if its a parameter object",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7631",
+          "points": 10
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-18T10:43:17Z",
@@ -35442,6 +35506,1621 @@
       ]
     },
     {
+      "username": "Yana-do-code",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/173885830?v=4",
+      "role": "Contributor",
+      "total_points": 350,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 25,
+          "points": 74
+        },
+        "PR merged": {
+          "count": 14,
+          "points": 95
+        },
+        "Issue closed": {
+          "count": 65,
+          "points": 65
+        },
+        "Issue labeled": {
+          "count": 83,
+          "points": 84
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        },
+        "Issue opened": {
+          "count": 13,
+          "points": 16
+        },
+        "Review submitted": {
+          "count": 1,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-07-18",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-05-30",
+          "count": 14,
+          "points": 14
+        },
+        {
+          "date": "2026-05-29",
+          "count": 4,
+          "points": 17
+        },
+        {
+          "date": "2026-05-28",
+          "count": 47,
+          "points": 47
+        },
+        {
+          "date": "2026-05-26",
+          "count": 31,
+          "points": 44
+        },
+        {
+          "date": "2026-05-25",
+          "count": 45,
+          "points": 45
+        },
+        {
+          "date": "2026-05-24",
+          "count": 4,
+          "points": 4
+        },
+        {
+          "date": "2026-03-05",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-02-24",
+          "count": 4,
+          "points": 18
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-02-19",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2026-02-15",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-02-14",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-02-03",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-02-01",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-23",
+          "count": 3,
+          "points": 17
+        },
+        {
+          "date": "2026-01-18",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-01-17",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-01-15",
+          "count": 3,
+          "points": 9
+        },
+        {
+          "date": "2026-01-14",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-13",
+          "count": 3,
+          "points": 9
+        },
+        {
+          "date": "2026-01-12",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-11",
+          "count": 6,
+          "points": 20
+        },
+        {
+          "date": "2026-01-10",
+          "count": 3,
+          "points": 8
+        },
+        {
+          "date": "2026-01-09",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2026-01-08",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-01-07",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2026-01-06",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-01-05",
+          "count": 4,
+          "points": 5
+        },
+        {
+          "date": "2026-01-04",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-01-02",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-20T07:17:55Z",
+          "title": "update(forum) - redirecting /forum to the correct destination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7686",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-20T14:15:01Z",
+          "title": "update(forum) - redirecting /forum to the correct destination",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7686",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-18T17:46:37Z",
+          "title": "docs(forum) - updated forum link",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/540",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T15:29:49Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T15:29:43Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T15:23:19Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T15:23:14Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T15:18:49Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T15:17:30Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T15:13:59Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T15:13:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T10:32:26Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T10:32:22Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T10:31:58Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T10:31:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-30T10:31:25Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-30T10:31:21Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-29T08:39:58Z",
+          "title": "fix - update jwt to 2.10.3 to resolve CVE-2026-45363",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7449",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-29T09:05:34Z",
+          "title": "fix - update jwt to 2.10.3 to resolve CVE-2026-45363",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7449",
+          "points": 10
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-29T15:11:37Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-29T15:11:32Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:22:03Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:20:19Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:20:18Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:18:33Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:18:30Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:17:36Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:17:32Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:16:56Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:16:49Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:15:05Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:15:01Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:14:18Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:14:15Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:12:17Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:12:15Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:10:46Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:10:40Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:10:16Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:10:14Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:09:41Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:09:23Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:09:19Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:08:46Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:08:44Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:08:16Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:08:10Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:07:16Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:07:12Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:06:34Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:05:41Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:05:32Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:03:59Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:03:54Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:03:18Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:03:13Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T17:01:19Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T17:01:15Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T16:59:26Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T16:59:25Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T16:58:19Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T16:58:17Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T16:57:57Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T16:57:54Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T16:57:31Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T16:57:24Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-28T16:56:24Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-28T16:56:21Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-26T16:35:45Z",
+          "title": "feat - add collaborator via invitation link",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7426",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-26T15:34:53Z",
+          "title": "ui - horizontal rule correction in groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6900",
+          "points": 10
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:50:40Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:50:24Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:50:06Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:49:47Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:48:57Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:47:42Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:47:27Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:47:06Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T18:46:27Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T08:18:48Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T08:18:31Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T07:49:59Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T07:49:20Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T15:43:25Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T15:42:36Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T15:15:55Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T15:15:50Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-26T13:10:41Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T12:58:42Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T12:58:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T12:57:55Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T12:57:47Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T09:06:39Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T09:04:35Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T09:04:12Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T09:03:28Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T09:03:25Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-26T09:02:02Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-26T09:01:56Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:39:13Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:39:10Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:38:43Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:38:31Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:38:00Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:37:53Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:36:59Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:36:47Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:36:25Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:36:07Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:34:39Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:34:06Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:32:35Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:31:45Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:27:51Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:27:47Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:27:15Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:27:14Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:26:34Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:26:30Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:25:15Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:24:57Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:24:17Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:24:13Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:21:33Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:20:58Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:19:37Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:19:22Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:17:16Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:17:12Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:16:28Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:16:12Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:15:02Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:14:48Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:12:18Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:11:56Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T14:08:45Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:08:35Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T14:08:28Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T22:21:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T22:20:21Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T22:19:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T22:18:19Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-25T22:13:23Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-25T22:13:06Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-24T13:25:55Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-24T13:25:47Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-05-24T13:23:29Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-05-24T13:23:13Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-15T13:09:45Z",
+          "title": "ui - horizontal rule correction in groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6900",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-03T17:02:12Z",
+          "title": "feat - add issue triaging labels with their descriptions",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/511",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-01T13:58:09Z",
+          "title": "Fix - Rack Attack crash when user params are missing",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6803",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-23T08:52:35Z",
+          "title": "fix - prevent layout shift when toggling theme dropdown",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/236",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-23T17:16:48Z",
+          "title": "fix - prevent layout shift when toggling theme dropdown",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/236",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-02-22T14:45:45Z",
+          "title": "Fix - Rack Attack crash when user params are missing",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6803",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-15T11:49:32Z",
+          "title": "🐞 Bug - Horizontal rule incorrectly separates section content (Mentors description appears under Members)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6898",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-02-03T17:21:35Z",
+          "title": "Adding standardized Issue & Pull Request Labeling System for CircuitVerseDocs",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/512",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-23T08:31:17Z",
+          "title": "Layout Shift on Theme Toggle Click in Desktop View",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/235",
+          "points": 2
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-02-24T17:50:49Z",
+          "title": "Review on CircuitVerseDocs#504",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/504#pullrequestreview-3849618326",
+          "points": 15
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-05T05:31:35Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-02-24T18:34:06Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-02-24T18:27:00Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-02-24T17:51:35Z",
+          "title": "Closed issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-02-19T17:27:03Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-02-19T17:21:26Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-02-14T15:39:13Z",
+          "title": "Labeled issue in CircuitVerseDocs",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-18T16:57:55Z",
+          "title": "chore - make pre-commit hook scripts executable",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6659",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-17T16:08:32Z",
+          "title": "Feature - Add EditorConfig and optional pre-commit hook for consistent auto-formatting",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6654",
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-01-17T16:08:34Z",
+          "title": "Labeled issue #6654 - 🌟 feature",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6654",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-15T18:30:30Z",
+          "title": "fix(api) - handle unavailable Yosys service in Verilog simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6644",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-15T16:58:59Z",
+          "title": "Add database indexes to improve search performance",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6643",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-15T08:38:09Z",
+          "title": "Fix - N+1 query in FeaturedCircuitsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6572",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-14T17:45:23Z",
+          "title": "feat - add fork count on repository cards",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/208",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-13T17:07:19Z",
+          "title": "feat - add fork count on repository cards",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/208",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-13T09:28:06Z",
+          "title": "Fix - vuesim request specs to assert rendered SPA instead of redirects",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6626",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-13T15:00:50Z",
+          "title": "Fix - vuesim request specs to assert rendered SPA instead of redirects",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6626",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-12T10:22:33Z",
+          "title": "fix - Clarify leaderboard update timing and fix timestamp handling",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/198",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-11T16:02:40Z",
+          "title": "fix - Clarify leaderboard update timing and fix timestamp handling",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/198",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-11T09:06:04Z",
+          "title": "fix - netlify worflow issues",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/499",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-11T16:15:52Z",
+          "title": "fix - netlify worflow issues",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/499",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-11T13:03:26Z",
+          "title": "fix - broken windows and improve build tooling",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/752",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-11T08:51:20Z",
+          "title": "docs - remove unused login video iframe and add signup/login links to Chapter 2 (Getting Started)",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/490",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-11T13:54:30Z",
+          "title": "“Data last updated” timestamp does not reflect actual update interval",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/197",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-10T09:35:44Z",
+          "title": "Feat - Enable click-to-copy for email address in footer",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/190",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-10T17:10:19Z",
+          "title": "Feat - Enable click-to-copy for email address in footer",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/190",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-10T08:48:06Z",
+          "title": "Feat - Enable click-to-copy for email address in footer",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/188",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-09T19:51:29Z",
+          "title": "fix - add Windows CI support and improve build tooling",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/752",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-09T16:38:46Z",
+          "title": "fix(windows) - unblock tauri build by wiring Windows SDK libs",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/751",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-08T08:01:57Z",
+          "title": "Fix - UTF-8 encoding errors and empty tag routing issues",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6593",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-08T16:45:18Z",
+          "title": "🐞 Bug - Windows build fails due to Windows-incompatible beforeBuildCommand",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/743",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-07T17:39:32Z",
+          "title": "Fix - PostgreSQL btree index size limit exceeded error for project slugs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6582",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-07T11:36:51Z",
+          "title": "ci - re-enable Windows builds in Tauri release workflow",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/730",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-06T09:18:05Z",
+          "title": "Fix - N+1 query in FeaturedCircuitsController",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6572",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-06T18:15:32Z",
+          "title": "🐞 Bug - Tauri dev exits with white screen on Windows",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/723",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T11:43:42Z",
+          "title": "docs - add sign-up/sign-in images and clickable links to Chapter 2 (Getting Started)",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/490",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T15:16:32Z",
+          "title": "fix(netlify) - pin Node 22 to fix Docusaurus build failure",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/493",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T10:49:14Z",
+          "title": "Improve Docs Part 2 by adding user account creation images and links",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/489",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T08:30:23Z",
+          "title": "Feature - add a border outline in the search bar box",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6564",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T15:47:35Z",
+          "title": "fix - search bar box with a green outline border",
+          "link": "https://github.com/CircuitVerse/Blog/pull/261",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-02T07:58:28Z",
+          "title": "Update - copyright year to 2026",
+          "link": "https://github.com/CircuitVerse/Blog/pull/260",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-02T13:07:25Z",
+          "title": "Update - copyright year to 2026",
+          "link": "https://github.com/CircuitVerse/Blog/pull/260",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T15:49:03Z",
+          "title": "fix - search bar box with a green outline border",
+          "link": "https://github.com/CircuitVerse/Blog/issues/262",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-02T07:48:32Z",
+          "title": "fix the search bar with a black border to make it more visible",
+          "link": "https://github.com/CircuitVerse/Blog/issues/259",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "SantamRC",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
@@ -36857,1602 +38536,6 @@
           "title": "Proof of Concept - Interactive Book Improvement",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/514",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "Yana-do-code",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/173885830?v=4",
-      "role": "Contributor",
-      "total_points": 335,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 24,
-          "points": 69
-        },
-        "Issue closed": {
-          "count": 65,
-          "points": 65
-        },
-        "Issue labeled": {
-          "count": 83,
-          "points": 84
-        },
-        "PR merged": {
-          "count": 13,
-          "points": 85
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue opened": {
-          "count": 13,
-          "points": 16
-        },
-        "Review submitted": {
-          "count": 1,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-18",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-05-30",
-          "count": 14,
-          "points": 14
-        },
-        {
-          "date": "2026-05-29",
-          "count": 4,
-          "points": 17
-        },
-        {
-          "date": "2026-05-28",
-          "count": 47,
-          "points": 47
-        },
-        {
-          "date": "2026-05-26",
-          "count": 31,
-          "points": 44
-        },
-        {
-          "date": "2026-05-25",
-          "count": 45,
-          "points": 45
-        },
-        {
-          "date": "2026-05-24",
-          "count": 4,
-          "points": 4
-        },
-        {
-          "date": "2026-03-05",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-02-24",
-          "count": 4,
-          "points": 18
-        },
-        {
-          "date": "2026-02-22",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-02-19",
-          "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2026-02-15",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-02-14",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-02-03",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-02-01",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-23",
-          "count": 3,
-          "points": 17
-        },
-        {
-          "date": "2026-01-18",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-01-17",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-01-15",
-          "count": 3,
-          "points": 9
-        },
-        {
-          "date": "2026-01-14",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-13",
-          "count": 3,
-          "points": 9
-        },
-        {
-          "date": "2026-01-12",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-11",
-          "count": 6,
-          "points": 20
-        },
-        {
-          "date": "2026-01-10",
-          "count": 3,
-          "points": 8
-        },
-        {
-          "date": "2026-01-09",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2026-01-08",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-01-07",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2026-01-06",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-01-05",
-          "count": 4,
-          "points": 5
-        },
-        {
-          "date": "2026-01-04",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-01-02",
-          "count": 3,
-          "points": 8
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-18T17:46:37Z",
-          "title": "docs(forum) - updated forum link",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/540",
-          "points": 5
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T15:29:49Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T15:29:43Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T15:23:19Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T15:23:14Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T15:18:49Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T15:17:30Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T15:13:59Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T15:13:51Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:32:26Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T10:32:22Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:31:58Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T10:31:53Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:31:25Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T10:31:21Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-29T08:39:58Z",
-          "title": "fix - update jwt to 2.10.3 to resolve CVE-2026-45363",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7449",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-29T09:05:34Z",
-          "title": "fix - update jwt to 2.10.3 to resolve CVE-2026-45363",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7449",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-29T15:11:37Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-29T15:11:32Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:22:03Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:20:19Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:20:18Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:18:33Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:18:30Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:17:36Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:17:32Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:16:56Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:16:49Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:15:05Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:15:01Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:14:18Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:14:15Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:12:17Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:12:15Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:10:46Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:10:40Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:10:16Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:10:14Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:09:41Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:09:23Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:09:19Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:08:46Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:08:44Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:08:16Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:08:10Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:07:16Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:07:12Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:06:34Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:05:41Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:05:32Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:03:59Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:03:54Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:03:18Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:03:13Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:01:19Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:01:15Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T16:59:26Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T16:59:25Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T16:58:19Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T16:58:17Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T16:57:57Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T16:57:54Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T16:57:31Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T16:57:24Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T16:56:24Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T16:56:21Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-26T16:35:45Z",
-          "title": "feat - add collaborator via invitation link",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7426",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-26T15:34:53Z",
-          "title": "ui - horizontal rule correction in groups",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6900",
-          "points": 10
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:50:40Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:50:24Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:50:06Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:49:47Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:48:57Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:47:42Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:47:27Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:47:06Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T18:46:27Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T08:18:48Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T08:18:31Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T07:49:59Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T07:49:20Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T15:43:25Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T15:42:36Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T15:15:55Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T15:15:50Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T13:10:41Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T12:58:42Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T12:58:37Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T12:57:55Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T12:57:47Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T09:06:39Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T09:04:35Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T09:04:12Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T09:03:28Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T09:03:25Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-26T09:02:02Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-26T09:01:56Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:39:13Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:39:10Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:38:43Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:38:31Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:38:00Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:37:53Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:36:59Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:36:47Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:36:25Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:36:07Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:34:39Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:34:06Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:32:35Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:31:45Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:27:51Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:27:47Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:27:15Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:27:14Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:26:34Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:26:30Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:25:15Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:24:57Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:24:17Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:24:13Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:21:33Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:20:58Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:19:37Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:19:22Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:17:16Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:17:12Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:16:28Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:16:12Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:15:02Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:14:48Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:12:18Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:11:56Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T14:08:45Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:08:35Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T14:08:28Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T22:21:29Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T22:20:21Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T22:19:29Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T22:18:19Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-25T22:13:23Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-25T22:13:06Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-24T13:25:55Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-24T13:25:47Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-24T13:23:29Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-24T13:23:13Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-15T13:09:45Z",
-          "title": "ui - horizontal rule correction in groups",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6900",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-03T17:02:12Z",
-          "title": "feat - add issue triaging labels with their descriptions",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/511",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-01T13:58:09Z",
-          "title": "Fix - Rack Attack crash when user params are missing",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6803",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-23T08:52:35Z",
-          "title": "fix - prevent layout shift when toggling theme dropdown",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/236",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-23T17:16:48Z",
-          "title": "fix - prevent layout shift when toggling theme dropdown",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/236",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-22T14:45:45Z",
-          "title": "Fix - Rack Attack crash when user params are missing",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6803",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-15T11:49:32Z",
-          "title": "🐞 Bug - Horizontal rule incorrectly separates section content (Mentors description appears under Members)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6898",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-03T17:21:35Z",
-          "title": "Adding standardized Issue & Pull Request Labeling System for CircuitVerseDocs",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/512",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-23T08:31:17Z",
-          "title": "Layout Shift on Theme Toggle Click in Desktop View",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/235",
-          "points": 2
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-02-24T17:50:49Z",
-          "title": "Review on CircuitVerseDocs#504",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/504#pullrequestreview-3849618326",
-          "points": 15
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-05T05:31:35Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-02-24T18:34:06Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-02-24T18:27:00Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-02-24T17:51:35Z",
-          "title": "Closed issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-02-19T17:27:03Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-02-19T17:21:26Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-02-14T15:39:13Z",
-          "title": "Labeled issue in CircuitVerseDocs",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-18T16:57:55Z",
-          "title": "chore - make pre-commit hook scripts executable",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6659",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-17T16:08:32Z",
-          "title": "Feature - Add EditorConfig and optional pre-commit hook for consistent auto-formatting",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6654",
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-01-17T16:08:34Z",
-          "title": "Labeled issue #6654 - 🌟 feature",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6654",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-15T18:30:30Z",
-          "title": "fix(api) - handle unavailable Yosys service in Verilog simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6644",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-15T16:58:59Z",
-          "title": "Add database indexes to improve search performance",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6643",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-15T08:38:09Z",
-          "title": "Fix - N+1 query in FeaturedCircuitsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6572",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-14T17:45:23Z",
-          "title": "feat - add fork count on repository cards",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/208",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-13T17:07:19Z",
-          "title": "feat - add fork count on repository cards",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/208",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-13T09:28:06Z",
-          "title": "Fix - vuesim request specs to assert rendered SPA instead of redirects",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6626",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-13T15:00:50Z",
-          "title": "Fix - vuesim request specs to assert rendered SPA instead of redirects",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6626",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-12T10:22:33Z",
-          "title": "fix - Clarify leaderboard update timing and fix timestamp handling",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/198",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-11T16:02:40Z",
-          "title": "fix - Clarify leaderboard update timing and fix timestamp handling",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/198",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-11T09:06:04Z",
-          "title": "fix - netlify worflow issues",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/499",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-11T16:15:52Z",
-          "title": "fix - netlify worflow issues",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/499",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-11T13:03:26Z",
-          "title": "fix - broken windows and improve build tooling",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/752",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-11T08:51:20Z",
-          "title": "docs - remove unused login video iframe and add signup/login links to Chapter 2 (Getting Started)",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/490",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-11T13:54:30Z",
-          "title": "“Data last updated” timestamp does not reflect actual update interval",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/197",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-10T09:35:44Z",
-          "title": "Feat - Enable click-to-copy for email address in footer",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/190",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-10T17:10:19Z",
-          "title": "Feat - Enable click-to-copy for email address in footer",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/190",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-10T08:48:06Z",
-          "title": "Feat - Enable click-to-copy for email address in footer",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/188",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-09T19:51:29Z",
-          "title": "fix - add Windows CI support and improve build tooling",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/752",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-09T16:38:46Z",
-          "title": "fix(windows) - unblock tauri build by wiring Windows SDK libs",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/751",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-08T08:01:57Z",
-          "title": "Fix - UTF-8 encoding errors and empty tag routing issues",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6593",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-08T16:45:18Z",
-          "title": "🐞 Bug - Windows build fails due to Windows-incompatible beforeBuildCommand",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/743",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-07T17:39:32Z",
-          "title": "Fix - PostgreSQL btree index size limit exceeded error for project slugs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6582",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-07T11:36:51Z",
-          "title": "ci - re-enable Windows builds in Tauri release workflow",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/730",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-06T09:18:05Z",
-          "title": "Fix - N+1 query in FeaturedCircuitsController",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6572",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-06T18:15:32Z",
-          "title": "🐞 Bug - Tauri dev exits with white screen on Windows",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/723",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T11:43:42Z",
-          "title": "docs - add sign-up/sign-in images and clickable links to Chapter 2 (Getting Started)",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/490",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T15:16:32Z",
-          "title": "fix(netlify) - pin Node 22 to fix Docusaurus build failure",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/493",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T10:49:14Z",
-          "title": "Improve Docs Part 2 by adding user account creation images and links",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/489",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T08:30:23Z",
-          "title": "Feature - add a border outline in the search bar box",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6564",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-04T15:47:35Z",
-          "title": "fix - search bar box with a green outline border",
-          "link": "https://github.com/CircuitVerse/Blog/pull/261",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-02T07:58:28Z",
-          "title": "Update - copyright year to 2026",
-          "link": "https://github.com/CircuitVerse/Blog/pull/260",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-02T13:07:25Z",
-          "title": "Update - copyright year to 2026",
-          "link": "https://github.com/CircuitVerse/Blog/pull/260",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-04T15:49:03Z",
-          "title": "fix - search bar box with a green outline border",
-          "link": "https://github.com/CircuitVerse/Blog/issues/262",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-02T07:48:32Z",
-          "title": "fix the search bar with a black border to make it more visible",
-          "link": "https://github.com/CircuitVerse/Blog/issues/259",
-          "points": 1
         }
       ]
     },
@@ -47475,6 +47558,271 @@
       ]
     },
     {
+      "username": "aryan7071",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+      "role": "Contributor",
+      "total_points": 107,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 8,
+          "points": 40
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 8
+        },
+        "Issue labeled": {
+          "count": 5,
+          "points": 5
+        },
+        "PR merged": {
+          "count": 5,
+          "points": 50
+        },
+        "Issue assigned": {
+          "count": 4,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-19",
+          "count": 5,
+          "points": 7
+        },
+        {
+          "date": "2026-07-17",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-07-13",
+          "count": 4,
+          "points": 18
+        },
+        {
+          "date": "2026-07-10",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-07-09",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-05-27",
+          "count": 3,
+          "points": 16
+        },
+        {
+          "date": "2026-05-26",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-05-25",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-05-24",
+          "count": 5,
+          "points": 22
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-20T15:11:38Z",
+          "title": "fix - bump loofah and rails-html-sanitizer to patch known vulnerabilities",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7687",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T13:32:28Z",
+          "title": "🐞 Bug bundler-audit fails on master due to vulnerable gem versions",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7667",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-19T13:23:52Z",
+          "title": "🐞 Bug FooterLinksComponent spec fails on master when forum feature is enabled",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7666",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:32:30Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:23:54Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-19T13:23:53Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-17T01:34:33Z",
+          "title": "Dependabot fix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-13T20:24:30Z",
+          "title": "fix - use include instead of match with simple regex in contests_update_deadline_spec",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-13T15:31:08Z",
+          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-13T18:23:50Z",
+          "title": "🐞 Bug CI lint failing on master",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7651",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-13T18:23:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-10T18:29:10Z",
+          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-10T07:04:54Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-09T19:59:01Z",
+          "title": "🐞 Bug - Bundler Audit Fails Due to Vulnerable view_component and websocket-driver Dependencies",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7636",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-09T19:59:02Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-27T19:56:49Z",
+          "title": "fix - update jwt gem to 2.10.3 to patch CVE-2026-45363",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7439",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-27T08:16:26Z",
+          "title": "Fix/search no results bugfix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-27T19:08:44Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-26T19:59:55Z",
+          "title": "Fix/search no results bugfix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-26T17:31:37Z",
+          "title": "Fix #7197 - Show 'No circuits found' message",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-25T18:48:37Z",
+          "title": "Fix #7197 - Show 'No circuits found' message",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-24T17:04:37Z",
+          "title": "fix - uid-first lookup in from_omniauth to prevent duplicate accounts",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7401",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-05-24T09:45:40Z",
+          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-05-24T15:09:50Z",
+          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-24T10:44:42Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-05-24T09:08:29Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Arnabdaz",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/96580571?v=4",
@@ -47708,259 +48056,6 @@
           "title": "Review on PR #466",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/466",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "aryan7071",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
-      "role": "Contributor",
-      "total_points": 102,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 4,
-          "points": 8
-        },
-        "Issue labeled": {
-          "count": 5,
-          "points": 5
-        },
-        "PR merged": {
-          "count": 5,
-          "points": 50
-        },
-        "PR opened": {
-          "count": 7,
-          "points": 35
-        },
-        "Issue assigned": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-19",
-          "count": 5,
-          "points": 7
-        },
-        {
-          "date": "2026-07-17",
-          "count": 1,
-          "points": 10
-        },
-        {
-          "date": "2026-07-13",
-          "count": 4,
-          "points": 18
-        },
-        {
-          "date": "2026-07-10",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2026-07-09",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-05-27",
-          "count": 3,
-          "points": 16
-        },
-        {
-          "date": "2026-05-26",
-          "count": 2,
-          "points": 15
-        },
-        {
-          "date": "2026-05-25",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-05-24",
-          "count": 5,
-          "points": 22
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-19T13:32:28Z",
-          "title": "🐞 Bug bundler-audit fails on master due to vulnerable gem versions",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7667",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-19T13:23:52Z",
-          "title": "🐞 Bug FooterLinksComponent spec fails on master when forum feature is enabled",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7666",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-19T13:32:30Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-19T13:23:54Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-19T13:23:53Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-17T01:34:33Z",
-          "title": "Dependabot fix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-13T20:24:30Z",
-          "title": "fix - use include instead of match with simple regex in contests_update_deadline_spec",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7652",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-13T15:31:08Z",
-          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-13T18:23:50Z",
-          "title": "🐞 Bug CI lint failing on master",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7651",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-13T18:23:51Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-10T18:29:10Z",
-          "title": "fix - bump view_component and websocket-driver to resolve known CVEs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7644",
-          "points": 5
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-10T07:04:54Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-09T19:59:01Z",
-          "title": "🐞 Bug - Bundler Audit Fails Due to Vulnerable view_component and websocket-driver Dependencies",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7636",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-09T19:59:02Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-27T19:56:49Z",
-          "title": "fix - update jwt gem to 2.10.3 to patch CVE-2026-45363",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7439",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-27T08:16:26Z",
-          "title": "Fix/search no results bugfix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-27T19:08:44Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-26T19:59:55Z",
-          "title": "Fix/search no results bugfix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7430",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-26T17:31:37Z",
-          "title": "Fix #7197 - Show 'No circuits found' message",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-25T18:48:37Z",
-          "title": "Fix #7197 - Show 'No circuits found' message",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7423",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-24T17:04:37Z",
-          "title": "fix - uid-first lookup in from_omniauth to prevent duplicate accounts",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7401",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-24T09:45:40Z",
-          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-24T15:09:50Z",
-          "title": "fix - patch CGI.parse for Ruby 4.0 compatibility in LTI specs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7397",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-24T10:44:42Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-24T09:08:29Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -49969,8 +50064,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2092958?v=4",
       "role": "Maintainer",
-      "total_points": 73,
+      "total_points": 74,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 14,
+          "points": 14
+        },
         "Issue opened": {
           "count": 28,
           "points": 42
@@ -49978,13 +50077,14 @@
         "Issue labeled": {
           "count": 18,
           "points": 18
-        },
-        "Issue closed": {
-          "count": 13,
-          "points": 13
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-07-19",
           "count": 2,
@@ -50097,6 +50197,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T07:47:01Z",
+          "title": "Closed issue in upptime",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-07-19T18:11:22Z",
@@ -52727,6 +52834,311 @@
       ]
     },
     {
+      "username": "mahmoodalisha",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/142445013?v=4",
+      "role": "Contributor",
+      "total_points": 52,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        },
+        "PR opened": {
+          "count": 25,
+          "points": 50
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-04-19",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-04-17",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-04-15",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-04-05",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-21",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-17",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-12",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-10",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-03-04",
+          "count": 5,
+          "points": 10
+        },
+        {
+          "date": "2025-03-02",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-11",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-02-09",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-07",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-06",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-04",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-02-03",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-02",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-01-28",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T11:08:44Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T11:08:43Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-04T12:08:39Z",
+          "title": "Mahmoodalisha/patch 79622",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/454",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-04T11:43:30Z",
+          "title": "convert backupCircuit code to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/453",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-03T07:51:07Z",
+          "title": "Backup circuit frontend",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5373",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-02T22:07:15Z",
+          "title": "Backup circuit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5372",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-01-28T16:24:21Z",
+          "title": "feat(ci) - add CI workflow and update installation docs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5355",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-04T22:37:01Z",
+          "title": "Featured examples",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5508",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-04T22:25:59Z",
+          "title": "Circuitcard",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5506",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-04T21:55:53Z",
+          "title": "Feature card",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5505",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-04T21:36:48Z",
+          "title": "Home component",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5504",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-04T17:57:54Z",
+          "title": "Home main content",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5499",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-02T07:08:31Z",
+          "title": "Refactored the Views to reusable ViewComponent",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5478",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-11T21:22:48Z",
+          "title": "Improved Screen Reader Accessibility",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5409",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-11T13:46:17Z",
+          "title": "added a statistics bar",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5408",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-09T20:14:32Z",
+          "title": "refactored save.js and added a new file saveScope",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/467",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-07T22:13:53Z",
+          "title": "refactored load.js to load.ts and added a new file loadScope.ts in types",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/460",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-06T23:09:52Z",
+          "title": "Refactor mail scss and structure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5390",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-05T18:42:29Z",
+          "title": "feat - added RTL support with dropdown options for Arabic, Urdu and He…",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5624",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-21T23:44:34Z",
+          "title": "Bootstrap5",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5595",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-17T11:09:47Z",
+          "title": "Responsive",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5584",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-12T21:26:03Z",
+          "title": "Search UI",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5563",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-03-10T20:39:45Z",
+          "title": "Updated index.html.erb with UI improvements",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5548",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-19T15:24:49Z",
+          "title": "refactor - added bootstrap utility classes for footer",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5650",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-17T15:40:03Z",
+          "title": "feat - added ViewComponents for modal",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5646",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-15T20:57:44Z",
+          "title": "bug - improved search rendering function",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5644",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-04-15T19:42:13Z",
+          "title": "feat - added bootstrap utility classes in the footer",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5643",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "Nakshatra480",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/219866800?v=4",
@@ -53348,288 +53760,6 @@
           "title": "Enhanced filtering",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/89",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "mahmoodalisha",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/142445013?v=4",
-      "role": "Contributor",
-      "total_points": 50,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 25,
-          "points": 50
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-04-19",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-04-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-04-15",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2025-04-05",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-21",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-12",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-10",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-03-04",
-          "count": 5,
-          "points": 10
-        },
-        {
-          "date": "2025-03-02",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-11",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2025-02-09",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-07",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-06",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-04",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2025-02-03",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-02",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-01-28",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-04T12:08:39Z",
-          "title": "Mahmoodalisha/patch 79622",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/454",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-04T11:43:30Z",
-          "title": "convert backupCircuit code to TypeScript",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/453",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-03T07:51:07Z",
-          "title": "Backup circuit frontend",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5373",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-02T22:07:15Z",
-          "title": "Backup circuit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5372",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-01-28T16:24:21Z",
-          "title": "feat(ci) - add CI workflow and update installation docs",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5355",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-04T22:37:01Z",
-          "title": "Featured examples",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5508",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-04T22:25:59Z",
-          "title": "Circuitcard",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5506",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-04T21:55:53Z",
-          "title": "Feature card",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5505",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-04T21:36:48Z",
-          "title": "Home component",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5504",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-04T17:57:54Z",
-          "title": "Home main content",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5499",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-02T07:08:31Z",
-          "title": "Refactored the Views to reusable ViewComponent",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5478",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-11T21:22:48Z",
-          "title": "Improved Screen Reader Accessibility",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5409",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-11T13:46:17Z",
-          "title": "added a statistics bar",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5408",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-09T20:14:32Z",
-          "title": "refactored save.js and added a new file saveScope",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/467",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-07T22:13:53Z",
-          "title": "refactored load.js to load.ts and added a new file loadScope.ts in types",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/460",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-06T23:09:52Z",
-          "title": "Refactor mail scss and structure",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5390",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-05T18:42:29Z",
-          "title": "feat - added RTL support with dropdown options for Arabic, Urdu and He…",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5624",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-21T23:44:34Z",
-          "title": "Bootstrap5",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5595",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-17T11:09:47Z",
-          "title": "Responsive",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5584",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-12T21:26:03Z",
-          "title": "Search UI",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5563",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-03-10T20:39:45Z",
-          "title": "Updated index.html.erb with UI improvements",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5548",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-19T15:24:49Z",
-          "title": "refactor - added bootstrap utility classes for footer",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5650",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-17T15:40:03Z",
-          "title": "feat - added ViewComponents for modal",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5646",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-15T20:57:44Z",
-          "title": "bug - improved search rendering function",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5644",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-04-15T19:42:13Z",
-          "title": "feat - added bootstrap utility classes in the footer",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5643",
-          "points": 2
         }
       ]
     },
@@ -57222,6 +57352,113 @@
       ]
     },
     {
+      "username": "JituRewar",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
+      "role": "Contributor",
+      "total_points": 29,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 3,
+          "points": 6
+        },
+        "Issue labeled": {
+          "count": 3,
+          "points": 3
+        },
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-20",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-07-15",
+          "count": 4,
+          "points": 18
+        },
+        {
+          "date": "2026-07-13",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-20T05:29:52Z",
+          "title": "🐞 Bug - Panels and toolbar overlap with tabs bar when expanded in v1/v0",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1149",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-20T05:29:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-15T03:22:29Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-15T15:55:24Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-15T03:08:21Z",
+          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-15T03:08:22Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-13T05:34:51Z",
+          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-13T05:05:57Z",
+          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-13T05:05:58Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "manmeetsantre",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
@@ -57702,90 +57939,95 @@
       ]
     },
     {
-      "username": "JituRewar",
+      "username": "harshitasingh108",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218473176?v=4",
       "role": "Contributor",
       "total_points": 26,
       "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "PR merged": {
+        "Issue closed": {
           "count": 1,
-          "points": 10
+          "points": 1
         },
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 2
+        "PR opened": {
+          "count": 5,
+          "points": 25
         }
       },
       "daily_activity": [
         {
-          "date": "2026-07-15",
-          "count": 4,
-          "points": 18
+          "date": "2026-07-20",
+          "count": 1,
+          "points": 1
         },
         {
-          "date": "2026-07-13",
-          "count": 3,
-          "points": 8
+          "date": "2026-02-28",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-27",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-25",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-24",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-02-22",
+          "count": 1,
+          "points": 5
         }
       ],
       "raw_activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-07-15T03:22:29Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-15T15:55:24Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-15T03:08:21Z",
-          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-15T03:08:22Z",
-          "title": "Labeled issue in cv-frontend-vue",
+          "type": "Issue closed",
+          "occured_at": "2026-07-20T15:57:21Z",
+          "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
         },
         {
           "type": "PR opened",
-          "occured_at": "2026-07-13T05:34:51Z",
-          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
+          "occured_at": "2026-02-28T05:00:19Z",
+          "title": "fix-homepage-lazy-loading",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7094",
           "points": 5
         },
         {
-          "type": "Issue opened",
-          "occured_at": "2026-07-13T05:05:57Z",
-          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
-          "points": 2
+          "type": "PR opened",
+          "occured_at": "2026-02-27T04:58:47Z",
+          "title": "fix-forgot",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7089",
+          "points": 5
         },
         {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-13T05:05:58Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
+          "type": "PR opened",
+          "occured_at": "2026-02-25T18:41:54Z",
+          "title": "Fix - search icon keyboard accessibility",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7074",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-24T04:30:48Z",
+          "title": "Fix forum linkFix broken forum link in footer",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7023",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-02-22T19:05:04Z",
+          "title": "Fix spacing between CAPTCHA and login button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7011",
+          "points": 5
         }
       ]
     },
@@ -58212,83 +58454,6 @@
           "occured_at": "2026-03-02T21:07:38Z",
           "title": "fix(api) - correct circuit_data unavailable error message",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7110",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "harshitasingh108",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/218473176?v=4",
-      "role": "Contributor",
-      "total_points": 25,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 5,
-          "points": 25
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-02-28",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-02-27",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-02-25",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-02-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-02-22",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-28T05:00:19Z",
-          "title": "fix-homepage-lazy-loading",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7094",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-27T04:58:47Z",
-          "title": "fix-forgot",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7089",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T18:41:54Z",
-          "title": "Fix - search icon keyboard accessibility",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7074",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-24T04:30:48Z",
-          "title": "Fix forum linkFix broken forum link in footer",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7023",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-22T19:05:04Z",
-          "title": "Fix spacing between CAPTCHA and login button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7011",
           "points": 5
         }
       ]
