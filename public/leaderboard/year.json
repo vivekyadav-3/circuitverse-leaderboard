@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1785034011147,
-  "lastFetchedAt": 1785034011147,
-  "startDate": "2025-07-26",
-  "endDate": "2026-07-26",
+  "updatedAt": 1785120883595,
+  "lastFetchedAt": 1785120883595,
+  "startDate": "2025-07-27",
+  "endDate": "2026-07-27",
   "entries": [
     {
       "username": "naman79820",
@@ -10221,8 +10221,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1120,
+      "total_points": 1130,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 5,
+          "points": 50
+        },
         "PR opened": {
           "count": 59,
           "points": 295
@@ -10243,16 +10247,17 @@
           "count": 149,
           "points": 149
         },
-        "PR merged": {
-          "count": 4,
-          "points": 40
-        },
         "Review submitted": {
           "count": 24,
           "points": 360
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-07-15",
           "count": 1,
@@ -10355,6 +10360,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-26T10:11:39Z",
+          "title": "fix(lti) - persist grades before LMS passback",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7647",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-15T10:17:46Z",
@@ -16608,19 +16620,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 1097,
+      "total_points": 1104,
       "activity_breakdown": {
-        "Issue assigned": {
-          "count": 17,
-          "points": 17
-        },
         "PR opened": {
-          "count": 47,
-          "points": 175
+          "count": 48,
+          "points": 180
+        },
+        "Issue assigned": {
+          "count": 18,
+          "points": 18
         },
         "Issue labeled": {
-          "count": 317,
-          "points": 320
+          "count": 318,
+          "points": 321
         },
         "PR merged": {
           "count": 32,
@@ -16636,6 +16648,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-26",
+          "count": 3,
+          "points": 7
+        },
         {
           "date": "2026-07-22",
           "count": 1,
@@ -16963,6 +16980,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T14:34:52Z",
+          "title": "fix(verilog) - terminal visibility bug, i18n cleanup, and theme select refactor",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1167",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-26T14:45:33Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-26T14:37:20Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue assigned",
           "occured_at": "2026-07-22T10:09:44Z",
@@ -27971,11 +28009,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/96644946?u=0a63041bdb02009db73142160eb13f4fcd0a4209&v=4",
       "role": "Maintainer",
-      "total_points": 706,
+      "total_points": 722,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 49,
-          "points": 559
+          "count": 50,
+          "points": 574
+        },
+        "Issue closed": {
+          "count": 70,
+          "points": 70
         },
         "Issue opened": {
           "count": 4,
@@ -27984,10 +28026,6 @@
         "Issue labeled": {
           "count": 57,
           "points": 57
-        },
-        "Issue closed": {
-          "count": 69,
-          "points": 69
         },
         "PR opened": {
           "count": 3,
@@ -27999,6 +28037,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-26",
+          "count": 2,
+          "points": 16
+        },
         {
           "date": "2026-06-14",
           "count": 1,
@@ -28121,6 +28164,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-26T09:36:32Z",
+          "title": "Review on CircuitVerse#7647",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7647#pullrequestreview-4781381216",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-26T10:11:39Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-06-14T15:45:44Z",
@@ -58300,6 +58357,86 @@
       ]
     },
     {
+      "username": "Shruti2110-coder",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
+      "role": "Contributor",
+      "total_points": 26,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-08",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-07-07",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-07-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T16:39:57Z",
+          "title": "fix - guard Tauri-only event listeners with isTauri() check",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1168",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-08T08:39:10Z",
+          "title": "chore - remove active_storage_s3 feature flag (#7627)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7630",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-08T12:57:11Z",
+          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-07T15:14:03Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T13:34:22Z",
+          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "harshitasingh108",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/218473176?v=4",
@@ -60224,74 +60361,6 @@
           "title": "Low contrast text - black text not readable on dark background",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/485",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Shruti2110-coder",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
-      "role": "Contributor",
-      "total_points": 21,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-08",
-          "count": 2,
-          "points": 15
-        },
-        {
-          "date": "2026-07-07",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-07-06",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-08T08:39:10Z",
-          "title": "chore - remove active_storage_s3 feature flag (#7627)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7630",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-08T12:57:11Z",
-          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-07T15:14:03Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T13:34:22Z",
-          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
-          "points": 5
         }
       ]
     },
@@ -64306,6 +64375,47 @@
       ]
     },
     {
+      "username": "UwaisBaig",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-24",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T07:57:30Z",
+          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-24T20:58:51Z",
+          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "ameenmv",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/150484349?v=4",
@@ -68117,35 +68227,6 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "UwaisBaig",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-24",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-24T20:58:51Z",
-          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
-          "points": 5
         }
       ]
     },
