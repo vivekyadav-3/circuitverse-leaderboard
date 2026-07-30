@@ -1,8 +1,8 @@
 {
   "period": "month",
-  "updatedAt": 1785292611340,
-  "startDate": "2026-06-29",
-  "endDate": "2026-07-29",
+  "updatedAt": 1785378268941,
+  "startDate": "2026-06-30",
+  "endDate": "2026-07-30",
   "entries": [
     {
       "username": "ShinichiShi",
@@ -12241,7 +12241,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 132,
+      "total_points": 122,
       "activity_breakdown": {
         "PR opened": {
           "count": 6,
@@ -12256,8 +12256,8 @@
           "points": 15
         },
         "PR merged": {
-          "count": 7,
-          "points": 70
+          "count": 6,
+          "points": 60
         },
         "Issue opened": {
           "count": 3,
@@ -12318,11 +12318,6 @@
           "date": "2026-07-01",
           "count": 1,
           "points": 5
-        },
-        {
-          "date": "2026-06-29",
-          "count": 1,
-          "points": 10
         }
       ],
       "raw_activities": [
@@ -17654,13 +17649,6 @@
           "title": "feat - add human-readable syntax error messages for Verilog synthesis",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1116",
           "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-06-29T09:11:04Z",
-          "title": "feat - add client-side Verilog synthesis via YoWASP WASM for offline Tauri desktop",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1111",
-          "points": 10
         }
       ]
     },
@@ -30086,19 +30074,453 @@
       ]
     },
     {
+      "username": "JoshVarga",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/400540?u=cde386c5c924fa186d90fcba74a2287230c64243&v=4",
+      "role": "Contributor",
+      "total_points": 30,
+      "activity_breakdown": {
+        "Review submitted": {
+          "count": 2,
+          "points": 30
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-03",
+          "count": 2,
+          "points": 30
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:36:19Z",
+          "title": "Review on cv-frontend-vue#1093",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:35:37Z",
+          "title": "Review on cv-frontend-vue#1095",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T22:04:22Z",
+          "title": "Review on PR #424",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-31T04:16:16Z",
+          "title": "Review on PR #442",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:47:07Z",
+          "title": "Review on PR #463",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:46:16Z",
+          "title": "Review on PR #464",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-10T06:41:31Z",
+          "title": "Review on PR #462",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-25T04:14:10Z",
+          "title": "Review on PR #430",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T08:33:02Z",
+          "title": "Review on PR #456",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T07:16:06Z",
+          "title": "Review on PR #423",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-02-07T07:15:15Z",
+          "title": "Review on PR #425",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-29T19:56:51Z",
+          "title": "Review on PR #448",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/448",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:33:11Z",
+          "title": "Review on PR #415",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/415",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:29:14Z",
+          "title": "Review on PR #418",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T04:28:05Z",
+          "title": "Review on PR #434",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
+          "points": 4
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2025-01-28T03:41:35Z",
+          "title": "Review on PR #337",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/337",
+          "points": 4
+        }
+      ],
+      "activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:36:19Z",
+          "title": "Review on cv-frontend-vue#1093",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
+          "points": 15
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-03T20:35:37Z",
+          "title": "Review on cv-frontend-vue#1095",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "deepak0x",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
+      "role": "Contributor",
+      "total_points": 29,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 9,
+          "points": 18
+        },
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-23",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-16",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-15",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-14",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-10",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2026-07-09",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-06",
+          "count": 4,
+          "points": 13
+        },
+        {
+          "date": "2026-07-05",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-23T05:45:47Z",
+          "title": "bug - Double DB write in AssignmentsController#update — error branch is dead code",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7700",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-16T07:51:23Z",
+          "title": "bug - Double DB write in groups controller — save! then save on same record",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7660",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-15T04:45:23Z",
+          "title": "bug - Unchecked save in start action redirects to nil-id project path",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7658",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-14T14:33:43Z",
+          "title": "bug - Project owner silently added as own collaborator despite warning",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7655",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-10T15:21:30Z",
+          "title": "Bug - group update permits primary_mentor_id via mass assignment (unintended ownership transfer)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7641",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-10T14:25:48Z",
+          "title": "Bug - API create_fork skips authorization — any user can fork Private & assignment projects (IDOR)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7640",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-09T05:59:23Z",
+          "title": "bug - Primary mentor can bypass leave restriction via destroy endpoint",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7635",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T10:29:52Z",
+          "title": "fix - sanitize project name inside project_params so it is persisted (#7559)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7620",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T08:31:38Z",
+          "title": "fix - block removing an org member who is a group's primary mentor (#7615)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7618",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-06T12:24:03Z",
+          "title": "bug - Site admin blocked from updating sole admin membership but can still destroy it",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7621",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-06T05:22:49Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T15:23:15Z",
+          "title": "bug - destroy? allows primary mentor to remove own org membership",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7615",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-27T22:47:53Z",
+          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:33Z",
+          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:13:13Z",
+          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:12:43Z",
+          "title": "bug - JSON.parse(nil) crash in project update",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-24T10:11:13Z",
+          "title": "bug - Project update called twice per request",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-23T10:23:17Z",
+          "title": "fix - correct invalid MIME type for circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-22T12:43:14Z",
+          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-23T05:45:47Z",
+          "title": "bug - Double DB write in AssignmentsController#update — error branch is dead code",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7700",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-16T07:51:23Z",
+          "title": "bug - Double DB write in groups controller — save! then save on same record",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7660",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-15T04:45:23Z",
+          "title": "bug - Unchecked save in start action redirects to nil-id project path",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7658",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-14T14:33:43Z",
+          "title": "bug - Project owner silently added as own collaborator despite warning",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7655",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-10T15:21:30Z",
+          "title": "Bug - group update permits primary_mentor_id via mass assignment (unintended ownership transfer)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7641",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-10T14:25:48Z",
+          "title": "Bug - API create_fork skips authorization — any user can fork Private & assignment projects (IDOR)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7640",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-09T05:59:23Z",
+          "title": "bug - Primary mentor can bypass leave restriction via destroy endpoint",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7635",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T10:29:52Z",
+          "title": "fix - sanitize project name inside project_params so it is persisted (#7559)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7620",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T08:31:38Z",
+          "title": "fix - block removing an org member who is a group's primary mentor (#7615)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7618",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-06T12:24:03Z",
+          "title": "bug - Site admin blocked from updating sole admin membership but can still destroy it",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7621",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-06T05:22:49Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-05T15:23:15Z",
+          "title": "bug - destroy? allows primary mentor to remove own org membership",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7615",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "ThatDeparted2061",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/166894150?u=c22b1c95974076169a9b255294b322e84bf3dbba&v=4",
       "role": "Maintainer",
-      "total_points": 30,
+      "total_points": 28,
       "activity_breakdown": {
         "Review submitted": {
           "count": 1,
           "points": 15
         },
         "Issue closed": {
-          "count": 12,
-          "points": 12
+          "count": 10,
+          "points": 10
         },
         "Issue labeled": {
           "count": 3,
@@ -30125,11 +30547,6 @@
           "date": "2026-07-02",
           "count": 3,
           "points": 3
-        },
-        {
-          "date": "2026-06-29",
-          "count": 2,
-          "points": 2
         }
       ],
       "raw_activities": [
@@ -31282,454 +31699,6 @@
           "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-29T09:11:06Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-06-29T09:11:04Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "JoshVarga",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/400540?u=cde386c5c924fa186d90fcba74a2287230c64243&v=4",
-      "role": "Contributor",
-      "total_points": 30,
-      "activity_breakdown": {
-        "Review submitted": {
-          "count": 2,
-          "points": 30
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-03",
-          "count": 2,
-          "points": 30
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:36:19Z",
-          "title": "Review on cv-frontend-vue#1093",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:35:37Z",
-          "title": "Review on cv-frontend-vue#1095",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T22:04:22Z",
-          "title": "Review on PR #424",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/424",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-31T04:16:16Z",
-          "title": "Review on PR #442",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/442",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:47:07Z",
-          "title": "Review on PR #463",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/463",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:46:16Z",
-          "title": "Review on PR #464",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/464",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-10T06:41:31Z",
-          "title": "Review on PR #462",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/462",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-25T04:14:10Z",
-          "title": "Review on PR #430",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/430",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T08:33:02Z",
-          "title": "Review on PR #456",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/456",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T07:16:06Z",
-          "title": "Review on PR #423",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/423",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-02-07T07:15:15Z",
-          "title": "Review on PR #425",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/425",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-29T19:56:51Z",
-          "title": "Review on PR #448",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/448",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:33:11Z",
-          "title": "Review on PR #415",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/415",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:29:14Z",
-          "title": "Review on PR #418",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/418",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T04:28:05Z",
-          "title": "Review on PR #434",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/434",
-          "points": 4
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2025-01-28T03:41:35Z",
-          "title": "Review on PR #337",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/337",
-          "points": 4
-        }
-      ],
-      "activities": [
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:36:19Z",
-          "title": "Review on cv-frontend-vue#1093",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093#pullrequestreview-4627954331",
-          "points": 15
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-07-03T20:35:37Z",
-          "title": "Review on cv-frontend-vue#1095",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095#pullrequestreview-4627952282",
-          "points": 15
-        }
-      ]
-    },
-    {
-      "username": "deepak0x",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/149673145?v=4",
-      "role": "Contributor",
-      "total_points": 29,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 9,
-          "points": 18
-        },
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-23",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-16",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-15",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-14",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-10",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2026-07-09",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-06",
-          "count": 4,
-          "points": 13
-        },
-        {
-          "date": "2026-07-05",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-23T05:45:47Z",
-          "title": "bug - Double DB write in AssignmentsController#update — error branch is dead code",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7700",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-16T07:51:23Z",
-          "title": "bug - Double DB write in groups controller — save! then save on same record",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7660",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-15T04:45:23Z",
-          "title": "bug - Unchecked save in start action redirects to nil-id project path",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7658",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-14T14:33:43Z",
-          "title": "bug - Project owner silently added as own collaborator despite warning",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7655",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-10T15:21:30Z",
-          "title": "Bug - group update permits primary_mentor_id via mass assignment (unintended ownership transfer)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7641",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-10T14:25:48Z",
-          "title": "Bug - API create_fork skips authorization — any user can fork Private & assignment projects (IDOR)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7640",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-09T05:59:23Z",
-          "title": "bug - Primary mentor can bypass leave restriction via destroy endpoint",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7635",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T10:29:52Z",
-          "title": "fix - sanitize project name inside project_params so it is persisted (#7559)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7620",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T08:31:38Z",
-          "title": "fix - block removing an org member who is a group's primary mentor (#7615)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7618",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-06T12:24:03Z",
-          "title": "bug - Site admin blocked from updating sole admin membership but can still destroy it",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7621",
-          "points": 2
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-06T05:22:49Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-05T15:23:15Z",
-          "title": "bug - destroy? allows primary mentor to remove own org membership",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7615",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-27T22:47:53Z",
-          "title": "fix - guard nil image param in simulator_helper to prevent NoMethodError (#7558)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7566",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:33Z",
-          "title": "bug - sanitize_name before_action does not mutate the correct params key — project names stored unsanitized",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7559",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:13:13Z",
-          "title": "bug - NoMethodError crash in return_image_file when image param is nil",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7558",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:12:43Z",
-          "title": "bug - JSON.parse(nil) crash in project update",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7557",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-24T10:11:13Z",
-          "title": "bug - Project update called twice per request",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7556",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-23T10:23:17Z",
-          "title": "fix - correct invalid MIME type for circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7550",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-22T12:43:14Z",
-          "title": "bug - Invalid MIME type 'img/jpeg' in circuit preview attachment",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7541",
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-23T05:45:47Z",
-          "title": "bug - Double DB write in AssignmentsController#update — error branch is dead code",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7700",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-16T07:51:23Z",
-          "title": "bug - Double DB write in groups controller — save! then save on same record",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7660",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-15T04:45:23Z",
-          "title": "bug - Unchecked save in start action redirects to nil-id project path",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7658",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-14T14:33:43Z",
-          "title": "bug - Project owner silently added as own collaborator despite warning",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7655",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-10T15:21:30Z",
-          "title": "Bug - group update permits primary_mentor_id via mass assignment (unintended ownership transfer)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7641",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-10T14:25:48Z",
-          "title": "Bug - API create_fork skips authorization — any user can fork Private & assignment projects (IDOR)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7640",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-09T05:59:23Z",
-          "title": "bug - Primary mentor can bypass leave restriction via destroy endpoint",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7635",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T10:29:52Z",
-          "title": "fix - sanitize project name inside project_params so it is persisted (#7559)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7620",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T08:31:38Z",
-          "title": "fix - block removing an org member who is a group's primary mentor (#7615)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7618",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-06T12:24:03Z",
-          "title": "bug - Site admin blocked from updating sole admin membership but can still destroy it",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7621",
-          "points": 2
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-06T05:22:49Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-05T15:23:15Z",
-          "title": "bug - destroy? allows primary mentor to remove own org membership",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7615",
-          "points": 2
         }
       ]
     },
@@ -38391,85 +38360,6 @@
       ]
     },
     {
-      "username": "eeshsaxena",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/139802361?v=4",
-      "role": "Contributor",
-      "total_points": 8,
-      "activity_breakdown": {
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-16",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-06-29",
-          "count": 2,
-          "points": 7
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-16T20:56:51Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-29T12:20:14Z",
-          "title": "test - add unit tests for EventQueue simulator engine",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-29T12:19:39Z",
-          "title": "Add unit tests for EventQueue (simulator engine)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-16T20:56:51Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-29T12:20:14Z",
-          "title": "test - add unit tests for EventQueue simulator engine",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-06-29T12:19:39Z",
-          "title": "Add unit tests for EventQueue (simulator engine)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "YashSikarwar28",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/193323729?v=4",
@@ -38550,6 +38440,44 @@
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Mr-Daker",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/72245831?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-29",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-29T17:00:06Z",
+          "title": "fix - clear setInterval on unmount in PropertiesPanel.vue (#469)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1174",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-29T17:00:06Z",
+          "title": "fix - clear setInterval on unmount in PropertiesPanel.vue (#469)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1174",
+          "points": 5
         }
       ]
     },
@@ -40005,6 +39933,58 @@
         {
           "type": "Issue closed",
           "occured_at": "2026-07-20T15:57:21Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "eeshsaxena",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/139802361?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-16",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-16T20:56:51Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-06-29T12:20:14Z",
+          "title": "test - add unit tests for EventQueue simulator engine",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7571",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-06-29T12:19:39Z",
+          "title": "Add unit tests for EventQueue (simulator engine)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7570",
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-16T20:56:51Z",
           "title": "Closed issue in CircuitVerse",
           "link": null,
           "points": 1
