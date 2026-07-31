@@ -1,40 +1,40 @@
 {
   "period": "year",
-  "updatedAt": 1785378268914,
-  "lastFetchedAt": 1785378268914,
-  "startDate": "2025-07-30",
-  "endDate": "2026-07-30",
+  "updatedAt": 1785466116728,
+  "lastFetchedAt": 1785466116728,
+  "startDate": "2025-07-31",
+  "endDate": "2026-07-31",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 1939,
+      "total_points": 1972,
       "activity_breakdown": {
         "PR opened": {
-          "count": 83,
-          "points": 310
-        },
-        "Issue closed": {
-          "count": 371,
-          "points": 371
+          "count": 85,
+          "points": 320
         },
         "Issue opened": {
-          "count": 76,
-          "points": 117
+          "count": 77,
+          "points": 119
+        },
+        "Review submitted": {
+          "count": 55,
+          "points": 363
         },
         "Issue labeled": {
-          "count": 389,
-          "points": 401
+          "count": 394,
+          "points": 406
+        },
+        "Issue closed": {
+          "count": 372,
+          "points": 372
         },
         "Issue assigned": {
           "count": 17,
           "points": 17
-        },
-        "Review submitted": {
-          "count": 54,
-          "points": 348
         },
         "PR merged": {
           "count": 43,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 10,
+          "points": 33
+        },
         {
           "date": "2026-07-23",
           "count": 2,
@@ -689,6 +694,76 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T21:32:24Z",
+          "title": "feat(organizations) - add settings page for editing and deleting orgs",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7714",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T13:50:37Z",
+          "title": "fix - bundler-audit failure by updating Active Storage",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7712",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-30T13:46:40Z",
+          "title": "🐞 Bug - bundler-audit fails due to Active Storage security vulnerability",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7710",
+          "points": 2
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-30T13:53:35Z",
+          "title": "Review on CircuitVerse#7711",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711#pullrequestreview-4819484431",
+          "points": 15
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T22:51:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T20:35:08Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-30T13:53:19Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T13:46:43Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T13:46:42Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T13:02:59Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-23T13:08:26Z",
@@ -7927,15 +8002,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/65150640?u=25493788d913676f586e5d8c10be801ad634e3c9&v=4",
       "role": "Maintainer",
-      "total_points": 1290,
+      "total_points": 1306,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 84,
-          "points": 985
+          "count": 85,
+          "points": 1000
         },
         "Issue closed": {
-          "count": 110,
-          "points": 110
+          "count": 111,
+          "points": 111
         },
         "PR merged": {
           "count": 12,
@@ -7959,6 +8034,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 2,
+          "points": 16
+        },
         {
           "date": "2026-07-27",
           "count": 3,
@@ -8336,6 +8416,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-30T12:49:58Z",
+          "title": "Review on cv-frontend-vue#1167",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1167#pullrequestreview-4818900103",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-30T12:50:13Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-27T14:29:46Z",
@@ -16658,8 +16752,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 1104,
+      "total_points": 1114,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 33,
+          "points": 270
+        },
         "PR opened": {
           "count": 48,
           "points": 180
@@ -16672,10 +16770,6 @@
           "count": 318,
           "points": 321
         },
-        "PR merged": {
-          "count": 32,
-          "points": 260
-        },
         "Issue opened": {
           "count": 36,
           "points": 57
@@ -16686,6 +16780,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-07-26",
           "count": 3,
@@ -17018,6 +17117,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-30T12:50:13Z",
+          "title": "fix(verilog) - terminal visibility bug, i18n cleanup, and theme select refactor",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1167",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-26T14:34:52Z",
@@ -22065,15 +22171,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?u=a7289671a2d228cf269bc52e064be89f13882e10&v=4",
       "role": "Maintainer",
-      "total_points": 885,
+      "total_points": 902,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 39,
-          "points": 343
+          "count": 40,
+          "points": 358
         },
         "Issue closed": {
-          "count": 292,
-          "points": 292
+          "count": 294,
+          "points": 294
         },
         "PR opened": {
           "count": 26,
@@ -22097,6 +22203,16 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-31",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 15
+        },
         {
           "date": "2026-07-24",
           "count": 3,
@@ -22654,6 +22770,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-07-30T15:30:09Z",
+          "title": "Review on CircuitVerse#7711",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711#pullrequestreview-4820473147",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-31T00:43:18Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-07-31T00:43:17Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-07-24T15:36:14Z",
@@ -29528,8 +29665,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
       "role": "Contributor",
-      "total_points": 472,
+      "total_points": 482,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 13,
+          "points": 130
+        },
         "PR opened": {
           "count": 17,
           "points": 85
@@ -29546,16 +29687,17 @@
           "count": 18,
           "points": 18
         },
-        "PR merged": {
-          "count": 12,
-          "points": 120
-        },
         "Issue closed": {
           "count": 68,
           "points": 68
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-07-31",
+          "count": 1,
+          "points": 10
+        },
         {
           "date": "2026-07-28",
           "count": 6,
@@ -29693,6 +29835,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-31T00:43:17Z",
+          "title": "refactor - optimize canonical pipeline and introduce strict type safety",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1173",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-28T19:10:57Z",
@@ -55323,6 +55472,151 @@
       ]
     },
     {
+      "username": "JituRewar",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
+      "role": "Contributor",
+      "total_points": 42,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 8
+        },
+        "Issue labeled": {
+          "count": 4,
+          "points": 4
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-21",
+          "count": 3,
+          "points": 8
+        },
+        {
+          "date": "2026-07-20",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-07-15",
+          "count": 4,
+          "points": 18
+        },
+        {
+          "date": "2026-07-13",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T05:56:21Z",
+          "title": "feat - add auto-focus functionality to MessageBox component in V1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1175",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-21T13:57:14Z",
+          "title": "fix(v1) - adjust top position of panels dynamically on tabs bar height…",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1151",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-21T14:12:19Z",
+          "title": "🐞 Bug - Prompt dialog input not focused automatically and Enter key does not submit in v1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1152",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-21T14:12:20Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-20T05:29:52Z",
+          "title": "🐞 Bug - Panels and toolbar overlap with tabs bar when expanded in v1/v0",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1149",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-20T05:29:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-15T03:22:29Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-15T15:55:24Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-15T03:08:21Z",
+          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-15T03:08:22Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-13T05:34:51Z",
+          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-13T05:05:57Z",
+          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-13T05:05:58Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "nisshchayarathi",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/197673239?v=4",
@@ -56209,139 +56503,6 @@
           "occured_at": "2026-01-03T09:56:28Z",
           "title": "Improve leaderboard search performance by adding debounce",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/83",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "JituRewar",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
-      "role": "Contributor",
-      "total_points": 37,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 8
-        },
-        "Issue labeled": {
-          "count": 4,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-21",
-          "count": 3,
-          "points": 8
-        },
-        {
-          "date": "2026-07-20",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-07-15",
-          "count": 4,
-          "points": 18
-        },
-        {
-          "date": "2026-07-13",
-          "count": 3,
-          "points": 8
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-21T13:57:14Z",
-          "title": "fix(v1) - adjust top position of panels dynamically on tabs bar height…",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1151",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-21T14:12:19Z",
-          "title": "🐞 Bug - Prompt dialog input not focused automatically and Enter key does not submit in v1",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1152",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-21T14:12:20Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-20T05:29:52Z",
-          "title": "🐞 Bug - Panels and toolbar overlap with tabs bar when expanded in v1/v0",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1149",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-20T05:29:53Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-15T03:22:29Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-15T15:55:24Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-15T03:08:21Z",
-          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-15T03:08:22Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-13T05:34:51Z",
-          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-13T05:05:57Z",
-          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-13T05:05:58Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
           "points": 1
         }
       ]
@@ -58864,6 +59025,78 @@
       ]
     },
     {
+      "username": "UwaisBaig",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
+      "role": "Contributor",
+      "total_points": 25,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 5,
+          "points": 25
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-28",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-24",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T13:47:56Z",
+          "title": "fix(deps) - upgrade rails/activestorage to >= 8.1.3.1 to patch security vulnerability (#7710)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:53:04Z",
+          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:38:22Z",
+          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T07:57:30Z",
+          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-24T20:58:51Z",
+          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "spc-28",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/139547705?v=4",
@@ -60721,66 +60954,6 @@
           "occured_at": "2025-03-20T05:03:29Z",
           "title": "Upgrade to flutter 3.29.2",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/281",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "UwaisBaig",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-      "role": "Contributor",
-      "total_points": 20,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 4,
-          "points": 20
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-28",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-07-26",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-24",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:53:04Z",
-          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:38:22Z",
-          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-26T07:57:30Z",
-          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-24T20:58:51Z",
-          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
           "points": 5
         }
       ]
@@ -64588,6 +64761,47 @@
           "occured_at": "2025-03-29T15:51:34Z",
           "title": "New - added flutter web target",
           "link": "https://github.com/CircuitVerse/mobile-app/pull/308",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Mr-Daker",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/72245831?v=4",
+      "role": "Contributor",
+      "total_points": 10,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-29",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T18:47:27Z",
+          "title": "refactor - convert node, circuitElement and modules to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1176",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-29T17:00:06Z",
+          "title": "fix - clear setInterval on unmount in PropertiesPanel.vue (#469)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1174",
           "points": 5
         }
       ]
@@ -68408,35 +68622,6 @@
       ]
     },
     {
-      "username": "Mr-Daker",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/72245831?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-07-29",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-29T17:00:06Z",
-          "title": "fix - clear setInterval on unmount in PropertiesPanel.vue (#469)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1174",
-          "points": 5
-        }
-      ]
-    },
-    {
       "username": "dpr2106",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/87235698?v=4",
@@ -70916,6 +71101,46 @@
           "title": "Review on PR #5367",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5367",
           "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Mariyaboy03",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/93508506?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-07-30",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-30T19:45:08Z",
+          "title": "🐞 Dimmed overlay stays on screen after the last hint in simulator's guided tour, requires manual click to dismiss",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7713",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-30T19:45:09Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
         }
       ]
     },
