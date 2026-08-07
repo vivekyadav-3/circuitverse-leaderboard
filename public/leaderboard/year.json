@@ -1,47 +1,52 @@
 {
   "period": "year",
-  "updatedAt": 1785983560958,
-  "lastFetchedAt": 1785983560958,
-  "startDate": "2025-08-06",
-  "endDate": "2026-08-06",
+  "updatedAt": 1786070382433,
+  "lastFetchedAt": 1786070382433,
+  "startDate": "2025-08-07",
+  "endDate": "2026-08-07",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 2026,
+      "total_points": 2063,
       "activity_breakdown": {
         "PR opened": {
-          "count": 88,
-          "points": 335
+          "count": 91,
+          "points": 350
         },
         "PR merged": {
-          "count": 46,
-          "points": 405
+          "count": 47,
+          "points": 415
         },
         "Issue opened": {
-          "count": 79,
-          "points": 123
+          "count": 81,
+          "points": 127
         },
-        "Issue assigned": {
-          "count": 19,
-          "points": 19
+        "Issue closed": {
+          "count": 374,
+          "points": 374
         },
         "Issue labeled": {
-          "count": 397,
-          "points": 409
+          "count": 401,
+          "points": 413
+        },
+        "Issue assigned": {
+          "count": 21,
+          "points": 21
         },
         "Review submitted": {
           "count": 55,
           "points": 363
-        },
-        "Issue closed": {
-          "count": 372,
-          "points": 372
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 14,
+          "points": 37
+        },
         {
           "date": "2026-08-05",
           "count": 5,
@@ -724,6 +729,104 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T11:42:33Z",
+          "title": "feat(organizations) - add settings page with edit, deletion, and form …",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7747",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T08:28:52Z",
+          "title": "feat(organizations) - add public/private visibility and organizations index page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7744",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T03:34:08Z",
+          "title": "feat(organizations) - allow org admins to view groups in their org",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7742",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-08-06T16:31:59Z",
+          "title": "feat(organizations) - allow org admins to view groups in their org",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7742",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-06T08:20:50Z",
+          "title": "Feature - Add organizations index page with navbar access",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7743",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-06T03:30:39Z",
+          "title": "🐞 Bug - Org admins cannot open groups in their own organization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7741",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-06T11:41:33Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-06T08:31:09Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T08:21:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-06T08:21:01Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T08:20:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-06T03:30:50Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T03:30:46Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T03:30:40Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-08-05T00:19:25Z",
@@ -10507,11 +10610,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1145,
+      "total_points": 1150,
       "activity_breakdown": {
         "PR opened": {
-          "count": 60,
-          "points": 300
+          "count": 61,
+          "points": 305
         },
         "PR merged": {
           "count": 6,
@@ -10539,6 +10642,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-07-31",
           "count": 1,
@@ -10656,6 +10764,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T09:58:13Z",
+          "title": "feat(lti) - add OIDC login initiation with signed state and nonce",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7746",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-07-31T03:38:37Z",
@@ -13792,11 +13907,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/100300789?v=4",
       "role": "Contributor",
-      "total_points": 1115,
+      "total_points": 1130,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 52,
-          "points": 703
+          "count": 53,
+          "points": 718
         },
         "Issue labeled": {
           "count": 159,
@@ -13820,6 +13935,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 15
+        },
         {
           "date": "2026-05-31",
           "count": 140,
@@ -13927,6 +14047,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-08-06T19:37:27Z",
+          "title": "Review on cv-frontend-vue#1176",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1176#pullrequestreview-4877758043",
+          "points": 15
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-05-31T18:08:55Z",
@@ -16930,27 +17057,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 1114,
+      "total_points": 1125,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 49,
+          "points": 185
+        },
+        "Issue opened": {
+          "count": 37,
+          "points": 59
+        },
+        "Issue labeled": {
+          "count": 320,
+          "points": 323
+        },
+        "Issue assigned": {
+          "count": 20,
+          "points": 20
+        },
         "PR merged": {
           "count": 33,
           "points": 270
-        },
-        "PR opened": {
-          "count": 48,
-          "points": 180
-        },
-        "Issue assigned": {
-          "count": 18,
-          "points": 18
-        },
-        "Issue labeled": {
-          "count": 318,
-          "points": 321
-        },
-        "Issue opened": {
-          "count": 36,
-          "points": 57
         },
         "Issue closed": {
           "count": 268,
@@ -16958,6 +17085,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 6,
+          "points": 11
+        },
         {
           "date": "2026-07-30",
           "count": 1,
@@ -17295,6 +17427,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T10:31:07Z",
+          "title": "docs - Add comprehensive contributor documentation for Client-Side Verilog Synthesis",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1180",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-06T10:17:51Z",
+          "title": "Feature - Add comprehensive contributor documentation for Client-Side Verilog Synthesis",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1179",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T10:31:25Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-06T10:31:13Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T10:17:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-06T10:17:51Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-30T12:50:13Z",
@@ -26031,15 +26205,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 785,
+      "total_points": 790,
       "activity_breakdown": {
+        "PR opened": {
+          "count": 59,
+          "points": 232
+        },
         "PR merged": {
           "count": 37,
           "points": 320
-        },
-        "PR opened": {
-          "count": 58,
-          "points": 227
         },
         "Issue opened": {
           "count": 50,
@@ -26059,6 +26233,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-08-04",
           "count": 1,
@@ -26416,6 +26595,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T19:23:42Z",
+          "title": "feat - Add CircuitVerse deep-link OAuth callback in Rust",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1181",
+          "points": 5
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-08-04T03:51:32Z",
@@ -34733,18 +34919,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/76901313?u=5494d1c2d4646bf1ce4df09c0951f0b6dc47c33a&v=4",
       "role": "Maintainer",
-      "total_points": 391,
+      "total_points": 408,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 48,
-          "points": 357
+          "count": 49,
+          "points": 372
         },
         "Issue closed": {
-          "count": 34,
-          "points": 34
+          "count": 36,
+          "points": 36
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 3,
+          "points": 17
+        },
         {
           "date": "2026-08-05",
           "count": 3,
@@ -34957,6 +35148,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-08-06T16:31:51Z",
+          "title": "Review on CircuitVerse#7742",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7742#pullrequestreview-4876736891",
+          "points": 15
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-06T16:32:00Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-06T16:31:59Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-08-05T17:17:42Z",
@@ -38057,11 +38269,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/52635773?v=4",
       "role": "Contributor",
-      "total_points": 348,
+      "total_points": 349,
       "activity_breakdown": {
         "Issue labeled": {
-          "count": 67,
-          "points": 67
+          "count": 68,
+          "points": 68
         },
         "Issue assigned": {
           "count": 10,
@@ -38085,6 +38297,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-08-02",
           "count": 2,
@@ -38242,6 +38459,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-06T15:52:47Z",
+          "title": "Labeled issue in mobile-app",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue labeled",
           "occured_at": "2026-08-02T13:07:28Z",
@@ -56166,6 +56390,114 @@
       ]
     },
     {
+      "username": "UwaisBaig",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
+      "role": "Contributor",
+      "total_points": 40,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 8,
+          "points": 40
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-04",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-31",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-28",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-24",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T09:57:25Z",
+          "title": "fix(policy) - permit org admins to view and manage groups in their organization (#7741)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7745",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-04T22:26:24Z",
+          "title": "fix(controller) - respond with JSON error for non-member leave requests (#7729)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7737",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-31T10:32:56Z",
+          "title": "fix(simulator) - automatically dismiss dimmed overlay after final hint in guided tour (#7713)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7718",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T13:47:56Z",
+          "title": "fix(deps) - upgrade rails/activestorage to >= 8.1.3.1 to patch security vulnerability (#7710)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:53:04Z",
+          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:38:22Z",
+          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T07:57:30Z",
+          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-24T20:58:51Z",
+          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "himanshumoral",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/187115281?v=4",
@@ -57589,102 +57921,6 @@
           "title": "docs - update youtube channel link",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/526",
           "points": 2
-        }
-      ]
-    },
-    {
-      "username": "UwaisBaig",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-      "role": "Contributor",
-      "total_points": 35,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 7,
-          "points": 35
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-08-04",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-28",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-07-26",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-24",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-04T22:26:24Z",
-          "title": "fix(controller) - respond with JSON error for non-member leave requests (#7729)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7737",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-31T10:32:56Z",
-          "title": "fix(simulator) - automatically dismiss dimmed overlay after final hint in guided tour (#7713)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7718",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-30T13:47:56Z",
-          "title": "fix(deps) - upgrade rails/activestorage to >= 8.1.3.1 to patch security vulnerability (#7710)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:53:04Z",
-          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:38:22Z",
-          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-26T07:57:30Z",
-          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-24T20:58:51Z",
-          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
-          "points": 5
         }
       ]
     },
@@ -69087,6 +69323,35 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "SurajSingh563",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/228955891?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T20:51:58Z",
+          "title": "fix - resolve Popper.js conflict causing dropdown click failures (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7748",
+          "points": 5
         }
       ]
     },
