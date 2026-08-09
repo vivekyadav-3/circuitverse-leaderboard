@@ -1,20 +1,20 @@
 {
   "period": "year",
-  "updatedAt": 1786153080809,
-  "lastFetchedAt": 1786153080809,
-  "startDate": "2025-08-08",
-  "endDate": "2026-08-08",
+  "updatedAt": 1786239819840,
+  "lastFetchedAt": 1786239819840,
+  "startDate": "2025-08-09",
+  "endDate": "2026-08-09",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 2081,
+      "total_points": 2086,
       "activity_breakdown": {
         "PR opened": {
-          "count": 92,
-          "points": 355
+          "count": 93,
+          "points": 360
         },
         "PR merged": {
           "count": 48,
@@ -44,8 +44,8 @@
       "daily_activity": [
         {
           "date": "2026-08-08",
-          "count": 4,
-          "points": 8
+          "count": 5,
+          "points": 13
         },
         {
           "date": "2026-08-07",
@@ -739,6 +739,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-08T03:06:55Z",
+          "title": "feat(groups) - scope group routes to organizations",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7756",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-08-08T00:55:24Z",
@@ -22568,11 +22575,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 908,
+      "total_points": 910,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 300,
-          "points": 300
+          "count": 302,
+          "points": 302
         },
         "Review submitted": {
           "count": 40,
@@ -22600,6 +22607,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-08-04",
           "count": 3,
@@ -23177,6 +23189,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:11:15Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:11:13Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-08-04T02:13:30Z",
@@ -26250,27 +26276,27 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 790,
+      "total_points": 799,
       "activity_breakdown": {
         "PR opened": {
-          "count": 59,
-          "points": 232
+          "count": 60,
+          "points": 237
+        },
+        "Issue opened": {
+          "count": 51,
+          "points": 89
+        },
+        "Issue labeled": {
+          "count": 72,
+          "points": 75
+        },
+        "Issue assigned": {
+          "count": 27,
+          "points": 27
         },
         "PR merged": {
           "count": 37,
           "points": 320
-        },
-        "Issue opened": {
-          "count": 50,
-          "points": 87
-        },
-        "Issue labeled": {
-          "count": 71,
-          "points": 74
-        },
-        "Issue assigned": {
-          "count": 26,
-          "points": 26
         },
         "Issue closed": {
           "count": 51,
@@ -26278,6 +26304,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 4,
+          "points": 9
+        },
         {
           "date": "2026-08-06",
           "count": 1,
@@ -26640,6 +26671,34 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-08T16:09:54Z",
+          "title": "Add the csrf token into vuesim",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7761",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-08T16:05:34Z",
+          "title": "🐞 Bug CSRF token missing in vuesim",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7760",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-08T16:05:36Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-08T16:05:34Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-08-06T19:23:42Z",
@@ -30174,8 +30233,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
       "role": "Contributor",
-      "total_points": 482,
+      "total_points": 483,
       "activity_breakdown": {
+        "Issue labeled": {
+          "count": 160,
+          "points": 160
+        },
         "PR merged": {
           "count": 13,
           "points": 130
@@ -30188,10 +30251,6 @@
           "count": 11,
           "points": 22
         },
-        "Issue labeled": {
-          "count": 159,
-          "points": 159
-        },
         "Issue assigned": {
           "count": 18,
           "points": 18
@@ -30202,6 +30261,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-07-31",
           "count": 1,
@@ -30344,6 +30408,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-08-08T07:48:20Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-07-31T00:43:17Z",
@@ -56019,6 +56090,138 @@
       ]
     },
     {
+      "username": "Shruti2110-coder",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
+      "role": "Contributor",
+      "total_points": 45,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 2,
+          "points": 20
+        },
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 1,
+          "points": 10
+        },
+        {
+          "date": "2026-08-07",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-02",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-08-01",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-08",
+          "count": 2,
+          "points": 15
+        },
+        {
+          "date": "2026-07-07",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-07-06",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-08-08T15:11:13Z",
+          "title": "chore - remove active_storage_s3 feature flag (#7627)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7630",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-07T17:44:16Z",
+          "title": "chore - fix remaining oxlint warnings",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1182",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-02T15:50:07Z",
+          "title": "🧹 Chore - Clean up lint warnings across src/ (v0) and v1/ simulator source",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1177",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-01T16:10:36Z",
+          "title": "Progress bar script throws \"Cannot read properties of null\" on every page (invalid selector in general_scripts.html)",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/800",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T16:39:57Z",
+          "title": "fix - guard Tauri-only event listeners with isTauri() check",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1168",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-08T08:39:10Z",
+          "title": "chore - remove active_storage_s3 feature flag (#7627)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7630",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-08T12:57:11Z",
+          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
+          "points": 10
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-07-07T15:14:03Z",
+          "title": "Assigned issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T13:34:22Z",
+          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "Saksham-Gupta-GH",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/222087587?v=4",
@@ -58016,126 +58219,6 @@
           "title": "docs - update youtube channel link",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/526",
           "points": 2
-        }
-      ]
-    },
-    {
-      "username": "Shruti2110-coder",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/184974249?v=4",
-      "role": "Contributor",
-      "total_points": 35,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 4,
-          "points": 20
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 10
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-08-07",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-08-02",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-08-01",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-07-26",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-08",
-          "count": 2,
-          "points": 15
-        },
-        {
-          "date": "2026-07-07",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-07-06",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-07T17:44:16Z",
-          "title": "chore - fix remaining oxlint warnings",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1182",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-02T15:50:07Z",
-          "title": "🧹 Chore - Clean up lint warnings across src/ (v0) and v1/ simulator source",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1177",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-01T16:10:36Z",
-          "title": "Progress bar script throws \"Cannot read properties of null\" on every page (invalid selector in general_scripts.html)",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/800",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-26T16:39:57Z",
-          "title": "fix - guard Tauri-only event listeners with isTauri() check",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1168",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-08T08:39:10Z",
-          "title": "chore - remove active_storage_s3 feature flag (#7627)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7630",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-08T12:57:11Z",
-          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-07T15:14:03Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T13:34:22Z",
-          "title": "refactor - clear setInterval on unmount in PropertiesPanelMobile.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1127",
-          "points": 5
         }
       ]
     },
@@ -67363,6 +67446,62 @@
       ]
     },
     {
+      "username": "amankv1234",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/186990161?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-09",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-08",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-09T00:29:58Z",
+          "title": "refactor - convert basic logic gates to TypeScript in v1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1185",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-08T05:44:25Z",
+          "title": "refactor - convert basic logic gates (And, Not, Nand, Nor) to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1183",
+          "points": 2
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-08T11:59:55Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "harsh-mishra123",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/228981562?v=4",
@@ -69480,6 +69619,63 @@
           "occured_at": "2026-01-03T11:49:32Z",
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Waishnav",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/86405648?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 5,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 5,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:05:06Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:05:05Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:05:27Z",
+          "title": "Closed issue in simple_discussion",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:05:26Z",
+          "title": "Closed issue in simple_discussion",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-08T15:05:25Z",
+          "title": "Closed issue in simple_discussion",
+          "link": null,
           "points": 1
         }
       ]
@@ -73024,6 +73220,64 @@
           "title": "Feature Improve Login Page UI and Password Visibility Toggle",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5387",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "ujjwalv01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/219022963?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-08T18:38:44Z",
+          "title": "refactor - Convert core simulation files (canvasApi, engine, ux, listeners) to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1184",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "shivam-G05",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/180256066?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-08",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-08T18:10:51Z",
+          "title": "Modernize the dev container / Codespaces setup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7762",
+          "points": 2
         }
       ]
     },
