@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1786499695050,
-  "lastFetchedAt": 1786499695050,
-  "startDate": "2025-08-12",
-  "endDate": "2026-08-12",
+  "updatedAt": 1786586257141,
+  "lastFetchedAt": 1786586257141,
+  "startDate": "2025-08-13",
+  "endDate": "2026-08-13",
   "entries": [
     {
       "username": "naman79820",
@@ -10733,15 +10733,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
       "role": "Contributor",
-      "total_points": 1205,
+      "total_points": 1220,
       "activity_breakdown": {
         "PR opened": {
-          "count": 68,
-          "points": 340
+          "count": 69,
+          "points": 345
         },
         "PR merged": {
-          "count": 8,
-          "points": 80
+          "count": 9,
+          "points": 90
         },
         "Issue opened": {
           "count": 68,
@@ -10765,6 +10765,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-12",
+          "count": 2,
+          "points": 15
+        },
         {
           "date": "2026-08-11",
           "count": 3,
@@ -10902,6 +10907,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-12T10:56:02Z",
+          "title": "feat(lti) - sync an LMS roster into a group",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7781",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-08-12T13:54:22Z",
+          "title": "feat(lti) - add LtiResourceLink for launch service endpoints",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7763",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-08-11T17:12:18Z",
@@ -28970,17 +28989,17 @@
     {
       "username": "Asrani-Aman",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/96644946?u=0a63041bdb02009db73142160eb13f4fcd0a4209&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96644946?v=4",
       "role": "Maintainer",
-      "total_points": 755,
+      "total_points": 756,
       "activity_breakdown": {
+        "Issue closed": {
+          "count": 74,
+          "points": 74
+        },
         "Review submitted": {
           "count": 52,
           "points": 604
-        },
-        "Issue closed": {
-          "count": 73,
-          "points": 73
         },
         "Issue opened": {
           "count": 4,
@@ -29000,6 +29019,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-08-12",
+          "count": 1,
+          "points": 1
+        },
         {
           "date": "2026-08-11",
           "count": 2,
@@ -29142,6 +29166,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-12T13:54:22Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-08-11T16:31:59Z",
@@ -54335,6 +54366,157 @@
       ]
     },
     {
+      "username": "UwaisBaig",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
+      "role": "Contributor",
+      "total_points": 60,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 12,
+          "points": 60
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-12",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-11",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-08-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-04",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-31",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-30",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-28",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-07-26",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-07-24",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-12T20:52:51Z",
+          "title": "fix(adapter) - strip null bytes from search queries to prevent ArgumentError (#7782)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7783",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-11T16:51:31Z",
+          "title": "fix(api) - rescue ActiveRecord - - RecordNotUnique on thread subscriptions (#7770)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7778",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-07T20:43:22Z",
+          "title": "fix(controller) - restrict LTI score passback to percent grading scale assignments (#7749)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7753",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-07T18:37:32Z",
+          "title": "fix(simulator) - route Report an Issue link to public Slack invite URL (#7750)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7752",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-06T09:57:25Z",
+          "title": "fix(policy) - permit org admins to view and manage groups in their organization (#7741)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7745",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-04T22:26:24Z",
+          "title": "fix(controller) - respond with JSON error for non-member leave requests (#7729)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7737",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-31T10:32:56Z",
+          "title": "fix(simulator) - automatically dismiss dimmed overlay after final hint in guided tour (#7713)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7718",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T13:47:56Z",
+          "title": "fix(deps) - upgrade rails/activestorage to >= 8.1.3.1 to patch security vulnerability (#7710)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:53:04Z",
+          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-28T16:38:22Z",
+          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-26T07:57:30Z",
+          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-24T20:58:51Z",
+          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "RAJEEVTIWARI8052",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/180764866?v=4",
@@ -54676,145 +54858,6 @@
           "title": "Fix #6500 - Resolve Red Flash and ReferenceError in Simulator Navigation",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6551",
           "points": 2
-        }
-      ]
-    },
-    {
-      "username": "UwaisBaig",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-      "role": "Contributor",
-      "total_points": 55,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 11,
-          "points": 55
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-08-11",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-08-07",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-08-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-08-04",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-30",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-28",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-07-26",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-07-24",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-11T16:51:31Z",
-          "title": "fix(api) - rescue ActiveRecord - - RecordNotUnique on thread subscriptions (#7770)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7778",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-07T20:43:22Z",
-          "title": "fix(controller) - restrict LTI score passback to percent grading scale assignments (#7749)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7753",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-07T18:37:32Z",
-          "title": "fix(simulator) - route Report an Issue link to public Slack invite URL (#7750)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7752",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-06T09:57:25Z",
-          "title": "fix(policy) - permit org admins to view and manage groups in their organization (#7741)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7745",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-04T22:26:24Z",
-          "title": "fix(controller) - respond with JSON error for non-member leave requests (#7729)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7737",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-31T10:32:56Z",
-          "title": "fix(simulator) - automatically dismiss dimmed overlay after final hint in guided tour (#7713)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7718",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-30T13:47:56Z",
-          "title": "fix(deps) - upgrade rails/activestorage to >= 8.1.3.1 to patch security vulnerability (#7710)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7711",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:53:04Z",
-          "title": "feat(layout) - use official CircuitVerse SVG logo favicon across layouts (#7699)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7709",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T16:38:22Z",
-          "title": "fix(embed) - resolve panel overlap and improve visibility for clockPropertyHeader (#7707)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7708",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-26T07:57:30Z",
-          "title": "fix(controller) - remove redundant description assignment and param shadowing in AssignmentsController (#7700)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7705",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-24T20:58:51Z",
-          "title": "fix - toggle behavior of Getting Started and User dropdowns (#7332)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7703",
-          "points": 5
         }
       ]
     },
@@ -60754,6 +60797,109 @@
       ]
     },
     {
+      "username": "ujjwalv01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/219022963?v=4",
+      "role": "Contributor",
+      "total_points": 24,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        },
+        "Issue assigned": {
+          "count": 1,
+          "points": 1
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-12",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-11",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-08-10",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-08-09",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-08-08",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-12T17:04:38Z",
+          "title": "refactor - convert `ux.js` and `listners.js` to strict TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1200",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-11T18:25:42Z",
+          "title": "refactor - removed JQuery dependency in plotArea.js file",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1199",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-11T17:58:55Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-10T17:25:51Z",
+          "title": "refactor - convert `ux.js` and `listeners.js` to strict TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1192",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-09T16:25:54Z",
+          "title": "refactor - convert canvasApi and engine to strict TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1190",
+          "points": 5
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-08-09T06:30:41Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-08T18:38:44Z",
+          "title": "refactor - Convert core simulation files (canvasApi, engine, ux, listeners) to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1184",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "akshatsinghai6682-sketch",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235907625?v=4",
@@ -62883,97 +63029,6 @@
           "title": "🐞 Bug Restricted Items Not Retained When Updating Enable feature restriction",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5437",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "ujjwalv01",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/219022963?v=4",
-      "role": "Contributor",
-      "total_points": 19,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        },
-        "Issue closed": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue assigned": {
-          "count": 1,
-          "points": 1
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-08-11",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2026-08-10",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-08-09",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2026-08-08",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-11T18:25:42Z",
-          "title": "refactor - removed JQuery dependency in plotArea.js file",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1199",
-          "points": 5
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-08-11T17:58:55Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-10T17:25:51Z",
-          "title": "refactor - convert `ux.js` and `listeners.js` to strict TypeScript",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1192",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-09T16:25:54Z",
-          "title": "refactor - convert canvasApi and engine to strict TypeScript",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1190",
-          "points": 5
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-09T06:30:41Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-08T18:38:44Z",
-          "title": "refactor - Convert core simulation files (canvasApi, engine, ux, listeners) to TypeScript",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1184",
-          "points": 2
         }
       ]
     },
