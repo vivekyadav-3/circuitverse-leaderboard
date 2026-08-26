@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1787620464553,
+  "updatedAt": 1787707015746,
   "groups": [
     [
       "2026-08-24",
@@ -1404,46 +1404,54 @@
       ]
     ],
     [
-      "2026-08-12",
+      "2026-08-25",
       [
         {
-          "username": "magic-peach",
+          "username": "Me-Priyank",
           "name": null,
-          "title": "feat(lti) - sync an LMS roster into a group",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7781",
-          "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
-          "points": 5
-        },
-        {
-          "username": "magic-peach",
-          "name": null,
-          "title": "feat(lti) - add LtiResourceLink for launch service endpoints",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7763",
-          "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
+          "title": "chore(synthesis) - add parity tests for Yosys WASM pipeline output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1150",
+          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
           "points": 10
         },
         {
-          "username": "Asrani-Aman",
+          "username": "092vk",
           "name": null,
-          "title": "Closed issue in CircuitVerse",
+          "title": "Closed issue in cv-frontend-vue",
           "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/96644946?v=4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4",
           "points": 1
         },
         {
-          "username": "UwaisBaig",
+          "username": "092vk",
           "name": null,
-          "title": "fix(adapter) - strip null bytes from search queries to prevent ArgumentError (#7782)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7783",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/123629919?v=4",
+          "points": 1
         },
         {
-          "username": "ujjwalv01",
+          "username": "rajanpanth",
           "name": null,
-          "title": "refactor - convert `ux.js` and `listners.js` to strict TypeScript",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1200",
-          "avatar_url": "https://avatars.githubusercontent.com/u/219022963?v=4",
+          "title": "No typecheck in CI, so undefined identifiers reach main",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1232",
+          "avatar_url": "https://avatars.githubusercontent.com/u/189964965?v=4",
+          "points": 2
+        },
+        {
+          "username": "bhuvan-somisetty",
+          "name": null,
+          "title": "v1 TestBench - groupNext/groupPrev can throw TypeError on groups with empty inputs",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1231",
+          "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
+          "points": 2
+        },
+        {
+          "username": "SAY-5",
+          "name": null,
+          "title": "fix - use testData in TestbenchData isCaseValid and goToFirstValidGroup",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7811",
+          "avatar_url": "https://avatars.githubusercontent.com/u/240962040?v=4",
           "points": 5
         }
       ]
@@ -1495,19 +1503,6 @@
           "link": null,
           "avatar_url": "https://avatars.githubusercontent.com/u/192852439?v=4",
           "points": 1
-        }
-      ]
-    ],
-    [
-      "2026-08-25",
-      [
-        {
-          "username": "SAY-5",
-          "name": null,
-          "title": "fix - use testData in TestbenchData isCaseValid and goToFirstValidGroup",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7811",
-          "avatar_url": "https://avatars.githubusercontent.com/u/240962040?v=4",
-          "points": 5
         }
       ]
     ]
