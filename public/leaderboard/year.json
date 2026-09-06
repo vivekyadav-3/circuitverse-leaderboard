@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1788577934235,
-  "lastFetchedAt": 1788577934235,
-  "startDate": "2025-09-05",
-  "endDate": "2026-09-05",
+  "updatedAt": 1788664321030,
+  "lastFetchedAt": 1788664321030,
+  "startDate": "2025-09-06",
+  "endDate": "2026-09-06",
   "entries": [
     {
       "username": "naman79820",
@@ -23408,11 +23408,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 945,
+      "total_points": 948,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 320,
-          "points": 320
+          "count": 323,
+          "points": 323
         },
         "Review submitted": {
           "count": 41,
@@ -23440,6 +23440,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-09-05",
+          "count": 3,
+          "points": 3
+        },
         {
           "date": "2026-09-03",
           "count": 3,
@@ -24052,6 +24057,27 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-09-05T06:11:40Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-09-05T06:11:39Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-09-05T06:11:38Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-09-03T07:44:26Z",
@@ -27286,11 +27312,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 849,
+      "total_points": 859,
       "activity_breakdown": {
         "PR opened": {
-          "count": 63,
-          "points": 252
+          "count": 64,
+          "points": 257
+        },
+        "Issue opened": {
+          "count": 53,
+          "points": 93
+        },
+        "Issue labeled": {
+          "count": 75,
+          "points": 78
+        },
+        "Issue assigned": {
+          "count": 29,
+          "points": 29
         },
         "Issue closed": {
           "count": 52,
@@ -27299,21 +27337,14 @@
         "PR merged": {
           "count": 40,
           "points": 350
-        },
-        "Issue opened": {
-          "count": 52,
-          "points": 91
-        },
-        "Issue labeled": {
-          "count": 73,
-          "points": 76
-        },
-        "Issue assigned": {
-          "count": 28,
-          "points": 28
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-09-05",
+          "count": 5,
+          "points": 10
+        },
         {
           "date": "2026-08-23",
           "count": 1,
@@ -27711,6 +27742,41 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-05T19:02:43Z",
+          "title": "Fix(vuesim) - add conditional check for propagationDelay when its set for 0",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1260",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-05T18:39:13Z",
+          "title": "🐞 Bug - vuesim Propagation delay in large circuits",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1259",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-05T18:39:15Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-05T18:39:14Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue assigned",
+          "occured_at": "2026-09-05T18:39:13Z",
+          "title": "Assigned issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-08-23T08:57:40Z",
@@ -31405,8 +31471,12 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
       "role": "Contributor",
-      "total_points": 602,
+      "total_points": 622,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 17,
+          "points": 170
+        },
         "PR opened": {
           "count": 23,
           "points": 115
@@ -31430,13 +31500,14 @@
         "Issue opened": {
           "count": 15,
           "points": 30
-        },
-        "PR merged": {
-          "count": 15,
-          "points": 150
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-09-05",
+          "count": 2,
+          "points": 20
+        },
         {
           "date": "2026-09-04",
           "count": 2,
@@ -31644,6 +31715,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-09-05T06:11:39Z",
+          "title": "feat(v1) - validate canonical JSON payloads",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1242",
+          "points": 10
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-09-05T06:11:38Z",
+          "title": "feat(v1) - add JSON Schema for Canonical pipeline",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1236",
+          "points": 10
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-09-04T20:09:09Z",
@@ -70380,6 +70465,64 @@
           "title": "Update brewfile node 24",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6413",
           "points": 2
+        }
+      ]
+    },
+    {
+      "username": "shubhtrek",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/135618936?v=4",
+      "role": "Contributor",
+      "total_points": 9,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-05",
+          "count": 4,
+          "points": 9
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-05T17:22:45Z",
+          "title": "fix(i18n) - fix missing footer API link translation key (#7843)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7844",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-05T17:13:36Z",
+          "title": "🐞 Bug Footer \"API\" link displays a missing translation error (translation missing - en.API)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7843",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-05T17:13:37Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-05T17:13:36Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
         }
       ]
     },
