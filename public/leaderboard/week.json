@@ -1,8 +1,8 @@
 {
   "period": "week",
-  "updatedAt": 1790307729916,
-  "startDate": "2026-09-18",
-  "endDate": "2026-09-25",
+  "updatedAt": 1790394489312,
+  "startDate": "2026-09-19",
+  "endDate": "2026-09-26",
   "entries": [
     {
       "username": "tachyons",
@@ -3947,35 +3947,31 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
       "role": "Contributor",
-      "total_points": 54,
+      "total_points": 30,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 15
+          "count": 2,
+          "points": 10
         },
         "PR merged": {
           "count": 1,
           "points": 10
         },
         "Issue opened": {
-          "count": 3,
-          "points": 6
+          "count": 2,
+          "points": 4
         },
         "Issue assigned": {
-          "count": 3,
-          "points": 3
+          "count": 2,
+          "points": 2
         },
         "Issue labeled": {
-          "count": 3,
-          "points": 3
+          "count": 2,
+          "points": 2
         },
         "Issue closed": {
           "count": 2,
           "points": 2
-        },
-        "Review submitted": {
-          "count": 1,
-          "points": 15
         }
       },
       "daily_activity": [
@@ -3988,11 +3984,6 @@
           "date": "2026-09-19",
           "count": 4,
           "points": 9
-        },
-        {
-          "date": "2026-09-18",
-          "count": 5,
-          "points": 24
         }
       ],
       "raw_activities": [
@@ -6612,41 +6603,6 @@
         {
           "type": "Issue assigned",
           "occured_at": "2026-09-19T13:38:19Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-18T14:01:58Z",
-          "title": "fix - add condition to prevent blank description from being reported",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1313",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-18T13:57:39Z",
-          "title": "🐞 Bug - vuesim Bug reporting allows blank text to be sent",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1312",
-          "points": 2
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-09-18T16:24:41Z",
-          "title": "Review on cv-frontend-vue#1303",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1303#pullrequestreview-5250074517",
-          "points": 15
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T13:57:41Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-09-18T13:57:40Z",
           "title": "Assigned issue in cv-frontend-vue",
           "link": null,
           "points": 1
@@ -18515,100 +18471,9 @@
       ]
     },
     {
-      "username": "cynicalmindset",
+      "username": "aryan7071",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/166590584?v=4",
-      "role": "Contributor",
-      "total_points": 9,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-19",
-          "count": 3,
-          "points": 9
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-19T04:03:44Z",
-          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/670",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-19T03:48:14Z",
-          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/669",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-19T03:21:13Z",
-          "title": "unhandled UnauthorizedException in NotificationsService and missing unit tests",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/668",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-17T01:47:35Z",
-          "title": "fix(notifications) - replace incorrect GROUP_NOT_FOUND with NOTIFICATION_NOT_FOUND",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/666",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-17T01:39:03Z",
-          "title": "Bug/Tests - Fix incorrect 404 error constant in NotificationsService",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/665",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-12T21:21:33Z",
-          "title": "ci - add Indus Appstore deployment",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/664",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-19T04:03:44Z",
-          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/670",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-19T03:48:14Z",
-          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/669",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-19T03:21:13Z",
-          "title": "unhandled UnauthorizedException in NotificationsService and missing unit tests",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/668",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "JituRewar",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
       "role": "Contributor",
       "total_points": 8,
       "activity_breakdown": {
@@ -18627,2852 +18492,10 @@
       },
       "daily_activity": [
         {
-          "date": "2026-09-22",
-          "count": 3,
-          "points": 8
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-22T18:06:44Z",
-          "title": "test(simulator) - add test coverage for SevenSegDisplay, Counter, and …",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7905",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T18:02:16Z",
-          "title": "Bug - Missing unit test coverage for SevenSegDisplay, Counter, and Flag modules in simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7904",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T18:02:18Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-09T17:33:22Z",
-          "title": "fix(ui) - dynamic panel offset and z-index for expanded circuit tabs",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1276",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-09T17:26:11Z",
-          "title": "🐞 Bug - Multiple circuit tabs overlap issue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1275",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-09T17:26:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-04T16:51:49Z",
-          "title": "fix - restrict draggable panels from moving beyond top navbar header",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1258",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-04T16:41:28Z",
-          "title": "🐞 Bug - Draggable panels (Circuit Elements, Properties, TestBench, Timing Diagram) go beyond top navbar and get stuck",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1257",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-04T16:41:30Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-04T16:41:29Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-09T14:21:42Z",
-          "title": "feat(desktop) - add snapcraft package and integrate snap into release …",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1189",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-30T05:56:21Z",
-          "title": "feat - add auto-focus functionality to MessageBox component in V1",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1175",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-21T13:57:14Z",
-          "title": "fix(v1) - adjust top position of panels dynamically on tabs bar height…",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1151",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-21T14:12:19Z",
-          "title": "🐞 Bug - Prompt dialog input not focused automatically and Enter key does not submit in v1",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1152",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-21T14:12:20Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-20T05:29:52Z",
-          "title": "🐞 Bug - Panels and toolbar overlap with tabs bar when expanded in v1/v0",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1149",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-20T05:29:53Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-15T03:22:29Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-15T15:55:24Z",
-          "title": "style() - reposition testbench panel and report issue button",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-15T03:08:21Z",
-          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-15T03:08:22Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-13T05:34:51Z",
-          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-13T05:05:57Z",
-          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-13T05:05:58Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-22T18:06:44Z",
-          "title": "test(simulator) - add test coverage for SevenSegDisplay, Counter, and …",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7905",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T18:02:16Z",
-          "title": "Bug - Missing unit test coverage for SevenSegDisplay, Counter, and Flag modules in simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7904",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T18:02:18Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Kavya-Goyal-kcoder005",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/211192501?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue labeled": {
-          "count": 2,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-22",
-          "count": 4,
-          "points": 6
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T09:00:27Z",
-          "title": "🐞 Bug - Cancelling Constant value editing resets the value and bit width",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1322",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T08:59:50Z",
-          "title": "🐞 Bug - Counter and Random use signed arithmetic at 31–32-bit widths",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1321",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T09:00:28Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T08:59:51Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T09:00:27Z",
-          "title": "🐞 Bug - Cancelling Constant value editing resets the value and bit width",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1322",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-22T08:59:50Z",
-          "title": "🐞 Bug - Counter and Random use signed arithmetic at 31–32-bit widths",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1321",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T09:00:28Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-22T08:59:51Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Harkeerat24",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/225462441?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-18",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-18T20:21:04Z",
-          "title": "docs - make the structured format final report beginner friendly",
-          "link": "https://github.com/CircuitVerse/Blog/pull/279",
-          "points": 5
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-09-09T20:07:16Z",
-          "title": "Review on cv-frontend-vue#1175",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1175#pullrequestreview-5159328276",
-          "points": 15
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-09-07T08:57:53Z",
-          "title": "Future Improvements for GSoC26 Project 1",
-          "link": "https://github.com/CircuitVerse/Blog/pull/278",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-06T17:12:04Z",
-          "title": "Future Improvements for GSoC26 Project 1",
-          "link": "https://github.com/CircuitVerse/Blog/pull/278",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-09-06T15:38:25Z",
-          "title": "Harkeerat GSoC 2026 Final Report for Project 1",
-          "link": "https://github.com/CircuitVerse/Blog/pull/277",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-09-06T17:12:20Z",
-          "title": "Assigned issue in Blog",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-09-05T06:11:39Z",
-          "title": "feat(v1) - validate canonical JSON payloads",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1242",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-09-05T06:11:38Z",
-          "title": "feat(v1) - add JSON Schema for Canonical pipeline",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1236",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-04T20:09:09Z",
-          "title": "docs - add GSoC 2026 final report for project 1",
-          "link": "https://github.com/CircuitVerse/Blog/pull/277",
-          "points": 5
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-09-04T20:10:38Z",
-          "title": "Assigned issue in Blog",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-03T17:55:58Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-09-02T05:46:59Z",
-          "title": "Review on cv-frontend-vue#1244",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1244#pullrequestreview-5086041515",
-          "points": 15
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-09-02T07:41:17Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-09-02T07:41:01Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-09-02T07:40:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-09-02T07:40:21Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-01T07:47:00Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-30T16:10:49Z",
-          "title": "feat(v1) - validate canonical JSON payloads",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1242",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-30T15:32:21Z",
-          "title": "(GSoC'26) - Add JSON Schema validation for Canonical Pipeline",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1241",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-30T16:13:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-30T16:13:05Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-30T15:32:23Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-30T15:32:21Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-27T16:44:09Z",
-          "title": "feat(v1) - add JSON Schema for Canonical pipeline",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1236",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-27T16:20:03Z",
-          "title": "(GSoC'26) Add JSON Schema for Canonical format",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1235",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-27T16:44:10Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-27T16:44:09Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-27T16:20:04Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-27T16:20:03Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-27T12:53:03Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-08-23T16:00:35Z",
-          "title": "feat(v1) - add ELK auto-layout for canonical imports",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1222",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-08-23T16:00:33Z",
-          "title": "refactor(v1) - verify Editor's Picks and improve canonical round trips",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1221",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-08-23T18:15:32Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Review submitted",
-          "occured_at": "2026-08-21T14:10:35Z",
-          "title": "Review on cv-frontend-vue#1199",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1199#pullrequestreview-4994154866",
-          "points": 15
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-20T11:58:19Z",
-          "title": "feat(v1) - add ELK auto-layout for canonical imports",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1222",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-20T05:57:11Z",
-          "title": "refactor(v1) - verify Editor's Picks and improve canonical round trips",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1221",
-          "points": 5
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-20T12:04:56Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-20T12:04:43Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-20T07:22:59Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-20T06:07:59Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-20T06:07:57Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-20T06:07:56Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-15T16:24:58Z",
-          "title": "(GSoC'26) Feature - Auto-layout circuits without a layout format using ELK.js",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1211",
-          "points": 2
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-08-15T16:25:29Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-15T16:25:00Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-15T16:24:58Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-10T21:07:32Z",
-          "title": "refactor(v1) - verify Editor's Picks and improve canonical round trips",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1194",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-08-10T20:25:06Z",
-          "title": "Refactor(v1) - Write tests for Editor's Picks circuits and optimize canonical pipeline",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1193",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-10T21:09:20Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-10T21:09:14Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-10T20:25:07Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-08-10T20:25:06Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-09T06:30:44Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-08-08T07:48:20Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-31T00:43:17Z",
-          "title": "refactor - optimize canonical pipeline and introduce strict type safety",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1173",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-28T19:10:57Z",
-          "title": "refactor - optimize canonical pipeline and introduce strict type safety",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1173",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-28T18:57:31Z",
-          "title": "refactor - optimize canonical pipeline and increase type safety",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1172",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-28T19:14:37Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-28T19:14:21Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-28T18:57:58Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-28T18:57:41Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-07-19T16:29:12Z",
-          "title": "refactor - node.js, module.js, and circuitElement.js to TypeScript with type definitions",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1148",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-19T16:29:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-17T14:04:46Z",
-          "title": "GSoC26 Phase 1 Report - Structured Format for Saved Circuit Data",
-          "link": "https://github.com/CircuitVerse/Blog/pull/271",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-17T09:22:23Z",
-          "title": "feat - add canonical JSON import pipeline with round-trip verification",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1131",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-14T17:14:41Z",
-          "title": "feat - update Export Project dialog and import project for canonical support",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1132",
-          "points": 10
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-13T14:07:05Z",
-          "title": "GSoC26 Phase 1 Report - Structured Format for Saved Circuit Data",
-          "link": "https://github.com/CircuitVerse/Blog/pull/271",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-07T11:33:48Z",
-          "title": "feat - update Export Project dialog and import project for canonical support",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1132",
-          "points": 5
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-07T12:40:08Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-07T12:37:57Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-07T12:36:59Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-07-07T12:35:43Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-07T11:47:48Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-07T11:47:31Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-07-06T21:29:12Z",
-          "title": "feat - add canonical JSON import pipeline with round-trip verification",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1131",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-07-06T12:54:13Z",
-          "title": "feat - added subcircuit support in canonical.ts using khans algorithm",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095",
-          "points": 10
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-06T21:37:38Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-07-06T21:37:20Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-03T12:20:43Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-03T12:18:46Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-07-03T12:18:30Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-14T20:21:41Z",
-          "title": "feat - added subcircuit support in canonical.ts using khans algorithm",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1095",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-14T19:22:57Z",
-          "title": "gsoc26 - multi circuit support in canonical.ts",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1094",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-06-14T18:11:27Z",
-          "title": "gsoc26 - Implementing canonical pipeline for deterministic json",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1093",
-          "points": 5
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-06-14T20:21:47Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-06-14T19:23:20Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-06-14T18:32:08Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:20:20Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:15:56Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:15:06Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T10:25:11Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:25:09Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:25:00Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T10:24:54Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:52:20Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T09:52:05Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:46:30Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:46:01Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:45:20Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:44:48Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:44:04Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:43:34Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:42:55Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:39:17Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:38:32Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:37:43Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:13:14Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:12:34Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:07:08Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:06:53Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:05:56Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:05:17Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:03:14Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:02:54Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:02:24Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:02:10Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:01:52Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:01:27Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:01:18Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:00:52Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:55:17Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:54:35Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:53:52Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:53:13Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:46:47Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:46:11Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:25:57Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:14:32Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:12:14Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:12:03Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:54Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:48Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:40Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:33Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:25Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:11:17Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:10:45Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:10:37Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:10:29Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:10:09Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:10:01Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:09:27Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:09:17Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:09:11Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:09:02Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:54Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:46Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:38Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:28Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:22Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:14Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:07Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:08:01Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:07:48Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:07:35Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:07:25Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:05:57Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:05:40Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:05:31Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:05:17Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:04:57Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:04:46Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:04:30Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:04:13Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:03:58Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:03:49Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:03:40Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:03:25Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:03:12Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:02:54Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T10:02:13Z",
-          "title": "Labeled issue in Interactive-Book",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:25:54Z",
-          "title": "Labeled issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T18:25:44Z",
-          "title": "Closed issue in mobile-app",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:22:57Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T18:22:33Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:36:54Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T09:36:39Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:36:17Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T09:36:08Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T09:35:32Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T09:35:26Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:43:02Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:35:49Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:34:26Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:34:16Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:32:21Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:19:35Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:18:54Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:11:33Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-31T08:11:28Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:10:26Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T08:01:06Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:27:21Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:27:09Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:26:55Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:26:00Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:25:43Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:25:14Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:24:06Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:23:16Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:22:00Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:12:45Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-31T05:07:57Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-30T10:32:41Z",
-          "title": "fix - use strict equality in circuit selection",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1084",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-30T11:01:15Z",
-          "title": "fix - use strict equality in circuit selection",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1084",
-          "points": 10
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T19:50:26Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T19:49:52Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T11:13:01Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T11:12:47Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T11:03:54Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T11:03:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:54:09Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T10:49:08Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-30T10:48:54Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:48:35Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-30T10:48:11Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-29T15:48:58Z",
-          "title": "fix - make search icon keyboard accessible and auto-focus input on activation",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
-          "points": 10
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-29T18:00:45Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-29T18:00:14Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-29T18:00:02Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-28T11:25:26Z",
-          "title": "fix - auto-focus input field when modal dialog opens",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1081",
-          "points": 10
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T17:44:19Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T17:43:40Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T18:36:07Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T18:36:02Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T14:02:18Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T14:01:25Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T14:00:29Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T14:00:25Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:58:14Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:58:11Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:47:37Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:47:01Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:44:04Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:43:44Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:41:19Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:41:05Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:41:02Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:40:00Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:39:47Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:39:43Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:37:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:37:10Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:36:07Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:36:05Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:35:49Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:35:46Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:33:28Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:33:14Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:33:08Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:27:29Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:26:55Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:18:03Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:14:32Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:14:28Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:09:07Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:08:59Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:08:55Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:05:38Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:05:34Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:01:02Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T13:00:45Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T13:00:38Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:49:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:48:56Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:46:32Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:46:01Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:45:49Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:44:27Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:44:14Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:43:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:41:57Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:41:50Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:40:19Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:40:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:39:55Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:39:48Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:39:20Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:38:59Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:35:15Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:35:03Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:34:52Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:16:48Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:15:26Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:07:05Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:06:39Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T08:06:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T08:05:39Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T07:54:22Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T07:54:13Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T07:54:00Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-28T07:53:50Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:49:18Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:49:04Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:34:09Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:33:59Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:31:00Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:30:31Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:28:30Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-28T07:27:46Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-27T20:28:41Z",
-          "title": "fix - auto-focus input field when modal dialog opens",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1081",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-05-26T17:16:40Z",
-          "title": "fix - prevent cyclic subcircuit dependency in insert dialog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1046",
-          "points": 10
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T18:38:05Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:53:41Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:53:35Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:53:27Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:53:12Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:53:00Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:49:02Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:48:51Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:48:37Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-05-26T17:33:24Z",
-          "title": "Assigned issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-05-08T15:33:00Z",
-          "title": "fix - prevent cyclic subcircuit dependency in insert dialog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1046",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-05-07T17:16:27Z",
-          "title": "🐞 Bug - Cyclic subcircuit dependency not prevented in Insert Subcircuit dialog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1045",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-05-07T17:16:29Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-04T15:08:20Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-05-04T15:07:24Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-20T12:28:54Z",
-          "title": "fix - correct splitted typo to split in groups controller",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7005",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-20T10:59:28Z",
-          "title": "fix - correct geo_contry typo to geo_country in users helper",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7003",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-20T09:45:57Z",
-          "title": "fix - make header dropdown menus keyboard accessible with Enter/Space",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7001",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-19T19:37:59Z",
-          "title": "fix - make search icon keyboard accessible and auto-focus input on activation",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6996",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-06T13:48:56Z",
-          "title": "Fix/consolidate typo fixes",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1000",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-05T15:25:21Z",
-          "title": "Feat - add preview in export dialog + fix clipboard",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/999",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-02-25T20:09:13Z",
-          "title": "Adds Circuit Data Version",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7078",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-03-08T11:28:36Z",
-          "title": "Fix/consolidate typo fixes",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1000",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-22T15:45:24Z",
-          "title": "fix - correct splitted typo to split in groups controller",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7005",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-22T14:42:42Z",
-          "title": "fix - correct geo_contry typo to geo_country in users helper",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7003",
-          "points": 10
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-02-22T15:17:04Z",
-          "title": "fix - make header dropdown menus keyboard accessible with Enter/Space",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7001",
-          "points": 10
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-20T12:22:27Z",
-          "title": "Typo - Incorrect word \"splitted\" used as variable names in groups controller",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7004",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-20T10:57:12Z",
-          "title": "Typo - 'country' misspelled in variable name `geo_contry` in UsersCircuitverseHelper",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7002",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-19T13:19:39Z",
-          "title": "🐞 Bug - Enter Key Not Working in Header Dropdown Menus",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6993",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-19T12:59:29Z",
-          "title": "🐞 Bug - Search icon not focusable with Tab and focus not moving to search input",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6992",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-07T17:05:45Z",
-          "title": "fix - consolidate typo fixes",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1007",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-07T16:25:33Z",
-          "title": "Feature - Add JSON preview and copy to clipboard in Export as .cv File dialog",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1005",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-05T15:09:07Z",
-          "title": "feat - add a preview and copy to clipboard in export as file",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/998",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-02-25T20:04:31Z",
-          "title": "feat - add circuit data format version to save/load pipeline",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7077",
-          "points": 2
-        },
-        {
-          "type": "Issue assigned",
-          "occured_at": "2026-02-27T13:44:20Z",
-          "title": "Assigned issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-03-07T16:33:30Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-07T16:25:35Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-07T16:25:34Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-18T20:21:04Z",
-          "title": "docs - make the structured format final report beginner friendly",
-          "link": "https://github.com/CircuitVerse/Blog/pull/279",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "VishalSirimalla",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/221854121?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-22",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-22T18:31:25Z",
-          "title": "Fix zero-delay event scheduling",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1326",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-17T08:59:23Z",
-          "title": "Fix JSON response when leaving non-member organization",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7876",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-11T16:43:14Z",
-          "title": "Fix 5242 message position",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7862",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-09T19:33:11Z",
-          "title": "Handle missing emails parameter in group members",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7856",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-22T18:31:25Z",
-          "title": "Fix zero-delay event scheduling",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1326",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "1steve78",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/143877274?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
           "date": "2026-09-25",
           "count": 1,
           "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-25T03:33:41Z",
-          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-25T03:33:41Z",
-          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "maltheshhh",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/231250895?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-18",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-18T06:36:03Z",
-          "title": "fix - correct operator precedence in layout pin-label positioning (#7878)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7880",
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-18T06:36:03Z",
-          "title": "fix - correct operator precedence in layout pin-label positioning (#7878)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7880",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "aryan7071",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
         },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
         {
           "date": "2026-09-19",
           "count": 2,
@@ -21480,6 +18503,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T20:51:54Z",
+          "title": "fix - use linked sourcemaps in production builds (esbuild)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7915",
+          "points": 5
+        },
         {
           "type": "Issue opened",
           "occured_at": "2026-09-19T20:57:34Z",
@@ -21763,6 +18793,13 @@
       ],
       "activities": [
         {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T20:51:54Z",
+          "title": "fix - use linked sourcemaps in production builds (esbuild)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7915",
+          "points": 5
+        },
+        {
           "type": "Issue opened",
           "occured_at": "2026-09-19T20:57:34Z",
           "title": "Title - 🐞 Bug - Three bugs found while sweeping undo/redo keyboard shortcut conflict, element duplication, and Button bit-width reset",
@@ -21775,6 +18812,671 @@
           "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "JituRewar",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/229604335?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-22",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-22T18:06:44Z",
+          "title": "test(simulator) - add test coverage for SevenSegDisplay, Counter, and …",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7905",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T18:02:16Z",
+          "title": "Bug - Missing unit test coverage for SevenSegDisplay, Counter, and Flag modules in simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7904",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T18:02:18Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-09T17:33:22Z",
+          "title": "fix(ui) - dynamic panel offset and z-index for expanded circuit tabs",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1276",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-09T17:26:11Z",
+          "title": "🐞 Bug - Multiple circuit tabs overlap issue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1275",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-09T17:26:13Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-04T16:51:49Z",
+          "title": "fix - restrict draggable panels from moving beyond top navbar header",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1258",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-04T16:41:28Z",
+          "title": "🐞 Bug - Draggable panels (Circuit Elements, Properties, TestBench, Timing Diagram) go beyond top navbar and get stuck",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1257",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-04T16:41:30Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-04T16:41:29Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-09T14:21:42Z",
+          "title": "feat(desktop) - add snapcraft package and integrate snap into release …",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1189",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-30T05:56:21Z",
+          "title": "feat - add auto-focus functionality to MessageBox component in V1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1175",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-21T13:57:14Z",
+          "title": "fix(v1) - adjust top position of panels dynamically on tabs bar height…",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1151",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-21T14:12:19Z",
+          "title": "🐞 Bug - Prompt dialog input not focused automatically and Enter key does not submit in v1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1152",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-21T14:12:20Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-20T05:29:52Z",
+          "title": "🐞 Bug - Panels and toolbar overlap with tabs bar when expanded in v1/v0",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1149",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-20T05:29:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-15T03:22:29Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-15T15:55:24Z",
+          "title": "style() - reposition testbench panel and report issue button",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1139",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-15T03:08:21Z",
+          "title": "🐞 Bug - Testbench panel and Report an Issue button default positioning overlaps layout",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1138",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-15T03:08:22Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-13T05:34:51Z",
+          "title": "fix - resolve SMTP ArgumentError in development environment (#7648)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7649",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-13T05:05:57Z",
+          "title": "🐞 Bug fix - SMTP settings throw ArgumentError due to mutually exclusive ssl and enable_starttls_auto keys in development",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7648",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-07-13T05:05:58Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-22T18:06:44Z",
+          "title": "test(simulator) - add test coverage for SevenSegDisplay, Counter, and …",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7905",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T18:02:16Z",
+          "title": "Bug - Missing unit test coverage for SevenSegDisplay, Counter, and Flag modules in simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7904",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T18:02:18Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "bhuvan-somisetty",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-25",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T11:03:21Z",
+          "title": "fix(hotkey_binder) - correctly evaluate getOS() and convert restricted keys on macOS (#7913)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7914",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-25T10:49:58Z",
+          "title": "🐞 Bug - checkRestricted() fails to check macOS restricted hotkeys due to uncalled getOS function comparison",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7913",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-25T10:49:59Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-08T11:27:02Z",
+          "title": "fix(simulator) - guard TestbenchData against undefined/empty groups",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7849",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-25T10:37:45Z",
+          "title": "v1 TestBench - groupNext/groupPrev can throw TypeError on groups with empty inputs",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1231",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-23T22:01:27Z",
+          "title": "fix(simulator) - TypeError in TestbenchData.isCaseValid() and unhandled empty group navigation in Testbench engine",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7809",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-20T13:40:02Z",
+          "title": "fix(simulator) - schedule explicit delay=0 events immediately in EventQueue",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7805",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-20T02:26:04Z",
+          "title": "fix(testbench) - resolve ReferenceError in v1 TestBench group navigation",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1220",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-20T12:51:56Z",
+          "title": "bug - EventQueue.add() drops explicit delay=0, mis-scheduling flip-flops/Buffer/Counter/Random in the Timing Diagram",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7802",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-20T02:09:52Z",
+          "title": "🐞 Bug - TestBench 'Next Group' navigation throws ReferenceError in v1 (undefined groupCount)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1219",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-08-20T01:48:28Z",
+          "title": "🐞 Bug - Login/Signup hardcoded to http - //localhost - 4000 (frontend's own dev-server port) — auth completely non-functional",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1218",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-08-20T01:52:33Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-19T14:22:16Z",
+          "title": "fix - validate circuit JSON schema by key presence, not order",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7669",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-18T08:03:22Z",
+          "title": "fix(simulator) - match D Flip-Flop sidebar icon to placed element",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1146",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-07-18T09:15:11Z",
+          "title": "🐞 Bug - D/T/JK/SR flip-flops render as visually identical shapes on canvas — no type indicator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1147",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-08T15:34:25Z",
+          "title": "fix - correct node deletion to clear it from its actual parent's nodeList",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1133",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-07-08T09:47:41Z",
+          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
+          "points": 10
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-07-06T16:34:59Z",
+          "title": "fix(verilog) - TflipFlop ignores pre input on async reset",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1129",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T11:03:21Z",
+          "title": "fix(hotkey_binder) - correctly evaluate getOS() and convert restricted keys on macOS (#7913)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7914",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-25T10:49:58Z",
+          "title": "🐞 Bug - checkRestricted() fails to check macOS restricted hotkeys due to uncalled getOS function comparison",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7913",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-25T10:49:59Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "cynicalmindset",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/166590584?v=4",
+      "role": "Contributor",
+      "total_points": 7,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-19",
+          "count": 2,
+          "points": 7
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-19T04:03:44Z",
+          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/670",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-19T03:48:14Z",
+          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/669",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-19T03:21:13Z",
+          "title": "unhandled UnauthorizedException in NotificationsService and missing unit tests",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/668",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-17T01:47:35Z",
+          "title": "fix(notifications) - replace incorrect GROUP_NOT_FOUND with NOTIFICATION_NOT_FOUND",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/666",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-17T01:39:03Z",
+          "title": "Bug/Tests - Fix incorrect 404 error constant in NotificationsService",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/665",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-12T21:21:33Z",
+          "title": "ci - add Indus Appstore deployment",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/664",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-19T04:03:44Z",
+          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/670",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-19T03:48:14Z",
+          "title": "feat(i18n) - extract hardcoded strings into localization arb files",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/669",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Kavya-Goyal-kcoder005",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/211192501?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue labeled": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-22",
+          "count": 4,
+          "points": 6
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T09:00:27Z",
+          "title": "🐞 Bug - Cancelling Constant value editing resets the value and bit width",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1322",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T08:59:50Z",
+          "title": "🐞 Bug - Counter and Random use signed arithmetic at 31–32-bit widths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1321",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T09:00:28Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T08:59:51Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T09:00:27Z",
+          "title": "🐞 Bug - Cancelling Constant value editing resets the value and bit width",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1322",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-09-22T08:59:50Z",
+          "title": "🐞 Bug - Counter and Random use signed arithmetic at 31–32-bit widths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1321",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T09:00:28Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-09-22T08:59:51Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "VishalSirimalla",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/221854121?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-22",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-22T18:31:25Z",
+          "title": "Fix zero-delay event scheduling",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1326",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-17T08:59:23Z",
+          "title": "Fix JSON response when leaving non-member organization",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7876",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-11T16:43:14Z",
+          "title": "Fix 5242 message position",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7862",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-09T19:33:11Z",
+          "title": "Handle missing emails parameter in group members",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7856",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-22T18:31:25Z",
+          "title": "Fix zero-delay event scheduling",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1326",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "1steve78",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/143877274?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-09-25",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T03:33:41Z",
+          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-25T03:33:41Z",
+          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
+          "points": 5
         }
       ]
     },
@@ -22003,170 +19705,40 @@
       ]
     },
     {
-      "username": "rehanxt5",
+      "username": "SajalDevX",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/229279729?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172371422?v=4",
       "role": "Contributor",
-      "total_points": 3,
+      "total_points": 2,
       "activity_breakdown": {
         "Issue opened": {
           "count": 1,
           "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
         }
       },
       "daily_activity": [
         {
-          "date": "2026-09-18",
-          "count": 2,
-          "points": 3
+          "date": "2026-09-25",
+          "count": 1,
+          "points": 2
         }
       ],
       "raw_activities": [
         {
           "type": "Issue opened",
-          "occured_at": "2026-09-18T17:38:58Z",
-          "title": "🐞 Bug - Canonical validator accepts the same port referenced by two different nets",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1314",
+          "occured_at": "2026-09-25T09:36:37Z",
+          "title": "🐞 Bug - Stepper and RAM break at 31 and 32 bit widths (1 << bitWidth overflow)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1329",
           "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T17:38:59Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
         }
       ],
       "activities": [
         {
           "type": "Issue opened",
-          "occured_at": "2026-09-18T17:38:58Z",
-          "title": "🐞 Bug - Canonical validator accepts the same port referenced by two different nets",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1314",
+          "occured_at": "2026-09-25T09:36:37Z",
+          "title": "🐞 Bug - Stepper and RAM break at 31 and 32 bit widths (1 << bitWidth overflow)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1329",
           "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T17:38:59Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Surya-5555",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/188958697?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-18",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-18T15:52:37Z",
-          "title": "Bug - API controllers drop validation errors (500 crash) and perform redundant DB writes",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7881",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T15:52:39Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-18T15:52:37Z",
-          "title": "Bug - API controllers drop validation errors (500 crash) and perform redundant DB writes",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7881",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T15:52:39Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "michael-lehn",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/1198129?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-18",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-18T05:03:06Z",
-          "title": "🐞 Bug - Pin labels are all rendered at the top-left corner in circuit layout",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7878",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T05:03:08Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-09-18T05:03:06Z",
-          "title": "🐞 Bug - Pin labels are all rendered at the top-left corner in circuit layout",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7878",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-09-18T05:03:08Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },

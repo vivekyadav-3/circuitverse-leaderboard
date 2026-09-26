@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1790307729935,
+  "updatedAt": 1790394489333,
   "groups": [
     [
       "2026-09-24",
@@ -1076,71 +1076,55 @@
       ]
     ],
     [
-      "2026-09-12",
+      "2026-09-25",
       [
         {
-          "username": "yashveer-1",
+          "username": "aryan7071",
           "name": null,
-          "title": "fix - correct pinch zoom distance calculation",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1298",
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+          "title": "fix - use linked sourcemaps in production builds (esbuild)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7915",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
           "points": 5
         },
         {
-          "username": "yashveer-1",
+          "username": "bhuvan-somisetty",
           "name": null,
-          "title": "fix - correct BCD converter value handling",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1296",
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+          "title": "fix(hotkey_binder) - correctly evaluate getOS() and convert restricted keys on macOS (#7913)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7914",
+          "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
           "points": 5
         },
         {
-          "username": "yashveer-1",
+          "username": "bhuvan-somisetty",
           "name": null,
-          "title": "Bug - Pinch zoom distance calculation is incorrect",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1297",
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+          "title": "🐞 Bug - checkRestricted() fails to check macOS restricted hotkeys due to uncalled getOS function comparison",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7913",
+          "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
           "points": 2
         },
         {
-          "username": "yashveer-1",
+          "username": "bhuvan-somisetty",
           "name": null,
-          "title": "🐞 Bug - BCD converter uses undefined variable",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1295",
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/226660604?v=4",
+          "points": 1
+        },
+        {
+          "username": "1steve78",
+          "name": null,
+          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
+          "avatar_url": "https://avatars.githubusercontent.com/u/143877274?v=4",
+          "points": 5
+        },
+        {
+          "username": "SajalDevX",
+          "name": null,
+          "title": "🐞 Bug - Stepper and RAM break at 31 and 32 bit widths (1 << bitWidth overflow)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1329",
+          "avatar_url": "https://avatars.githubusercontent.com/u/172371422?v=4",
           "points": 2
-        },
-        {
-          "username": "yashveer-1",
-          "name": null,
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-          "points": 1
-        },
-        {
-          "username": "yashveer-1",
-          "name": null,
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-          "points": 1
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(middleware) - handle incompatible character encodings in requests (#7866)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7868",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "cynicalmindset",
-          "name": null,
-          "title": "ci - add Indus Appstore deployment",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/664",
-          "avatar_url": "https://avatars.githubusercontent.com/u/166590584?v=4",
-          "points": 5
         }
       ]
     ],
@@ -1215,19 +1199,6 @@
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/277",
           "avatar_url": "https://avatars.githubusercontent.com/u/282242323?v=4",
           "points": 2
-        }
-      ]
-    ],
-    [
-      "2026-09-25",
-      [
-        {
-          "username": "1steve78",
-          "name": null,
-          "title": "chore - modernize postgres to 17 and tune db config (#7899)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7911",
-          "avatar_url": "https://avatars.githubusercontent.com/u/143877274?v=4",
-          "points": 5
         }
       ]
     ]
