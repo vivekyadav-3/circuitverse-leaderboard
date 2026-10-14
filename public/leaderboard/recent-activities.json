@@ -1,6 +1,675 @@
 {
-  "updatedAt": 1791870144036,
+  "updatedAt": 1791949529232,
   "groups": [
+    [
+      "2026-10-13",
+      [
+        {
+          "username": "naman79820",
+          "name": null,
+          "title": "Review on CircuitVerse#8019",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8019#pullrequestreview-5507619776",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
+          "points": 15
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - merge duplicate useState script blocks in Export and Import dialogs (4 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1423",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - canvas strict fixes — rotateAngle tuple type and context null guards (7 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1422",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - fix engine simulation-queue types — contentionPending, resolve, message data (8 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1421",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - one-line use-site fixes batch — subcircuit, utils, zoom, layout, hotkeys (7 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1420",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - fix Node JavaScript-inference shape — queueProperties, verilogLabel, bitWidth (13 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1419",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - type DOM and ref access in CustomShortcut dialog (2 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1417",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - make SimulationArea interface match runtime use — bounds, canvas, objectList (9 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1418",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - narrow SelectableElement at canvas and hotkey use sites (10 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1413",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - pin CircuitElement propagationDelay type via JSDoc (9 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1416",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - fix DeleteCircuit store cast and unreachable nullish coalescing (3 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1415",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "typecheck(v1) - widen Circuit and switchCircuit id types in events.ts (4 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1414",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - migrate restrictedElementDiv.js to RestrictedElementNotice.vue reactive component",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1411",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - remove jQuery from ApplyThemes and CombinationalAnalysis Vue dialogs",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1412",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - add lang=ts + script setup to Logo and TextEditor Vue Single-File Components",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1410",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - convert sequential + testbench ForceGate to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1407",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - convert verilog arithmetic shims to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1408",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - convert Clock + Dlatch sequential elements to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1406",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - convert LSB + MSB splitter helpers to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1409",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "refactor(v1) - convert Ground + Power modules to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1405",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 2
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "tachyons",
+          "name": null,
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+          "points": 1
+        },
+        {
+          "username": "ShinichiShi",
+          "name": null,
+          "title": "fix - crash in subcircuit rendering when nodes are undefined",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1396",
+          "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
+          "points": 10
+        },
+        {
+          "username": "aryan7071",
+          "name": null,
+          "title": "fix - stop 'f' shortcut blocking text input and remove double registration of ForceGate/TB_Input/TB_Output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1428",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+          "points": 5
+        },
+        {
+          "username": "aryan7071",
+          "name": null,
+          "title": "refactor(v1) - convert sequential and testbench ForceGate to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1425",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+          "points": 5
+        },
+        {
+          "username": "ujjwalv01",
+          "name": null,
+          "title": "feat(simulator) - Move keyboard, clipboard and Tauri bindings from `listeners.js` into composables",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1310",
+          "avatar_url": "https://avatars.githubusercontent.com/u/219022963?v=4",
+          "points": 10
+        },
+        {
+          "username": "iamtanishqjain",
+          "name": null,
+          "title": "fix(vuesim) - drop the image formats the canvas cannot produce",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1306",
+          "avatar_url": "https://avatars.githubusercontent.com/u/71930864?v=4",
+          "points": 10
+        },
+        {
+          "username": "amankv1234",
+          "name": null,
+          "title": "refactor(v1) - convert XorGate, XnorGate, Buffer, ControlledInverter to TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1274",
+          "avatar_url": "https://avatars.githubusercontent.com/u/186990161?v=4",
+          "points": 10
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - widen Circuit and switchCircuit id types in events.ts (#1414)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1435",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - fix DeleteCircuit store cast and nullish coalescing precedence (#1415)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1434",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - make SimulationArea interface match runtime use — bounds, canvas, objectList (#1418)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1433",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - type DOM and ref access in CustomShortcut dialog (#1417)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1432",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "refactor(v1) - add lang=ts + script setup to Logo and TextEditor SFCs (#1410)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1430",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - one-line use-site fixes batch — subcircuit, utils, zoom, layout, hotkeys (#1420)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1429",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "typecheck(v1) - canvas strict fixes — rotateAngle tuple type and context null guards (#1422)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1427",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "tushaar-05",
+          "name": null,
+          "title": "refactor(v1) - remove jQuery from ApplyThemes and CombinationalAnalysis Vue dialogs (#1412)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1424",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 5
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "fix(vuesim) - preserve project name when circuit data is null (#1336)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1398",
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 5
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "🐞 Bug - Memory leak due to uncleaned setInterval on unmount in PropertiesPanel.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1400",
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 2
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "🐞 Bug - Adding a project collaborator silently fails when the email contains uppercase letters",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8024",
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 2
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "🐞 Bug - Forked project starts with the original project's star count",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8023",
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 2
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "🐞 Bug - Users can vote for their own contest submission",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8022",
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 2
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "🐞 Bug - Users can submit a project to a contest that has already ended",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8021",
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 2
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "Saurabhyadav0",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
+          "points": 1
+        },
+        {
+          "username": "peterheo",
+          "name": null,
+          "title": "typecheck(v1) - fix engine simulation-queue types — contentionPending, resolve, message data (8 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1431",
+          "avatar_url": "https://avatars.githubusercontent.com/u/104219687?v=4",
+          "points": 5
+        },
+        {
+          "username": "peterheo",
+          "name": null,
+          "title": "typecheck(v1) - merge duplicate useState script blocks in Export and Import dialogs (4 errors)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1426",
+          "avatar_url": "https://avatars.githubusercontent.com/u/104219687?v=4",
+          "points": 5
+        },
+        {
+          "username": "Eternity0207",
+          "name": null,
+          "title": "fix(verilog) - skip elements with no connected outputs in Verilog export",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1399",
+          "avatar_url": "https://avatars.githubusercontent.com/u/77221000?v=4",
+          "points": 5
+        },
+        {
+          "username": "Eternity0207",
+          "name": null,
+          "title": "🐞 Bug - Verilog export generates invalid \"assign undefined\" lines for gates with an unconnected output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1397",
+          "avatar_url": "https://avatars.githubusercontent.com/u/77221000?v=4",
+          "points": 2
+        },
+        {
+          "username": "Eternity0207",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/77221000?v=4",
+          "points": 1
+        },
+        {
+          "username": "Soldrion",
+          "name": null,
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/78869992?v=4",
+          "points": 1
+        }
+      ]
+    ],
     [
       "2026-10-12",
       [
@@ -9,7 +678,7 @@
           "name": null,
           "title": "Closed issue in CircuitVerse",
           "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
           "points": 1
         },
         {
@@ -253,14 +922,6 @@
           "points": 1
         },
         {
-          "username": "eshanthh",
-          "name": null,
-          "title": "fix - use existing locale keys for organization UI text",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8007",
-          "avatar_url": "https://avatars.githubusercontent.com/u/235510433?v=4",
-          "points": 5
-        },
-        {
           "username": "Saurabhyadav0",
           "name": null,
           "title": "fix - resolve missing i18n keys in contribute and org UI (#8006)",
@@ -307,6 +968,14 @@
           "link": null,
           "avatar_url": "https://avatars.githubusercontent.com/u/134767123?v=4",
           "points": 1
+        },
+        {
+          "username": "eshanthh",
+          "name": null,
+          "title": "fix - use existing locale keys for organization UI text",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8007",
+          "avatar_url": "https://avatars.githubusercontent.com/u/235510433?v=4",
+          "points": 5
         },
         {
           "username": "beedell-roke",
@@ -535,38 +1204,6 @@
           "points": 5
         },
         {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "WIP - update redis version in docker compose",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7956",
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 5
-        },
-        {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "🐞 Bug - CollaborationsController runs authorization before authentication for create/update/destroy",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7959",
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 2
-        },
-        {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 1
-        },
-        {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 1
-        },
-        {
           "username": "tushaar-05",
           "name": null,
           "title": "🐞 Bug - Translation fails for \"Binary Coded Decimal Value\" in Hex-Bin-Dec Converter due to single-space replacement",
@@ -596,6 +1233,38 @@
           "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "avatar_url": "https://avatars.githubusercontent.com/u/131668855?v=4",
+          "points": 1
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "WIP - update redis version in docker compose",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7956",
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 5
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "🐞 Bug - CollaborationsController runs authorization before authentication for create/update/destroy",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/7959",
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 2
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
+          "points": 1
+        },
+        {
+          "username": "ManyaJain111",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
           "points": 1
         },
         {
@@ -910,395 +1579,6 @@
           "title": "fix - reuse one SES client across mail deliveries (#7994)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8004",
           "avatar_url": "https://avatars.githubusercontent.com/u/192852439?v=4",
-          "points": 5
-        }
-      ]
-    ],
-    [
-      "2026-09-30",
-      [
-        {
-          "username": "magic-peach",
-          "name": null,
-          "title": "feat(autograder) - add GradeScaleMapper",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7944",
-          "avatar_url": "https://avatars.githubusercontent.com/u/146705736?v=4",
-          "points": 5
-        },
-        {
-          "username": "Me-Priyank",
-          "name": null,
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
-          "points": 1
-        },
-        {
-          "username": "Me-Priyank",
-          "name": null,
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "tachyons",
-          "name": null,
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-          "points": 1
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(api) - remove duplicate update! call in ProjectsController#update (#7556)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7949",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(api) - authorize view access and create_fork in ProjectsController#create_fork (#7640)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7948",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(groups) - permit primary_mentor_id only during create (#7641)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7947",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(collaborations) - exclude project author from being added as collaborator (#7655)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7946",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "UwaisBaig",
-          "name": null,
-          "title": "fix(api) - eliminate double DB write in GroupsController create and update (#7660)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7945",
-          "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
-          "points": 5
-        },
-        {
-          "username": "iamtanishqjain",
-          "name": null,
-          "title": "fix(vuesim) - keep splitter output widths when its bit width changes",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1332",
-          "avatar_url": "https://avatars.githubusercontent.com/u/71930864?v=4",
-          "points": 10
-        },
-        {
-          "username": "YashKumar-404",
-          "name": null,
-          "title": "fix - authenticate before authorization in GroupMembersController (#7816)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7950",
-          "avatar_url": "https://avatars.githubusercontent.com/u/192852439?v=4",
-          "points": 5
-        },
-        {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "fix - Enforce 254-character limit on pasted emails for groups and projects",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7951",
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 5
-        },
-        {
-          "username": "ManyaJain111",
-          "name": null,
-          "title": "fix - handle null project data for new assignments",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1335",
-          "avatar_url": "https://avatars.githubusercontent.com/u/224918778?v=4",
-          "points": 10
-        },
-        {
-          "username": "kartikey24prakash",
-          "name": null,
-          "title": "🐞 Bug - Test cases crash on Node 22 due to unhandled local Storage access",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1345",
-          "avatar_url": "https://avatars.githubusercontent.com/u/146826917?v=4",
-          "points": 2
-        },
-        {
-          "username": "kartikey24prakash",
-          "name": null,
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/146826917?v=4",
-          "points": 1
-        },
-        {
-          "username": "kartikey24prakash",
-          "name": null,
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/146826917?v=4",
-          "points": 1
-        },
-        {
-          "username": "Kavya-Goyal-kcoder005",
-          "name": null,
-          "title": "fix - preserve unsigned Counter and Random ranges at wide bit widths",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1344",
-          "avatar_url": "https://avatars.githubusercontent.com/u/211192501?v=4",
-          "points": 5
-        },
-        {
-          "username": "Kavya-Goyal-kcoder005",
-          "name": null,
-          "title": "fix - preserve Constant value when editing is cancelled",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1343",
-          "avatar_url": "https://avatars.githubusercontent.com/u/211192501?v=4",
           "points": 5
         }
       ]
