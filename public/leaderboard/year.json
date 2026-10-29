@@ -1,20 +1,20 @@
 {
   "period": "year",
-  "updatedAt": 1793160977543,
-  "lastFetchedAt": 1793160977543,
-  "startDate": "2025-10-28",
-  "endDate": "2026-10-28",
+  "updatedAt": 1793248670555,
+  "lastFetchedAt": 1793248670555,
+  "startDate": "2025-10-29",
+  "endDate": "2026-10-29",
   "entries": [
     {
       "username": "naman79820",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
       "role": "Contributor",
-      "total_points": 2378,
+      "total_points": 2393,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 63,
-          "points": 483
+          "count": 64,
+          "points": 498
         },
         "Issue closed": {
           "count": 398,
@@ -42,6 +42,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 15
+        },
         {
           "date": "2026-10-21",
           "count": 1,
@@ -839,6 +844,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-10-28T08:52:09Z",
+          "title": "Review on CircuitVerse#8083",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8083#pullrequestreview-5680004912",
+          "points": 15
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-10-21T22:20:59Z",
@@ -20977,11 +20989,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 1252,
+      "total_points": 1254,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 439,
-          "points": 439
+          "count": 441,
+          "points": 441
         },
         "Issue opened": {
           "count": 51,
@@ -21009,6 +21021,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 2,
+          "points": 2
+        },
         {
           "date": "2026-10-24",
           "count": 2,
@@ -21716,6 +21733,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T09:23:59Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T09:23:58Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-10-24T08:22:34Z",
@@ -48469,34 +48500,39 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
-      "total_points": 223,
+      "total_points": 243,
       "activity_breakdown": {
         "PR opened": {
-          "count": 27,
-          "points": 108
+          "count": 28,
+          "points": 113
+        },
+        "PR merged": {
+          "count": 8,
+          "points": 80
         },
         "Issue opened": {
-          "count": 19,
-          "points": 32
+          "count": 20,
+          "points": 34
+        },
+        "Issue closed": {
+          "count": 5,
+          "points": 5
         },
         "Issue labeled": {
           "count": 10,
           "points": 10
         },
-        "PR merged": {
-          "count": 7,
-          "points": 70
-        },
         "Issue assigned": {
           "count": 1,
           "points": 1
-        },
-        "Issue closed": {
-          "count": 2,
-          "points": 2
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 6,
+          "points": 20
+        },
         {
           "date": "2026-10-27",
           "count": 2,
@@ -48679,6 +48715,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T13:52:44Z",
+          "title": "perf - batch canvas grid dot drawing",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1483",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-10-28T09:23:58Z",
+          "title": "perf - avoid redundant canvas dimension assignments",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1476",
+          "points": 10
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-28T13:27:24Z",
+          "title": "Performance - Batch Canvas Grid Dot Drawing to Reduce Redundant Canvas Calls",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1482",
+          "points": 2
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T16:08:42Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T14:17:42Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T14:14:54Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-10-27T06:29:22Z",
@@ -76467,6 +76545,63 @@
       ]
     },
     {
+      "username": "WKr1shna",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/231456977?v=4",
+      "role": "Contributor",
+      "total_points": 11,
+      "activity_breakdown": {
+        "Issue closed": {
+          "count": 1,
+          "points": 1
+        },
+        "PR opened": {
+          "count": 2,
+          "points": 10
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-09-28",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-09-27",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-28T22:37:51Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-28T14:36:02Z",
+          "title": "fix - make group invitation membership creation idempotent (#7924)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7925",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-09-27T20:46:23Z",
+          "title": "fix - harden SESv2 mail delivery configuration (#7912)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7922",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "ManshaAgarwal716",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/218825298?v=4",
@@ -77055,47 +77190,6 @@
           "occured_at": "2026-10-09T13:47:07Z",
           "title": "docs - clarify definations for MSB,LSB and Decoder in ch-4",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/543",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "username": "WKr1shna",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/231456977?v=4",
-      "role": "Contributor",
-      "total_points": 10,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-09-28",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-09-27",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-28T14:36:02Z",
-          "title": "fix - make group invitation membership creation idempotent (#7924)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7925",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-09-27T20:46:23Z",
-          "title": "fix - harden SESv2 mail delivery configuration (#7912)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7922",
           "points": 5
         }
       ]
@@ -79140,6 +79234,57 @@
           "title": "fix - differentiate team section headings by color hierarchy",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/76",
           "points": 5
+        }
+      ]
+    },
+    {
+      "username": "awantika-m",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/227009544?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T11:43:59Z",
+          "title": "fix - reject invalid TestBench attachments",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1481",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-28T04:10:18Z",
+          "title": "🐞 Bug - TestBench attaches invalid circuit I/O after showing validation error",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1480",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-10-28T04:10:20Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
         }
       ]
     },
@@ -81519,6 +81664,93 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Anurag-S1ngh",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/169547609?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T23:55:35Z",
+          "title": "refactor - reduce per-request work in switch_locale (#8059)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8105",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "SkIzazAhmed",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/233928135?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T19:00:33Z",
+          "title": "fix - pin noticed params coder so notifications render (#7685)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8104",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "atharva-vaish240",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/230833665?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T16:02:07Z",
+          "title": "fix - avoid mailer deserialization timeouts (#8094)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8103",
+          "points": 5
         }
       ]
     },
@@ -84885,46 +85117,6 @@
           "title": "Review on PR #5367",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5367",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "awantika-m",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/227009544?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-10-28",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-28T04:10:18Z",
-          "title": "🐞 Bug - TestBench attaches invalid circuit I/O after showing validation error",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1480",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-28T04:10:20Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
         }
       ]
     },
