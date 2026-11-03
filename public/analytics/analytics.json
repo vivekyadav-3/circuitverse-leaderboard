@@ -1,11 +1,11 @@
 {
   "organization": "CircuitVerse",
-  "lastUpdated": "2026-11-02T05:02:46.523Z",
+  "lastUpdated": "2026-11-03T05:50:29.046Z",
   "reviewMetrics": {
-    "totalReviews": 228,
-    "reviewsLast7Days": 31,
-    "reviewsLast30Days": 52,
-    "averageReviewTimeHours": 3892.34,
+    "totalReviews": 223,
+    "reviewsLast7Days": 27,
+    "reviewsLast30Days": 47,
+    "averageReviewTimeHours": 3973.98,
     "topReviewers": [
       {
         "username": "Nihal4777",
@@ -59,16 +59,11 @@
       }
     ],
     "reviewVelocity": {
-      "daily": 4.428571428571429,
-      "weekly": 31,
-      "monthly": 52
+      "daily": 3.857142857142857,
+      "weekly": 27,
+      "monthly": 47
     },
     "dailyReviewData": [
-      {
-        "date": "2026-10-20",
-        "reviews": 3,
-        "avgTimeHours": 0.25277777777777777
-      },
       {
         "date": "2026-10-21",
         "reviews": 0,
@@ -96,8 +91,8 @@
       },
       {
         "date": "2026-10-26",
-        "reviews": 2,
-        "avgTimeHours": 95.36125000000001
+        "reviews": 0,
+        "avgTimeHours": 0
       },
       {
         "date": "2026-10-27",
@@ -106,8 +101,8 @@
       },
       {
         "date": "2026-10-28",
-        "reviews": 3,
-        "avgTimeHours": 38.858148148148146
+        "reviews": 0,
+        "avgTimeHours": 0
       },
       {
         "date": "2026-10-29",
@@ -116,74 +111,68 @@
       },
       {
         "date": "2026-10-30",
-        "reviews": 6,
-        "avgTimeHours": 212.42
+        "reviews": 4,
+        "avgTimeHours": 269.5440972222222
       },
       {
         "date": "2026-10-31",
-        "reviews": 13,
-        "avgTimeHours": 395.1797649572649
+        "reviews": 11,
+        "avgTimeHours": 431.2914646464647
       },
       {
         "date": "2026-11-01",
-        "reviews": 6,
-        "avgTimeHours": 338.52606481481484
+        "reviews": 3,
+        "avgTimeHours": 468.1658333333333
       },
       {
         "date": "2026-11-02",
+        "reviews": 7,
+        "avgTimeHours": 38.26119047619047
+      },
+      {
+        "date": "2026-11-03",
         "reviews": 0,
         "avgTimeHours": 0
       }
     ],
     "reviewStateDistribution": {
-      "approved": 32,
+      "approved": 30,
       "changesRequested": 32,
-      "commented": 164,
-      "pending": 504
+      "commented": 161,
+      "pending": 142
     },
     "prsNeedingReview": [
       {
-        "number": 8117,
-        "title": "fix: bump rack and addressable to resolve bundler-audit advisories (#8116)",
-        "author": "aryan7071",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
-        "createdAt": "2026-11-01T17:57:45Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8117",
-        "repository": "CircuitVerse",
-        "ageHours": 11.1,
+        "number": 1500,
+        "title": "fix(ui): allow clearing circuit name field and apply \"Untitled\" fallback on blur",
+        "author": "Saniya-r-Shaikh",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/194808393?v=4",
+        "createdAt": "2026-11-02T22:11:51Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1500",
+        "repository": "cv-frontend-vue",
+        "ageHours": 7.6,
         "isDraft": false
       },
       {
-        "number": 8115,
-        "title": "fix: install libjitterentropy3-dev so rugged builds on ubuntu-26.04 CI (#8114)",
-        "author": "aryan7071",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
-        "createdAt": "2026-11-01T17:27:57Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8115",
-        "repository": "CircuitVerse",
-        "ageHours": 11.6,
+        "number": 280,
+        "title": "docs: Akanksha Trehun GSoC 2026 final report",
+        "author": "magic-peach",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/146705736?v=4",
+        "createdAt": "2026-11-02T12:26:38Z",
+        "url": "https://github.com/CircuitVerse/Blog/pull/280",
+        "repository": "Blog",
+        "ageHours": 17.4,
         "isDraft": false
       },
       {
-        "number": 8113,
-        "title": "fix: handle geocoder system errors and stub test lookups (#8081)",
-        "author": "kushald121",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/188738420?v=4",
-        "createdAt": "2026-11-01T11:08:15Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8113",
-        "repository": "CircuitVerse",
-        "ageHours": 17.9,
-        "isDraft": false
-      },
-      {
-        "number": 1494,
-        "title": "Perf/timing diagram idle polling",
+        "number": 1496,
+        "title": "perf(v1): guard clockTick on static circuits without clock elements",
         "author": "yashveer-1",
         "authorAvatar": "https://avatars.githubusercontent.com/u/235941943?v=4",
-        "createdAt": "2026-11-01T10:56:22Z",
-        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1494",
+        "createdAt": "2026-11-02T07:54:18Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1496",
         "repository": "cv-frontend-vue",
-        "ageHours": 18.1,
+        "ageHours": 21.9,
         "isDraft": false
       },
       {
@@ -194,7 +183,7 @@
         "createdAt": "2026-11-01T06:53:56Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1492",
         "repository": "cv-frontend-vue",
-        "ageHours": 22.1,
+        "ageHours": 46.9,
         "isDraft": false
       },
       {
@@ -205,7 +194,7 @@
         "createdAt": "2026-10-31T13:05:15Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1491",
         "repository": "cv-frontend-vue",
-        "ageHours": 40,
+        "ageHours": 64.8,
         "isDraft": false
       },
       {
@@ -216,7 +205,7 @@
         "createdAt": "2026-10-29T21:15:07Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1489",
         "repository": "cv-frontend-vue",
-        "ageHours": 79.8,
+        "ageHours": 104.6,
         "isDraft": false
       },
       {
@@ -227,7 +216,7 @@
         "createdAt": "2026-10-29T17:51:09Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1488",
         "repository": "cv-frontend-vue",
-        "ageHours": 83.2,
+        "ageHours": 108,
         "isDraft": false
       },
       {
@@ -237,63 +226,8 @@
         "authorAvatar": "https://avatars.githubusercontent.com/u/189542486?v=4",
         "createdAt": "2026-10-29T17:44:23Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1487",
-        "repository": "CircuitVerse",
-        "ageHours": 83.3,
-        "isDraft": false
-      },
-      {
-        "number": 8107,
-        "title": "feat(templates): show how many assignments use a template",
-        "author": "magic-peach",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/146705736?v=4",
-        "createdAt": "2026-10-29T13:20:00Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8107",
-        "repository": "CircuitVerse",
-        "ageHours": 87.7,
-        "isDraft": false
-      },
-      {
-        "number": 8106,
-        "title": "fix: handle Puma client disconnect (#7943)",
-        "author": "atharva-vaish240",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/230833665?v=4",
-        "createdAt": "2026-10-29T11:13:53Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8106",
-        "repository": "CircuitVerse",
-        "ageHours": 89.8,
-        "isDraft": false
-      },
-      {
-        "number": 8105,
-        "title": "refactor: reduce per-request work in switch_locale (#8059)",
-        "author": "Anurag-S1ngh",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/169547609?v=4",
-        "createdAt": "2026-10-28T23:55:35Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8105",
-        "repository": "CircuitVerse",
-        "ageHours": 101.1,
-        "isDraft": false
-      },
-      {
-        "number": 8104,
-        "title": "fix: pin noticed params coder so notifications render (#7685)",
-        "author": "SkIzazAhmed",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/233928135?v=4",
-        "createdAt": "2026-10-28T19:00:33Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8104",
-        "repository": "CircuitVerse",
-        "ageHours": 106,
-        "isDraft": false
-      },
-      {
-        "number": 8103,
-        "title": "fix: avoid mailer deserialization timeouts (#8094)",
-        "author": "atharva-vaish240",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/230833665?v=4",
-        "createdAt": "2026-10-28T16:02:07Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8103",
-        "repository": "CircuitVerse",
-        "ageHours": 109,
+        "repository": "cv-frontend-vue",
+        "ageHours": 108.1,
         "isDraft": false
       },
       {
@@ -304,18 +238,7 @@
         "createdAt": "2026-10-28T11:43:59Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1481",
         "repository": "cv-frontend-vue",
-        "ageHours": 113.3,
-        "isDraft": false
-      },
-      {
-        "number": 8102,
-        "title": "feat(templates): add a fork button to the template page",
-        "author": "magic-peach",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/146705736?v=4",
-        "createdAt": "2026-10-28T02:33:01Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8102",
-        "repository": "CircuitVerse",
-        "ageHours": 122.5,
+        "ageHours": 138.1,
         "isDraft": false
       },
       {
@@ -326,29 +249,7 @@
         "createdAt": "2026-10-27T19:08:55Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1479",
         "repository": "cv-frontend-vue",
-        "ageHours": 129.9,
-        "isDraft": false
-      },
-      {
-        "number": 8101,
-        "title": "chore: remove unused CircuitElementsImageUploader (#7902)",
-        "author": "aryan7071",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
-        "createdAt": "2026-10-27T17:49:30Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8101",
-        "repository": "CircuitVerse",
-        "ageHours": 131.2,
-        "isDraft": false
-      },
-      {
-        "number": 8100,
-        "title": "feat(templates): enforce private, group and public template visibility",
-        "author": "magic-peach",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/146705736?v=4",
-        "createdAt": "2026-10-27T14:43:36Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8100",
-        "repository": "CircuitVerse",
-        "ageHours": 134.3,
+        "ageHours": 154.7,
         "isDraft": false
       },
       {
@@ -359,47 +260,128 @@
         "createdAt": "2026-10-27T12:01:42Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1478",
         "repository": "cv-frontend-vue",
-        "ageHours": 137,
+        "ageHours": 161.8,
+        "isDraft": false
+      },
+      {
+        "number": 682,
+        "title": "fix: restore home button navigation in CV drawer",
+        "author": "Jashan32",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/172306367?v=4",
+        "createdAt": "2026-10-23T18:51:38Z",
+        "url": "https://github.com/CircuitVerse/mobile-app/pull/682",
+        "repository": "Interactive-Book",
+        "ageHours": 251,
+        "isDraft": false
+      },
+      {
+        "number": 680,
+        "title": "fix: use POST request for project forking",
+        "author": "Jashan32",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/172306367?v=4",
+        "createdAt": "2026-10-21T18:37:53Z",
+        "url": "https://github.com/CircuitVerse/mobile-app/pull/680",
+        "repository": "mobile-app",
+        "ageHours": 299.2,
+        "isDraft": false
+      },
+      {
+        "number": 1467,
+        "title": "refactor: migrate verilogHelpers.js to TypeScript",
+        "author": "Arnam-arch",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/223543360?v=4",
+        "createdAt": "2026-10-21T12:36:23Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1467",
+        "repository": "cv-frontend-vue",
+        "ageHours": 305.2,
+        "isDraft": false
+      },
+      {
+        "number": 678,
+        "title": "Fix responsive feature cards sizing on large screens",
+        "author": "Jashan32",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/172306367?v=4",
+        "createdAt": "2026-10-20T05:26:50Z",
+        "url": "https://github.com/CircuitVerse/mobile-app/pull/678",
+        "repository": "Interactive-Book",
+        "ageHours": 336.4,
+        "isDraft": false
+      },
+      {
+        "number": 1460,
+        "title": "fix(simulator): correct Adder and ALU carry out at 32-bit width",
+        "author": "Eternity0207",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/77221000?v=4",
+        "createdAt": "2026-10-19T07:45:31Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1460",
+        "repository": "cv-frontend-vue",
+        "ageHours": 358.1,
+        "isDraft": false
+      },
+      {
+        "number": 1461,
+        "title": "typecheck(v1): pin CircuitElement propagationDelay and saveObject types (#1416)",
+        "author": "Eternity0207",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/77221000?v=4",
+        "createdAt": "2026-10-19T07:45:44Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1461",
+        "repository": "cv-frontend-vue",
+        "ageHours": 358.1,
+        "isDraft": false
+      },
+      {
+        "number": 1464,
+        "title": "fix(vuesim): resize Keyboard in place when its buffer size changes",
+        "author": "Eternity0207",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/77221000?v=4",
+        "createdAt": "2026-10-19T07:46:10Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1464",
+        "repository": "cv-frontend-vue",
+        "ageHours": 358.1,
+        "isDraft": false
+      },
+      {
+        "number": 1463,
+        "title": "fix(testbench): reset sequential circuits before the first group in Run All",
+        "author": "Eternity0207",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/77221000?v=4",
+        "createdAt": "2026-10-19T07:46:03Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1463",
+        "repository": "cv-frontend-vue",
+        "ageHours": 358.1,
+        "isDraft": false
+      },
+      {
+        "number": 1462,
+        "title": "typecheck(v1): fix Node JavaScript-inference shape — queueProperties, verilogLabel, bitWidth (#1419)",
+        "author": "Eternity0207",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/77221000?v=4",
+        "createdAt": "2026-10-19T07:45:55Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1462",
+        "repository": "cv-frontend-vue",
+        "ageHours": 358.1,
         "isDraft": false
       }
     ],
-    "prsReadyToMerge": [
-      {
-        "number": 8083,
-        "title": "fix: use dynamic alt text for user profile picture",
-        "author": "Maaz2212",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/188797552?v=4",
-        "createdAt": "2026-10-23T16:19:18Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/pull/8083",
-        "repository": "CircuitVerse",
-        "approvals": 2,
-        "ageHours": 228.7
-      }
-    ]
+    "prsReadyToMerge": []
   },
   "issueMetrics": {
-    "totalIssues": 896,
-    "openIssues": 303,
-    "closedIssues": 593,
-    "pendingTriage": 256,
-    "recentlyTriaged": 25,
+    "totalIssues": 522,
+    "openIssues": 161,
+    "closedIssues": 361,
+    "pendingTriage": 126,
+    "recentlyTriaged": 16,
     "triageVelocity": {
-      "daily": 3.5714285714285716,
-      "weekly": 25
+      "daily": 2.2857142857142856,
+      "weekly": 16
     },
     "ageDistribution": {
       "lessThan24h": 3,
-      "oneToSevenDays": 5,
-      "sevenToThirtyDays": 56,
-      "moreThanThirtyDays": 192
+      "oneToSevenDays": 4,
+      "sevenToThirtyDays": 28,
+      "moreThanThirtyDays": 91
     },
     "dailyTriageData": [
-      {
-        "date": "2026-10-20",
-        "triaged": 0,
-        "pending": 2,
-        "total": 2
-      },
       {
         "date": "2026-10-21",
         "triaged": 0,
@@ -408,33 +390,33 @@
       },
       {
         "date": "2026-10-22",
-        "triaged": 4,
+        "triaged": 2,
         "pending": 1,
-        "total": 5
+        "total": 3
       },
       {
         "date": "2026-10-23",
-        "triaged": 1,
+        "triaged": 0,
         "pending": 0,
-        "total": 1
+        "total": 0
       },
       {
         "date": "2026-10-24",
-        "triaged": 7,
+        "triaged": 3,
         "pending": 0,
-        "total": 7
+        "total": 3
       },
       {
         "date": "2026-10-25",
-        "triaged": 1,
+        "triaged": 0,
         "pending": 0,
-        "total": 1
+        "total": 0
       },
       {
         "date": "2026-10-26",
-        "triaged": 1,
+        "triaged": 0,
         "pending": 0,
-        "total": 1
+        "total": 0
       },
       {
         "date": "2026-10-27",
@@ -456,67 +438,69 @@
       },
       {
         "date": "2026-10-30",
-        "triaged": 1,
+        "triaged": 0,
         "pending": 0,
-        "total": 1
+        "total": 0
       },
       {
         "date": "2026-10-31",
-        "triaged": 8,
+        "triaged": 5,
         "pending": 0,
-        "total": 8
+        "total": 5
       },
       {
         "date": "2026-11-01",
-        "triaged": 9,
+        "triaged": 4,
         "pending": 1,
-        "total": 10
+        "total": 5
       },
       {
         "date": "2026-11-02",
         "triaged": 0,
+        "pending": 2,
+        "total": 2
+      },
+      {
+        "date": "2026-11-03",
+        "triaged": 1,
         "pending": 0,
-        "total": 0
+        "total": 1
       }
     ],
     "issuesPendingTriage": [
       {
-        "number": 8116,
-        "title": "🐞 BugCI lint fails on bundler-audit: new advisories for rack 3.2.6 and addressable 2.9.0",
-        "author": "aryan7071",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
-        "createdAt": "2026-11-01T17:46:48Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8116",
-        "repository": "CircuitVerse",
-        "ageHours": 11.3,
+        "number": 1499,
+        "title": "🐞 Bug: Circuit name resets to \"Untitled\" on every keystroke, so the field cannot be cleared",
+        "author": "Saniya-r-Shaikh",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/194808393?v=4",
+        "createdAt": "2026-11-02T21:18:08Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1499",
+        "repository": "cv-frontend-vue",
+        "ageHours": 8.5,
         "labels": [
-          "🐞 bug",
-          "pending triage"
+          "🐞 bug"
         ]
       },
       {
-        "number": 8114,
-        "title": "🐞 Bug: CI bundle install fails on ubuntu-26.04: rugged can't link (missing libjitterentropy)",
-        "author": "aryan7071",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
-        "createdAt": "2026-11-01T17:14:35Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8114",
-        "repository": "CircuitVerse",
-        "ageHours": 11.8,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
+        "number": 1497,
+        "title": "Bug: Deleting a circuit tab that is used as a SubCircuit breaks the parent circuit with \"Not found\" - no warning before delete",
+        "author": "motalib6",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/212304150?v=4",
+        "createdAt": "2026-11-02T12:28:36Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1497",
+        "repository": "cv-frontend-vue",
+        "ageHours": 17.4,
+        "labels": []
       },
       {
-        "number": 1493,
-        "title": "Performance: Avoid unnecessary Timing Diagram updates when panel is hidden",
+        "number": 1495,
+        "title": "perf: avoid unnecessary clock polling when circuits contain no Clock components",
         "author": "yashveer-1",
         "authorAvatar": "https://avatars.githubusercontent.com/u/235941943?v=4",
-        "createdAt": "2026-11-01T09:56:25Z",
-        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1493",
+        "createdAt": "2026-11-02T07:35:31Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1495",
         "repository": "cv-frontend-vue",
-        "ageHours": 19.1,
+        "ageHours": 22.2,
         "labels": []
       },
       {
@@ -527,7 +511,7 @@
         "createdAt": "2026-10-29T12:43:07Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1486",
         "repository": "cv-frontend-vue",
-        "ageHours": 88.3,
+        "ageHours": 113.1,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -541,7 +525,7 @@
         "createdAt": "2026-10-29T10:30:13Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1484",
         "repository": "cv-frontend-vue",
-        "ageHours": 90.5,
+        "ageHours": 115.3,
         "labels": []
       },
       {
@@ -552,7 +536,7 @@
         "createdAt": "2026-10-28T04:10:18Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1480",
         "repository": "cv-frontend-vue",
-        "ageHours": 120.9,
+        "ageHours": 145.7,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -566,7 +550,7 @@
         "createdAt": "2026-10-27T08:17:58Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1477",
         "repository": "cv-frontend-vue",
-        "ageHours": 140.7,
+        "ageHours": 165.5,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -580,7 +564,7 @@
         "createdAt": "2026-10-26T17:22:10Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1474",
         "repository": "cv-frontend-vue",
-        "ageHours": 155.7,
+        "ageHours": 180.5,
         "labels": [
           "🌟 feature",
           "pending triage"
@@ -594,21 +578,7 @@
         "createdAt": "2026-10-24T07:40:13Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1473",
         "repository": "cv-frontend-vue",
-        "ageHours": 213.4,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8082,
-        "title": "🐞 Bug: User profile picture uses hardcoded alt=\"project.name\" on public profile page",
-        "author": "Maaz2212",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/188797552?v=4",
-        "createdAt": "2026-10-23T15:57:26Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8082",
-        "repository": "CircuitVerse",
-        "ageHours": 229.1,
+        "ageHours": 238.2,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -622,21 +592,7 @@
         "createdAt": "2026-10-23T09:45:34Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1472",
         "repository": "cv-frontend-vue",
-        "ageHours": 235.3,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8080,
-        "title": "🐞 Bug: Ineffective access modifier for `self.to_csv` in Grade model",
-        "author": "Ayushi-ux-sys",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/230010174?v=4",
-        "createdAt": "2026-10-22T18:38:51Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8080",
-        "repository": "CircuitVerse",
-        "ageHours": 250.4,
+        "ageHours": 260.1,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -650,7 +606,7 @@
         "createdAt": "2026-10-22T18:31:41Z",
         "url": "https://github.com/CircuitVerse/mobile-app/issues/681",
         "repository": "Interactive-Book",
-        "ageHours": 250.5,
+        "ageHours": 275.3,
         "labels": []
       },
       {
@@ -661,21 +617,7 @@
         "createdAt": "2026-10-22T15:59:00Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1471",
         "repository": "cv-frontend-vue",
-        "ageHours": 253.1,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8071,
-        "title": "🐞Bug: User project sitemap entries use sign-in time as lastmod.",
-        "author": "JituRewar",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/229604335?v=4",
-        "createdAt": "2026-10-20T18:37:19Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8071",
-        "repository": "CircuitVerse",
-        "ageHours": 298.4,
+        "ageHours": 277.9,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -689,7 +631,7 @@
         "createdAt": "2026-10-20T18:38:33Z",
         "url": "https://github.com/CircuitVerse/mobile-app/issues/679",
         "repository": "mobile-app",
-        "ageHours": 298.4,
+        "ageHours": 323.2,
         "labels": []
       },
       {
@@ -700,7 +642,7 @@
         "createdAt": "2026-10-20T08:13:51Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1465",
         "repository": "cv-frontend-vue",
-        "ageHours": 308.8,
+        "ageHours": 333.6,
         "labels": [
           "🌟 feature"
         ]
@@ -713,22 +655,8 @@
         "createdAt": "2026-10-20T05:19:10Z",
         "url": "https://github.com/CircuitVerse/mobile-app/issues/677",
         "repository": "Interactive-Book",
-        "ageHours": 311.7,
+        "ageHours": 336.5,
         "labels": []
-      },
-      {
-        "number": 8057,
-        "title": "🐞 Bug: Close and Edit buttons on admin contests page do not open modals",
-        "author": "ManyaJain111",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/224918778?v=4",
-        "createdAt": "2026-10-19T16:41:00Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8057",
-        "repository": "CircuitVerse",
-        "ageHours": 324.4,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
       },
       {
         "number": 1454,
@@ -738,7 +666,7 @@
         "createdAt": "2026-10-18T18:48:11Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1454",
         "repository": "cv-frontend-vue",
-        "ageHours": 346.2,
+        "ageHours": 371,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -752,22 +680,8 @@
         "createdAt": "2026-10-18T09:38:55Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1452",
         "repository": "cv-frontend-vue",
-        "ageHours": 355.4,
+        "ageHours": 380.2,
         "labels": []
-      },
-      {
-        "number": 8041,
-        "title": "🐞 Bug: secondary mentors launching from LMS are treated as students",
-        "author": "ManyaJain111",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/224918778?v=4",
-        "createdAt": "2026-10-16T12:05:41Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8041",
-        "repository": "CircuitVerse",
-        "ageHours": 401,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
       },
       {
         "number": 1451,
@@ -777,7 +691,7 @@
         "createdAt": "2026-10-16T02:02:43Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1451",
         "repository": "cv-frontend-vue",
-        "ageHours": 411,
+        "ageHours": 435.8,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -791,7 +705,7 @@
         "createdAt": "2026-10-15T19:20:17Z",
         "url": "https://github.com/CircuitVerse/mobile-app/issues/675",
         "repository": "Interactive-Book",
-        "ageHours": 417.7,
+        "ageHours": 442.5,
         "labels": []
       },
       {
@@ -802,37 +716,10 @@
         "createdAt": "2026-10-15T17:35:29Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1449",
         "repository": "cv-frontend-vue",
-        "ageHours": 419.5,
+        "ageHours": 444.3,
         "labels": [
           "🐞 bug",
           "pending triage"
-        ]
-      },
-      {
-        "number": 8032,
-        "title": "🐞 Bug: Manual assignment close does not freeze student submissions",
-        "author": "ManyaJain111",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/224918778?v=4",
-        "createdAt": "2026-10-15T09:08:25Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8032",
-        "repository": "CircuitVerse",
-        "ageHours": 427.9,
-        "labels": [
-          "🐞 bug"
-        ]
-      },
-      {
-        "number": 8031,
-        "title": "🐞 Bug: Fix broken Open Graph image preview (og:image 404) when sharing links",
-        "author": "amankv1234",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/186990161?v=4",
-        "createdAt": "2026-10-15T07:40:38Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8031",
-        "repository": "CircuitVerse",
-        "ageHours": 429.4,
-        "labels": [
-          "🐞 bug",
-          "ui"
         ]
       },
       {
@@ -843,7 +730,7 @@
         "createdAt": "2026-10-15T06:11:17Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1446",
         "repository": "cv-frontend-vue",
-        "ageHours": 430.9,
+        "ageHours": 455.7,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -857,35 +744,7 @@
         "createdAt": "2026-10-15T04:25:12Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1445",
         "repository": "cv-frontend-vue",
-        "ageHours": 432.6,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8028,
-        "title": "🐞 Bug: Saving a circuit with an empty project name reports \"success\" but silently drops the name",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-14T10:37:11Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8028",
-        "repository": "CircuitVerse",
-        "ageHours": 450.4,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8027,
-        "title": "🐞 Bug: Error pages (404/422/500) are hardcoded in English and link to production instead of the local site",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-14T10:04:34Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8027",
-        "repository": "CircuitVerse",
-        "ageHours": 451,
+        "ageHours": 457.4,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -899,35 +758,7 @@
         "createdAt": "2026-10-14T05:54:32Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1436",
         "repository": "cv-frontend-vue",
-        "ageHours": 455.1,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8025,
-        "title": "🐞 Bug: Comments API lets you POST a comment but returns 403 on GET (Limited-access viewers and collaborators)",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-14T05:33:39Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8025",
-        "repository": "CircuitVerse",
-        "ageHours": 455.5,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8024,
-        "title": "🐞 Bug: Adding a project collaborator silently fails when the email contains uppercase letters",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-13T19:47:24Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8024",
-        "repository": "CircuitVerse",
-        "ageHours": 465.3,
+        "ageHours": 479.9,
         "labels": [
           "🐞 bug",
           "pending triage"
@@ -941,7 +772,7 @@
         "createdAt": "2026-10-13T14:08:30Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1413",
         "repository": "cv-frontend-vue",
-        "ageHours": 470.9,
+        "ageHours": 495.7,
         "labels": [
           "JS to TS migration"
         ]
@@ -954,207 +785,337 @@
         "createdAt": "2026-10-13T10:45:28Z",
         "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1400",
         "repository": "cv-frontend-vue",
-        "ageHours": 474.3,
+        "ageHours": 499.1,
         "labels": [
           "🐞 bug",
           "pending triage"
         ]
       },
       {
-        "number": 8023,
-        "title": "🐞 Bug: Forked project starts with the original project's star count",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-13T07:38:43Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8023",
-        "repository": "CircuitVerse",
-        "ageHours": 477.4,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8022,
-        "title": "🐞 Bug: Users can vote for their own contest submission",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-13T07:33:19Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8022",
-        "repository": "CircuitVerse",
-        "ageHours": 477.5,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8021,
-        "title": "🐞 Bug: Users can submit a project to a contest that has already ended",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-13T07:27:08Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8021",
-        "repository": "CircuitVerse",
-        "ageHours": 477.6,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8020,
-        "title": "🐞 Bug: Browser language (Accept-Language header) is never used to pick the site language",
-        "author": "Saurabhyadav0",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/134767123?v=4",
-        "createdAt": "2026-10-12T22:23:44Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8020",
-        "repository": "CircuitVerse",
-        "ageHours": 486.7,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8017,
-        "title": "🐞 Bug: GroupMembersController authenticates after loading and authorizing the record",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:43:59Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8017",
-        "repository": "CircuitVerse",
-        "ageHours": 490.3,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8016,
-        "title": "🐞 Bug: Push subscriptions skip CSRF protection, create duplicate rows and never prune expired endpoints",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:42:21Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8016",
-        "repository": "CircuitVerse",
-        "ageHours": 490.3,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8018,
-        "title": "🐞 Bug: CommentsController may return 500 on malformed params because it uses params.dig",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:45:10Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8018",
-        "repository": "CircuitVerse",
-        "ageHours": 490.3,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8015,
-        "title": "🐞 Bug : Hotkey binder has a no-op \"if;\" statement and rewrites localStorage inside a loop",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:36:45Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8015",
-        "repository": "CircuitVerse",
-        "ageHours": 490.4,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8014,
-        "title": "🐞 Bug: Testbench crashes with a bare TypeError when input/output labels or RST are missing from the circuit",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:34:53Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8014",
-        "repository": "CircuitVerse",
-        "ageHours": 490.5,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8013,
-        "title": "🐞 Bug: Group invitations mishandle email case and whitespace, so existing users get pending invites instead of being added",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:33:21Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8013",
-        "repository": "CircuitVerse",
-        "ageHours": 490.5,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8012,
-        "title": "🐞 Bug:  LTI grade passback sends a score of 0 to the LMS for letter-scale and custom-scale grades",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:31:41Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8012",
-        "repository": "CircuitVerse",
-        "ageHours": 490.5,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8011,
-        "title": "🐞 Bug Grades CSV export is vulnerable to CSV/formula injection",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:28:39Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8011",
-        "repository": "CircuitVerse",
-        "ageHours": 490.6,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8010,
-        "title": "🐞 Bug Grade format validation uses ^/$ so multi-line input bypasses the grading scale",
-        "author": "mohi2006august",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/218565496?v=4",
-        "createdAt": "2026-10-12T18:27:04Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8010",
-        "repository": "CircuitVerse",
-        "ageHours": 490.6,
-        "labels": [
-          "🐞 bug",
-          "pending triage"
-        ]
-      },
-      {
-        "number": 8008,
-        "title": "Provide a way to have diagrams automatically adjust their layout to what is optimal.",
-        "author": "beedell-roke",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/42837531?v=4",
-        "createdAt": "2026-10-12T13:57:00Z",
-        "url": "https://github.com/CircuitVerse/CircuitVerse/issues/8008",
-        "repository": "CircuitVerse",
-        "ageHours": 495.1,
+        "number": 1393,
+        "title": "Feature: Optimize circuit element rendering with viewport culling",
+        "author": "yashveer-1",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/235941943?v=4",
+        "createdAt": "2026-10-12T07:01:23Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1393",
+        "repository": "cv-frontend-vue",
+        "ageHours": 526.8,
         "labels": [
           "🌟 feature",
           "pending triage"
         ]
+      },
+      {
+        "number": 1390,
+        "title": "🐞 Bug: v1 Verilog export omits the module for D Latch, JK and SR flip flops",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-10T18:50:13Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1390",
+        "repository": "cv-frontend-vue",
+        "ageHours": 563,
+        "labels": []
+      },
+      {
+        "number": 1387,
+        "title": "🐞 Bug: \"Open Offline\" dialog fails to open projects after deletion due to stale selection & event bubbling on delete button",
+        "author": "tushaar-05",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/131668855?v=4",
+        "createdAt": "2026-10-09T14:15:22Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1387",
+        "repository": "cv-frontend-vue",
+        "ageHours": 591.6,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1385,
+        "title": "🐞 Bug: Custom Shortcut dialog buttons (Save, Close, Reset) crash with TypeError, and keybinding entry erases command name",
+        "author": "tushaar-05",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/131668855?v=4",
+        "createdAt": "2026-10-09T11:58:19Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1385",
+        "repository": "cv-frontend-vue",
+        "ageHours": 593.9,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1384,
+        "title": "Feature : Add recently closed circuit history",
+        "author": "Meghali54",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/174095061?v=4",
+        "createdAt": "2026-10-09T06:28:58Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1384",
+        "repository": "cv-frontend-vue",
+        "ageHours": 599.4,
+        "labels": [
+          "🌟 feature",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1383,
+        "title": "Feature :  Add a pre-run circuit validation and diagnostics panel",
+        "author": "Meghali54",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/174095061?v=4",
+        "createdAt": "2026-10-09T06:15:58Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1383",
+        "repository": "cv-frontend-vue",
+        "ageHours": 599.6,
+        "labels": [
+          "🌟 feature",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1381,
+        "title": "🐞 Bug: BitSelector's tooltip describes the Splitter",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-08T14:21:57Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1381",
+        "repository": "cv-frontend-vue",
+        "ageHours": 615.5,
+        "labels": []
+      },
+      {
+        "number": 1378,
+        "title": "🐞 Bug: 404 error after clicking keep editing circuit after saving",
+        "author": "ManyaJain111",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/224918778?v=4",
+        "createdAt": "2026-10-07T19:44:11Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1378",
+        "repository": "cv-frontend-vue",
+        "ageHours": 634.1,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1371,
+        "title": "🐞 Bug: Help button opens the docs home page for 21 elements, old docsify URLs left behind",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-04T14:45:42Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1371",
+        "repository": "cv-frontend-vue",
+        "ageHours": 711.1,
+        "labels": []
+      },
+      {
+        "number": 1367,
+        "title": "🐞 Bug: Simulator fails to load with malformed Custom Theme localStorage data",
+        "author": "eshanthh",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/235510433?v=4",
+        "createdAt": "2026-10-04T11:15:37Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1367",
+        "repository": "cv-frontend-vue",
+        "ageHours": 714.6,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1362,
+        "title": "🐞 Bug: outputBitWidth de-synchronization on newBitWidth() in Verilog arithmetic elements",
+        "author": "cynicalmindset",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/166590584?v=4",
+        "createdAt": "2026-10-03T19:28:57Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1362",
+        "repository": "cv-frontend-vue",
+        "ageHours": 730.4,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1360,
+        "title": "🐞 Bug: a Flag's box stops fitting its name after undo or reload",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-03T16:18:23Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1360",
+        "repository": "cv-frontend-vue",
+        "ageHours": 733.5,
+        "labels": []
+      },
+      {
+        "number": 1358,
+        "title": "🐞 Bug: Translation fails for \"Binary Coded Decimal Value\" in Hex-Bin-Dec Converter due to single-space replacement",
+        "author": "tushaar-05",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/131668855?v=4",
+        "createdAt": "2026-10-02T23:00:04Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1358",
+        "repository": "cv-frontend-vue",
+        "ageHours": 750.8,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1357,
+        "title": "🐞 Bug: Duplicate Hex-Bin-Dec Converter dialog rendered with duplicate DOM IDs",
+        "author": "tushaar-05",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/131668855?v=4",
+        "createdAt": "2026-10-02T22:32:23Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1357",
+        "repository": "cv-frontend-vue",
+        "ageHours": 751.3,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1353,
+        "title": "🐞 Bug: pressing Q on a JK or SR flip flop throws, bit width ends up out of sync with its nodes",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-02T08:23:27Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1353",
+        "repository": "cv-frontend-vue",
+        "ageHours": 765.5,
+        "labels": []
+      },
+      {
+        "number": 1349,
+        "title": "🐞 Bug: splitter bit width can go below its split total, overflowing the input pin",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-10-01T17:17:31Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1349",
+        "repository": "cv-frontend-vue",
+        "ageHours": 780.5,
+        "labels": []
+      },
+      {
+        "number": 1346,
+        "title": "feat: Add Copy to Clipboard button to the Render Image dialog ",
+        "author": "amankv1234",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/186990161?v=4",
+        "createdAt": "2026-10-01T09:40:56Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1346",
+        "repository": "cv-frontend-vue",
+        "ageHours": 788.2,
+        "labels": [
+          "🌟 feature",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1345,
+        "title": "🐞 Bug: Test cases crash on Node 22 due to unhandled local Storage access",
+        "author": "kartikey24prakash",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/146826917?v=4",
+        "createdAt": "2026-09-30T20:46:56Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1345",
+        "repository": "cv-frontend-vue",
+        "ageHours": 801.1,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1329,
+        "title": "🐞 Bug: Stepper and RAM break at 31 and 32 bit widths (1 << bitWidth overflow)",
+        "author": "SajalDevX",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/172371422?v=4",
+        "createdAt": "2026-09-25T09:36:37Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1329",
+        "repository": "cv-frontend-vue",
+        "ageHours": 932.2,
+        "labels": []
+      },
+      {
+        "number": 1328,
+        "title": "Feature: feat(ui): make simulator side panels resizable",
+        "author": "amankv1234",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/186990161?v=4",
+        "createdAt": "2026-09-24T19:18:55Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1328",
+        "repository": "cv-frontend-vue",
+        "ageHours": 946.5,
+        "labels": [
+          "🌟 feature",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1321,
+        "title": "🐞 Bug: Counter and Random use signed arithmetic at 31–32-bit widths",
+        "author": "Kavya-Goyal-kcoder005",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/211192501?v=4",
+        "createdAt": "2026-09-22T08:59:50Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1321",
+        "repository": "cv-frontend-vue",
+        "ageHours": 1004.8,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1322,
+        "title": "🐞 Bug: Cancelling Constant value editing resets the value and bit width",
+        "author": "Kavya-Goyal-kcoder005",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/211192501?v=4",
+        "createdAt": "2026-09-22T09:00:27Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1322",
+        "repository": "cv-frontend-vue",
+        "ageHours": 1004.8,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1320,
+        "title": "🐞 Bug: Circuit Elements panel overflows viewport when expanding categories and snaps behind navbar",
+        "author": "kartikey24prakash",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/146826917?v=4",
+        "createdAt": "2026-09-21T21:49:34Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1320",
+        "repository": "cv-frontend-vue",
+        "ageHours": 1016,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1319,
+        "title": "🐞 Bug: Three bugs found while sweeping undo/redo  keyboard shortcut conflict, element duplication, and Button bit-width reset",
+        "author": "aryan7071",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/175052103?v=4",
+        "createdAt": "2026-09-19T20:57:34Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1319",
+        "repository": "cv-frontend-vue",
+        "ageHours": 1064.9,
+        "labels": [
+          "🐞 bug",
+          "pending triage"
+        ]
+      },
+      {
+        "number": 1316,
+        "title": "🐞 Bug: Changing TTY rows or columns deletes every wire attached to it",
+        "author": "iamtanishqjain",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/71930864?v=4",
+        "createdAt": "2026-09-19T15:12:05Z",
+        "url": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1316",
+        "repository": "cv-frontend-vue",
+        "ageHours": 1070.6,
+        "labels": []
       }
     ]
   },
