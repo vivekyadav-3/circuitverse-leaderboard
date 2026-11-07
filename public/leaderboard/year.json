@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1793942619262,
-  "lastFetchedAt": 1793942619262,
-  "startDate": "2025-11-06",
-  "endDate": "2026-11-06",
+  "updatedAt": 1794027176087,
+  "lastFetchedAt": 1794027176087,
+  "startDate": "2025-11-07",
+  "endDate": "2026-11-07",
   "entries": [
     {
       "username": "naman79820",
@@ -46580,14 +46580,19 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/223514962?v=4",
       "role": "Contributor",
-      "total_points": 275,
+      "total_points": 285,
       "activity_breakdown": {
         "PR opened": {
-          "count": 55,
-          "points": 275
+          "count": 57,
+          "points": 285
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-11-06",
+          "count": 2,
+          "points": 10
+        },
         {
           "date": "2026-10-25",
           "count": 2,
@@ -46725,6 +46730,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T16:59:49Z",
+          "title": "fix(seo) - use latest public project update date for user projects sitemap (#8071)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8132",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T16:26:01Z",
+          "title": "fix(groups) - normalize email whitespace and case when inviting members (#8013)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8131",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-10-25T20:02:56Z",
@@ -68689,6 +68708,175 @@
       ]
     },
     {
+      "username": "Psykii22",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/189542486?v=4",
+      "role": "Contributor",
+      "total_points": 35,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 8
+        },
+        "Issue labeled": {
+          "count": 5,
+          "points": 5
+        },
+        "Issue closed": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-06",
+          "count": 4,
+          "points": 13
+        },
+        {
+          "date": "2026-11-01",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-10-29",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-10-26",
+          "count": 3,
+          "points": 4
+        },
+        {
+          "date": "2026-10-24",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-10-18",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-10-17",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T14:49:07Z",
+          "title": "fix - resolve Adder Verilog export syntax errors for disconnected pins and sync v1",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1516",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T08:24:47Z",
+          "title": "fix - resolve infinite recursion in SquareRGBLed.generateVerilog",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1515",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-06T07:28:52Z",
+          "title": "🐞 Bug - Infinite recursion in SquareRGBLed.generateVerilog() crashes Verilog export",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1514",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-06T07:28:53Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-01T06:53:56Z",
+          "title": "fix - move element tooltip from right to left side",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1492",
+          "points": 5
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-11-01T06:51:50Z",
+          "title": "Closed issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-29T17:44:23Z",
+          "title": "feat - add undo/redo and back button to combinational analysis",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1487",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-26T17:22:10Z",
+          "title": "Feature - add Undo/Redo history and Back button navigation to Combinational Analysis dialog and close button when table is made",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1474",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-10-26T17:22:12Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-10-26T17:22:11Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-24T07:40:13Z",
+          "title": "🐞 Bug - Element tooltip appears in bottom-right corner far away from Circuit Elements panel",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1473",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-10-24T07:40:14Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-18T10:20:00Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-10-17T17:36:48Z",
+          "title": "🐞 Bug - Changing the tool tip location from the bottom right corner to the left bottom corner",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8047",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-10-17T17:36:50Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "MYMISERABLEMIND17",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/211515906?v=4",
@@ -72491,142 +72679,6 @@
           "occured_at": "2025-03-07T14:35:24Z",
           "title": "🐞 Bug UI relates issue on edit page section in the placeholder of the country and language part",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5527",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Psykii22",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/189542486?v=4",
-      "role": "Contributor",
-      "total_points": 22,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue closed": {
-          "count": 2,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 3,
-          "points": 6
-        },
-        "Issue labeled": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-11-01",
-          "count": 2,
-          "points": 6
-        },
-        {
-          "date": "2026-10-29",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-10-26",
-          "count": 3,
-          "points": 4
-        },
-        {
-          "date": "2026-10-24",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-10-18",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-10-17",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-11-01T06:53:56Z",
-          "title": "fix - move element tooltip from right to left side",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1492",
-          "points": 5
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-11-01T06:51:50Z",
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-29T17:44:23Z",
-          "title": "feat - add undo/redo and back button to combinational analysis",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1487",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-26T17:22:10Z",
-          "title": "Feature - add Undo/Redo history and Back button navigation to Combinational Analysis dialog and close button when table is made",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1474",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-26T17:22:12Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-26T17:22:11Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-24T07:40:13Z",
-          "title": "🐞 Bug - Element tooltip appears in bottom-right corner far away from Circuit Elements panel",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1473",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-24T07:40:14Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue closed",
-          "occured_at": "2026-10-18T10:20:00Z",
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-10-17T17:36:48Z",
-          "title": "🐞 Bug - Changing the tool tip location from the bottom right corner to the left bottom corner",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8047",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-10-17T17:36:50Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
           "points": 1
         }
       ]
@@ -80133,6 +80185,62 @@
       ]
     },
     {
+      "username": "hanshu922",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/281227202?v=4",
+      "role": "Contributor",
+      "total_points": 8,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-11-04",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T21:50:48Z",
+          "title": "Localize error pages and use root_path for homepage link (#8133)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8133",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-04T14:21:21Z",
+          "title": "🐞 Bug - Windows setup docs list Ruby 3.2.1 but the project requires Ruby >= 3.3",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8125",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-04T14:21:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "awantika-m",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/227009544?v=4",
@@ -86147,46 +86255,6 @@
           "title": "Review on PR #5367",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/5367",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "hanshu922",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/281227202?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-11-04",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-11-04T14:21:21Z",
-          "title": "🐞 Bug - Windows setup docs list Ruby 3.2.1 but the project requires Ruby >= 3.3",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8125",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-11-04T14:21:23Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
