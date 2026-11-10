@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1794200048502,
-  "lastFetchedAt": 1794200048502,
-  "startDate": "2025-11-09",
-  "endDate": "2026-11-09",
+  "updatedAt": 1794290932439,
+  "lastFetchedAt": 1794290932439,
+  "startDate": "2025-11-10",
+  "endDate": "2026-11-10",
   "entries": [
     {
       "username": "naman79820",
@@ -44926,23 +44926,23 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
       "role": "Contributor",
-      "total_points": 317,
+      "total_points": 328,
       "activity_breakdown": {
         "PR opened": {
-          "count": 32,
-          "points": 160
-        },
-        "Issue closed": {
-          "count": 10,
-          "points": 10
+          "count": 33,
+          "points": 165
         },
         "Issue opened": {
-          "count": 12,
-          "points": 24
+          "count": 13,
+          "points": 26
         },
         "Issue labeled": {
-          "count": 17,
-          "points": 17
+          "count": 19,
+          "points": 19
+        },
+        "Issue closed": {
+          "count": 12,
+          "points": 12
         },
         "PR merged": {
           "count": 10,
@@ -44954,6 +44954,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-11-09",
+          "count": 6,
+          "points": 11
+        },
         {
           "date": "2026-11-05",
           "count": 1,
@@ -45136,6 +45141,48 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-09T14:45:26Z",
+          "title": "style - fix argument alignment in toggle_star_spec (#8142)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8143",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-09T14:40:39Z",
+          "title": "Lint - RuboCop ArgumentAlignment offenses in toggle_star_spec.rb on master",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8142",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-09T14:40:41Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-09T14:40:40Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-11-09T14:02:38Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-11-09T14:02:13Z",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-11-05T16:59:04Z",
@@ -69798,6 +69845,168 @@
       ]
     },
     {
+      "username": "harikrishna-au",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/169121181?v=4",
+      "role": "Contributor",
+      "total_points": 32,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 5,
+          "points": 16
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 7
+        },
+        "Issue labeled": {
+          "count": 4,
+          "points": 4
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-10",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-03-03",
+          "count": 8,
+          "points": 15
+        },
+        {
+          "date": "2025-12-02",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-05-31",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-05-22",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-27",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-02-14",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-10T01:32:10Z",
+          "title": "fix - show error view with retry when featured projects fail to load (#84)",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/684",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-03-03T10:42:59Z",
+          "title": "MVP feat - separate simulator-embed-{version}.js as a distinct Vite build output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/993",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-03T10:17:18Z",
+          "title": "bug - Rails session expiry and Vue simulator auth state silently desync",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/992",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-03T10:13:55Z",
+          "title": "feat - add a Debug Panel to inspect node signal values and contention details on simulation error",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/991",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-03-03T10:10:54Z",
+          "title": "feat - produce simulator-embed-{version}.js as a separate Vite build output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/990",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-03T10:17:19Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-03T10:13:57Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-03T10:13:56Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-03-03T10:10:55Z",
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-27T13:07:22Z",
+          "title": "Update CombinationalAnalysis.vue",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/497",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-02-14T09:24:37Z",
+          "title": "fix - Incorrect circuit output from combinational analysis (#468)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/480",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-05-22T09:20:05Z",
+          "title": "Fix - Correct boolean table parsing in generateBooleanTableData (#468)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-05-31T08:18:25Z",
+          "title": "Fix - Correct boolean table parsing in generateBooleanTableData (#468)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-02T12:16:47Z",
+          "title": "Simulator WebView fails to handle app navigation (Sign Out, Edit, etc.)",
+          "link": "https://github.com/CircuitVerse/mobile-app/issues/447",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "motalib6",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/212304150?v=4",
@@ -70754,156 +70963,6 @@
           "occured_at": "2026-01-01T11:39:54Z",
           "title": "Add Entries-Per-Page Dropdown to Leaderboard",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/58",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "harikrishna-au",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/169121181?v=4",
-      "role": "Contributor",
-      "total_points": 27,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 4,
-          "points": 11
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 7
-        },
-        "Issue labeled": {
-          "count": 4,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-03-03",
-          "count": 8,
-          "points": 15
-        },
-        {
-          "date": "2025-12-02",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-05-31",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-05-22",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-27",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-02-14",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-03-03T10:42:59Z",
-          "title": "MVP feat - separate simulator-embed-{version}.js as a distinct Vite build output",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/993",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-03T10:17:18Z",
-          "title": "bug - Rails session expiry and Vue simulator auth state silently desync",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/992",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-03T10:13:55Z",
-          "title": "feat - add a Debug Panel to inspect node signal values and contention details on simulation error",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/991",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-03-03T10:10:54Z",
-          "title": "feat - produce simulator-embed-{version}.js as a separate Vite build output",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/990",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-03T10:17:19Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-03T10:13:57Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-03T10:13:56Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-03-03T10:10:55Z",
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-27T13:07:22Z",
-          "title": "Update CombinationalAnalysis.vue",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/497",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-02-14T09:24:37Z",
-          "title": "fix - Incorrect circuit output from combinational analysis (#468)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/480",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-05-22T09:20:05Z",
-          "title": "Fix - Correct boolean table parsing in generateBooleanTableData (#468)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-05-31T08:18:25Z",
-          "title": "Fix - Correct boolean table parsing in generateBooleanTableData (#468)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/558",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-02T12:16:47Z",
-          "title": "Simulator WebView fails to handle app navigation (Sign Out, Edit, etc.)",
-          "link": "https://github.com/CircuitVerse/mobile-app/issues/447",
           "points": 1
         }
       ]
@@ -74426,6 +74485,86 @@
       ]
     },
     {
+      "username": "hanshu922",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/281227202?v=4",
+      "role": "Contributor",
+      "total_points": 18,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 15
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue labeled": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-09",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-11-07",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-11-06",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-11-04",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-09T17:01:07Z",
+          "title": "Fix - LTI grade passback score for letter and custom grading scales (#8144)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8144",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-07T10:55:04Z",
+          "title": "docs - update Windows setup guide to Ruby 3.3.5",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8138",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-06T21:50:48Z",
+          "title": "Localize error pages and use root_path for homepage link (#8133)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8133",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-04T14:21:21Z",
+          "title": "🐞 Bug - Windows setup docs list Ruby 3.2.1 but the project requires Ruby >= 3.3",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8125",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-04T14:21:23Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "kushald121",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/188738420?v=4",
@@ -76511,74 +76650,6 @@
           "title": "fix - make leaderboard filters responsive on mobile",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/21",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "hanshu922",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/281227202?v=4",
-      "role": "Contributor",
-      "total_points": 13,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue labeled": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-11-07",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-11-06",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-11-04",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-11-07T10:55:04Z",
-          "title": "docs - update Windows setup guide to Ruby 3.3.5",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8138",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-11-06T21:50:48Z",
-          "title": "Localize error pages and use root_path for homepage link (#8133)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8133",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-11-04T14:21:21Z",
-          "title": "🐞 Bug - Windows setup docs list Ruby 3.2.1 but the project requires Ruby >= 3.3",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8125",
-          "points": 2
-        },
-        {
-          "type": "Issue labeled",
-          "occured_at": "2026-11-04T14:21:23Z",
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "points": 1
         }
       ]
     },
@@ -83017,6 +83088,35 @@
           "title": "UX/Enhancement - Improve Project Name input - add maxlength and update label",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/712",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "yashaswit24-source",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/304998064?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-09",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-09T07:36:35Z",
+          "title": "Fix HTML lang attribute formatting",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8141",
+          "points": 5
         }
       ]
     },
