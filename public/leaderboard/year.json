@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1794372993255,
-  "lastFetchedAt": 1794372993255,
-  "startDate": "2025-11-11",
-  "endDate": "2026-11-11",
+  "updatedAt": 1794463094165,
+  "lastFetchedAt": 1794463094165,
+  "startDate": "2025-11-12",
+  "endDate": "2026-11-12",
   "entries": [
     {
       "username": "naman79820",
@@ -45799,15 +45799,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
-      "total_points": 291,
+      "total_points": 298,
       "activity_breakdown": {
         "PR opened": {
-          "count": 32,
-          "points": 133
+          "count": 33,
+          "points": 138
         },
         "Issue opened": {
-          "count": 23,
-          "points": 40
+          "count": 24,
+          "points": 42
         },
         "Issue labeled": {
           "count": 12,
@@ -45827,6 +45827,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-11-11",
+          "count": 2,
+          "points": 7
+        },
         {
           "date": "2026-11-05",
           "count": 4,
@@ -46039,6 +46044,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-11T10:41:03Z",
+          "title": "perf - optimize group dragging for multiple selections",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1529",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-11T10:34:50Z",
+          "title": "Performance - Eliminate Redundant Drag Operations During Multi-Selection in Vue Simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1528",
+          "points": 2
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-11-05T08:59:52Z",
@@ -73851,6 +73870,66 @@
       ]
     },
     {
+      "username": "Anurag-S1ngh",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/169547609?v=4",
+      "role": "Contributor",
+      "total_points": 20,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 20
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-11",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-11-10",
+          "count": 2,
+          "points": 10
+        },
+        {
+          "date": "2026-10-28",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-11T09:08:22Z",
+          "title": "feat - notify assignment collaborators on add (#7230)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8163",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-10T22:20:16Z",
+          "title": "fix - snapshot reopened assignments when they close (#8037)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8158",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-10T22:07:04Z",
+          "title": "fix - handle relative launch_presentation_return_url (#7169)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8155",
+          "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-28T23:55:35Z",
+          "title": "refactor - reduce per-request work in switch_locale (#8059)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8105",
+          "points": 5
+        }
+      ]
+    },
+    {
       "username": "iUjjwalRaj",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/173326668?v=4",
@@ -75572,54 +75651,6 @@
       ]
     },
     {
-      "username": "Anurag-S1ngh",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/169547609?v=4",
-      "role": "Contributor",
-      "total_points": 15,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-11-10",
-          "count": 2,
-          "points": 10
-        },
-        {
-          "date": "2026-10-28",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-11-10T22:20:16Z",
-          "title": "fix - snapshot reopened assignments when they close (#8037)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8158",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-11-10T22:07:04Z",
-          "title": "fix - handle relative launch_presentation_return_url (#7169)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8155",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-10-28T23:55:35Z",
-          "title": "refactor - reduce per-request work in switch_locale (#8059)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8105",
-          "points": 5
-        }
-      ]
-    },
-    {
       "username": "knowprasad",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/144908638?v=4",
@@ -77068,6 +77099,83 @@
           "occured_at": "2025-01-07T11:48:18Z",
           "title": "Feature Request - Provide image editing and resizing options during upload",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/5292",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Somilg11",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/142201449?v=4",
+      "role": "Contributor",
+      "total_points": 12,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue labeled": {
+          "count": 3,
+          "points": 3
+        },
+        "PR opened": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-11-11",
+          "count": 3,
+          "points": 4
+        },
+        {
+          "date": "2026-11-10",
+          "count": 3,
+          "points": 8
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-11T14:25:10Z",
+          "title": "Feature - Make search sorting options keyboard accessible",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8167",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-11T14:25:12Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-11T14:25:11Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-11-10T13:17:51Z",
+          "title": "fix - preserve search sort when reselecting resource (#8148)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8150",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-11-10T12:37:49Z",
+          "title": "🐞 Bug - Reselecting the current search resource resets the selected sort order",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8148",
+          "points": 2
+        },
+        {
+          "type": "Issue labeled",
+          "occured_at": "2026-11-10T12:37:51Z",
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
           "points": 1
         }
       ]
@@ -80594,9 +80702,9 @@
       ]
     },
     {
-      "username": "Somilg11",
+      "username": "Kushalv06",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/142201449?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216526196?v=4",
       "role": "Contributor",
       "total_points": 8,
       "activity_breakdown": {
@@ -80615,7 +80723,7 @@
       },
       "daily_activity": [
         {
-          "date": "2026-11-10",
+          "date": "2026-11-11",
           "count": 3,
           "points": 8
         }
@@ -80623,21 +80731,21 @@
       "raw_activities": [
         {
           "type": "PR opened",
-          "occured_at": "2026-11-10T13:17:51Z",
-          "title": "fix - preserve search sort when reselecting resource (#8148)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8150",
+          "occured_at": "2026-11-11T10:23:13Z",
+          "title": "fix - preserve aspect ratio on user profile pictures (#8164)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8165",
           "points": 5
         },
         {
           "type": "Issue opened",
-          "occured_at": "2026-11-10T12:37:49Z",
-          "title": "🐞 Bug - Reselecting the current search resource resets the selected sort order",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8148",
+          "occured_at": "2026-11-11T09:22:55Z",
+          "title": "🐞 Bug - Profile pictures without a 1 - 1 aspect ratio appear squashed on Edit Profile, Groups, and Comments",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8164",
           "points": 2
         },
         {
           "type": "Issue labeled",
-          "occured_at": "2026-11-10T12:37:51Z",
+          "occured_at": "2026-11-11T09:22:57Z",
           "title": "Labeled issue in CircuitVerse",
           "link": null,
           "points": 1
