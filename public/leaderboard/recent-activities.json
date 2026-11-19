@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1794982067753,
+  "updatedAt": 1795068538859,
   "groups": [
     [
       "2026-11-17",
@@ -141,20 +141,20 @@
           "points": 1
         },
         {
-          "username": "WKr1shna",
-          "name": null,
-          "title": "Closed issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/231456977?v=4",
-          "points": 1
-        },
-        {
           "username": "KrishangeeTayal",
           "name": null,
           "title": "fix - preserve downstream layout after feedback loops",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1549",
           "avatar_url": "https://avatars.githubusercontent.com/u/244515928?v=4",
           "points": 5
+        },
+        {
+          "username": "WKr1shna",
+          "name": null,
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/231456977?v=4",
+          "points": 1
         }
       ]
     ],
@@ -651,53 +651,53 @@
       ]
     ],
     [
-      "2026-11-05",
+      "2026-11-18",
       [
         {
-          "username": "Me-Priyank",
+          "username": "aryan7071",
           "name": null,
-          "title": "Labeled issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
-          "points": 1
+          "title": "fix - bump puma, sanitize, omniauth and msgpack for bundler-audit advisories (#8196)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8197",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+          "points": 5
         },
         {
-          "username": "Me-Priyank",
+          "username": "aryan7071",
           "name": null,
-          "title": "Closed issue in cv-frontend-vue",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
-          "points": 1
+          "title": "🐞 Bug bundler-audit fails on master - new advisories for puma, sanitize, omniauth and msgpack",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8196",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
+          "points": 2
         },
         {
-          "username": "Me-Priyank",
+          "username": "aryan7071",
           "name": null,
-          "title": "Closed issue in cv-frontend-vue",
+          "title": "Labeled issue in CircuitVerse",
           "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
           "points": 1
         },
         {
           "username": "aryan7071",
           "name": null,
-          "title": "refactor - read project previews from ActiveStorage with CarrierWave fallback (#7902)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8129",
+          "title": "Closed issue in CircuitVerse",
+          "link": null,
           "avatar_url": "https://avatars.githubusercontent.com/u/175052103?v=4",
-          "points": 5
+          "points": 1
         },
         {
           "username": "yashveer-1",
           "name": null,
-          "title": "fix(simulator) - update outputs after ConstantVal double-click",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1512",
+          "title": "🐞 Bug - Cannot type spaces when renaming an existing circuit/sheet in Properties panel",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1553",
           "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-          "points": 5
+          "points": 2
         },
         {
           "username": "yashveer-1",
           "name": null,
-          "title": "🐞 Bug - ConstantVal double-click does not update connected outputs when Clock Enabled is off",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1511",
+          "title": "🐞 Bug - Double-clicking subcircuit fails to update Project Properties panel and active tab highlight",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1552",
           "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
           "points": 2
         },
@@ -720,34 +720,122 @@
         {
           "username": "Goblin-24",
           "name": null,
-          "title": "fix - theme selection, preview rollback, and custom apply (#1504)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1513",
+          "title": "🐞 Bug - Recover Project fails for unsaved project work in v0 dev and build version",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1554",
           "avatar_url": "https://avatars.githubusercontent.com/u/198809286?v=4",
-          "points": 5
+          "points": 2
         },
         {
           "username": "Goblin-24",
           "name": null,
-          "title": "Closed issue in cv-frontend-vue",
+          "title": "Labeled issue in cv-frontend-vue",
           "link": null,
           "avatar_url": "https://avatars.githubusercontent.com/u/198809286?v=4",
           "points": 1
         },
         {
-          "username": "tirth-patel06",
+          "username": "parth-9292",
           "name": null,
-          "title": "feat(v1) - add Beautify Circuit using existing auto-layout pipeline",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1510",
-          "avatar_url": "https://avatars.githubusercontent.com/u/185243371?v=4",
+          "title": "docs - fix stale hotkey binder and Verilog docs, broken README link",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1551",
+          "avatar_url": "https://avatars.githubusercontent.com/u/343520170?v=4",
           "points": 5
         },
         {
-          "username": "motalib6",
+          "username": "parth-9292",
           "name": null,
-          "title": "fix(v1) - align left/right labels in layout mode with subcircuit labels (#830)",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1509",
-          "avatar_url": "https://avatars.githubusercontent.com/u/212304150?v=4",
+          "title": "🐞 Bug - Stale hotkey binder docs, Circuit2Verilog formatting, and broken README link",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1550",
+          "avatar_url": "https://avatars.githubusercontent.com/u/343520170?v=4",
+          "points": 2
+        },
+        {
+          "username": "parth-9292",
+          "name": null,
+          "title": "Labeled issue in cv-frontend-vue",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/343520170?v=4",
+          "points": 1
+        },
+        {
+          "username": "KrishangeeTayal",
+          "name": null,
+          "title": "fix - preserve spaces when renaming circuit sheets",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1555",
+          "avatar_url": "https://avatars.githubusercontent.com/u/244515928?v=4",
           "points": 5
+        },
+        {
+          "username": "SkIzazAhmed",
+          "name": null,
+          "title": "🐞 Bug - \"Static type checking\" (steep check) hangs ~6h, so every Ruby on Rails CI test job times out",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8194",
+          "avatar_url": "https://avatars.githubusercontent.com/u/233928135?v=4",
+          "points": 2
+        },
+        {
+          "username": "SkIzazAhmed",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/233928135?v=4",
+          "points": 1
+        },
+        {
+          "username": "SkIzazAhmed",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/233928135?v=4",
+          "points": 1
+        },
+        {
+          "username": "karthik120710",
+          "name": null,
+          "title": "fix - move Facebook OAuth access token from URL to Authorization header",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8193",
+          "avatar_url": "https://avatars.githubusercontent.com/u/91374842?v=4",
+          "points": 5
+        },
+        {
+          "username": "karthik120710",
+          "name": null,
+          "title": "🐞 Bug`Security Facebook OAuth access token passed as URL query parameter`",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8192",
+          "avatar_url": "https://avatars.githubusercontent.com/u/91374842?v=4",
+          "points": 2
+        },
+        {
+          "username": "karthik120710",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/91374842?v=4",
+          "points": 1
+        },
+        {
+          "username": "pranshup04",
+          "name": null,
+          "title": "🐞 Bug Removing all organization external links does not clear them on save",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8195",
+          "avatar_url": "https://avatars.githubusercontent.com/u/263219144?v=4",
+          "points": 2
+        },
+        {
+          "username": "pranshup04",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/263219144?v=4",
+          "points": 1
+        },
+        {
+          "username": "pranshup04",
+          "name": null,
+          "title": "Labeled issue in CircuitVerse",
+          "link": null,
+          "avatar_url": "https://avatars.githubusercontent.com/u/263219144?v=4",
+          "points": 1
         }
       ]
     ],
@@ -1315,23 +1403,23 @@
       ]
     ],
     [
-      "2026-11-18",
+      "2026-11-19",
       [
         {
-          "username": "karthik120710",
+          "username": "parth-9292",
           "name": null,
-          "title": "🐞 Bug`Security Facebook OAuth access token passed as URL query parameter`",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/8192",
-          "avatar_url": "https://avatars.githubusercontent.com/u/91374842?v=4",
-          "points": 2
+          "title": "refactor(v1) - remove implicit this from gateGenerateVerilog (#1556)",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1557",
+          "avatar_url": "https://avatars.githubusercontent.com/u/343520170?v=4",
+          "points": 5
         },
         {
-          "username": "karthik120710",
+          "username": "parth-9292",
           "name": null,
-          "title": "Labeled issue in CircuitVerse",
-          "link": null,
-          "avatar_url": "https://avatars.githubusercontent.com/u/91374842?v=4",
-          "points": 1
+          "title": "refactor(v1) - remove implicit this dependency from gateGenerateVerilog",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1556",
+          "avatar_url": "https://avatars.githubusercontent.com/u/343520170?v=4",
+          "points": 2
         }
       ]
     ]
